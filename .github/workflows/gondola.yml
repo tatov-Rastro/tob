@@ -1,17 +1,15 @@
 
-name: TOB · Góndola + P1 (08 y 15 h CL)
+name: TOB · P1 (08·13·18 CL)
 
-# La ingesta corre en los servers de GitHub (esos SÍ pueden bajar los RSS).
-# Genera gondola.json real y lo commitea. El Administrador general lo lee.
+# P1 = la costura + los 6 detectores. Corre SOLO en los horarios editoriales.
+# 08:00 / 13:00 / 18:00 hora de Chile (UTC-4) = 12 / 17 / 22 UTC.
 on:
   schedule:
-    # P1 corre 08:00 y 15:00 hora de Chile (UTC-4) = 12:00 y 19:00 UTC.
-    - cron: "0 12 * * *"
-    - cron: "0 19 * * *"
+    - cron: "0 12,17,22 * * *"
   workflow_dispatch:
   push:
     branches: [ main ]
-    paths: [ "ingesta_gondola.py", ".github/workflows/gondola.yml" ]
+    paths: [ "ingesta_gondola.py" ]
 
 permissions:
   contents: write
@@ -21,29 +19,22 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  ingesta:
+  p1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Instalar dependencias
-        run: pip install -r requirements.txt
-
-      - name: Correr la gondola (ingesta + P1)
-        run: python3 ingesta_gondola.py
-
+      - run: pip install -r requirements.txt
+      - name: Correr P1 (costura + detectores)
+        run: python3 ingesta_gondola.py p1
       - name: Commitear gondola.json
         run: |
           git config user.name  "TOB-gondola"
           git config user.email "gondola@tob.bot"
           git add -f gondola.json
-          if git diff --staged --quiet; then
-            echo "sin cambios en gondola.json"
-          else
-            git commit -m "gondola: ingesta run"
-            git push
-          fi
+          if git diff --staged --quiet; then echo "sin cambios"; exit 0; fi
+          git commit -m "P1: corrida"
+          git pull --rebase || true
+          git push
