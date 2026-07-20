@@ -18,7 +18,7 @@ Requisitos:  pip install feedparser
 Uso:         python3 ingesta_gondola.py
 """
 
-import feedparser, sqlite3, hashlib, re, json, os
+import feedparser, sqlite3, hashlib, re, json, os, sys
 from datetime import datetime, timedelta, timezone
 from collections import Counter, defaultdict
 from itertools import combinations
@@ -27,6 +27,11 @@ from difflib import SequenceMatcher
 VENTANA_HORAS = 72          # <-- la ventana de la góndola
 DB   = "gondola.sqlite"
 OUT  = "gondola.json"
+
+# DOS CADENCIAS:
+#   modo "feed" → amplía la góndola seguido (refresca notas, conserva la última P1)
+#   modo "p1"   → corre la costura/detectores en los horarios fijos (08/13/18)
+MODO = (sys.argv[1] if len(sys.argv) > 1 else "p1").lower()
 
 # ─────────────────────────────────────────────────────────────
 # EL CORO — generalistas por país + especialistas por tema.
@@ -40,7 +45,7 @@ COROS = {
    "Página/12":     "https://www.pagina12.com.ar/rss/portada",
    "Ámbito":        "https://www.ambito.com/rss/pages/home.xml",
    "El Cronista":   "https://www.cronista.com/files/rss/economia.xml",
-   "Perfil":        "https://www.perfil.com/rss/ultimomomento.xml",
+   "Perfil":        "https://www.perfil.com/feed",
    "El Destape":    "https://www.eldestapeweb.com/rss/home.xml",
    "TN":            "https://tn.com.ar/feed/",
    "Letra P":       "https://www.letrap.com.ar/arc/outboundfeeds/rss/?outputType=xml",
@@ -74,7 +79,7 @@ COROS = {
    "The Clinic":    "https://www.theclinic.cl/feed/",
    "El Desconcierto":"https://www.eldesconcierto.cl/feed/",
    "CNN Chile":     "https://www.cnnchile.com/feed/",
-   "Cooperativa":   "https://www.cooperativa.cl/noticias/rss/",
+   "Cooperativa":   "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3___1.xml",
    "El Ciudadano":  "https://www.elciudadano.com/feed/",
  },
 }
@@ -85,6 +90,21 @@ COROS_TEMA = {
                 "Doble Amarilla":"https://www.dobleamarilla.com.ar/rss","AS Chile":"https://chile.as.com/rss/futbol/primera.xml"},
  "Espectáculos":{"Ciudad Magazine":"https://www.ciudad.com.ar/rss","Primicias Ya":"https://www.primiciasya.com/rss/home.xml",
                 "Rating Cero":"https://www.ratingcero.com/rss"},
+}
+
+# ─────────────────────────────────────────────────────────────
+# SEGUNDA NATURALEZA DEL FEED: fuentes oficiales / instituciones.
+# El poder que actualiza información con documentos. Insumo de P2 (dato duro)
+# y de los detectores fuente=poder y silencio. (RSS reales donde existen;
+# el gobierno de la región casi no expone RSS — esos caen en cero honesto.)
+# ─────────────────────────────────────────────────────────────
+OFICIALES = {
+ "FMI":            "https://www.imf.org/en/news/rss",
+ "ONU Noticias":   "https://news.un.org/es/feed/subscribe/es/news/all/rss.xml",
+ "Banco Mundial":  "https://www.worldbank.org/en/news/all?format=rss",
+ "Argentina.gob":  "https://www.argentina.gob.ar/rss/noticias",
+ "Presidencia UY": "https://www.gub.uy/presidencia/comunicacion/noticias/rss.xml",
+ "Gobierno Chile": "https://www.gob.cl/noticias/rss/",
 }
 
 STOP = set(("de la el en y a los las un una que con por para del al su se es más como o e lo son fue ser han hay tras sin sobre entre este esta "
@@ -164,6 +184,30 @@ def correr():
     notas = [dict(medio=r[0], pais=r[1], tema=r[2], titulo=r[3], url=r[4], fecha=r[5])
              for r in c.execute(
                "SELECT medio,pais,tema,titulo,url,fecha,ckey FROM notas ORDER BY fecha DESC")]
+    total = c.execute("SELECT COUNT(*) FROM notas").fetchone()[0]
+
+    # ── MODO FEED: solo ampliar la góndola. Conserva la última corrida de P1. ──
+    if MODO == "feed":
+        prev = {}
+        try:
+            with open(OUT, encoding="utf-8") as f: prev = json.load(f)
+        except Exception: pass
+        prev["feed_generado"] = ahora
+        prev["ventana_horas"] = VENTANA_HORAS
+        prev["notas"] = notas
+        tot = dict(prev.get("totales", {}))
+        tot.update(notas=total, medios=len(por_medio), vistas=vistos, nuevas=nuevas)
+        prev["totales"] = tot
+        prev.setdefault("p1_generado", None)
+        prev.setdefault("clusters", []); prev.setdefault("primicias", [])
+        prev.setdefault("silencios", [])
+        prev.setdefault("detectores", dict(activos=["calco","divergencia","coro","timing","primicia"],
+                                           pendientes=["fuente=poder","silencio"]))
+        with open(OUT, "w", encoding="utf-8") as f:
+            json.dump(prev, f, ensure_ascii=False, indent=1)
+        print(f"TOB · FEED {ahora[:16]} — góndola: {total} notas · {len(por_medio)} medios "
+              f"(P1 conservada de {str(prev.get('p1_generado'))[:16]})")
+        c.close(); return
 
     # ── P1: la costura — misma noticia en >=2 medios, por nombres propios compartidos ──
     N = len(notas)
@@ -246,15 +290,52 @@ def correr():
     primicias.sort(key=lambda p: p["fecha"], reverse=True)   # la más nueva primero
     primicias = primicias[:10]
 
-    total = c.execute("SELECT COUNT(*) FROM notas").fetchone()[0]
+    # ── SEGUNDA NATURALEZA: fuentes oficiales / instituciones (insumo de P2, dato duro) ──
+    oficial_items = []; of_por_fuente = {}
+    for fuente, url in OFICIALES.items():
+        for e in bajar(fuente, url):
+            titulo = (e.get("title") or "").strip(); link = (e.get("link") or "").strip()
+            if not titulo or not link: continue
+            fecha = parse_fecha(e)
+            if fecha and fecha < corte: continue
+            oficial_items.append(dict(fuente=fuente, titulo=titulo, url=link,
+                fecha=fecha.isoformat() if fecha else "", props=propios(titulo)))
+            of_por_fuente[fuente] = of_por_fuente.get(fuente, 0) + 1
+
+    # FUENTE=PODER: la grieta cuyos propios matchean un item oficial → los medios replican al poder
+    for cl in clusters:
+        ckprops = set()
+        for v in cl["versiones"]: ckprops |= propios(v["titulo"])
+        cl["fuente_poder"] = None
+        for o in oficial_items:
+            if len(ckprops & o["props"]) >= 2:
+                cl["fuente_poder"] = o["fuente"]; break
+
+    # SILENCIO: lo que el poder dijo y NINGÚN medio tocó — el perro que no ladró
+    props_medios = set()
+    for s in props: props_medios |= s
+    silencios = []
+    for o in oficial_items:
+        fuertes = [t for t in o["props"] if len(t) >= 5]
+        if fuertes and not (o["props"] & props_medios):
+            silencios.append(dict(fuente=o["fuente"], titulo=o["titulo"], url=o["url"], fecha=o["fecha"]))
+    silencios.sort(key=lambda x: x["fecha"], reverse=True)
+    silencios = silencios[:10]
+
+    # detectores: fuente=poder y silencio se activan SOLO si respondieron fuentes oficiales
+    activos = ["calco", "divergencia", "coro", "timing", "primicia"]
+    pendientes = []
+    (activos.extend if oficial_items else pendientes.extend)(["fuente=poder", "silencio"])
+
+    n_poder = sum(1 for cl in clusters if cl.get("fuente_poder"))
     payload = dict(
-        generado=ahora, ventana_horas=VENTANA_HORAS, cadencia_p1_horas=6,
+        p1_generado=ahora, feed_generado=ahora, ventana_horas=VENTANA_HORAS,
         totales=dict(notas=total, medios=len(por_medio), clusters=len(clusters),
-                     primicias=len(primicias), vistas=vistos, nuevas=nuevas),
-        # los 6 detectores del motor. fuente=poder y silencio esperan las fuentes oficiales en la ingesta.
-        detectores=dict(activos=["calco", "divergencia", "coro", "timing", "primicia"],
-                        pendientes=["fuente=poder", "silencio"]),
-        notas=notas, clusters=clusters, primicias=primicias,
+                     primicias=len(primicias), oficiales=len(of_por_fuente),
+                     fuente_poder=n_poder, silencios=len(silencios),
+                     vistas=vistos, nuevas=nuevas),
+        detectores=dict(activos=activos, pendientes=pendientes),
+        notas=notas, clusters=clusters, primicias=primicias, silencios=silencios,
     )
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
@@ -268,9 +349,11 @@ def correr():
     print(f"  fuentes definidas  : {len(fuentes)}   ·  respondieron: {len(por_medio)}   ·  cero honesto: {len(fuentes)-len(por_medio)}")
     print(f"  clusters (>=2 medios): {len(clusters)}   ← acá empieza P1 (la costura)")
     print(f"  primicias solitarias : {len(primicias)}   ·  con timing: {sum(1 for c in clusters if c['timing'])}")
+    print(f"  oficiales activas    : {len(of_por_fuente)}/{len(OFICIALES)}   ·  fuente=poder: {n_poder}   ·  silencios: {len(silencios)}")
     for cl in clusters[:12]:
         t = " ⏱" if cl['timing'] else ""
-        print(f"    · {cl['n_medios']} medios [{cl['senal']}{t}]  →  {cl['ckey'][:46]}")
+        p = f" ⚖{cl['fuente_poder']}" if cl.get('fuente_poder') else ""
+        print(f"    · {cl['n_medios']} medios [{cl['senal']}{t}]{p}  →  {cl['ckey'][:44]}")
     print("="*60)
     print(f"  escrito: {OUT}  ({os.path.getsize(OUT)//1024} KB)")
     c.close()

@@ -103,6 +103,8 @@
   .tag.calco{color:var(--amber);border:1px solid rgba(240,180,41,.4)}
   .tag.coro{color:var(--blue);border:1px solid rgba(76,165,255,.4)}
   .tag.timing{color:var(--green);border:1px solid rgba(34,208,138,.45)}
+  .tag.poder{color:#c9a3ff;border:1px solid rgba(201,163,255,.5)}
+  .prim.sil{border-left-color:var(--blue)}
   .legend{display:flex;flex-wrap:wrap;gap:6px;padding:9px 12px;border-bottom:1px solid var(--line);align-items:center}
   .legend .lgt{font-family:var(--mono);font-size:9px;color:var(--mut2);text-transform:uppercase;letter-spacing:1.4px;margin-right:2px}
   .legend .lg{font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--mut)}
@@ -161,7 +163,7 @@
   <div class="brand"><b>TOB</b><span>Administrador general</span></div>
   <div class="spacer"></div>
   <div class="chiph" id="win">ventana 72 h</div>
-  <div class="chiph" id="cad">P1 · 08 y 15 h</div>
+  <div class="chiph" id="cad">P1 · 08·13·18 h</div>
   <div class="estado"><span class="dot" id="edot"></span><span id="etxt">cargando…</span></div>
 </header>
 
@@ -202,7 +204,7 @@
       <section class="col">
         <div class="colhead p1">
           <h2>P1 · por país</h2>
-          <span class="run"><span class="dot"></span>cada 6 h</span>
+          <span class="run" id="p1run"><span class="dot"></span>P1</span>
         </div>
         <div class="stats">
           <div class="stat"><div class="n" id="s-grietas" style="color:var(--red)">—</div><div class="k">grietas</div></div>
@@ -237,7 +239,7 @@ function pintar(d, live){
   const edot=document.getElementById('edot'), etxt=document.getElementById('etxt');
   if(live && d.totales.notas>0){
     edot.className='dot live';
-    etxt.textContent='en vivo · última corrida '+fmtHora(d.generado);
+    etxt.textContent='en vivo · góndola '+fmtHora(d.feed_generado||d.generado);
     document.getElementById('banner').innerHTML='';
   } else {
     edot.className='dot sample';
@@ -245,7 +247,8 @@ function pintar(d, live){
     document.getElementById('banner').innerHTML='<div class="banner">Todavía no corrió la ingesta en este server. En cuanto el workflow «Góndola + P1» corra, este panel se llena con dato real de las últimas 72 h.</div>';
   }
   document.getElementById('win').textContent='ventana '+d.ventana_horas+' h';
-  document.getElementById('cad').textContent='P1 · 08 y 15 h';
+  document.getElementById('cad').textContent='P1 · 08·13·18 h';
+  const p1run=document.getElementById('p1run'); if(p1run) p1run.textContent='última P1 '+(fmtHora(d.p1_generado)||'—');
 
   const notas=d.notas||[], clusters=d.clusters||[];
   // ── stats ──
@@ -327,7 +330,12 @@ function pintar(d, live){
       prims.map(p=>`<a class="prim" href="${esc(p.url)}" target="_blank" rel="noopener">
         <span class="pt">${esc(p.titulo)}</span>
         <span class="pm"><b>${esc(p.medio)}</b> ${flag(p.pais)} · ${esc(fmtHora(p.fecha))} · ${p.unicos} nombres que nadie más nombró</span></a>`).join('') : '';
-    px.innerHTML = legend + secciones + primHTML;
+    const sils=d.silencios||[];
+    const silHTML = sils.length ? `<div class="grupo-h">Silencio · ${sils.length} · el poder lo dijo, ningún medio lo tocó</div>`+
+      sils.map(s=>`<a class="prim sil" href="${esc(s.url)}" target="_blank" rel="noopener">
+        <span class="pt">${esc(s.titulo)}</span>
+        <span class="pm"><b>${esc(s.fuente)}</b> · ${esc(fmtHora(s.fecha))} · sin eco en los medios</span></a>`).join('') : '';
+    px.innerHTML = legend + secciones + primHTML + silHTML;
   }
 }
 
@@ -361,6 +369,7 @@ function grietaCard(c, i){
     <div class="gtop">
       <span class="tag ${tipo}">${tipo}</span>
       ${c.timing?`<span class="tag timing">⏱ timing${c.ventana_min!=null?' · '+c.ventana_min+"'":''}</span>`:''}
+      ${c.fuente_poder?`<span class="tag poder">⚖ ${esc(c.fuente_poder)}</span>`:''}
       <span class="nmed">${c.n_medios}×</span>
       <span class="fl">${flags}</span>
       <span class="keys">${esc(c.ckey)}</span>
