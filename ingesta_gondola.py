@@ -43,6 +43,15 @@ COROS = {
    "Perfil":        "https://www.perfil.com/rss/ultimomomento.xml",
    "El Destape":    "https://www.eldestapeweb.com/rss/home.xml",
    "TN":            "https://tn.com.ar/feed/",
+   "Letra P":       "https://www.letrap.com.ar/arc/outboundfeeds/rss/?outputType=xml",
+   "Cenital":       "https://cenital.com/feed/",
+   "elDiarioAR":    "https://www.eldiarioar.com/rss/",
+   "MDZ":           "https://www.mdzol.com/rss/home.xml",
+   "La Voz":        "https://www.lavoz.com.ar/arc/outboundfeeds/rss/?outputType=xml",
+   "Rosario3":      "https://www.rosario3.com/arc/outboundfeeds/rss/?outputType=xml",
+   "Tiempo Arg.":   "https://www.tiempoar.com.ar/feed/",
+   "Crónica":       "https://www.cronica.com.ar/feed",
+   "Chequeado":     "https://chequeado.com/feed/",
  },
  "UY": {
    "El Observador":     "https://www.elobservador.com.uy/rss/pages/home.xml",
@@ -50,18 +59,32 @@ COROS = {
    "La Diaria":         "https://ladiaria.com.uy/feeds/articulos/",
    "Montevideo Portal": "https://www.montevideo.com.uy/anxml.aspx?59",
    "LARED21":           "https://www.lr21.com.uy/feed",
+   "Subrayado":         "https://www.subrayado.com.uy/rss.xml",
+   "Caras y Caretas":   "https://www.carasycaretas.com.uy/feed/",
+   "Semanario Voces":   "https://www.voces.com.uy/feed/",
+   "Brecha":            "https://brecha.com.uy/feed/",
+   "La Mañana":         "https://www.lamanana.com.uy/feed/",
  },
  "CL": {
    "La Tercera":    "https://www.latercera.com/arc/outboundfeeds/rss/?outputType=xml",
    "Emol":          "https://www.emol.com/rss/rss.asp?canal=nacional",
    "BioBioChile":   "https://www.biobiochile.cl/rss/",
    "El Mostrador":  "https://www.elmostrador.cl/feed/",
+   "CIPER":         "https://www.ciperchile.cl/feed/",
+   "The Clinic":    "https://www.theclinic.cl/feed/",
+   "El Desconcierto":"https://www.eldesconcierto.cl/feed/",
+   "CNN Chile":     "https://www.cnnchile.com/feed/",
+   "Cooperativa":   "https://www.cooperativa.cl/noticias/rss/",
+   "El Ciudadano":  "https://www.elciudadano.com/feed/",
  },
 }
 COROS_TEMA = {
- "Economía":   {"iProfesional":"https://www.iprofesional.com/rss","El Economista":"https://eleconomista.com.ar/feed/"},
- "Deportes":   {"Olé":"https://www.ole.com.ar/rss/ultimas-noticias/","TyC Sports":"https://www.tycsports.com/rss/","Doble Amarilla":"https://www.dobleamarilla.com.ar/rss"},
- "Espectáculos":{"Ciudad Magazine":"https://www.ciudad.com.ar/rss","Primicias Ya":"https://www.primiciasya.com/rss/home.xml"},
+ "Economía":   {"iProfesional":"https://www.iprofesional.com/rss","El Economista":"https://eleconomista.com.ar/feed/",
+                "BAE Negocios":"https://www.baenegocios.com/rss/ultimas-noticias.xml","Diario Financiero":"https://www.df.cl/rss"},
+ "Deportes":   {"Olé":"https://www.ole.com.ar/rss/ultimas-noticias/","TyC Sports":"https://www.tycsports.com/rss/",
+                "Doble Amarilla":"https://www.dobleamarilla.com.ar/rss","AS Chile":"https://chile.as.com/rss/futbol/primera.xml"},
+ "Espectáculos":{"Ciudad Magazine":"https://www.ciudad.com.ar/rss","Primicias Ya":"https://www.primiciasya.com/rss/home.xml",
+                "Rating Cero":"https://www.ratingcero.com/rss"},
 }
 
 STOP = set(("de la el en y a los las un una que con por para del al su se es más como o e lo son fue ser han hay tras sin sobre entre este esta "
@@ -242,7 +265,7 @@ def correr():
     print("="*60)
     print(f"  notas en el índice : {total}")
     print(f"  vistas esta corrida: {vistos}   ·  nuevas: {nuevas}")
-    print(f"  medios activos     : {len(por_medio)}")
+    print(f"  fuentes definidas  : {len(fuentes)}   ·  respondieron: {len(por_medio)}   ·  cero honesto: {len(fuentes)-len(por_medio)}")
     print(f"  clusters (>=2 medios): {len(clusters)}   ← acá empieza P1 (la costura)")
     print(f"  primicias solitarias : {len(primicias)}   ·  con timing: {sum(1 for c in clusters if c['timing'])}")
     for cl in clusters[:12]:
