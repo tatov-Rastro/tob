@@ -9,18 +9,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#0b0a0c; --panel:#141216; --panel2:#1b181d; --line:#2a262e;
+    --bg:#0b0a0c; --panel:#141216; --panel2:#1b181d; --panel3:#211d24; --line:#2a262e;
     --ink:#f4f1ee; --mut:#9a9298; --mut2:#6f676d;
-    --red:#F0402A; --green:#22D08A; --amber:#F0B429;
+    --red:#F0402A; --green:#22D08A; --amber:#F0B429; --blue:#4CA5FF;
     --mono:'IBM Plex Mono',ui-monospace,monospace; --sans:'Archivo',system-ui,sans-serif;
   }
   *{box-sizing:border-box}
   html,body{margin:0;height:100%}
   body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.4;
        display:flex;flex-direction:column;min-height:100vh}
-  a{color:inherit}
+  a{color:inherit;text-decoration:none}
   .mono{font-family:var(--mono)}
-  /* ── top bar ── */
   header{display:flex;align-items:center;gap:16px;padding:12px 18px;border-bottom:1px solid var(--line);
          background:linear-gradient(180deg,#141216,#0f0d11)}
   .brand{display:flex;align-items:baseline;gap:10px}
@@ -31,75 +30,108 @@
   .dot{width:8px;height:8px;border-radius:50%;background:var(--mut2);display:inline-block}
   .dot.live{background:var(--green);box-shadow:0 0 0 3px rgba(34,208,138,.15)}
   .dot.sample{background:var(--amber);box-shadow:0 0 0 3px rgba(240,180,41,.12)}
-  .chiph{font-family:var(--mono);font-size:11px;color:var(--mut);border:1px solid var(--line);
-         border-radius:999px;padding:3px 10px}
-  /* ── layout ── */
-  .wrap{flex:1;display:grid;grid-template-columns:210px 1fr;min-height:0}
+  .chiph{font-family:var(--mono);font-size:11px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+  .wrap{flex:1;display:grid;grid-template-columns:200px 1fr;min-height:0}
   nav{border-right:1px solid var(--line);padding:14px 10px;background:#0f0d11;display:flex;flex-direction:column;gap:2px}
   nav .lbl{font-size:10px;text-transform:uppercase;letter-spacing:2px;color:var(--mut2);padding:6px 10px 8px}
-  .elem{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:9px;color:var(--mut);
-        cursor:default;font-weight:500;font-size:13.5px}
+  .elem{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:9px;color:var(--mut);font-weight:500;font-size:13.5px}
   .elem .ic{width:18px;text-align:center;opacity:.8}
   .elem.on{background:var(--panel2);color:var(--ink)}
-  .elem.on .ic{opacity:1}
   .elem.soon{opacity:.5}
-  .elem.soon::after{content:'pronto';margin-left:auto;font-family:var(--mono);font-size:9px;
-        color:var(--mut2);border:1px solid var(--line);border-radius:6px;padding:1px 5px}
+  .elem.soon::after{content:'pronto';margin-left:auto;font-family:var(--mono);font-size:9px;color:var(--mut2);border:1px solid var(--line);border-radius:6px;padding:1px 5px}
   nav .foot{margin-top:auto;padding:10px;font-family:var(--mono);font-size:10.5px;color:var(--mut2);line-height:1.6}
-  /* ── main ── */
   main{min-width:0;display:flex;flex-direction:column}
-  .viewhead{padding:16px 20px 6px}
+  .viewhead{padding:14px 20px 4px}
   .viewhead h1{margin:0;font-size:20px;font-weight:800;letter-spacing:.3px}
-  .viewhead p{margin:4px 0 0;color:var(--mut);font-size:12.5px;max-width:70ch}
-  .cols{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:12px 18px 20px;min-height:0}
+  .viewhead p{margin:4px 0 0;color:var(--mut);font-size:12.5px;max-width:74ch}
+  .cols{flex:1;display:grid;grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr);gap:14px;padding:10px 18px 20px;min-height:0}
   .col{background:var(--panel);border:1px solid var(--line);border-radius:14px;display:flex;flex-direction:column;min-height:0;overflow:hidden}
-  .colhead{padding:13px 15px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+  .colhead{padding:12px 15px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
   .colhead h2{margin:0;font-size:14px;font-weight:700;letter-spacing:.3px}
-  .colhead .run{font-family:var(--mono);font-size:10.5px;color:var(--green);border:1px solid rgba(34,208,138,.35);
-        border-radius:999px;padding:2px 9px;display:flex;align-items:center;gap:6px}
+  .colhead .run{font-family:var(--mono);font-size:10.5px;color:var(--green);border:1px solid rgba(34,208,138,.35);border-radius:999px;padding:2px 9px;display:flex;align-items:center;gap:6px}
   .colhead .run .dot{width:6px;height:6px}
   .colhead.p1 .run{color:var(--red);border-color:rgba(240,64,42,.4)}
-  .colhead.p1 .run .dot{background:var(--red);box-shadow:0 0 0 3px rgba(240,64,42,.14);
-        animation:pulse 2.2s infinite}
+  .colhead.p1 .run .dot{background:var(--red);box-shadow:0 0 0 3px rgba(240,64,42,.14);animation:pulse 2.2s infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-  .stats{display:flex;gap:0;border-bottom:1px solid var(--line)}
-  .stat{flex:1;padding:11px 14px;border-right:1px solid var(--line)}
+  .stats{display:flex;border-bottom:1px solid var(--line)}
+  .stat{flex:1;padding:10px 13px;border-right:1px solid var(--line)}
   .stat:last-child{border-right:0}
-  .stat .n{font-family:var(--mono);font-size:22px;font-weight:600;line-height:1}
-  .stat .k{font-size:10.5px;text-transform:uppercase;letter-spacing:1.5px;color:var(--mut2);margin-top:5px}
+  .stat .n{font-family:var(--mono);font-size:20px;font-weight:600;line-height:1}
+  .stat .k{font-size:10px;text-transform:uppercase;letter-spacing:1.3px;color:var(--mut2);margin-top:5px}
   .stat.hero .n{color:var(--green)}
-  .list{overflow-y:auto;padding:6px;flex:1}
-  .list::-webkit-scrollbar{width:9px}.list::-webkit-scrollbar-thumb{background:#2a262e;border-radius:9px}
-  /* nota row */
-  .nota{display:flex;gap:10px;padding:9px 10px;border-radius:9px;align-items:flex-start}
-  .nota:hover{background:var(--panel2)}
-  .nota .medio{font-family:var(--mono);font-size:10px;color:var(--ink);background:#211d24;border:1px solid var(--line);
-        border-radius:6px;padding:3px 7px;white-space:nowrap;flex-shrink:0;min-width:74px;text-align:center}
-  .nota .tit{font-size:12.5px;line-height:1.35}
-  .nota .meta{font-family:var(--mono);font-size:10px;color:var(--mut2);margin-top:3px}
-  .flag{font-size:10px}
-  /* cluster / grieta card */
-  .grieta{border:1px solid var(--line);border-radius:11px;margin:6px;overflow:hidden;background:var(--panel2)}
-  .grieta .gh{display:flex;align-items:center;gap:9px;padding:10px 12px;cursor:pointer}
-  .grieta .cnt{font-family:var(--mono);font-weight:600;font-size:13px}
-  .senal{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:1px;
-        border-radius:6px;padding:2px 8px}
-  .senal.calco{color:var(--amber);border:1px solid rgba(240,180,41,.4)}
-  .senal.divergencia{color:var(--red);border:1px solid rgba(240,64,42,.4)}
-  .grieta .key{font-family:var(--mono);font-size:11px;color:var(--mut);flex:1;overflow:hidden;
-        text-overflow:ellipsis;white-space:nowrap}
-  .grieta .chev{color:var(--mut2);transition:transform .15s}
-  .grieta.open .chev{transform:rotate(90deg)}
-  .grieta .versiones{display:none;border-top:1px solid var(--line);padding:4px 6px 8px}
-  .grieta.open .versiones{display:block}
-  .ver{display:flex;gap:9px;padding:7px 8px;align-items:flex-start}
-  .ver .m{font-family:var(--mono);font-size:9.5px;color:var(--mut);min-width:70px;flex-shrink:0}
-  .ver .t{font-size:11.5px;line-height:1.35}
-  .empty{padding:26px 16px;text-align:center;color:var(--mut2);font-size:12.5px}
-  .banner{margin:0 18px;padding:9px 13px;border:1px solid rgba(240,180,41,.35);background:rgba(240,180,41,.06);
-        border-radius:10px;font-size:12px;color:var(--amber);font-family:var(--mono)}
-  @media(max-width:820px){ .wrap{grid-template-columns:1fr} nav{flex-direction:row;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--line)}
-        nav .lbl,nav .foot{display:none} .cols{grid-template-columns:1fr} .col{min-height:60vh} }
+  .scroll{overflow-y:auto;padding:8px;flex:1}
+  .scroll::-webkit-scrollbar{width:9px}.scroll::-webkit-scrollbar-thumb{background:#2a262e;border-radius:9px}
+  /* ── árbol góndola ── */
+  .node{border:1px solid var(--line);border-radius:10px;margin:5px 2px;overflow:hidden;background:var(--panel2)}
+  .nhead{display:flex;align-items:center;gap:9px;padding:9px 11px;cursor:pointer;user-select:none}
+  .nhead:hover{background:var(--panel3)}
+  .nhead .flag{font-size:14px}
+  .nhead .name{font-weight:600;font-size:13px}
+  .nhead .cnt{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--mut)}
+  .nhead .chev{color:var(--mut2);transition:transform .15s;font-size:12px}
+  .node.open>.nhead .chev{transform:rotate(90deg)}
+  .nbody{display:none;padding:2px 6px 6px}
+  .node.open>.nbody{display:block}
+  .medio-node{border-top:1px solid var(--line)}
+  .medio-node .nhead{padding:7px 9px}
+  .medio-node .name{font-family:var(--mono);font-size:11.5px;font-weight:500;color:var(--ink)}
+  .nota{display:block;padding:6px 9px;border-radius:7px;margin:1px 0}
+  .nota:hover{background:var(--panel3)}
+  .nota .t{font-size:12px;line-height:1.35}
+  .nota .m{font-family:var(--mono);font-size:9.5px;color:var(--mut2);margin-top:2px}
+  /* ── tarjetas de grieta P1 ── */
+  .pais-sec{margin:4px 2px 12px}
+  .pais-h{display:flex;align-items:center;gap:9px;padding:7px 6px;position:sticky;top:0;background:var(--panel);z-index:2;border-bottom:1px solid var(--line)}
+  .pais-h .flag{font-size:15px}
+  .pais-h .name{font-weight:700;font-size:13px;letter-spacing:.3px}
+  .pais-h .cnt{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--mut)}
+  .grieta{border:1px solid var(--line);border-radius:12px;margin:8px 2px;overflow:hidden;background:var(--panel2)}
+  .grieta.divergencia{border-left:3px solid var(--red)}
+  .grieta.calco{border-left:3px solid var(--amber)}
+  .grieta.coro{border-left:3px solid var(--blue)}
+  .gtop{display:flex;align-items:center;gap:8px;padding:10px 12px 8px}
+  .tag{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:1px;border-radius:6px;padding:2px 8px}
+  .tag.divergencia{color:var(--red);border:1px solid rgba(240,64,42,.4)}
+  .tag.calco{color:var(--amber);border:1px solid rgba(240,180,41,.4)}
+  .tag.coro{color:var(--blue);border:1px solid rgba(76,165,255,.4)}
+  .gtop .nmed{font-family:var(--mono);font-size:12px;font-weight:600}
+  .gtop .keys{font-family:var(--mono);font-size:10.5px;color:var(--mut);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .gtop .fl{font-size:11px}
+  /* redacción */
+  .red{margin:2px 12px 8px}
+  .red .lab{font-size:9.5px;text-transform:uppercase;letter-spacing:1.4px;color:var(--mut2);margin-bottom:4px}
+  .red .titular{min-height:34px;border:1px dashed var(--line);border-radius:8px;padding:8px 10px;font-size:14px;font-weight:600;
+        line-height:1.3;outline:none;color:var(--ink)}
+  .red .titular:empty:before{content:attr(data-ph);color:var(--mut2);font-weight:400;font-size:12.5px}
+  .red .titular:focus{border-style:solid;border-color:var(--mut)}
+  /* énfasis */
+  .enf{display:flex;align-items:center;gap:8px;margin:0 12px 10px}
+  .enf .lab{font-size:9.5px;text-transform:uppercase;letter-spacing:1.4px;color:var(--mut2)}
+  .enf button{font-family:var(--mono);font-size:11px;color:var(--mut);background:transparent;border:1px solid var(--line);
+        border-radius:999px;padding:4px 12px;cursor:pointer}
+  .enf button .sub{color:var(--mut2);font-size:9px}
+  .enf button.on{color:var(--ink);border-color:var(--green);background:rgba(34,208,138,.08)}
+  /* armado */
+  .armado{border-top:1px solid var(--line)}
+  .armado .ah{display:flex;align-items:center;gap:8px;padding:8px 12px;cursor:pointer;font-family:var(--mono);font-size:11px;color:var(--mut)}
+  .armado .ah:hover{color:var(--ink)}
+  .armado .ah .chev{transition:transform .15s}
+  .armado.open .ah .chev{transform:rotate(90deg)}
+  .armado .versiones{display:none;padding:2px 8px 10px}
+  .armado.open .versiones{display:block}
+  .ver{display:flex;gap:9px;padding:6px 8px;align-items:flex-start;border-radius:7px}
+  .ver:hover{background:var(--panel3)}
+  .ver .vm{font-family:var(--mono);font-size:9.5px;color:var(--mut);min-width:78px;flex-shrink:0;padding-top:1px}
+  .ver .vt{font-size:11.5px;line-height:1.35}
+  .coro-note{margin:0 12px 10px;padding:7px 10px;border:1px solid rgba(76,165,255,.3);background:rgba(76,165,255,.06);
+        border-radius:8px;font-size:11px;color:var(--blue)}
+  .empty{padding:22px 16px;text-align:center;color:var(--mut2);font-size:12.5px}
+  .banner{margin:6px 18px 0;padding:9px 13px;border:1px solid rgba(240,180,41,.35);background:rgba(240,180,41,.06);border-radius:10px;font-size:12px;color:var(--amber);font-family:var(--mono)}
+  .toolbar{display:flex;gap:6px;padding:8px 10px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .toolbar button{font-family:var(--mono);font-size:10.5px;color:var(--mut);background:transparent;border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer}
+  .toolbar button.on{color:var(--ink);border-color:var(--mut)}
+  @media(max-width:860px){ .wrap{grid-template-columns:1fr} nav{flex-direction:row;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--line)}
+        nav .lbl,nav .foot{display:none} .cols{grid-template-columns:1fr} .col{min-height:70vh} }
 </style>
 </head>
 <body>
@@ -120,62 +152,66 @@
     <div class="elem soon"><span class="ic">⚙</span>Motor</div>
     <div class="elem soon"><span class="ic">▣</span>Bandeja</div>
     <div class="elem soon"><span class="ic">✎</span>Bitácora</div>
-    <div class="foot">todo lo que embarca<br>nace de la góndola.<br>nunca de un spike.</div>
+    <div class="foot">la grieta vive<br>en la costura fina.<br>el coro es otra señal.</div>
   </nav>
 
   <main>
     <div class="viewhead">
       <h1>Góndola</h1>
-      <p>El insumo real corriendo. A la izquierda, todo lo que entró en las últimas 72 h. A la derecha, P1 cosiendo la costura entre medios cada 6 h — las grietas candidatas, no inventadas.</p>
+      <p>Izquierda: el insumo real, ordenado por país y medio (sin scroll eterno). Derecha: P1 corriendo, las grietas por país. Cada una abre su armado —la costura visible— y ahí le escribís el titular y elegís el énfasis.</p>
     </div>
     <div id="banner"></div>
     <div class="cols">
       <!-- COL 1 · GÓNDOLA -->
       <section class="col">
         <div class="colhead">
-          <h2>La góndola corriendo</h2>
+          <h2>La góndola</h2>
           <span class="run"><span class="dot live"></span>ingesta</span>
         </div>
         <div class="stats">
           <div class="stat hero"><div class="n" id="s-notas">—</div><div class="k">notas / 72h</div></div>
-          <div class="stat"><div class="n" id="s-medios">—</div><div class="k">medios activos</div></div>
-          <div class="stat"><div class="n" id="s-nuevas">—</div><div class="k">nuevas hoy</div></div>
+          <div class="stat"><div class="n" id="s-medios">—</div><div class="k">medios</div></div>
+          <div class="stat"><div class="n" id="s-paises">—</div><div class="k">países</div></div>
         </div>
-        <div class="list" id="notas"></div>
+        <div class="scroll" id="gondola"></div>
       </section>
 
       <!-- COL 2 · P1 -->
       <section class="col">
         <div class="colhead p1">
-          <h2>P1 corriendo</h2>
+          <h2>P1 · por país</h2>
           <span class="run"><span class="dot"></span>cada 6 h</span>
         </div>
         <div class="stats">
-          <div class="stat"><div class="n" id="s-clusters" style="color:var(--red)">—</div><div class="k">grietas candidatas</div></div>
-          <div class="stat"><div class="n" id="s-calco">—</div><div class="k">calco</div></div>
-          <div class="stat"><div class="n" id="s-div">—</div><div class="k">divergencia</div></div>
+          <div class="stat"><div class="n" id="s-grietas" style="color:var(--red)">—</div><div class="k">grietas</div></div>
+          <div class="stat"><div class="n" id="s-calco" style="color:var(--amber)">—</div><div class="k">calco</div></div>
+          <div class="stat"><div class="n" id="s-div" style="color:var(--red)">—</div><div class="k">divergencia</div></div>
+          <div class="stat"><div class="n" id="s-coro" style="color:var(--blue)">—</div><div class="k">coros</div></div>
         </div>
-        <div class="list" id="grietas"></div>
+        <div class="scroll" id="p1"></div>
       </section>
     </div>
   </main>
 </div>
 
 <script>
-// ── muestra embebida: se ve así hasta que corra la ingesta real y aparezca gondola.json ──
-const SAMPLE = {
-  generado: null, ventana_horas:72, cadencia_p1_horas:6,
-  totales:{notas:0, medios:0, clusters:0, vistas:0, nuevas:0},
-  notas:[], clusters:[]
-};
+const SAMPLE = { generado:null, ventana_horas:72, cadencia_p1_horas:6,
+  totales:{notas:0,medios:0,clusters:0,vistas:0,nuevas:0}, notas:[], clusters:[] };
 
-const esc = s => (s||'').replace(/[&<>]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const esc = s => (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const fmtHora = iso => { if(!iso) return ''; const d=new Date(iso); if(isNaN(d)) return '';
   return d.toLocaleString('es',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}); };
-const flag = p => ({AR:'🇦🇷',UY:'🇺🇾',CL:'🇨🇱'}[p]||'');
+const PAIS = {AR:{f:'🇦🇷',n:'Argentina'}, UY:{f:'🇺🇾',n:'Uruguay'}, CL:{f:'🇨🇱',n:'Chile'},
+  '-':{f:'📊',n:'Temáticos'}, REG:{f:'🌎',n:'Regional · multipaís'}};
+const flag = p => (PAIS[p]||{f:''}).f;
+
+// estado editorial en memoria (redacción + énfasis por grieta) — borrador de la mesa
+const ESTADO = {};
+
+function tipoDe(c){ return c.n_medios>=6 ? 'coro' : (c.senal==='calco'?'calco':'divergencia'); }
+function paisBucket(c){ const p=(c.paises||[]).filter(x=>x&&x!=='-'); return p.length===1 ? p[0] : (p.length>1?'REG':'-'); }
 
 function pintar(d, live){
-  // estado
   const edot=document.getElementById('edot'), etxt=document.getElementById('etxt');
   if(live && d.totales.notas>0){
     edot.className='dot live';
@@ -184,63 +220,134 @@ function pintar(d, live){
   } else {
     edot.className='dot sample';
     etxt.textContent='esperando primera corrida';
-    document.getElementById('banner').innerHTML =
-      '<div class="banner">Todavía no corrió la ingesta en este server. En cuanto el workflow «Góndola + P1» corra (cada 6 h, o a mano con «Run workflow»), este panel se llena con las notas reales de las últimas 72 h.</div>';
+    document.getElementById('banner').innerHTML='<div class="banner">Todavía no corrió la ingesta en este server. En cuanto el workflow «Góndola + P1» corra, este panel se llena con dato real de las últimas 72 h.</div>';
   }
   document.getElementById('win').textContent='ventana '+d.ventana_horas+' h';
   document.getElementById('cad').textContent='P1 cada '+(d.cadencia_p1_horas||6)+' h';
 
-  // stats
-  const t=d.totales||{};
-  document.getElementById('s-notas').textContent   = t.notas ?? 0;
-  document.getElementById('s-medios').textContent  = t.medios ?? 0;
-  document.getElementById('s-nuevas').textContent  = t.nuevas ?? 0;
-  const calco=(d.clusters||[]).filter(c=>c.senal==='calco').length;
-  const dive =(d.clusters||[]).filter(c=>c.senal==='divergencia').length;
-  document.getElementById('s-clusters').textContent=(d.clusters||[]).length;
-  document.getElementById('s-calco').textContent=calco;
-  document.getElementById('s-div').textContent=dive;
+  const notas=d.notas||[], clusters=d.clusters||[];
+  // ── stats ──
+  const paises=new Set(notas.map(n=>n.pais));
+  document.getElementById('s-notas').textContent=notas.length;
+  document.getElementById('s-medios').textContent=d.totales.medios ?? new Set(notas.map(n=>n.medio)).size;
+  document.getElementById('s-paises').textContent=[...paises].filter(p=>p&&p!=='-').length;
+  const tipos=clusters.map(tipoDe);
+  document.getElementById('s-grietas').textContent=tipos.filter(t=>t!=='coro').length;
+  document.getElementById('s-calco').textContent=tipos.filter(t=>t==='calco').length;
+  document.getElementById('s-div').textContent=tipos.filter(t=>t==='divergencia').length;
+  document.getElementById('s-coro').textContent=tipos.filter(t=>t==='coro').length;
 
-  // góndola
-  const nx=document.getElementById('notas');
-  if(!d.notas || !d.notas.length){ nx.innerHTML='<div class="empty">sin notas todavía — la góndola se llena en la primera corrida.</div>'; }
-  else nx.innerHTML = d.notas.map(n=>`
-    <a class="nota" href="${esc(n.url)}" target="_blank" rel="noopener">
-      <span class="medio">${esc(n.medio)}</span>
-      <span><span class="tit">${esc(n.titulo)}</span>
-        <div class="meta"><span class="flag">${flag(n.pais)}</span> ${esc(n.tema&&n.tema!=='general'?n.tema+' · ':'')}${fmtHora(n.fecha)}</div>
-      </span></a>`).join('');
+  // ── GÓNDOLA: árbol país → medio → notas ──
+  const gx=document.getElementById('gondola');
+  if(!notas.length){ gx.innerHTML='<div class="empty">sin notas todavía.</div>'; }
+  else{
+    const orden=['AR','UY','CL','-'];
+    const porPais={};
+    notas.forEach(n=>{ (porPais[n.pais]=porPais[n.pais]||[]).push(n); });
+    const claves=Object.keys(porPais).sort((a,b)=>{
+      const ia=orden.indexOf(a), ib=orden.indexOf(b);
+      return (ia<0?9:ia)-(ib<0?9:ib);
+    });
+    gx.innerHTML = claves.map(p=>{
+      const arr=porPais[p];
+      const porMedio={};
+      arr.forEach(n=>{ (porMedio[n.medio]=porMedio[n.medio]||[]).push(n); });
+      const medios=Object.keys(porMedio).sort((a,b)=>porMedio[b].length-porMedio[a].length);
+      const info=PAIS[p]||{f:'',n:p};
+      return `<div class="node">
+        <div class="nhead" onclick="this.parentNode.classList.toggle('open')">
+          <span class="flag">${info.f}</span><span class="name">${esc(info.n)}</span>
+          <span class="cnt">${arr.length} notas · ${medios.length} medios</span><span class="chev">›</span>
+        </div>
+        <div class="nbody">${medios.map(m=>`
+          <div class="node medio-node">
+            <div class="nhead" onclick="event.stopPropagation();this.parentNode.classList.toggle('open')">
+              <span class="name">${esc(m)}</span><span class="cnt">${porMedio[m].length}</span><span class="chev">›</span>
+            </div>
+            <div class="nbody">${porMedio[m].map(n=>`
+              <a class="nota" href="${esc(n.url)}" target="_blank" rel="noopener">
+                <div class="t">${esc(n.titulo)}</div>
+                <div class="m">${esc(n.tema&&n.tema!=='general'?n.tema+' · ':'')}${fmtHora(n.fecha)}</div>
+              </a>`).join('')}</div>
+          </div>`).join('')}</div>
+      </div>`;
+    }).join('');
+  }
 
-  // P1
-  const gx=document.getElementById('grietas');
-  if(!d.clusters || !d.clusters.length){ gx.innerHTML='<div class="empty">P1 todavía no encontró la misma noticia en 2+ medios. Cuando la costura aparezca, la candidata cae acá.</div>'; }
-  else gx.innerHTML = d.clusters.map((c,i)=>`
-    <div class="grieta ${i===0?'open':''}">
-      <div class="gh" onclick="this.parentNode.classList.toggle('open')">
-        <span class="cnt" style="color:var(--red)">${c.n_medios}×</span>
-        <span class="senal ${c.senal}">${c.senal}</span>
-        <span class="key">${esc((c.paises||[]).map(flag).join(''))} ${esc(c.ckey)}</span>
-        <span class="chev">›</span>
+  // ── P1: grietas por país ──
+  const px=document.getElementById('p1');
+  if(!clusters.length){ px.innerHTML='<div class="empty">P1 todavía no encontró la misma noticia en 2+ medios.</div>'; }
+  else{
+    const orden=['AR','UY','CL','REG'];
+    const porPais={};
+    clusters.forEach((c,i)=>{ const b=paisBucket(c); (porPais[b]=porPais[b]||[]).push({c,i}); });
+    const claves=Object.keys(porPais).sort((a,b)=>{
+      const ia=orden.indexOf(a), ib=orden.indexOf(b); return (ia<0?9:ia)-(ib<0?9:ib);
+    });
+    px.innerHTML = claves.map(p=>{
+      const arr=porPais[p].sort((x,y)=>y.c.n_medios-x.c.n_medios);
+      const info=PAIS[p]||{f:'',n:p};
+      const grietas=arr.filter(o=>tipoDe(o.c)!=='coro').length;
+      return `<div class="pais-sec">
+        <div class="pais-h"><span class="flag">${info.f}</span><span class="name">${esc(info.n)}</span>
+          <span class="cnt">${grietas} grietas · ${arr.length} costuras</span></div>
+        ${arr.map(o=>grietaCard(o.c,o.i)).join('')}
+      </div>`;
+    }).join('');
+  }
+}
+
+function grietaCard(c, i){
+  const tipo=tipoDe(c);
+  const st=ESTADO[i]||(ESTADO[i]={red:'',enf:''});
+  const flags=(c.paises||[]).map(flag).join('');
+  const coro = tipo==='coro' ? `<div class="coro-note">Coro / tema caliente: ${c.n_medios} medios cantando lo mismo. No es una grieta única — abrí el armado y partila en subnotas.</div>` : '';
+  return `<div class="grieta ${tipo}">
+    <div class="gtop">
+      <span class="tag ${tipo}">${tipo}</span>
+      <span class="nmed">${c.n_medios}×</span>
+      <span class="fl">${flags}</span>
+      <span class="keys">${esc(c.ckey)}</span>
+    </div>
+    <div class="red">
+      <div class="lab">Redacción · el titular que vende la grieta</div>
+      <div class="titular" contenteditable="true" data-ph="Escribí acá el titular propio (no el del medio)…"
+           oninput="ESTADO[${i}].red=this.textContent">${esc(st.red)}</div>
+    </div>
+    <div class="enf">
+      <span class="lab">Énfasis</span>
+      <button class="${st.enf==='golpe'?'on':''}" onclick="setEnf(${i},'golpe',this)">golpe <span class="sub">· un impacto</span></button>
+      <button class="${st.enf==='stepper'?'on':''}" onclick="setEnf(${i},'stepper',this)">stepper <span class="sub">· por pasos</span></button>
+    </div>
+    ${coro}
+    <div class="armado">
+      <div class="ah" onclick="this.parentNode.classList.toggle('open')">
+        <span class="chev">›</span> armado · ${(c.versiones||[]).length} versiones · la costura
       </div>
       <div class="versiones">
         ${(c.versiones||[]).map(v=>`<a class="ver" href="${esc(v.url)}" target="_blank" rel="noopener">
-          <span class="m">${esc(v.medio)}</span><span class="t">${esc(v.titulo)}</span></a>`).join('')}
+          <span class="vm">${esc(v.medio)}</span><span class="vt">${esc(v.titulo)}</span></a>`).join('')}
       </div>
-    </div>`).join('');
+    </div>
+  </div>`;
+}
+
+function setEnf(i, val, btn){
+  ESTADO[i].enf = (ESTADO[i].enf===val ? '' : val);
+  const wrap=btn.parentNode;
+  wrap.querySelectorAll('button').forEach(b=>b.classList.remove('on'));
+  if(ESTADO[i].enf) btn.classList.add('on');
 }
 
 async function cargar(){
   try{
-    const r = await fetch('gondola.json?_='+Math.floor(Date.now()/60000), {cache:'no-store'});
+    const r=await fetch('gondola.json?_='+Math.floor(Date.now()/60000),{cache:'no-store'});
     if(!r.ok) throw 0;
-    const d = await r.json();
-    pintar(d, true);
-  }catch(e){
-    pintar(SAMPLE, false);
-  }
+    pintar(await r.json(), true);
+  }catch(e){ pintar(SAMPLE, false); }
 }
 cargar();
-setInterval(cargar, 5*60*1000); // refresca cada 5 min
+setInterval(cargar, 5*60*1000);
 </script>
 </body>
 </html>
