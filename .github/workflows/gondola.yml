@@ -1,10 +1,13 @@
-name: TOB · Góndola + P1 (cada 6h)
+
+name: TOB · Góndola + P1 (08 y 15 h CL)
 
 # La ingesta corre en los servers de GitHub (esos SÍ pueden bajar los RSS).
 # Genera gondola.json real y lo commitea. El Administrador general lo lee.
 on:
   schedule:
-    - cron: "0 */6 * * *"   # cada 6 horas — la cadencia de P1
+    # P1 corre 08:00 y 15:00 hora de Chile (UTC-4) = 12:00 y 19:00 UTC.
+    - cron: "0 12 * * *"
+    - cron: "0 19 * * *"
   workflow_dispatch:
   push:
     branches: [ main ]
