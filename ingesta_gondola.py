@@ -20,6 +20,9 @@ Uso:         python3 ingesta_gondola.py
 
 import feedparser, sqlite3, hashlib, re, json, os
 from datetime import datetime, timedelta, timezone
+from collections import Counter, defaultdict
+from itertools import combinations
+from difflib import SequenceMatcher
 
 VENTANA_HORAS = 72          # <-- la ventana de la góndola
 DB   = "gondola.sqlite"
@@ -61,14 +64,26 @@ COROS_TEMA = {
  "Espectáculos":{"Ciudad Magazine":"https://www.ciudad.com.ar/rss","Primicias Ya":"https://www.primiciasya.com/rss/home.xml"},
 }
 
-STOP = set("de la el en y a los las un una que con por para del al su se es más como o e lo son fue ser han hay tras sin sobre entre este esta".split())
+STOP = set(("de la el en y a los las un una que con por para del al su se es más como o e lo son fue ser han hay tras sin sobre entre este esta "
+            "según mientras cuando donde quien como cual todo cada otro otra hoy ayer tras ante bajo desde hasta "
+            "confirman denuncian aseguran afirman revelan anuncian buscan piden video fotos urgente mirá última nuevo nueva").split())
 
 def entidades(titulo):
     toks = re.findall(r"[A-Za-zÁÉÍÓÚÑáéíóúñ0-9]{4,}", titulo.lower())
     return [t for t in toks if t not in STOP]
 
+# PROPIOS: nombres propios del título (palabras con Mayúscula inicial, salvo la primera).
+# Son los más discriminantes para saber que dos medios hablan de LA MISMA noticia.
+def propios(titulo):
+    palabras = re.findall(r"[0-9A-Za-zÁÉÍÓÚÑÜáéíóúñü]{4,}", titulo)
+    out = set()
+    for w in palabras:                                # incluye la 1ª: los propios suelen liderar el titular
+        if (w[0].isupper() or w[0].isdigit()) and w.lower() not in STOP:
+            out.add(w.lower())
+    return out
+
 def cluster_key(titulo):
-    ents = sorted(set(entidades(titulo)))
+    ents = sorted(propios(titulo)) or sorted(set(entidades(titulo)))
     return " ".join(ents[:6])
 
 def parse_fecha(e):
@@ -127,19 +142,56 @@ def correr():
              for r in c.execute(
                "SELECT medio,pais,tema,titulo,url,fecha,ckey FROM notas ORDER BY fecha DESC")]
 
-    # ── P1: clusters (misma noticia en >=2 medios) = grietas candidatas ──
+    # ── P1: la costura — misma noticia en >=2 medios, por nombres propios compartidos ──
+    N = len(notas)
+    props = [propios(n["titulo"]) for n in notas]
+    df = Counter(tok for s in props for tok in s)
+    inv = defaultdict(list)
+    for i, s in enumerate(props):
+        for tok in s:
+            inv[tok].append(i)
+
+    parent = list(range(N))
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]; x = parent[x]
+        return x
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb: parent[max(ra, rb)] = min(ra, rb)
+
+    RARO = 6                       # un propio en <=6 notas es discriminante: cose directo
+    shared = Counter()
+    for tok, idxs in inv.items():
+        if len(idxs) < 2: continue
+        if df[tok] <= RARO:
+            for k in idxs[1:]: union(idxs[0], k)
+        if len(idxs) <= 30:        # además: pares que comparten 2+ propios = misma noticia
+            for a, b in combinations(idxs, 2): shared[(a, b)] += 1
+    for (a, b), sh in shared.items():
+        if sh >= 2: union(a, b)
+
+    grupos = defaultdict(list)
+    for i in range(N): grupos[find(i)].append(i)
+
     clusters = []
-    rows = c.execute("""SELECT ckey, COUNT(DISTINCT medio) n, GROUP_CONCAT(DISTINCT medio)
-                        FROM notas WHERE ckey!='' GROUP BY ckey HAVING n>=2 ORDER BY n DESC""").fetchall()
-    for ck, n, _ in rows:
-        det = c.execute("SELECT medio,titulo,url,pais FROM notas WHERE ckey=? ORDER BY medio", (ck,)).fetchall()
-        titset = {t for _, t, _, _ in det}
-        senal = "calco" if len(titset) <= max(1, n // 2) else "divergencia"
+    for _, idxs in grupos.items():
+        medios = {notas[i]["medio"] for i in idxs}
+        if len(medios) < 2: continue            # grieta = costura entre >=2 medios
+        vers = [notas[i] for i in idxs]
+        tits = [v["titulo"] for v in vers]
+        sim = 0.0; pares = 0                     # calco vs divergencia = parecido entre títulos
+        for a, b in combinations(tits[:8], 2):
+            sim += SequenceMatcher(None, a.lower(), b.lower()).ratio(); pares += 1
+        senal = "calco" if (pares and sim/pares >= 0.55) else "divergencia"
+        pc = Counter(tok for i in idxs for tok in props[i])
+        ckey = " ".join(t for t, _ in pc.most_common(5)) or "—"
         clusters.append(dict(
-            ckey=ck, n_medios=n, senal=senal,
-            paises=sorted({p for *_ , p in det}),
-            versiones=[dict(medio=m, titulo=t, url=u) for m, t, u, _ in det],
+            ckey=ckey, n_medios=len(medios), senal=senal,
+            paises=sorted({v["pais"] for v in vers if v["pais"] and v["pais"] != '-'}),
+            versiones=[dict(medio=v["medio"], titulo=v["titulo"], url=v["url"]) for v in vers],
         ))
+    clusters.sort(key=lambda c: c["n_medios"], reverse=True)
 
     total = c.execute("SELECT COUNT(*) FROM notas").fetchone()[0]
     payload = dict(
