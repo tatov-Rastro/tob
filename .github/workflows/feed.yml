@@ -1,0 +1,36 @@
+name: TOB · Feed (amplía la góndola)
+
+# El feed amplía la góndola SEGUIDO: refresca notas y conserva la última P1.
+# Cada hora. (GitHub es best-effort: puede demorar o saltear alguna.)
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gondola
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Ampliar la góndola (solo feed)
+        run: python3 ingesta_gondola.py feed
+      - name: Commitear gondola.json
+        run: |
+          git config user.name  "TOB-gondola"
+          git config user.email "gondola@tob.bot"
+          git add -f gondola.json
+          if git diff --staged --quiet; then echo "sin cambios"; exit 0; fi
+          git commit -m "feed: góndola"
+          git pull --rebase || true
+          git push
