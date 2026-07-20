@@ -109,6 +109,14 @@
   .legend .lgt{font-family:var(--mono);font-size:9px;color:var(--mut2);text-transform:uppercase;letter-spacing:1.4px;margin-right:2px}
   .legend .lg{font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--mut)}
   .legend .lg.off{opacity:.4;text-decoration:line-through}
+  .legend .lg-q{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--mut);background:transparent;border:1px solid var(--line);border-radius:50%;width:20px;height:20px;cursor:pointer;line-height:1;flex-shrink:0}
+  .legend .lg-q:hover{color:var(--ink);border-color:var(--mut)}
+  .legdefs{display:none;padding:8px 12px 10px;border-bottom:1px solid var(--line);font-size:11.5px;line-height:1.5;background:var(--panel2)}
+  .legdefs.open{display:block}
+  .legdefs .dfrow{color:var(--mut);padding:2px 0}
+  .legdefs .dfrow b{color:var(--ink);font-weight:600}
+  .legdefs .dfrow.off{opacity:.55}
+  .legdefs .dfrow i{color:var(--mut2);font-style:normal;font-family:var(--mono);font-size:9.5px}
   .grupo-h{font-family:var(--mono);font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1.4px;padding:12px 8px 4px;border-top:1px solid var(--line);margin-top:8px}
   .prim{border:1px solid var(--line);border-left:3px solid var(--mut);border-radius:11px;margin:7px 2px;padding:9px 12px;background:var(--panel2)}
   .prim .pt{font-size:12.5px;line-height:1.35;display:block}
@@ -229,6 +237,18 @@ const PAIS = {AR:{f:'🇦🇷',n:'Argentina'}, UY:{f:'🇺🇾',n:'Uruguay'}, CL
   '-':{f:'📊',n:'Temáticos'}, REG:{f:'🌎',n:'Regional · multipaís'}};
 const flag = p => (PAIS[p]||{f:''}).f;
 
+// las definiciones de los 6 detectores — resumen en la página misma
+const DEFS = {
+  calco:'los medios publican lo mismo (copiaron, nadie chequeó)',
+  divergencia:'cuentan lo mismo pero distinto (ahí hay disputa)',
+  coro:'todos cantan igual, saturación (puede tapar algo)',
+  primicia:'un solo medio tiene algo que nadie más tocó',
+  'fuente=poder':'la nota viene del poder y los medios la replican',
+  silencio:'lo que debería estar y no está — el perro que no ladró',
+  timing:'cuándo se publica: coordinación sospechosa, o un entierro de viernes a la noche',
+};
+const DEFS_ORDEN = ['calco','divergencia','coro','primicia','fuente=poder','silencio','timing'];
+
 // estado editorial en memoria (redacción + énfasis por grieta) — borrador de la mesa
 const ESTADO = {};
 
@@ -303,9 +323,13 @@ function pintar(d, live){
   const px=document.getElementById('p1');
   const det=d.detectores||{activos:['calco','divergencia','coro','timing','primicia'],pendientes:['fuente=poder','silencio']};
   const legend='<div class="legend"><span class="lgt">6 detectores</span>'+
-    (det.activos||[]).map(x=>`<span class="lg">${esc(x)}</span>`).join('')+
-    (det.pendientes||[]).map(x=>`<span class="lg off" title="necesita las fuentes oficiales conectadas a la ingesta">${esc(x)}</span>`).join('')+
-    '</div>';
+    (det.activos||[]).map(x=>`<span class="lg" title="${esc(DEFS[x]||'')}">${esc(x)}</span>`).join('')+
+    (det.pendientes||[]).map(x=>`<span class="lg off" title="${esc(DEFS[x]||'')} — necesita las fuentes oficiales">${esc(x)}</span>`).join('')+
+    `<button class="lg-q" onclick="document.getElementById('legdefs').classList.toggle('open')" title="¿qué es cada uno?">?</button></div>`+
+    `<div class="legdefs" id="legdefs">`+
+      DEFS_ORDEN.map(k=>{const off=(det.pendientes||[]).includes(k);
+        return `<div class="dfrow ${off?'off':''}"><b>${esc(k)}</b> — ${esc(DEFS[k])}${off?' <i>(en espera)</i>':''}</div>`;}).join('')+
+    `</div>`;
   const prims=d.primicias||[];
   if(!clusters.length && !prims.length){ px.innerHTML=legend+'<div class="empty">P1 todavía no encontró costura ni primicias.</div>'; }
   else{
