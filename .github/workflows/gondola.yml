@@ -1,0 +1,46 @@
+name: TOB · Góndola + P1 (cada 6h)
+
+# La ingesta corre en los servers de GitHub (esos SÍ pueden bajar los RSS).
+# Genera gondola.json real y lo commitea. El Administrador general lo lee.
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # cada 6 horas — la cadencia de P1
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: [ "ingesta_gondola.py", ".github/workflows/gondola.yml" ]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gondola
+  cancel-in-progress: false
+
+jobs:
+  ingesta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Correr la gondola (ingesta + P1)
+        run: python3 ingesta_gondola.py
+
+      - name: Commitear gondola.json
+        run: |
+          git config user.name  "TOB-gondola"
+          git config user.email "gondola@tob.bot"
+          git add -f gondola.json
+          if git diff --staged --quiet; then
+            echo "sin cambios en gondola.json"
+          else
+            git commit -m "gondola: ingesta run"
+            git push
+          fi
