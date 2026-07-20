@@ -1,11 +1,11 @@
 {
- "generado": "2026-07-20T22:43:17.267885+00:00",
+ "generado": "2026-07-20T22:45:10.749487+00:00",
  "ventana_horas": 72,
  "cadencia_p1_horas": 6,
  "totales": {
   "notas": 601,
   "medios": 13,
-  "clusters": 36,
+  "clusters": 35,
   "primicias": 12,
   "vistas": 601,
   "nuevas": 601
@@ -25,6 +25,78 @@
  },
  "notas": [
   {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La selección argentina regresa al país, EN VIVO: horario de llegada, recibimiento y la lista de jugadores",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-seleccion-argentina-regresa-al-pais-en-vivo-horario-de-llegada-recibimiento-y-la-lista-de-nid20072026/",
+   "fecha": "2026-07-20T22:43:44+00:00"
+  },
+  {
+   "medio": "La Tercera",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "EE.UU. impone aranceles del 50% a parte de las importaciones canadienses",
+   "url": "https://www.latercera.com/mundo/noticia/eeuu-impone-aranceles-del-50-a-parte-de-las-importaciones-canadienses/",
+   "fecha": "2026-07-20T22:43:21+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Instalación del Congreso 2026 EN VIVO: el presidente del Senado dio su último discurso; reconoció al mandatario electo Abelardo de la Espriella y lanzó crítica a Petro",
+   "url": "https://www.infobae.com/colombia/2026/07/20/instalacion-del-congreso-2026-en-vivo-siga-el-minuto-a-minuto-de-la-apertura-de-la-nueva-legislatura/",
+   "fecha": "2026-07-20T22:42:11+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Jimena Barón relató su odisea para llegar en avión privado a la final del Mundial con ayuda de Ian Lucas y Juli Poggio",
+   "url": "https://www.infobae.com/teleshow/2026/07/20/jimena-baron-relato-su-odisea-para-llegar-en-avion-privado-a-la-final-del-mundial-con-ayuda-de-ian-lucas-y-juli-poggio/",
+   "fecha": "2026-07-20T22:42:08+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Estados Unidos impuso nuevos aranceles del 50% a la mayoría de las importaciones procedentes de Canadá",
+   "url": "https://www.infobae.com/estados-unidos/2026/07/20/estados-unidos-impuso-nuevos-aranceles-del-50-a-la-mayoria-de-las-importaciones-procedentes-de-canada/",
+   "fecha": "2026-07-20T22:41:57+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "España festejó la obtención de su segunda Copa del Mundo con un multitudinario desfile por las calles de Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/espana-festejo-la-obtencion-de-su-segunda-copa-del-mundo-con-un-multitudinario-desfile-por-las-nid20072026/",
+   "fecha": "2026-07-20T22:41:45+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "EN VIVO | Bloqueos en carreteras, accidentes y manifestaciones hoy 20 de julio: buen avance sobre Avenida Paseo de la Reforma",
+   "url": "https://www.infobae.com/mexico/2026/07/20/en-vivo-bloqueos-en-carreteras-accidentes-y-manifestaciones-hoy-20-de-julio/",
+   "fecha": "2026-07-20T22:41:39+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La Selección llegó al país tras el segundo lugar en el Mundial: una multitud saludó al plantel afuera de Ezeiza",
+   "url": "https://www.infobae.com/deportes/2026/07/20/la-seleccion-argentina-vuelve-al-pais-en-vivo-que-futbolistas-regresan-y-como-sera-la-recepcion-protocolar-en-ezeiza/",
+   "fecha": "2026-07-20T22:41:35+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "YPF realizará un “split” de sus acciones: qué es, para qué sirve y cuándo será",
+   "url": "https://www.infobae.com/economia/2026/07/20/ypf-realizara-un-split-de-sus-acciones-que-es-para-que-sirve-y-cuando-sera/",
+   "fecha": "2026-07-20T22:41:02+00:00"
+  },
+  {
    "medio": "Ámbito",
    "pais": "AR",
    "tema": "general",
@@ -33,12 +105,44 @@
    "fecha": "2026-07-20T22:40:00+00:00"
   },
   {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Video: el llanto de Río, hijo de J Balvin, conmovió en redes tras la derrota de Argentina en el Mundial 2026",
+   "url": "https://www.infobae.com/colombia/2026/07/20/video-el-llanto-de-rio-hijo-de-j-balvin-conmovio-en-redes-tras-la-derrota-de-argentina-en-el-mundial-2026/",
+   "fecha": "2026-07-20T22:39:32+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Guerra en Medio Oriente EN VIVO: Arabia Saudita condena el bloqueo marítimo de los hutíes",
+   "url": "https://www.infobae.com/america/mundo/2026/07/20/guerra-en-medio-oriente-en-vivo/",
+   "fecha": "2026-07-20T22:39:23+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El homenaje de Cris Morena a Messi y la Selección tras la final del Mundial contra España: “No te digo adiós”",
+   "url": "https://www.lanacion.com.ar/espectaculos/el-homenaje-de-cris-morena-a-messi-y-la-seleccion-tras-la-final-del-mundial-contra-espana-no-te-digo-nid20072026/",
+   "fecha": "2026-07-20T22:39:00+00:00"
+  },
+  {
    "medio": "TN",
    "pais": "AR",
    "tema": "general",
    "titulo": "Quiénes acceden a los préstamos personales de $30.000.000 y las tasas de interés en julio de 2026",
    "url": "https://tn.com.ar/economia/2026/07/20/quienes-acceden-a-los-prestamos-personales-de-30000000-y-las-tasas-de-interes-en-julio-de-2026/",
    "fecha": "2026-07-20T22:38:31+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Toma del campus en la UNSAAC continúa mientras estudiantes exigen laboratorios, comedor universitario y obras de infraestructura",
+   "url": "https://www.infobae.com/peru/2026/07/20/toma-del-campus-en-la-unsaac-continua-mientras-estudiantes-exigen-laboratorios-comedor-universitario-y-obras-de-infraestructura/",
+   "fecha": "2026-07-20T22:38:26+00:00"
   },
   {
    "medio": "TN",
@@ -57,12 +161,36 @@
    "fecha": "2026-07-20T22:38:00+00:00"
   },
   {
-   "medio": "La Nación",
+   "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
-   "titulo": "La selección argentina regresa al país, EN VIVO: horario de llegada, recibimiento y la lista de jugadores",
-   "url": "https://www.lanacion.com.ar/deportes/futbol/la-seleccion-argentina-regresa-al-pais-en-vivo-horario-de-llegada-recibimiento-y-la-lista-de-nid20072026/",
-   "fecha": "2026-07-20T22:35:42+00:00"
+   "titulo": "Ryan Reynolds revela si existirá una próxima película de ‘Deadpool’",
+   "url": "https://www.infobae.com/entretenimiento/2026/07/20/ryan-reynolds-revela-si-existira-una-proxima-pelicula-de-deadpool/",
+   "fecha": "2026-07-20T22:37:17+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Desfile del 20 de Julio 2026 EN VIVO: así fue cómo las Fuerzas Armadas rindieron homenaje al grito de independencia con imponente despliegue en todo el país",
+   "url": "https://www.infobae.com/colombia/2026/07/20/desfile-del-20-de-julio-2026-en-vivo-siga-el-minuto-a-minuto-de-la-celebracion-del-dia-de-la-independencia/",
+   "fecha": "2026-07-20T22:37:09+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "“Instalaron conspiraciones infundadas”: el contundente posteo de Rodrigo De Paul tras la caída de Argentina en la final del Mundial",
+   "url": "https://www.infobae.com/deportes/2026/07/20/instalaron-conspiraciones-infundadas-el-contundente-posteo-de-rodrigo-de-paul-tras-la-caida-de-argentina-en-la-final-del-mundial/",
+   "fecha": "2026-07-20T22:36:02+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Cayó un clan narco que operaba entre Jujuy y Salta: uno de sus integrantes coordinaba maniobras desde una cárcel federal",
+   "url": "https://www.infobae.com/sociedad/policiales/2026/07/20/cayo-un-clan-narco-que-operaba-entre-jujuy-y-salta-uno-de-sus-integrantes-coordinaba-maniobras-desde-una-carcel-federal/",
+   "fecha": "2026-07-20T22:35:25+00:00"
   },
   {
    "medio": "La Nación",
@@ -84,17 +212,17 @@
    "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
-   "titulo": "FIL Lima 2026: Milena Warthon, Mauricio Mesones, Sinfonía por el Perú y la agenda completa de shows estelares",
-   "url": "https://www.infobae.com/peru/2026/07/20/fil-lima-2026-milena-warthon-mauricio-mesones-sinfonia-por-el-peru-y-la-agenda-completa-de-shows-estelares/",
-   "fecha": "2026-07-20T22:34:22+00:00"
+   "titulo": "México terminó entre las 10 mejores selecciones del ranking FIFA al término del Mundial 2026",
+   "url": "https://www.infobae.com/mexico/deportes/2026/07/20/mexico-termino-entre-las-10-mejores-selecciones-del-ranking-fifa-al-termino-del-mundial-2026/",
+   "fecha": "2026-07-20T22:34:57+00:00"
   },
   {
    "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
-   "titulo": "“Instalaron conspiraciones infundadas”: el contundente posteo de Rodrigo De Paul tras la caída de Argentina en la final del Mundial",
-   "url": "https://www.infobae.com/deportes/2026/07/20/instalaron-conspiraciones-infundadas-el-contundente-posteo-de-rodrigo-de-paul-tras-la-caida-de-argentina-en-la-final-del-mundial/",
-   "fecha": "2026-07-20T22:34:15+00:00"
+   "titulo": "FIL Lima 2026: Milena Warthon, Mauricio Mesones, Sinfonía por el Perú y la agenda completa de shows estelares",
+   "url": "https://www.infobae.com/peru/2026/07/20/fil-lima-2026-milena-warthon-mauricio-mesones-sinfonia-por-el-peru-y-la-agenda-completa-de-shows-estelares/",
+   "fecha": "2026-07-20T22:34:22+00:00"
   },
   {
    "medio": "La Nación",
@@ -268,14 +396,6 @@
    "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Instalación del Congreso 2026 EN VIVO: Gustavo Petro llegó al Capitolio Nacional y el presidente del Senado inició su discurso",
-   "url": "https://www.infobae.com/colombia/2026/07/20/instalacion-del-congreso-2026-en-vivo-siga-el-minuto-a-minuto-de-la-apertura-de-la-nueva-legislatura/",
-   "fecha": "2026-07-20T22:30:00+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
    "titulo": "Falta de vitamina D, un riesgo extra para quienes viven con obesidad o diabetes",
    "url": "https://www.infobae.com/mexico/2026/07/20/falta-de-vitamina-d-un-riesgo-extra-para-quienes-viven-con-obesidad-o-diabetes/",
    "fecha": "2026-07-20T22:30:00+00:00"
@@ -335,14 +455,6 @@
    "titulo": "La oposición venezolana propone aplicar el modelo japonés de gestión sísmica para reconstruir La Guaira",
    "url": "https://www.infobae.com/venezuela/2026/07/20/la-oposicion-venezolana-propone-aplicar-el-modelo-japones-de-gestion-sismica-para-reconstruir-la-guaira/",
    "fecha": "2026-07-20T22:28:43+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "México terminó entre las 10 mejores selecciones del ranking FIFA al término del Mundial 2026",
-   "url": "https://www.infobae.com/mexico/deportes/2026/07/20/mexico-termino-entre-las-10-mejores-selecciones-del-ranking-fifa-al-termino-del-mundial-2026/",
-   "fecha": "2026-07-20T22:28:18+00:00"
   },
   {
    "medio": "La Nación",
@@ -425,28 +537,12 @@
    "fecha": "2026-07-20T22:22:55+00:00"
   },
   {
-   "medio": "Doble Amarilla",
-   "pais": "-",
-   "tema": "Deportes",
-   "titulo": "La Selección Argentina regresó al país y recibió un emotivo homenaje en Ezeiza",
-   "url": "https://www.dobleamarilla.com.ar/selecciones/la-seleccion-argentina-regreso-al-pais-y-recibio-un-emotivo-homenaje-en-ezeiza_a6a5e9cf59c14faaa983efae0",
-   "fecha": "2026-07-20T22:21:40+00:00"
-  },
-  {
    "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
    "titulo": "El Pacto Histórico cambia de papel: así será su estrategia contra el Gobierno entrante de Abelardo de la Espriella",
    "url": "https://www.infobae.com/colombia/2026/07/20/el-pacto-historico-cambia-de-papel-asi-sera-su-estrategia-contra-el-gobierno-entrante-de-abelardo-de-la-espriella/",
    "fecha": "2026-07-20T22:21:35+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La Selección llegó al país tras el segundo lugar en el Mundial: una multitud saluda al plantel afuera de Ezeiza",
-   "url": "https://www.infobae.com/deportes/2026/07/20/la-seleccion-argentina-vuelve-al-pais-en-vivo-que-futbolistas-regresan-y-como-sera-la-recepcion-protocolar-en-ezeiza/",
-   "fecha": "2026-07-20T22:21:33+00:00"
   },
   {
    "medio": "TN",
@@ -623,14 +719,6 @@
    "titulo": "El dardo del hermano de Tagliafico contra Lamine Yamal tras la final del Mundial entre Argentina y España",
    "url": "https://www.infobae.com/deportes/2026/07/20/el-dardo-del-hermano-de-tagliafico-contra-lamine-yamal-tras-la-final-del-mundial-entre-argentina-y-espana/",
    "fecha": "2026-07-20T22:15:01+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Desfile del 20 de Julio 2026 EN VIVO: así fue cómo las Fuerzas Armadas rindieron homenaje al grito de independencia con imponente despliegue en todo el país",
-   "url": "https://www.infobae.com/colombia/2026/07/20/desfile-del-20-de-julio-2026-en-vivo-siga-el-minuto-a-minuto-de-la-celebracion-del-dia-de-la-independencia/",
-   "fecha": "2026-07-20T22:14:50+00:00"
   },
   {
    "medio": "Infobae",
@@ -1132,14 +1220,6 @@
    "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Guerra en Medio Oriente EN VIVO: Arabia Saudita condena el bloqueo marítimo de los hutíes",
-   "url": "https://www.infobae.com/america/mundo/2026/07/20/guerra-en-medio-oriente-en-vivo/",
-   "fecha": "2026-07-20T21:49:55+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
    "titulo": "Los campeones del mundo se dan un baño de masas en Madrid al ritmo de DJ Borja Iglesias, bailes, vino y bromas: “Velada del Año VII, Paredes vs Gavi”",
    "url": "https://www.infobae.com/espana/deportes/2026/07/20/los-campeones-del-mundo-se-dan-un-bano-de-masas-en-madrid-al-ritmo-de-dj-borja-iglesias-bailes-vino-y-bromas-velada-del-ano-vii-paredes-vs-gavi/",
    "fecha": "2026-07-20T21:49:20+00:00"
@@ -1353,14 +1433,6 @@
    "fecha": "2026-07-20T21:40:19+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Qué debe priorizar el nuevo Congreso de la República en el periodo 2026 - 2030: las empresas piden eliminar un “impuesto invisible”",
-   "url": "https://www.infobae.com/colombia/2026/07/20/que-debe-priorizar-el-nuevo-congreso-de-la-republica-en-el-periodo-2026-2030-las-empresas-piden-eliminar-un-impuesto-invisible/",
-   "fecha": "2026-07-20T21:39:28+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
@@ -1369,28 +1441,12 @@
    "fecha": "2026-07-20T21:37:22+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Fiscalía investiga a suboficial PNP por disparo que mató a niño de 8 años en Huacho",
-   "url": "https://www.infobae.com/peru/2026/07/20/fiscalia-investiga-a-suboficial-pnp-por-disparo-que-mato-a-nino-de-8-anos-en-huacho/",
-   "fecha": "2026-07-20T21:36:12+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
    "titulo": "Noticias de Texas: actualizaciones sobre la emergencia por inundaciones y anuncios recientes de Abbott",
    "url": "https://www.lanacion.com.ar/estados-unidos/texas/noticias-de-texas-actualizaciones-sobre-la-emergencia-por-inundaciones-y-anuncios-recientes-de-nid20072026/",
    "fecha": "2026-07-20T21:35:15+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La Corte rechazó tratar durante la feria el pedido de Martín Irurzun para seguir como juez después de los 75 años",
-   "url": "https://www.infobae.com/judiciales/2026/07/20/la-corte-rechazo-tratar-durante-la-feria-el-pedido-de-martin-irurzun-para-seguir-como-juez-despues-de-los-75-anos/",
-   "fecha": "2026-07-20T21:35:06+00:00"
   },
   {
    "medio": "Clarín",
@@ -1415,46 +1471,6 @@
    "titulo": "Tenía 25 años y era madre de tres nenas: quién era la mujer que fue asesinada a puñaladas por su ex en Córdoba",
    "url": "https://tn.com.ar/policiales/2026/07/20/tenia-25-anos-y-era-madre-de-tres-nenas-quien-era-la-mujer-que-fue-asesinada-a-punaladas-por-su-ex-en-cordoba/",
    "fecha": "2026-07-20T21:34:31+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Ronaldo, Ronaldinho, los Muppets, Madonna, Justin Bieber, Shakira: Las mejores imágenes del show de medio tiempo de la final",
-   "url": "https://www.infobae.com/fotos/2026/07/20/ronaldo-ronaldinho-los-muppets-madonna-justin-bieber-shakira-las-mejores-imagenes-del-show-de-medio-tiempo-de-la-final/",
-   "fecha": "2026-07-20T21:34:30+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "EN VIVO | Clima CDMX y resto de México hoy lunes 20 de julio: prevén lluvias intensas al norte y chubascos en la capital; Tormenta tropical Fausto se desplaza",
-   "url": "https://www.infobae.com/mexico/2026/07/20/en-vivo-clima-en-cdmx-y-resto-de-mexico-hoy-20-de-julio/",
-   "fecha": "2026-07-20T21:33:39+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Dos millones de aficionados se vuelcan en Madrid con los campeones del mundo",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/20/dos-millones-de-aficionados-se-vuelcan-en-madrid-con-los-campeones-del-mundo/",
-   "fecha": "2026-07-20T21:33:30+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Casación analizará las quejas de la fiscalía contra el traslado de Jones Huala a la cárcel de Esquel",
-   "url": "https://www.infobae.com/judiciales/2026/07/20/casacion-analizara-las-quejas-de-la-fiscalia-contra-el-traslado-de-jones-huala-a-la-carcel-de-esquel/",
-   "fecha": "2026-07-20T21:33:16+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El presidente de Guatemala resalta el aumento de exportaciones y de inversión extranjera",
-   "url": "https://www.infobae.com/america/agencias/2026/07/20/el-presidente-de-guatemala-resalta-el-aumento-de-exportaciones-y-de-inversion-extranjera/",
-   "fecha": "2026-07-20T21:33:12+00:00"
   },
   {
    "medio": "La Tercera",
@@ -2023,14 +2039,6 @@
    "titulo": "Murió un adolescente de 13 años durante los festejos por el triunfo de España en el Mundial",
    "url": "https://www.lanacion.com.ar/el-mundo/murio-un-adolescente-de-13-anos-durante-los-festejos-por-el-triunfo-de-espana-en-el-mundial-nid20072026/",
    "fecha": "2026-07-20T20:33:10+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El homenaje de Cris Morena a Messi y la Selección tras la final del Mundial contra España: “No te digo adiós”",
-   "url": "https://www.lanacion.com.ar/espectaculos/el-homenaje-de-cris-morena-a-messi-y-la-seleccion-tras-la-final-del-mundial-contra-espana-no-te-digo-nid20072026/",
-   "fecha": "2026-07-20T20:32:51+00:00"
   },
   {
    "medio": "La Nación",
@@ -2831,14 +2839,6 @@
    "titulo": "El gobierno de Kast decretó el estado de catástrofe en Chile por un fuerte temporal: hubo cinco muertos y más de 100 mil evacuados",
    "url": "https://tn.com.ar/internacional/2026/07/20/el-gobierno-de-kast-decreto-el-estado-de-catastrofe-en-chile-por-un-fuerte-temporal-hubo-cinco-muertos-y-mas-de-100-mil-evacuados/",
    "fecha": "2026-07-20T18:45:11+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Promociones para salir el Día del Amigo: 2x1 en tragos, karaoke sin cargo, descuentos de 35% en sushi y 25% en pizza",
-   "url": "https://www.lanacion.com.ar/que-sale/promociones-para-salir-el-dia-del-amigo-2x1-en-tragos-karaoke-sin-cargo-descuentos-de-35-en-sushi-y-nid19072026/",
-   "fecha": "2026-07-20T18:42:16+00:00"
   },
   {
    "medio": "El Observador",
@@ -3876,14 +3876,6 @@
    "medio": "La Tercera",
    "pais": "CL",
    "tema": "general",
-   "titulo": "Estados Unidos confirma el inicio de las operaciones para la implementación de zonas piloto en Líbano",
-   "url": "https://www.latercera.com/mundo/noticia/estados-unidos-confirma-el-inicio-de-las-operaciones-para-la-implementacion-de-zonas-piloto-en-libano/",
-   "fecha": "2026-07-20T15:21:10+00:00"
-  },
-  {
-   "medio": "La Tercera",
-   "pais": "CL",
-   "tema": "general",
    "titulo": "Alcalde de Coquimbo cuestiona planificación del gobierno ante emergencia en la zona centro-norte: “No le tomaron el peso”",
    "url": "https://www.latercera.com/nacional/noticia/alcalde-de-coquimbo-cuestiona-planificacion-del-gobierno-ante-emergencia-en-la-zona-norte-no-le-tomaron-el-peso/",
    "fecha": "2026-07-20T15:17:45+00:00"
@@ -4143,6 +4135,14 @@
    "titulo": "La Selección Argentina ya está en el país: Recibimiento con todos los honores",
    "url": "https://www.dobleamarilla.com.ar/selecciones/la-seleccion-argentina-ya-esta-en-el-pais--recibimiento-con-todos-los-honores-_a6a5d96c9509160c97136a0f9",
    "fecha": "2026-07-20T13:35:00+00:00"
+  },
+  {
+   "medio": "Doble Amarilla",
+   "pais": "-",
+   "tema": "Deportes",
+   "titulo": "La celebración de España por la obtención del Mundial 2026 dejó dos fallecidos, heridos y detenidos",
+   "url": "https://www.dobleamarilla.com.ar/por-el-mundo/la-celebracion-de-espana-por-la-obtencion-del-mundial-2026-dejo-dos-fallecidos--heridos-y-detenidos_a6a5e1f7dd36fca4629c7624d",
+   "fecha": "2026-07-20T13:34:52+00:00"
   },
   {
    "medio": "TN",
@@ -4835,7 +4835,7 @@
  ],
  "clusters": [
   {
-   "ckey": "mundial 2026 messi lionel selección",
+   "ckey": "messi lionel mundial selección argentina",
    "n_medios": 9,
    "senal": "divergencia",
    "paises": [
@@ -4843,43 +4843,18 @@
     "CL",
     "UY"
    ],
-   "ventana_min": 1470,
+   "ventana_min": 1290,
    "timing": false,
    "versiones": [
     {
-     "medio": "TN",
-     "titulo": "Quiénes acceden a los préstamos personales de $30.000.000 y las tasas de interés en julio de 2026",
-     "url": "https://tn.com.ar/economia/2026/07/20/quienes-acceden-a-los-prestamos-personales-de-30000000-y-las-tasas-de-interes-en-julio-de-2026/"
-    },
-    {
-     "medio": "Ámbito",
-     "titulo": "España campeón del Mundial 2026, EN VIVO: últimas noticias de la Selección argentina y Messi",
-     "url": "https://www.ambito.com/deportes/espana-campeon-mundial-2026-seleccion-argentina-lionel-messi-scaloni-20-julio"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Instalación del Congreso 2026 EN VIVO: Gustavo Petro llegó al Capitolio Nacional y el presidente del Senado inició su discurso",
-     "url": "https://www.infobae.com/colombia/2026/07/20/instalacion-del-congreso-2026-en-vivo-siga-el-minuto-a-minuto-de-la-apertura-de-la-nueva-legislatura/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "México terminó entre las 10 mejores selecciones del ranking FIFA al término del Mundial 2026",
-     "url": "https://www.infobae.com/mexico/deportes/2026/07/20/mexico-termino-entre-las-10-mejores-selecciones-del-ranking-fifa-al-termino-del-mundial-2026/"
+     "medio": "La Nación",
+     "titulo": "El homenaje de Cris Morena a Messi y la Selección tras la final del Mundial contra España: “No te digo adiós”",
+     "url": "https://www.lanacion.com.ar/espectaculos/el-homenaje-de-cris-morena-a-messi-y-la-seleccion-tras-la-final-del-mundial-contra-espana-no-te-digo-nid20072026/"
     },
     {
      "medio": "La Nación",
      "titulo": "La indignación de Pergolini contra Shakira, Coldplay y los “cooling breaks” en la final del Mundial",
      "url": "https://www.lanacion.com.ar/deportes/futbol/la-indignacion-de-pergolini-contra-shakira-coldplay-y-los-cooling-breaks-en-la-final-del-mundial-nid20072026/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Manifestaciones del 20 de Julio EN VIVO: Gustavo Petro agradeció el masivo apoyo que tuvo en las calles",
-     "url": "https://www.infobae.com/colombia/2026/07/20/manifestaciones-del-20-de-julio-en-vivo-estos-son-los-puntos-de-concentracion-en-las-diferentes-ciudades-del-pais/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Desfile del 20 de Julio 2026 EN VIVO: así fue cómo las Fuerzas Armadas rindieron homenaje al grito de independencia con imponente despliegue en todo el país",
-     "url": "https://www.infobae.com/colombia/2026/07/20/desfile-del-20-de-julio-2026-en-vivo-siga-el-minuto-a-minuto-de-la-celebracion-del-dia-de-la-independencia/"
     },
     {
      "medio": "Ámbito",
@@ -4890,26 +4865,6 @@
      "medio": "Infobae",
      "titulo": "La divertida reacción del futbolista español que recibió el pelotazo de Messi en la final del Mundial 2026",
      "url": "https://www.infobae.com/deportes/2026/07/20/la-divertida-reaccion-del-futbolista-espanol-que-recibio-el-pelotazo-de-messi-en-la-final-del-mundial-2026/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Rosalía disfrutó de la final del Mundial 2026 en Bogotá y su celebración se viralizó en redes sociales",
-     "url": "https://www.infobae.com/colombia/2026/07/20/rosalia-disfruto-de-la-final-del-mundial-2026-en-bogota-y-su-celebracion-se-viralizo-en-redes-sociales/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Qué debe priorizar el nuevo Congreso de la República en el periodo 2026 - 2030: las empresas piden eliminar un “impuesto invisible”",
-     "url": "https://www.infobae.com/colombia/2026/07/20/que-debe-priorizar-el-nuevo-congreso-de-la-republica-en-el-periodo-2026-2030-las-empresas-piden-eliminar-un-impuesto-invisible/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Cuánto cuesta el Toyota Yaris en julio 2026",
-     "url": "https://www.lanacion.com.ar/autos/cuanto-cuesta-el-toyota-yaris-en-julio-2026-nid17072026/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "El homenaje de Cris Morena a Messi y la Selección tras la final del Mundial contra España: “No te digo adiós”",
-     "url": "https://www.lanacion.com.ar/espectaculos/el-homenaje-de-cris-morena-a-messi-y-la-seleccion-tras-la-final-del-mundial-contra-espana-no-te-digo-nid20072026/"
     },
     {
      "medio": "La Nación",
@@ -4937,11 +4892,6 @@
      "url": "https://www.latercera.com/el-deportivo/noticia/el-dolor-es-muy-grande-el-mensaje-de-lionel-messi-a-argentina-tras-perder-la-final-del-mundial-ante-espana/"
     },
     {
-     "medio": "TN",
-     "titulo": "Por qué haber perdido la final del Mundial 2026 no borra el legado de la Selección, según un psicólogo",
-     "url": "https://tn.com.ar/sociedad/psicologia/2026/07/20/alejandro-schujman-psicologo-perder-un-partido-de-ninguna-manera-es-sinonimo-de-fracaso/"
-    },
-    {
      "medio": "La Diaria",
      "titulo": "Lionel Messi: “Va a costar que cierre esta herida”",
      "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/lionel-messi-va-a-costar-que-cierre-esta-herida/"
@@ -4962,19 +4912,9 @@
      "url": "https://www.elobservador.com.uy//mundial-2026/el-conmovedor-mensaje-lionel-messi-perder-la-final-del-mundial-2026-argentina-espana-n6051386"
     },
     {
-     "medio": "Doble Amarilla",
-     "titulo": "Fin de ciclo: Bélgica confirmó la salida de Rudi García tras el final del Mundial 2026",
-     "url": "https://www.dobleamarilla.com.ar/selecciones/fin-de-ciclo--belgica-confirmo-la-salida-de-rudi-garcia-tras-el-final-del-mundial-2026_a6a5e68599c14faaa983d5ca2"
-    },
-    {
      "medio": "Ámbito",
      "titulo": "Las razones por las que Lionel Scaloni debería continuar en la Selección argentina",
      "url": "https://www.ambito.com/deportes/las-razones-las-que-lionel-scaloni-deberia-continuar-la-seleccion-argentina-n6301629"
-    },
-    {
-     "medio": "El Economista",
-     "titulo": "Cómo quedó el ranking FIFA después del Mundial 2026",
-     "url": "https://eleconomista.com.ar/deportes/ranking-fifa-selecciones-mejor-posicionadas-mundial-2026-n96826"
     },
     {
      "medio": "TN",
@@ -4987,19 +4927,9 @@
      "url": "https://www.dobleamarilla.com.ar/mas-alla-del-futbol/el-sentido-mensaje-de-messi-en-sus-redes-sociales-tras-el-enorme-mundial-que-hizo-con-argentina_a6a5e619fd36fca4629c958d2"
     },
     {
-     "medio": "El Economista",
-     "titulo": "Las repercusiones en los medios del mundo tras la victoria de España ante Argentina en la final del Mundial 2026",
-     "url": "https://eleconomista.com.ar/deportes/repercusiones-medios-mundo-argentina-espana-final-mundial-2026-n96825"
-    },
-    {
      "medio": "TN",
      "titulo": "Lionel Messi rompió el silencio tras la derrota ante España en el Mundial: “El dolor es muy grande”",
      "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/20/lionel-messi-rompio-el-silencio-tras-la-derrota-ante-espana-en-la-final-del-mundial-el-dolor-es-muy-grande/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "Cómo es el teléfono que se robó las miradas en la final del Mundial 2026",
-     "url": "https://www.latercera.com/tecnologia/noticia/honor-robot-phone-eric-garcia-final-mundial-2026/"
     },
     {
      "medio": "Ámbito",
@@ -5012,19 +4942,9 @@
      "url": "https://tn.com.ar/deportes/futbol/2026/07/20/rosario-central-aclaro-por-que-no-puso-a-messi-ni-a-scaloni-en-su-posteo-en-agradecimiento-a-la-seleccion-argentina/"
     },
     {
-     "medio": "La Tercera",
-     "titulo": "¿Cómo postular al Subsidio de Arriendo 2026? Revisa los plazos y requisitos",
-     "url": "https://www.latercera.com/servicios/noticia/como-postular-al-subsidio-de-arriendo-2026-revisa-los-plazos-y-requisitos/"
-    },
-    {
      "medio": "Doble Amarilla",
      "titulo": "Lionel Messi fue incluido en el equipo ideal del Mundial 2026: quiénes más lo integraron",
      "url": "https://www.dobleamarilla.com.ar/por-el-mundo/lionel-messi-fue-incluido-en-el-equipo-ideal-del-mundial-2026--quienes-mas-lo-integraron_a6a5e3409d36fca4629c7fd61"
-    },
-    {
-     "medio": "El Economista",
-     "titulo": "¿Cuánto dinero se llevó Argentina por ser subcampeón del Mundial 2026?",
-     "url": "https://eleconomista.com.ar/deportes/premios-economicos-fifa-argentina-subcampeon-mundial-2026-n96823"
     },
     {
      "medio": "TN",
@@ -5032,39 +4952,14 @@
      "url": "https://tn.com.ar/deportes/futbol/2026/07/20/quienes-son-los-futbolistas-de-la-seleccion-argentina-que-no-volveran-al-pais-con-la-delegacion/"
     },
     {
-     "medio": "El Economista",
-     "titulo": "El premio sin precedentes que recibió España por salir campeón del Mundial 2026",
-     "url": "https://eleconomista.com.ar/deportes/cuanto-dinero-se-llevo-espana-campeon-mundial-2026-n96821"
-    },
-    {
      "medio": "La Tercera",
      "titulo": "¿Se despide? Lionel Messi no viaja a Argentina en medio de la incertidumbre sobre su futuro en la Albiceleste",
      "url": "https://www.latercera.com/el-deportivo/noticia/se-despide-lionel-messi-no-viaja-a-argentina-en-medio-de-la-incertidumbre-sobre-su-futuro-en-la-albiceleste/"
     },
     {
-     "medio": "El Economista",
-     "titulo": "El recorrido de España en el Mundial 2026",
-     "url": "https://eleconomista.com.ar/deportes/recorrido-espana-campeon-mundial-2026-n96819"
-    },
-    {
-     "medio": "Doble Amarilla",
-     "titulo": "Estos son los futbolistas que más seguidores consiguieron en el Mundial 2026",
-     "url": "https://www.dobleamarilla.com.ar/por-el-mundo/estos-son-los-futbolistas-que-mas-seguidores-consiguieron-en-el-mundial-2026_a6a5c79bd509160c9712c8271"
-    },
-    {
-     "medio": "Ámbito",
-     "titulo": "Quiénes fueron los ganadores y perdedores del Mundial 2026",
-     "url": "https://www.ambito.com/deportes/quienes-fueron-los-ganadores-y-perdedores-el-mundial-2026-n6301425"
-    },
-    {
      "medio": "TN",
      "titulo": "El futuro de Lionel Messi: la incertidumbre desvela a la Selección y abre interrogantes para los próximos desafíos",
      "url": "https://tn.com.ar/deportes/futbol/2026/07/20/el-futuro-de-lionel-messi-la-incertidumbre-desvela-a-la-seleccion-y-abre-interrogantes-para-los-proximos-desafios/"
-    },
-    {
-     "medio": "El Economista",
-     "titulo": "Quién ganó la Bota de Oro en el Mundial 2026",
-     "url": "https://eleconomista.com.ar/deportes/goleadores-mundial-2026-n95674"
     },
     {
      "medio": "El Observador",
@@ -5075,16 +4970,107 @@
      "medio": "La Diaria",
      "titulo": "Entre lágrimas, Lionel Scaloni dejó en duda su continuidad en Argentina",
      "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/entre-lagrimas-lionel-scaloni-dejo-en-duda-su-continuidad-en-argentina/"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Bota de Oro: Mbappé fue el goleador del Mundial",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/bota-de-oro-mbappe-fue-el-goleador-del-mundial/"
     }
    ]
   },
   {
-   "ckey": "burnham andy reino unido starmer",
+   "ckey": "estados unidos trump donald canadá",
+   "n_medios": 5,
+   "senal": "divergencia",
+   "paises": [
+    "AR",
+    "UY"
+   ],
+   "ventana_min": 1312,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "Estados Unidos impuso nuevos aranceles del 50% a la mayoría de las importaciones procedentes de Canadá",
+     "url": "https://www.infobae.com/estados-unidos/2026/07/20/estados-unidos-impuso-nuevos-aranceles-del-50-a-la-mayoria-de-las-importaciones-procedentes-de-canada/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Estados Unidos lanzó un nuevo ataque contra Irán tras la advertencia de Trump por la muerte de tres soldados",
+     "url": "https://www.infobae.com/estados-unidos/2026/07/20/estados-unidos-lanzo-un-nuevo-ataque-contra-iran-tras-la-advertencia-de-trump-por-la-muerte-de-tres-soldados/"
+    },
+    {
+     "medio": "Clarín",
+     "titulo": "Donald Trump impone aranceles del 50% a la mayoría de las importaciones de Canadá",
+     "url": "https://www.clarin.com/mundo/donald-trump-impone-aranceles-50-mayoria-importaciones-canada_0_9aWF6SZPUD.html"
+    },
+    {
+     "medio": "TN",
+     "titulo": "El mensaje de Donald Trump un día después de la final del Mundial: “Fue un éxito espectacular”",
+     "url": "https://tn.com.ar/internacional/2026/07/20/el-mensaje-de-donald-trump-un-dia-despues-de-la-final-del-mundial-fue-un-exito-espectacular/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Nueva regla para pedir la visa de Estados Unidos: en qué país debe hacerse la entrevista desde ahora",
+     "url": "https://www.lanacion.com.ar/estados-unidos/visas-y-tramites/nueva-regla-para-pedir-la-visa-de-estados-unidos-en-que-pais-debe-hacerse-la-entrevista-desde-ahora-nid20072026/"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Donald Trump anuncio que el nuevo Air Force One será retirado para ser equipado “al máximo”",
+     "url": "https://tn.com.ar/internacional/2026/07/20/donald-trump-anuncio-que-el-nuevo-air-force-one-sera-retirado-para-ser-equipado-al-maximo/"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "Marco Rubio advierte que 12 vehículos Mamba donados por Estados Unidos terminaron en manos de los tupamaros",
+     "url": "https://ladiaria.com.uy/humor/articulo/2026/7/marco-rubio-advierte-que-12-vehiculos-mamba-donados-por-estados-unidos-terminaron-en-manos-de-los-tupamaros/"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "La escalada no se detiene entre Estados Unidos e Irán, cada vez más cerca de desencadenar una guerra regional",
+     "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/la-escalada-no-se-detiene-entre-estados-unidos-e-iran-cada-vez-mas-cerca-de-desencadenar-una-guerra-regional/"
+    }
+   ]
+  },
+  {
+   "ckey": "copa mundo madrid españa argentina",
+   "n_medios": 4,
+   "senal": "divergencia",
+   "paises": [
+    "AR",
+    "UY"
+   ],
+   "ventana_min": 4312,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "La Nación",
+     "titulo": "España festejó la obtención de su segunda Copa del Mundo con un multitudinario desfile por las calles de Madrid",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/espana-festejo-la-obtencion-de-su-segunda-copa-del-mundo-con-un-multitudinario-desfile-por-las-nid20072026/"
+    },
+    {
+     "medio": "Ámbito",
+     "titulo": "La selección de España festeja en Madrid con la Copa del Mundo: recorrido en colectivo descapotable y un escenario con bandas",
+     "url": "https://www.ambito.com/deportes/la-seleccion-espana-llego-madrid-la-copa-del-mundo-n6301452"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Dos millones de personas celebran con la selección española en Madrid la Copa del Mundo",
+     "url": "https://www.infobae.com/espana/agencias/2026/07/20/dos-millones-de-personas-celebran-con-la-seleccion-espanola-en-madrid-la-copa-del-mundo/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Dos millones de personas celebran con la selección española en Madrid la Copa del Mundo",
+     "url": "https://www.infobae.com/america/agencias/2026/07/20/dos-millones-de-personas-celebran-con-la-seleccion-espanola-en-madrid-la-copa-del-mundo/"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "La Copa del Mundo: la tercerización de la felicidad",
+     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/la-copa-del-mundo-la-tercerizacion-de-la-felicidad/"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "Hay finalísima: España y Argentina chocan por la Copa del Mundo",
+     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/hay-finalisima-espana-y-argentina-chocan-por-la-copa-del-mundo/"
+    }
+   ]
+  },
+  {
+   "ckey": "andy burnham unido reino starmer",
    "n_medios": 4,
    "senal": "divergencia",
    "paises": [
@@ -5118,46 +5104,7 @@
    ]
   },
   {
-   "ckey": "estados unidos irán trump líbano",
-   "n_medios": 4,
-   "senal": "divergencia",
-   "paises": [
-    "AR",
-    "CL",
-    "UY"
-   ],
-   "ventana_min": 1257,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "Estados Unidos lanzó un nuevo ataque contra Irán tras la advertencia de Trump por la muerte de tres soldados",
-     "url": "https://www.infobae.com/estados-unidos/2026/07/20/estados-unidos-lanzo-un-nuevo-ataque-contra-iran-tras-la-advertencia-de-trump-por-la-muerte-de-tres-soldados/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Nueva regla para pedir la visa de Estados Unidos: en qué país debe hacerse la entrevista desde ahora",
-     "url": "https://www.lanacion.com.ar/estados-unidos/visas-y-tramites/nueva-regla-para-pedir-la-visa-de-estados-unidos-en-que-pais-debe-hacerse-la-entrevista-desde-ahora-nid20072026/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "Estados Unidos confirma el inicio de las operaciones para la implementación de zonas piloto en Líbano",
-     "url": "https://www.latercera.com/mundo/noticia/estados-unidos-confirma-el-inicio-de-las-operaciones-para-la-implementacion-de-zonas-piloto-en-libano/"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Marco Rubio advierte que 12 vehículos Mamba donados por Estados Unidos terminaron en manos de los tupamaros",
-     "url": "https://ladiaria.com.uy/humor/articulo/2026/7/marco-rubio-advierte-que-12-vehiculos-mamba-donados-por-estados-unidos-terminaron-en-manos-de-los-tupamaros/"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "La escalada no se detiene entre Estados Unidos e Irán, cada vez más cerca de desencadenar una guerra regional",
-     "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/la-escalada-no-se-detiene-entre-estados-unidos-e-iran-cada-vez-mas-cerca-de-desencadenar-una-guerra-regional/"
-    }
-   ]
-  },
-  {
-   "ckey": "zambada mayo cartel sinaloa confirmado",
+   "ckey": "mayo zambada sinaloa cartel ismael",
    "n_medios": 4,
    "senal": "divergencia",
    "paises": [
@@ -5190,7 +5137,7 @@
    ]
   },
   {
-   "ckey": "fifa argentina españa chiqui tapia",
+   "ckey": "fifa argentina españa mundial chiqui",
    "n_medios": 4,
    "senal": "calco",
    "paises": [
@@ -5223,7 +5170,35 @@
    ]
   },
   {
-   "ckey": "lautaro martínez mundial españa argentina",
+   "ckey": "2026 mundial fifa cómo méxico",
+   "n_medios": 3,
+   "senal": "divergencia",
+   "paises": [
+    "AR",
+    "CL"
+   ],
+   "ventana_min": 283,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "México terminó entre las 10 mejores selecciones del ranking FIFA al término del Mundial 2026",
+     "url": "https://www.infobae.com/mexico/deportes/2026/07/20/mexico-termino-entre-las-10-mejores-selecciones-del-ranking-fifa-al-termino-del-mundial-2026/"
+    },
+    {
+     "medio": "El Economista",
+     "titulo": "Cómo quedó el ranking FIFA después del Mundial 2026",
+     "url": "https://eleconomista.com.ar/deportes/ranking-fifa-selecciones-mejor-posicionadas-mundial-2026-n96826"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "Cómo es el teléfono que se robó las miradas en la final del Mundial 2026",
+     "url": "https://www.latercera.com/tecnologia/noticia/honor-robot-phone-eric-garcia-final-mundial-2026/"
+    }
+   ]
+  },
+  {
+   "ckey": "martínez lautaro mundial españa agustina",
    "n_medios": 3,
    "senal": "divergencia",
    "paises": [
@@ -5251,49 +5226,6 @@
      "medio": "TN",
      "titulo": "El desgarrador mensaje que Agustina Gandolfo le mandó a Lautaro Martínez tras la derrota de Argentina en la final del Mundial",
      "url": "https://tn.com.ar/show/famosos/2026/07/20/el-desgarrador-mensaje-que-agustina-gandolfo-le-mando-a-lautaro-martinez-tras-la-derrota-de-argentina-en-la-final-del-mundial/"
-    }
-   ]
-  },
-  {
-   "ckey": "mundo copa madrid españa argentina",
-   "n_medios": 3,
-   "senal": "divergencia",
-   "paises": [
-    "AR",
-    "UY"
-   ],
-   "ventana_min": 4289,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Ámbito",
-     "titulo": "La selección de España festeja en Madrid con la Copa del Mundo: recorrido en colectivo descapotable y un escenario con bandas",
-     "url": "https://www.ambito.com/deportes/la-seleccion-espana-llego-madrid-la-copa-del-mundo-n6301452"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Dos millones de personas celebran con la selección española en Madrid la Copa del Mundo",
-     "url": "https://www.infobae.com/espana/agencias/2026/07/20/dos-millones-de-personas-celebran-con-la-seleccion-espanola-en-madrid-la-copa-del-mundo/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Dos millones de personas celebran con la selección española en Madrid la Copa del Mundo",
-     "url": "https://www.infobae.com/america/agencias/2026/07/20/dos-millones-de-personas-celebran-con-la-seleccion-espanola-en-madrid-la-copa-del-mundo/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Dos millones de aficionados se vuelcan en Madrid con los campeones del mundo",
-     "url": "https://www.infobae.com/espana/agencias/2026/07/20/dos-millones-de-aficionados-se-vuelcan-en-madrid-con-los-campeones-del-mundo/"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "La Copa del Mundo: la tercerización de la felicidad",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/la-copa-del-mundo-la-tercerizacion-de-la-felicidad/"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Hay finalísima: España y Argentina chocan por la Copa del Mundo",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/hay-finalisima-espana-y-argentina-chocan-por-la-copa-del-mundo/"
     }
    ]
   },
@@ -5335,7 +5267,7 @@
    ]
   },
   {
-   "ckey": "yamal lamine tagliafico españa argentina",
+   "ckey": "yamal tagliafico españa lamine mundial",
    "n_medios": 3,
    "senal": "divergencia",
    "paises": [
@@ -5362,7 +5294,7 @@
    ]
   },
   {
-   "ckey": "lubetkin rubio uruguay marco",
+   "ckey": "rubio lubetkin uruguay marco",
    "n_medios": 3,
    "senal": "divergencia",
    "paises": [
@@ -5389,7 +5321,7 @@
    ]
   },
   {
-   "ckey": "leandro paredes españa mundial higgins",
+   "ckey": "paredes leandro españa higgins mundial",
    "n_medios": 3,
    "senal": "divergencia",
    "paises": [
@@ -5444,13 +5376,13 @@
    ]
   },
   {
-   "ckey": "rodrigo paul argentina mundial instalaron",
+   "ckey": "rodrigo paul mundial argentina instalaron",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
     "AR"
    ],
-   "ventana_min": 2,
+   "ventana_min": 4,
    "timing": false,
    "versiones": [
     {
@@ -5466,7 +5398,7 @@
    ]
   },
   {
-   "ckey": "costa rica estados unidos nicaragua",
+   "ckey": "rica costa estados unidos nicaragua",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5525,7 +5457,7 @@
    ]
   },
   {
-   "ckey": "seguro social pago estos 2026",
+   "ckey": "social seguro pago 2026 estos",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5547,7 +5479,7 @@
    ]
   },
   {
-   "ckey": "fernández enzo mundial españa selección",
+   "ckey": "fernández enzo mundial españa cervantes",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5574,29 +5506,7 @@
    ]
   },
   {
-   "ckey": "selección ezeiza argentina mundial",
-   "n_medios": 2,
-   "senal": "divergencia",
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 0,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Doble Amarilla",
-     "titulo": "La Selección Argentina regresó al país y recibió un emotivo homenaje en Ezeiza",
-     "url": "https://www.dobleamarilla.com.ar/selecciones/la-seleccion-argentina-regreso-al-pais-y-recibio-un-emotivo-homenaje-en-ezeiza_a6a5e9cf59c14faaa983efae0"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "La Selección llegó al país tras el segundo lugar en el Mundial: una multitud saluda al plantel afuera de Ezeiza",
-     "url": "https://www.infobae.com/deportes/2026/07/20/la-seleccion-argentina-vuelve-al-pais-en-vivo-que-futbolistas-regresan-y-como-sera-la-recepcion-protocolar-en-ezeiza/"
-    }
-   ]
-  },
-  {
-   "ckey": "nacional interior partido negro carlos",
+   "ckey": "partido nacional interior negro carlos",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5618,7 +5528,7 @@
    ]
   },
   {
-   "ckey": "2030 eliminatorias perú argentina mundial",
+   "ckey": "eliminatorias 2030 perú argentina mundial",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5640,7 +5550,7 @@
    ]
   },
   {
-   "ckey": "mundial 2030 conmebol presidente",
+   "ckey": "conmebol mundial 2030 presidente",
    "n_medios": 2,
    "senal": "calco",
    "paises": [
@@ -5662,7 +5572,7 @@
    ]
   },
   {
-   "ckey": "milei brasil mundial gobierno bolsonaro",
+   "ckey": "brasil milei gobierno mundial bolsonaro",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5685,7 +5595,7 @@
    ]
   },
   {
-   "ckey": "avengers doomsday américa capitán lanzaron",
+   "ckey": "doomsday avengers lanzaron capitán américa",
    "n_medios": 2,
    "senal": "calco",
    "paises": [
@@ -5713,29 +5623,7 @@
    ]
   },
   {
-   "ckey": "martín irurzun corte suprema cámara",
-   "n_medios": 2,
-   "senal": "divergencia",
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 83,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "La Corte rechazó tratar durante la feria el pedido de Martín Irurzun para seguir como juez después de los 75 años",
-     "url": "https://www.infobae.com/judiciales/2026/07/20/la-corte-rechazo-tratar-durante-la-feria-el-pedido-de-martin-irurzun-para-seguir-como-juez-despues-de-los-75-anos/"
-    },
-    {
-     "medio": "Ámbito",
-     "titulo": "La Corte Suprema frenó el intento del juez Martín Irurzun de continuar en la Cámara Federal",
-     "url": "https://www.ambito.com/reves-judicial-el-juez-martin-irurzun-la-corte-no-tratara-la-feria-su-continuidad-como-camarista-n6301682"
-    }
-   ]
-  },
-  {
-   "ckey": "gobierno tapia chiqui millones",
+   "ckey": "gobierno chiqui tapia millones",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5753,33 +5641,6 @@
      "medio": "El Economista",
      "titulo": "Millones de hectáreas bajo el agua: el Gobierno en alerta máxima por la llegada de un fenómeno climático",
      "url": "https://eleconomista.com.ar/economia/millones-hectareas-agua-gobierno-alerta-maxima-llegada-fenomeno-climatico-n96820"
-    }
-   ]
-  },
-  {
-   "ckey": "trump donald canadá mundial force",
-   "n_medios": 2,
-   "senal": "divergencia",
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 276,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Clarín",
-     "titulo": "Donald Trump impone aranceles del 50% a la mayoría de las importaciones de Canadá",
-     "url": "https://www.clarin.com/mundo/donald-trump-impone-aranceles-50-mayoria-importaciones-canada_0_9aWF6SZPUD.html"
-    },
-    {
-     "medio": "TN",
-     "titulo": "El mensaje de Donald Trump un día después de la final del Mundial: “Fue un éxito espectacular”",
-     "url": "https://tn.com.ar/internacional/2026/07/20/el-mensaje-de-donald-trump-un-dia-despues-de-la-final-del-mundial-fue-un-exito-espectacular/"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Donald Trump anuncio que el nuevo Air Force One será retirado para ser equipado “al máximo”",
-     "url": "https://tn.com.ar/internacional/2026/07/20/donald-trump-anuncio-que-el-nuevo-air-force-one-sera-retirado-para-ser-equipado-al-maximo/"
     }
    ]
   },
@@ -5806,7 +5667,7 @@
    ]
   },
   {
-   "ckey": "mundial canal silva 2026",
+   "ckey": "canal mundial silva 2026",
    "n_medios": 2,
    "senal": "calco",
    "paises": [
@@ -5828,7 +5689,7 @@
    ]
   },
   {
-   "ckey": "luis fuente selección española rfef",
+   "ckey": "luis fuente española rfef selección",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5872,7 +5733,7 @@
    ]
   },
   {
-   "ckey": "richarlison españa mundial argentina",
+   "ckey": "argentina richarlison españa mundial",
    "n_medios": 2,
    "senal": "calco",
    "paises": [
@@ -5895,7 +5756,7 @@
    ]
   },
   {
-   "ckey": "2027 gobierno presupuesto paso mundial",
+   "ckey": "2027 gobierno presupuesto paso congreso",
    "n_medios": 2,
    "senal": "divergencia",
    "paises": [
@@ -5961,7 +5822,7 @@
    ]
   },
   {
-   "ckey": "keegan kevin balón liverpool falleció",
+   "ckey": "keegan balón kevin hamburgo falleció",
    "n_medios": 2,
    "senal": "calco",
    "paises": [
@@ -6003,6 +5864,28 @@
      "url": "https://ladiaria.com.uy/politica/articulo/2026/7/uruguay-envio-otras-15-toneladas-de-ayuda-humanitaria-a-venezuela/"
     }
    ]
+  },
+  {
+   "ckey": "bota mundial 2026 quién mbappé",
+   "n_medios": 2,
+   "senal": "divergencia",
+   "paises": [
+    "UY"
+   ],
+   "ventana_min": 776,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "El Economista",
+     "titulo": "Quién ganó la Bota de Oro en el Mundial 2026",
+     "url": "https://eleconomista.com.ar/deportes/goleadores-mundial-2026-n95674"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "Bota de Oro: Mbappé fue el goleador del Mundial",
+     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/bota-de-oro-mbappe-fue-el-goleador-del-mundial/"
+    }
+   ]
   }
  ],
  "primicias": [
@@ -6023,14 +5906,6 @@
    "unicos": 6
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "titulo": "Ronaldo, Ronaldinho, los Muppets, Madonna, Justin Bieber, Shakira: Las mejores imágenes del show de medio tiempo de la final",
-   "url": "https://www.infobae.com/fotos/2026/07/20/ronaldo-ronaldinho-los-muppets-madonna-justin-bieber-shakira-las-mejores-imagenes-del-show-de-medio-tiempo-de-la-final/",
-   "fecha": "2026-07-20T21:34:30+00:00",
-   "unicos": 5
-  },
-  {
    "medio": "TN",
    "pais": "AR",
    "titulo": "La hija de Elina y Eduardo Costantini ya marca tendencia: los minilooks de Kahlo en Saint-Tropez",
@@ -6045,6 +5920,22 @@
    "url": "https://www.latercera.com/culto/noticia/geoff-tate-presenta-en-chile-operation-mindcrime-the-final-chapter/",
    "fecha": "2026-07-20T16:31:21+00:00",
    "unicos": 5
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "titulo": "Jimena Barón relató su odisea para llegar en avión privado a la final del Mundial con ayuda de Ian Lucas y Juli Poggio",
+   "url": "https://www.infobae.com/teleshow/2026/07/20/jimena-baron-relato-su-odisea-para-llegar-en-avion-privado-a-la-final-del-mundial-con-ayuda-de-ian-lucas-y-juli-poggio/",
+   "fecha": "2026-07-20T22:42:08+00:00",
+   "unicos": 4
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "titulo": "EN VIVO | Bloqueos en carreteras, accidentes y manifestaciones hoy 20 de julio: buen avance sobre Avenida Paseo de la Reforma",
+   "url": "https://www.infobae.com/mexico/2026/07/20/en-vivo-bloqueos-en-carreteras-accidentes-y-manifestaciones-hoy-20-de-julio/",
+   "fecha": "2026-07-20T22:41:39+00:00",
+   "unicos": 4
   },
   {
    "medio": "Infobae",
@@ -6092,14 +5983,6 @@
    "titulo": "EN VIVO | Seguridad, narcotráfico y crimen en México hoy lunes 20 de julio: Vinculan a proceso al “Tirador de la Vía Atlixcáyotl”, seguirá preso en el penal de San Miguel",
    "url": "https://www.infobae.com/mexico/2026/07/20/en-vivo-seguridad-narcotrafico-y-crimen-en-mexico-hoy-lunes-20-de-julio-el-mayo-zambada-recibira-cadena-perpetua-en-nueva-york-hoy-enfrenta-su-ultima-audiencia-publica/",
    "fecha": "2026-07-20T21:50:34+00:00",
-   "unicos": 4
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "titulo": "Stefano Marconi Sgroi, el niño de 9 años que es fan de Colapinto y tiene el coeficiente intelectual más alto del país",
-   "url": "https://www.lanacion.com.ar/sociedad/stefano-marconi-sgroi-el-nino-de-9-anos-que-es-fan-de-colapinto-y-tiene-el-coeficiente-intelectual-nid18072026/",
-   "fecha": "2026-07-20T21:45:00+00:00",
    "unicos": 4
   }
  ]
