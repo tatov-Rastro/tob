@@ -35,7 +35,9 @@
   nav{border-right:1px solid var(--line);padding:14px 10px;background:#0f0d11;display:flex;flex-direction:column;gap:2px}
   nav .lbl{font-size:10px;text-transform:uppercase;letter-spacing:2px;color:var(--mut2);padding:6px 10px 8px}
   .elem{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:9px;color:var(--mut);font-weight:500;font-size:13.5px}
-  .elem .ic{width:18px;text-align:center;opacity:.8}
+  .elem .ic{width:18px;height:18px;display:flex;align-items:center;justify-content:center;opacity:.75}
+  .elem .ic svg{width:16px;height:16px;display:block}
+  .elem.on .ic{opacity:1}
   .elem.on{background:var(--panel2);color:var(--ink)}
   .elem.soon{opacity:.5}
   .elem.soon::after{content:'pronto';margin-left:auto;font-family:var(--mono);font-size:9px;color:var(--mut2);border:1px solid var(--line);border-radius:6px;padding:1px 5px}
@@ -80,11 +82,17 @@
   .nota .t{font-size:12px;line-height:1.35}
   .nota .m{font-family:var(--mono);font-size:9.5px;color:var(--mut2);margin-top:2px}
   /* ── tarjetas de grieta P1 ── */
-  .pais-sec{margin:4px 2px 12px}
-  .pais-h{display:flex;align-items:center;gap:9px;padding:7px 6px;position:sticky;top:0;background:var(--panel);z-index:2;border-bottom:1px solid var(--line)}
+  .pais-sec{margin:6px 2px}
+  .pais-h{display:flex;align-items:center;gap:9px;padding:9px 8px;background:var(--panel2);border:1px solid var(--line);
+        border-radius:10px;cursor:pointer;user-select:none}
+  .pais-h:hover{background:var(--panel3)}
   .pais-h .flag{font-size:15px}
   .pais-h .name{font-weight:700;font-size:13px;letter-spacing:.3px}
   .pais-h .cnt{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--mut)}
+  .pais-h .chev{color:var(--mut2);transition:transform .15s;font-size:12px;margin-left:8px}
+  .pais-sec.open>.pais-h .chev{transform:rotate(90deg)}
+  .pais-body{display:none;padding-top:2px}
+  .pais-sec.open>.pais-body{display:block}
   .grieta{border:1px solid var(--line);border-radius:12px;margin:8px 2px;overflow:hidden;background:var(--panel2)}
   .grieta.divergencia{border-left:3px solid var(--red)}
   .grieta.calco{border-left:3px solid var(--amber)}
@@ -114,6 +122,10 @@
         line-height:1.3;outline:none;color:var(--ink)}
   .red .titular:empty:before{content:attr(data-ph);color:var(--mut2);font-weight:400;font-size:12.5px}
   .red .titular:focus{border-style:solid;border-color:var(--mut)}
+  .expl{margin:0 12px 10px}
+  .expl .lab{font-size:9.5px;text-transform:uppercase;letter-spacing:1.4px;color:var(--mut2);margin-bottom:4px}
+  .expl .txt{font-size:12px;line-height:1.45;color:var(--mut);border-left:2px solid var(--line);padding-left:9px}
+  .expl .p2{display:block;margin-top:5px;font-family:var(--mono);font-size:9px;color:var(--mut2);letter-spacing:.2px}
   /* énfasis */
   .enf{display:flex;align-items:center;gap:8px;margin:0 12px 10px}
   .enf .lab{font-size:9.5px;text-transform:uppercase;letter-spacing:1.4px;color:var(--mut2)}
@@ -156,12 +168,12 @@
 <div class="wrap">
   <nav>
     <div class="lbl">Elementos</div>
-    <div class="elem soon"><span class="ic">▤</span>Medios</div>
-    <div class="elem soon"><span class="ic">◫</span>Programas</div>
-    <div class="elem on"><span class="ic">▦</span>Góndola</div>
-    <div class="elem soon"><span class="ic">⚙</span>Motor</div>
-    <div class="elem soon"><span class="ic">▣</span>Bandeja</div>
-    <div class="elem soon"><span class="ic">✎</span>Bitácora</div>
+    <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>Medios</div>
+    <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></span>Programas</div>
+    <div class="elem on"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3.5" y1="6" x2="3.5" y2="6"/><line x1="3.5" y1="12" x2="3.5" y2="12"/><line x1="3.5" y1="18" x2="3.5" y2="18"/></svg></span>Góndola</div>
+    <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>Motor</div>
+    <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></span>Bandeja</div>
+    <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span>Bitácora</div>
     <div class="foot">P1 no arma el dato.<br>entrega la grieta<br>y las ganas de armar.</div>
   </nav>
 
@@ -300,14 +312,15 @@ function pintar(d, live){
     const claves=Object.keys(porPais).sort((a,b)=>{
       const ia=orden.indexOf(a), ib=orden.indexOf(b); return (ia<0?9:ia)-(ib<0?9:ib);
     });
-    const secciones = claves.map(p=>{
+    const secciones = claves.map((p,idx)=>{
       const arr=porPais[p].sort((x,y)=>(y.c.timing?1:0)-(x.c.timing?1:0)||y.c.n_medios-x.c.n_medios);
       const info=PAIS[p]||{f:'',n:p};
       const grietas=arr.filter(o=>tipoDe(o.c)!=='coro').length;
-      return `<div class="pais-sec">
-        <div class="pais-h"><span class="flag">${info.f}</span><span class="name">${esc(info.n)}</span>
-          <span class="cnt">${grietas} grietas · ${arr.length} costuras</span></div>
-        ${arr.map(o=>grietaCard(o.c,o.i)).join('')}
+      return `<div class="pais-sec ${idx===0?'open':''}">
+        <div class="pais-h" onclick="this.parentNode.classList.toggle('open')">
+          <span class="flag">${info.f}</span><span class="name">${esc(info.n)}</span>
+          <span class="cnt">${grietas} grietas · ${arr.length} costuras</span><span class="chev">›</span></div>
+        <div class="pais-body">${arr.map(o=>grietaCard(o.c,o.i)).join('')}</div>
       </div>`;
     }).join('');
     const primHTML = prims.length ? `<div class="grupo-h">Primicia solitaria · ${prims.length} · un medio solo</div>`+
@@ -328,6 +341,16 @@ function proponerTitular(c, tipo){
   if(tipo==='calco')       return `${k}: todos lo publican igual — ¿de dónde salió?`;
   return `${k}: el coro lo tapa — dónde está la esquirla`;
 }
+// la explicación: por qué es grieta y qué tendría que confirmar P2 después del buceo
+function explicarGrieta(c, tipo){
+  const n=c.n_medios;
+  let base;
+  if(tipo==='divergencia') base=`${n} medios cuentan lo mismo distinto — hay disputa.`;
+  else if(tipo==='calco')  base=`${n} medios publican casi igual — huele a una sola fuente.`;
+  else                     base=`${n} medios en coro — saturación, algo queda tapado.`;
+  if(c.timing) base+=` Publicaron casi juntos${c.ventana_min!=null?' ('+c.ventana_min+" min)":''} — posible coordinación.`;
+  return base;
+}
 
 function grietaCard(c, i){
   const tipo=tipoDe(c);
@@ -346,6 +369,12 @@ function grietaCard(c, i){
       <div class="lab">La redacción · un titular que orienta — las ganas de armar</div>
       <div class="titular" contenteditable="true" data-ph="una idea que oriente hacia dónde va…"
            oninput="ESTADO[${i}].red=this.textContent">${esc(st.red)}</div>
+    </div>
+    <div class="expl">
+      <div class="lab">La explicación · por qué es grieta</div>
+      <div class="txt">${explicarGrieta(c,tipo)}
+        <span class="p2">P1 la propone · P2 la actualiza tras el buceo, cuando confirma que hay data para armar datos.</span>
+      </div>
     </div>
     ${coro}
     <div class="armado">

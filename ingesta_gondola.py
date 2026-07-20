@@ -212,14 +212,16 @@ def correr():
     primicias = []
     for i in range(N):
         if i in en_cluster: continue
+        tit = notas[i]["titulo"]
         unicos = [t for t in props[i] if df[t] == 1 and len(t) >= 5]
-        if len(unicos) >= 2:                      # 2+ nombres que nadie más nombró = historia propia
-            primicias.append(dict(
-                medio=notas[i]["medio"], pais=notas[i]["pais"],
-                titulo=notas[i]["titulo"], url=notas[i]["url"], fecha=notas[i]["fecha"],
-                unicos=len(unicos)))
-    primicias.sort(key=lambda p: p["unicos"], reverse=True)
-    primicias = primicias[:12]
+        # primicia = historia PROPIA y focalizada: pocos nombres específicos, no un refrito de agencia
+        if not (2 <= len(unicos) <= 4): continue
+        if tit.count(',') >= 2 or tit.lower().count(' y ') >= 2: continue
+        primicias.append(dict(
+            medio=notas[i]["medio"], pais=notas[i]["pais"],
+            titulo=tit, url=notas[i]["url"], fecha=notas[i]["fecha"], unicos=len(unicos)))
+    primicias.sort(key=lambda p: p["fecha"], reverse=True)   # la más nueva primero
+    primicias = primicias[:10]
 
     total = c.execute("SELECT COUNT(*) FROM notas").fetchone()[0]
     payload = dict(
