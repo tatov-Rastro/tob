@@ -160,16 +160,18 @@ def correr():
         ra, rb = find(a), find(b)
         if ra != rb: parent[max(ra, rb)] = min(ra, rb)
 
-    RARO = 6                       # un propio en <=6 notas es discriminante: cose directo
+    # pares candidatos: comparten propios discriminantes (ignoramos tokens ultra-comunes = temas, no historias)
     shared = Counter()
     for tok, idxs in inv.items():
-        if len(idxs) < 2: continue
-        if df[tok] <= RARO:
-            for k in idxs[1:]: union(idxs[0], k)
-        if len(idxs) <= 30:        # además: pares que comparten 2+ propios = misma noticia
-            for a, b in combinations(idxs, 2): shared[(a, b)] += 1
+        if len(idxs) < 2 or len(idxs) > 40: continue
+        for a, b in combinations(sorted(set(idxs)), 2): shared[(a, b)] += 1
+    def parecido(a, b):
+        return SequenceMatcher(None, notas[a]["titulo"].lower(), notas[b]["titulo"].lower()).ratio()
+    # cose SÓLO si además los títulos se parecen: misma noticia, no mismo tema
     for (a, b), sh in shared.items():
-        if sh >= 2: union(a, b)
+        s = parecido(a, b)
+        if (sh >= 2 and s >= 0.34) or (sh >= 1 and s >= 0.50):
+            union(a, b)
 
     grupos = defaultdict(list)
     for i in range(N): grupos[find(i)].append(i)
