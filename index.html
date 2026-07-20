@@ -362,7 +362,7 @@ function explicarGrieta(c, tipo){
 
 function grietaCard(c, i){
   const tipo=tipoDe(c);
-  const st=ESTADO[i]||(ESTADO[i]={red:proponerTitular(c,tipo)});
+  const st=ESTADO[i]||(ESTADO[i]={red: c.titular || proponerTitular(c,tipo)});
   const flags=(c.paises||[]).map(flag).join('');
   const coro = tipo==='coro' ? `<div class="coro-note">Coro / tema caliente: ${c.n_medios} medios cantando lo mismo. No es una grieta única — la esquirla está adentro de la costura.</div>` : '';
   return `<div class="grieta ${tipo}">

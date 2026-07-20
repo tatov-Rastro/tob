@@ -33,6 +33,38 @@ OUT  = "gondola.json"
 #   modo "p1"   → corre la costura/detectores en los horarios fijos (08/13/18)
 MODO = (sys.argv[1] if len(sys.argv) > 1 else "p1").lower()
 
+# ── PASO CREATIVO: un LLM escribe el titular que orienta (el gancho), no la plantilla.
+#    Se activa SOLO si existe ANTHROPIC_API_KEY. Si no, cae en la plantilla del admin.
+try:
+    import anthropic
+except Exception:
+    anthropic = None
+MODELO = os.environ.get("TOB_MODEL", "claude-3-5-haiku-latest")
+_llm = None
+def _cliente():
+    global _llm
+    if _llm is None and anthropic and os.environ.get("ANTHROPIC_API_KEY"):
+        _llm = anthropic.Anthropic()
+    return _llm
+
+def titular_creativo(versiones):
+    cli = _cliente()
+    if not cli:
+        return None
+    titulos = "\n".join("- " + v["titulo"] for v in versiones[:6])
+    prompt = ("Varios medios cubren la MISMA noticia. Estos son sus títulos:\n" + titulos +
+        "\n\nEscribí UN solo titular en español rioplatense, breve (máximo 12 palabras), creativo y "
+        "periodístico, que tire el gancho de la historia y oriente hacia dónde puede ir. "
+        "NO menciones que los medios coinciden o difieren; ese no es el tema. "
+        "Devolvé solo el titular, sin comillas ni explicación.")
+    try:
+        m = cli.messages.create(model=MODELO, max_tokens=40,
+            messages=[{"role": "user", "content": prompt}])
+        return m.content[0].text.strip().strip('"').strip()
+    except Exception as ex:
+        print(f"  ⚠ titular LLM: {ex.__class__.__name__} — cae en plantilla")
+        return None
+
 # ─────────────────────────────────────────────────────────────
 # EL CORO — generalistas por país + especialistas por tema.
 # (RSS de referencia; ajustá la URL si un medio cambia su feed.)
@@ -274,6 +306,10 @@ def correr():
             versiones=[dict(medio=v["medio"], titulo=v["titulo"], url=v["url"]) for v in vers],
         ))
     clusters.sort(key=lambda c: (c["timing"], c["n_medios"]), reverse=True)
+
+    # ── el gancho: el LLM escribe el titular de cada grieta (si hay key; si no, None → plantilla) ──
+    for cl in clusters:
+        cl["titular"] = titular_creativo(cl["versiones"])
 
     # ── PRIMICIA SOLITARIA: un medio solo, con nombres propios que ningún otro menciona ──
     primicias = []
