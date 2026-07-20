@@ -152,13 +152,13 @@
     <div class="elem soon"><span class="ic">⚙</span>Motor</div>
     <div class="elem soon"><span class="ic">▣</span>Bandeja</div>
     <div class="elem soon"><span class="ic">✎</span>Bitácora</div>
-    <div class="foot">la grieta vive<br>en la costura fina.<br>el coro es otra señal.</div>
+    <div class="foot">P1 no arma el dato.<br>entrega la grieta<br>y las ganas de armar.</div>
   </nav>
 
   <main>
     <div class="viewhead">
       <h1>Góndola</h1>
-      <p>Izquierda: el insumo real, ordenado por país y medio (sin scroll eterno). Derecha: P1 corriendo, las grietas por país. Cada una abre su armado —la costura visible— y ahí le escribís el titular y elegís el énfasis.</p>
+      <p>Izquierda: el insumo real, ordenado por país y medio (sin scroll eterno). Derecha: P1 corriendo, las grietas por país. Cada una trae su costura visible y una redacción: un titular que todavía no arma el dato — solo orienta hacia dónde puede ir.</p>
     </div>
     <div id="banner"></div>
     <div class="cols">
@@ -297,11 +297,22 @@ function pintar(d, live){
   }
 }
 
+function titulizar(ckey){
+  return (ckey||'').split(' ').slice(0,3).map(w=>w?w[0].toUpperCase()+w.slice(1):w).join(' ');
+}
+// P1 propone un titular: NO arma el dato, solo orienta hacia dónde puede ir (las ganas de armar)
+function proponerTitular(c, tipo){
+  const k = titulizar(c.ckey);
+  if(tipo==='divergencia') return `${k}: los medios no coinciden — hay algo abajo`;
+  if(tipo==='calco')       return `${k}: todos lo publican igual — ¿de dónde salió?`;
+  return `${k}: el coro lo tapa — dónde está la esquirla`;
+}
+
 function grietaCard(c, i){
   const tipo=tipoDe(c);
-  const st=ESTADO[i]||(ESTADO[i]={red:'',enf:''});
+  const st=ESTADO[i]||(ESTADO[i]={red:proponerTitular(c,tipo)});
   const flags=(c.paises||[]).map(flag).join('');
-  const coro = tipo==='coro' ? `<div class="coro-note">Coro / tema caliente: ${c.n_medios} medios cantando lo mismo. No es una grieta única — abrí el armado y partila en subnotas.</div>` : '';
+  const coro = tipo==='coro' ? `<div class="coro-note">Coro / tema caliente: ${c.n_medios} medios cantando lo mismo. No es una grieta única — la esquirla está adentro de la costura.</div>` : '';
   return `<div class="grieta ${tipo}">
     <div class="gtop">
       <span class="tag ${tipo}">${tipo}</span>
@@ -310,19 +321,14 @@ function grietaCard(c, i){
       <span class="keys">${esc(c.ckey)}</span>
     </div>
     <div class="red">
-      <div class="lab">Redacción · el titular que vende la grieta</div>
-      <div class="titular" contenteditable="true" data-ph="Escribí acá el titular propio (no el del medio)…"
+      <div class="lab">La redacción · un titular que orienta — las ganas de armar</div>
+      <div class="titular" contenteditable="true" data-ph="una idea que oriente hacia dónde va…"
            oninput="ESTADO[${i}].red=this.textContent">${esc(st.red)}</div>
-    </div>
-    <div class="enf">
-      <span class="lab">Énfasis</span>
-      <button class="${st.enf==='golpe'?'on':''}" onclick="setEnf(${i},'golpe',this)">golpe <span class="sub">· un impacto</span></button>
-      <button class="${st.enf==='stepper'?'on':''}" onclick="setEnf(${i},'stepper',this)">stepper <span class="sub">· por pasos</span></button>
     </div>
     ${coro}
     <div class="armado">
       <div class="ah" onclick="this.parentNode.classList.toggle('open')">
-        <span class="chev">›</span> armado · ${(c.versiones||[]).length} versiones · la costura
+        <span class="chev">›</span> la costura · ${(c.versiones||[]).length} versiones
       </div>
       <div class="versiones">
         ${(c.versiones||[]).map(v=>`<a class="ver" href="${esc(v.url)}" target="_blank" rel="noopener">
@@ -330,13 +336,6 @@ function grietaCard(c, i){
       </div>
     </div>
   </div>`;
-}
-
-function setEnf(i, val, btn){
-  ESTADO[i].enf = (ESTADO[i].enf===val ? '' : val);
-  const wrap=btn.parentNode;
-  wrap.querySelectorAll('button').forEach(b=>b.classList.remove('on'));
-  if(ESTADO[i].enf) btn.classList.add('on');
 }
 
 async function cargar(){
