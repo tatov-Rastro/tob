@@ -176,10 +176,20 @@ def correr():
     grupos = defaultdict(list)
     for i in range(N): grupos[find(i)].append(i)
 
-    clusters = []
+    def spread_min(vers):                        # ventana entre la 1ª y la última publicación
+        fs = []
+        for v in vers:
+            try: fs.append(datetime.fromisoformat(v["fecha"]))
+            except Exception: pass
+        if len(fs) < 2: return None
+        fs.sort()
+        return int((fs[-1] - fs[0]).total_seconds() // 60)
+
+    clusters = []; en_cluster = set()
     for _, idxs in grupos.items():
         medios = {notas[i]["medio"] for i in idxs}
         if len(medios) < 2: continue            # grieta = costura entre >=2 medios
+        en_cluster.update(idxs)
         vers = [notas[i] for i in idxs]
         tits = [v["titulo"] for v in vers]
         sim = 0.0; pares = 0                     # calco vs divergencia = parecido entre títulos
@@ -188,19 +198,38 @@ def correr():
         senal = "calco" if (pares and sim/pares >= 0.55) else "divergencia"
         pc = Counter(tok for i in idxs for tok in props[i])
         ckey = " ".join(t for t, _ in pc.most_common(5)) or "—"
+        vmin = spread_min(vers)                   # TIMING: publicaron casi juntos = coordinación
+        timing = bool(vmin is not None and len(medios) >= 3 and vmin <= 45)
         clusters.append(dict(
             ckey=ckey, n_medios=len(medios), senal=senal,
             paises=sorted({v["pais"] for v in vers if v["pais"] and v["pais"] != '-'}),
+            ventana_min=vmin, timing=timing,
             versiones=[dict(medio=v["medio"], titulo=v["titulo"], url=v["url"]) for v in vers],
         ))
-    clusters.sort(key=lambda c: c["n_medios"], reverse=True)
+    clusters.sort(key=lambda c: (c["timing"], c["n_medios"]), reverse=True)
+
+    # ── PRIMICIA SOLITARIA: un medio solo, con nombres propios que ningún otro menciona ──
+    primicias = []
+    for i in range(N):
+        if i in en_cluster: continue
+        unicos = [t for t in props[i] if df[t] == 1 and len(t) >= 5]
+        if len(unicos) >= 2:                      # 2+ nombres que nadie más nombró = historia propia
+            primicias.append(dict(
+                medio=notas[i]["medio"], pais=notas[i]["pais"],
+                titulo=notas[i]["titulo"], url=notas[i]["url"], fecha=notas[i]["fecha"],
+                unicos=len(unicos)))
+    primicias.sort(key=lambda p: p["unicos"], reverse=True)
+    primicias = primicias[:12]
 
     total = c.execute("SELECT COUNT(*) FROM notas").fetchone()[0]
     payload = dict(
         generado=ahora, ventana_horas=VENTANA_HORAS, cadencia_p1_horas=6,
         totales=dict(notas=total, medios=len(por_medio), clusters=len(clusters),
-                     vistas=vistos, nuevas=nuevas),
-        notas=notas, clusters=clusters,
+                     primicias=len(primicias), vistas=vistos, nuevas=nuevas),
+        # los 6 detectores del motor. fuente=poder y silencio esperan las fuentes oficiales en la ingesta.
+        detectores=dict(activos=["calco", "divergencia", "coro", "timing", "primicia"],
+                        pendientes=["fuente=poder", "silencio"]),
+        notas=notas, clusters=clusters, primicias=primicias,
     )
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
@@ -213,8 +242,10 @@ def correr():
     print(f"  vistas esta corrida: {vistos}   ·  nuevas: {nuevas}")
     print(f"  medios activos     : {len(por_medio)}")
     print(f"  clusters (>=2 medios): {len(clusters)}   ← acá empieza P1 (la costura)")
+    print(f"  primicias solitarias : {len(primicias)}   ·  con timing: {sum(1 for c in clusters if c['timing'])}")
     for cl in clusters[:12]:
-        print(f"    · {cl['n_medios']} medios [{cl['senal']}]  →  {cl['ckey'][:48]}")
+        t = " ⏱" if cl['timing'] else ""
+        print(f"    · {cl['n_medios']} medios [{cl['senal']}{t}]  →  {cl['ckey'][:46]}")
     print("="*60)
     print(f"  escrito: {OUT}  ({os.path.getsize(OUT)//1024} KB)")
     c.close()

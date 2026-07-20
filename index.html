@@ -94,6 +94,16 @@
   .tag.divergencia{color:var(--red);border:1px solid rgba(240,64,42,.4)}
   .tag.calco{color:var(--amber);border:1px solid rgba(240,180,41,.4)}
   .tag.coro{color:var(--blue);border:1px solid rgba(76,165,255,.4)}
+  .tag.timing{color:var(--green);border:1px solid rgba(34,208,138,.45)}
+  .legend{display:flex;flex-wrap:wrap;gap:6px;padding:9px 12px;border-bottom:1px solid var(--line);align-items:center}
+  .legend .lgt{font-family:var(--mono);font-size:9px;color:var(--mut2);text-transform:uppercase;letter-spacing:1.4px;margin-right:2px}
+  .legend .lg{font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--mut)}
+  .legend .lg.off{opacity:.4;text-decoration:line-through}
+  .grupo-h{font-family:var(--mono);font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1.4px;padding:12px 8px 4px;border-top:1px solid var(--line);margin-top:8px}
+  .prim{border:1px solid var(--line);border-left:3px solid var(--mut);border-radius:11px;margin:7px 2px;padding:9px 12px;background:var(--panel2)}
+  .prim .pt{font-size:12.5px;line-height:1.35;display:block}
+  .prim .pm{font-family:var(--mono);font-size:9.5px;color:var(--mut2);margin-top:4px}
+  .prim .pm b{color:var(--mut);font-weight:500}
   .gtop .nmed{font-family:var(--mono);font-size:12px;font-weight:600}
   .gtop .keys{font-family:var(--mono);font-size:10.5px;color:var(--mut);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .gtop .fl{font-size:11px}
@@ -139,7 +149,7 @@
   <div class="brand"><b>TOB</b><span>Administrador general</span></div>
   <div class="spacer"></div>
   <div class="chiph" id="win">ventana 72 h</div>
-  <div class="chiph" id="cad">P1 cada 6 h</div>
+  <div class="chiph" id="cad">P1 · 08 y 15 h</div>
   <div class="estado"><span class="dot" id="edot"></span><span id="etxt">cargando…</span></div>
 </header>
 
@@ -223,7 +233,7 @@ function pintar(d, live){
     document.getElementById('banner').innerHTML='<div class="banner">Todavía no corrió la ingesta en este server. En cuanto el workflow «Góndola + P1» corra, este panel se llena con dato real de las últimas 72 h.</div>';
   }
   document.getElementById('win').textContent='ventana '+d.ventana_horas+' h';
-  document.getElementById('cad').textContent='P1 cada '+(d.cadencia_p1_horas||6)+' h';
+  document.getElementById('cad').textContent='P1 · 08 y 15 h';
 
   const notas=d.notas||[], clusters=d.clusters||[];
   // ── stats ──
@@ -274,9 +284,15 @@ function pintar(d, live){
     }).join('');
   }
 
-  // ── P1: grietas por país ──
+  // ── P1: los 6 detectores ──
   const px=document.getElementById('p1');
-  if(!clusters.length){ px.innerHTML='<div class="empty">P1 todavía no encontró la misma noticia en 2+ medios.</div>'; }
+  const det=d.detectores||{activos:['calco','divergencia','coro','timing','primicia'],pendientes:['fuente=poder','silencio']};
+  const legend='<div class="legend"><span class="lgt">6 detectores</span>'+
+    (det.activos||[]).map(x=>`<span class="lg">${esc(x)}</span>`).join('')+
+    (det.pendientes||[]).map(x=>`<span class="lg off" title="necesita las fuentes oficiales conectadas a la ingesta">${esc(x)}</span>`).join('')+
+    '</div>';
+  const prims=d.primicias||[];
+  if(!clusters.length && !prims.length){ px.innerHTML=legend+'<div class="empty">P1 todavía no encontró costura ni primicias.</div>'; }
   else{
     const orden=['AR','UY','CL','REG'];
     const porPais={};
@@ -284,8 +300,8 @@ function pintar(d, live){
     const claves=Object.keys(porPais).sort((a,b)=>{
       const ia=orden.indexOf(a), ib=orden.indexOf(b); return (ia<0?9:ia)-(ib<0?9:ib);
     });
-    px.innerHTML = claves.map(p=>{
-      const arr=porPais[p].sort((x,y)=>y.c.n_medios-x.c.n_medios);
+    const secciones = claves.map(p=>{
+      const arr=porPais[p].sort((x,y)=>(y.c.timing?1:0)-(x.c.timing?1:0)||y.c.n_medios-x.c.n_medios);
       const info=PAIS[p]||{f:'',n:p};
       const grietas=arr.filter(o=>tipoDe(o.c)!=='coro').length;
       return `<div class="pais-sec">
@@ -294,6 +310,11 @@ function pintar(d, live){
         ${arr.map(o=>grietaCard(o.c,o.i)).join('')}
       </div>`;
     }).join('');
+    const primHTML = prims.length ? `<div class="grupo-h">Primicia solitaria · ${prims.length} · un medio solo</div>`+
+      prims.map(p=>`<a class="prim" href="${esc(p.url)}" target="_blank" rel="noopener">
+        <span class="pt">${esc(p.titulo)}</span>
+        <span class="pm"><b>${esc(p.medio)}</b> ${flag(p.pais)} · ${esc(fmtHora(p.fecha))} · ${p.unicos} nombres que nadie más nombró</span></a>`).join('') : '';
+    px.innerHTML = legend + secciones + primHTML;
   }
 }
 
@@ -316,6 +337,7 @@ function grietaCard(c, i){
   return `<div class="grieta ${tipo}">
     <div class="gtop">
       <span class="tag ${tipo}">${tipo}</span>
+      ${c.timing?`<span class="tag timing">⏱ timing${c.ventana_min!=null?' · '+c.ventana_min+"'":''}</span>`:''}
       <span class="nmed">${c.n_medios}×</span>
       <span class="fl">${flags}</span>
       <span class="keys">${esc(c.ckey)}</span>
