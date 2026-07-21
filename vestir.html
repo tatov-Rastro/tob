@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<script type="application/json" id="cowork-artifact-meta">
+{
+  "name": "Tob Supra Admin Alta Medio",
+  "schemaVersion": 1,
+  "description": "Supra Admin de TOB — alta de un medio como entrevista dirigida por el link. Al registrar la URL, genera la lista de preguntas para llenar cada campo (Identidad, Misión/dolor, Perfil de motor: categoría·GPS·feed, Vestido, Programas), con estado por campo: verde=del link, ámbar=a confirmar, rojo=te pregunto. Editable, con + para agregar, ? explicativo por línea, barra de progreso viva. Poblado con El Observador real. Interno.",
+  "mcpTools": [],
+  "mcpServerNames": []
+}
+</script>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TOB · Dar de alta un medio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Instrument+Sans:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0a0c;--panel:#141216;--panel2:#17151a;
+    --txt:#F2EFE7;--mut:#C7C9C5;--mut2:#8A8E96;--mutw:#8A8172;
+    --red:#F0402A;--green:#22D08A;--amber:#F0B429;
+    --line:rgb(from var(--txt) r g b / .12);
+    --disp:'Archivo',system-ui,sans-serif;--mono:'IBM Plex Mono',monospace;
+    --r-sm:8px;--r-md:12px;--r-lg:16px;--r-pill:999px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:var(--disp);-webkit-font-smoothing:antialiased;line-height:1.45}
+  .app{width:1000px;max-width:100%;margin:0 auto;padding:0 22px 70px}
+  .sess{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:11px;color:var(--mut2)}
+  .sess .mark{font-family:var(--disp);font-weight:900;font-size:17px;color:var(--txt)}.sess .mark b{color:var(--red)}
+  .sess .bc b{color:var(--txt)}.sess .who{margin-left:auto;display:flex;align-items:center;gap:8px}
+  .sess .dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+  h1.title{font-size:26px;font-weight:800;letter-spacing:-.015em;margin:22px 0 4px}
+  .subt{font-size:14px;color:var(--mut)}
+  .linkbar{margin-top:20px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px 20px}
+  .lab{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--red);margin-bottom:6px}
+  .labhelp{font-size:13px;color:var(--mut);margin-bottom:12px}
+  .lrow{display:flex;gap:10px;flex-wrap:wrap}
+  input,select{background:var(--panel2);border:1px solid var(--line);border-radius:var(--r-sm);color:var(--txt);font-family:var(--disp);font-size:14px;padding:9px 12px;outline:none}
+  input:focus,select:focus{border-color:rgb(from var(--red) r g b /.5)}
+  .lrow input{flex:1;min-width:240px;font-family:var(--mono);font-size:13px}
+  .btn{font-family:var(--mono);font-size:12.5px;border-radius:var(--r-pill);padding:11px 20px;cursor:pointer;border:1px solid var(--line);background:var(--panel2);color:var(--mut)}
+  .btn:hover{color:var(--txt);border-color:var(--mut2)}
+  .btn.primary{background:var(--red);color:#0F1012;border-color:var(--red);font-weight:700}
+  .build{display:none;margin-top:18px;gap:16px}.build.on{display:flex}
+  .preview{flex:none;width:290px;background:#1a1a1a;border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;transition:background .8s}
+  .pv-bar{min-height:44px;display:flex;align-items:center;gap:10px;padding:0 16px;background:#2a2a2a;transition:background .8s}
+  .pv-mono{width:26px;height:26px;border-radius:6px;background:#555;color:#111;font-weight:700;font-style:italic;display:flex;align-items:center;justify-content:center;font-size:13px;font-family:'Instrument Sans',sans-serif;transition:.8s}
+  .pv-word{font-family:'Instrument Sans',sans-serif;font-weight:700;text-transform:uppercase;font-size:12px;color:#888;transition:color .8s}
+  .pv-body{padding:18px 16px;min-height:92px;background:#141414;transition:background .8s}
+  .pv-body .l{height:9px;border-radius:4px;background:#333;margin-bottom:9px;transition:background .8s}
+  .pv-body .l.a{width:75%}.pv-body .l.b{width:90%}.pv-body .l.c{width:55%}
+  .pv-tag{font-family:var(--mono);font-size:9px;color:var(--mut2);padding:8px 16px;border-top:1px solid rgba(255,255,255,.06)}
+  .preview.dressed{background:#f2f2ef}.preview.dressed .pv-bar{background:#0c0d0e}
+  .preview.dressed .pv-mono{background:#5fbb46;color:#0c0d0e}.preview.dressed .pv-word{color:#fff}
+  .preview.dressed .pv-body{background:#f2f2ef}
+  .preview.dressed .l.a{background:#003a31}.preview.dressed .l.b{background:#c9c9c2}.preview.dressed .l.c{background:#f46f30}
+  .status{flex:1;display:flex;flex-direction:column;justify-content:center;gap:12px;font-family:var(--mono)}
+  .st-line{font-size:14px;color:var(--txt);display:flex;align-items:center;gap:10px}
+  .sp{width:14px;height:14px;border:2px solid var(--line);border-top-color:var(--red);border-radius:50%;animation:spin .7s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .st-sub{font-size:12px;color:var(--mut2)}
+  .prog{display:none;gap:10px;flex-wrap:wrap;margin:22px 0 6px;align-items:center}.prog.on{display:flex}
+  .pill{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:var(--r-pill);padding:6px 14px;color:var(--mut2)}
+  .pill b{font-size:14px}.pill.g b{color:var(--green)}.pill.a b{color:var(--amber)}.pill.r b{color:var(--red)}
+  .bar{flex:1;min-width:150px;height:8px;background:var(--panel2);border:1px solid var(--line);border-radius:99px;overflow:hidden;position:relative}
+  .bar .fg{position:absolute;left:0;top:0;bottom:0;background:var(--green);transition:width .35s}
+  /* SECCIÓN colapsable */
+  .sec{margin-top:12px;border:1px solid var(--line);border-radius:var(--r-md);background:var(--panel);overflow:hidden}
+  .sec.esencial{border-color:rgb(from var(--red) r g b /.28)}
+  .sec-head{display:flex;align-items:center;gap:12px;padding:14px 16px;cursor:pointer;user-select:none}
+  .sec-head:hover{background:var(--panel2)}
+  .chev{font-family:var(--mono);font-size:12px;color:var(--mut2);transition:transform .18s;flex:none}
+  .sec.open .chev{transform:rotate(90deg)}
+  .sec-ht{flex:1;min-width:0}
+  .sec-h{font-size:16px;font-weight:800;letter-spacing:-.01em}
+  .sec.esencial .sec-h::before{content:'●';color:var(--red);font-size:9px;vertical-align:2px;margin-right:8px}
+  .sec-sub{font-size:12px;color:var(--mut2);margin-top:2px}
+  .sec-badge{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.05em;padding:3px 9px;border-radius:var(--r-pill);flex:none}
+  .sec-badge.esencial{background:rgb(from var(--red) r g b /.12);color:var(--red)}
+  .sec-badge.auto{background:rgb(from var(--green) r g b /.12);color:var(--green)}
+  .sec-badge.opcional{background:rgb(from var(--txt) r g b /.07);color:var(--mut2)}
+  .sec-body{display:none;padding:0 16px 14px}
+  .sec.open .sec-body{display:block}
+  .q{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--mut2);border-radius:var(--r-md);padding:12px 14px;margin-bottom:9px;display:flex;gap:12px;align-items:flex-start}
+  .q.link{border-left-color:var(--green)}.q.prop{border-left-color:var(--amber)}.q.pend{border-left-color:var(--red)}.q.done{border-left-color:var(--green)}
+  .ico{font-family:var(--mono);font-size:14px;flex:none;width:18px;text-align:center;padding-top:2px}
+  .q.link .ico,.q.done .ico{color:var(--green)}.q.prop .ico{color:var(--amber)}.q.pend .ico{color:var(--red)}
+  .qbody{flex:1;min-width:0}
+  .qq{font-size:14.5px;color:var(--txt);font-weight:700;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .help{width:18px;height:18px;border-radius:50%;border:1px solid var(--line);color:var(--mut2);font-family:var(--mono);font-size:11px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;flex:none}
+  .help:hover{color:var(--txt);border-color:var(--red)}
+  .qsub{font-size:12px;color:var(--mut);margin-top:3px;line-height:1.4}
+  .qhelp{font-family:var(--mono);font-size:11px;color:var(--amber);background:rgb(from var(--amber) r g b /.07);border:1px solid rgb(from var(--amber) r g b /.25);border-radius:var(--r-sm);padding:8px 11px;margin-top:8px;line-height:1.5;display:none}.qhelp.on{display:block}
+  .ans{margin-top:10px}.ans>input,.ans>select{width:100%}
+  .pick{display:flex;gap:7px;flex-wrap:wrap}
+  .opt{font-size:13px;border:1px solid var(--line);border-radius:var(--r-pill);padding:7px 14px;color:var(--mut);cursor:pointer;user-select:none;transition:.1s;background:var(--panel)}
+  .opt:hover{color:var(--txt);border-color:var(--mut2)}
+  .opt.sel{background:rgb(from var(--green) r g b /.13);border-color:rgb(from var(--green) r g b /.5);color:var(--green);font-weight:600}
+  .opt.sel::before{content:'✓ ';font-family:var(--mono)}
+  .opt.add{border-style:dashed;color:var(--mut2)}.opt.add:hover{color:var(--red);border-color:var(--red)}
+  .writein{margin-top:8px;display:none}.writein.on{display:flex;gap:8px}.writein input{flex:1}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{font-size:12.5px;border:1px solid var(--line);border-radius:var(--r-pill);padding:6px 12px;color:var(--mut);display:flex;align-items:center;gap:7px;background:var(--panel)}
+  .chip .x{color:var(--mut2);cursor:pointer}.chip .x:hover{color:var(--red)}
+  .addbtn{font-size:12px;background:none;border:1px dashed var(--line);border-radius:var(--r-pill);padding:6px 13px;color:var(--mut2);cursor:pointer}
+  .addbtn:hover{color:var(--txt);border-color:var(--red)}
+  .stlbl{font-family:var(--mono);font-size:9px;text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:5px;margin-left:auto;flex:none}
+  .stlbl.link{background:rgb(from var(--green) r g b /.14);color:var(--green)}.stlbl.prop{background:rgb(from var(--amber) r g b /.14);color:var(--amber)}.stlbl.pend{background:rgb(from var(--red) r g b /.14);color:var(--red)}
+  .precond{margin-top:16px;display:flex;align-items:center;gap:11px;background:rgb(from var(--green) r g b /.06);border:1px solid rgb(from var(--green) r g b /.35);border-radius:var(--r-md);padding:12px 16px;font-size:13px;color:var(--mut);opacity:0;transition:opacity .4s}.precond.show{opacity:1}.precond b{color:var(--green)}
+  .alta{margin-top:22px;display:flex;justify-content:flex-end;opacity:0;transition:opacity .4s}.alta.show{opacity:1}
+  .btn.go{background:var(--green);color:#06130d;border-color:var(--green);font-weight:700;font-size:13px}
+  .esencial-lbl{margin-top:22px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+  .resto-lbl{margin-top:24px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut2)}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--mut2);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .lg{display:inline-flex;align-items:center;gap:6px}.lg .d{width:9px;height:9px;border-radius:50%}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="sess">
+    <span class="mark">TO<b>B</b></span>
+    <span class="bc"><a href="index.html#medios" style="color:inherit;text-decoration:none">← Panel · <b>Medios</b></a> › Dar de alta</span>
+    <span class="who"><span class="dot"></span>vos, del equipo</span>
+  </div>
+  <h1 class="title">Demos de alta un medio</h1>
+  <div class="subt">Pegá el link. Arriba, lo <b>importante</b> para elegir. El resto queda <b>plegado</b> — lo abrís solo si hace falta.</div>
+
+  <div class="linkbar">
+    <div class="lab">Empecemos por el link</div>
+    <div class="labhelp">Pegá la web del medio. De ahí sacamos casi todo solos.</div>
+    <div class="lrow">
+      <input id="url" value="https://www.elobservador.com.uy" spellcheck="false">
+      <button class="btn primary" id="analizar">Leer el sitio →</button>
+    </div>
+  </div>
+
+  <div class="build" id="build">
+    <div class="preview" id="preview">
+      <div class="pv-bar"><div class="pv-mono" id="pvMono">·</div><div class="pv-word" id="pvWord">medio</div></div>
+      <div class="pv-body"><div class="l a"></div><div class="l b"></div><div class="l c"></div></div>
+      <div class="pv-tag" id="pvTag">esperando el link…</div>
+    </div>
+    <div class="status">
+      <div class="st-line"><span class="sp" id="sp"></span><span id="stMain">Leyendo el sitio…</span></div>
+      <div class="st-sub" id="stSub">Dejamos arriba lo importante para elegir; lo demás, plegado.</div>
+    </div>
+  </div>
+
+  <div class="prog" id="prog">
+    <span class="pill g">listo <b id="cG">0</b></span>
+    <span class="pill a">elegí <b id="cA">0</b></span>
+    <span class="pill r">falta <b id="cP">0</b></span>
+    <div class="bar"><div class="fg" id="fg" style="width:0%"></div></div>
+    <span class="pill" style="border:none"><b id="pct" style="color:var(--txt)">0%</b> listo</span>
+  </div>
+
+  <div id="body"></div>
+
+  <footer>
+    <span class="lg"><span class="d" style="background:var(--red)"></span>lo importante, arriba</span>
+    <span class="lg"><span class="d" style="background:var(--green)"></span>lo del sitio, plegado</span>
+    <span style="margin-left:auto">tocá una sección para abrir/cerrar · el <b>?</b> te da un ejemplo</span>
+  </footer>
+</div>
+
+<script>
+const DATA=[
+ // ── ESENCIALES (abiertos) ──
+ {sec:'¿Qué tipo de programa vas a hacer?', tier:'esencial', open:1, note:'lo más importante — define qué sale a buscar el sistema', qs:[
+   {q:'¿Qué clase de programa es?', sub:'Elegí. Cada tipo apunta a un dolor de la gente.', st:'prop', pick:1, multi:1, opts:['De bolsillo (precios, sueldos)','De denuncia / investigación','De servicio (cómo te afecta)','De salud','Local / tu barrio','Deportivo','Cultural'], sel:[], write:1,
+    help:'El norte del programa: qué dolor atiende. Ej.: “de bolsillo” persigue precios y tarifas; “de denuncia” persigue al poder.'},
+ ]},
+ {sec:'¿De qué temas habla?', tier:'esencial', open:1, note:'ya marcamos los de su web — sumá o sacá', qs:[
+   {q:'Temas que cubre', sub:'Tocá para marcar o desmarcar.', st:'link', pick:1, multi:1, opts:['Economía','Política','Sociedad','Internacional','Deportes','Cultura','Policiales','Tecnología'], sel:['Economía','Política','Sociedad','Internacional'], write:1},
+ ]},
+ {sec:'¿Desde dónde mira?', tier:'esencial', open:1, note:'qué lugar le importa', qs:[
+   {q:'Lugar que le importa', sub:'Elegí.', st:'link', pick:1, opts:['Todo el país','Sobre todo la capital','Una región'], sel:['Sobre todo la capital']},
+   {q:'¿Seguimos la noticia si pasa lejos de la capital?', sub:'Elegí.', st:'prop', pick:1, opts:['Sí','No'], sel:['Sí'],
+    help:'Ej.: una inundación en un pueblo chico — seguir a la gente afectada, no quedarse en el centro.'},
+ ]},
+ {sec:'¿Con qué medios compara?', tier:'esencial', open:1, note:'la clave para descubrir lo que un medio esconde', qs:[
+   {q:'Otros medios para comparar', sub:'Miramos cómo lo contaron varios, no uno solo.', st:'link', list:['El País','La Diaria','Montevideo Portal','Búsqueda','Subrayado','uy.press'],
+    help:'Si nueve dicen “alivio a los abuelos” y uno dice “rebaja a las empresas”, esa diferencia es la grieta. Con uno solo no se ve.'},
+ ]},
+ // ── SECUNDARIOS (plegados) ──
+ {sec:'El medio', tier:'auto', open:0, note:'ya salió del sitio — abrí solo si querés revisar', qs:[
+   {q:'¿Cómo se llama?', sub:'El nombre que sale al aire.', st:'link', a:'El Observador'},
+   {q:'¿Es el medio principal o un programa?', sub:'Elegí.', st:'link', pick:1, opts:['Medio principal','Programa'], sel:['Medio principal']},
+   {q:'¿Su web y sus redes?', sub:'El sitio y el usuario.', st:'link', a:'elobservador.com.uy · @ObservadorUY'},
+ ]},
+ {sec:'Estilo y ajustes finos', tier:'opcional', open:0, note:'opcional — afinás si querés', qs:[
+   {q:'¿Qué tipo de medio es?', sub:'El estilo con que cuenta. Marcá uno o varios.', st:'prop', pick:1, multi:1, opts:['Explainer','Noticioso puro','Crítico informal','Investigativo','De servicio','Opinión'], sel:['Explainer'], write:1,
+    help:'“Explainer” explica el porqué; “noticioso puro” da el hecho seco; “crítico informal” mira con tono relajado.'},
+   {q:'¿Cuánto se enfoca en su dolor?', sub:'Elegí.', st:'prop', pick:1, opts:['Un poco','Bastante','Es su bandera'], sel:['Bastante']},
+   {q:'¿Cuáles son los temas principales?', sub:'Elegí 1 o 2 — más volumen para esos.', st:'prop', pick:1, multi:1, opts:['Economía','Política','Sociedad','Internacional'], sel:['Economía','Política']},
+ ]},
+ {sec:'Cómo se ve', tier:'opcional', open:0, note:'la cara — casi todo salió del sitio', qs:[
+   {q:'¿Qué colores usa?', sub:'Del sitio.', st:'link', a:'verde pino · naranja · fondo claro'},
+   {q:'¿Letra con o sin adornos?', sub:'Elegí.', st:'pend', pick:1, opts:['Con adornos (serif)','Sin adornos (sans)'], sel:[]},
+   {q:'¿El color exacto de la marca?', sub:'El exacto lo tenés vos.', st:'pend', a:'', ph:'ej. #003a31',
+    help:'Ese código fino no se saca bien de una captura. Pedíselo al medio.'},
+   {q:'¿El archivo del logo?', sub:'Se sube — no sale de la web.', st:'pend', a:'', ph:'subir logo'},
+ ]},
+ {sec:'Programas y formas de salir', tier:'opcional', open:0, note:'un medio puede tener varios', qs:[
+   {q:'¿Programa principal?', sub:'Usa la misma línea que el medio.', st:'link', a:'Rastro'},
+   {q:'¿Algún programa con su propia línea?', sub:'Ej.: deportes, que mira otros temas y otros medios.', st:'prop', pick:1, multi:1, opts:['Referí (deportes)','Ninguno por ahora'], sel:['Referí (deportes)'], write:1},
+   {q:'¿En qué formas sale?', sub:'Radio, TV, podcast…', st:'link', pick:1, multi:1, opts:['Radio','TV / Streaming','Podcasts','Solo web'], sel:['Radio','TV / Streaming','Podcasts']},
+ ]},
+];
+
+const body=document.getElementById('body');
+let uid=0, allRows=[];
+function rowHTML(x){
+  const id='q'+(uid++); const st=x.st;
+  const stl={link:'ya está',prop:'elegí',pend:'falta'}[st];
+  let ans='';
+  if(x.pick){
+    const chips=x.opts.map(o=>`<span class="opt ${(x.sel||[]).includes(o)?'sel':''}" data-opt data-multi="${x.multi?1:0}">${o}</span>`).join('');
+    const add=x.write?`<span class="opt add" data-writebtn="${id}">✎ otro</span>`:'';
+    ans=`<div class="pick" data-multi="${x.multi?1:0}">${chips}${add}</div>`+(x.write?`<div class="writein" id="w-${id}"><input placeholder="escribí y Enter" data-writein="${id}"></div>`:'');
+  } else if(x.list){
+    ans=`<div class="chips" data-list="${id}">`+x.list.map(v=>`<span class="chip">${v} <span class="x" data-x>×</span></span>`).join('')+`<button class="addbtn" data-add="${id}">+ agregar medio</button></div>`;
+  } else if(st==='pend'){ ans=`<input data-q="${id}" value="${x.a||''}" placeholder="${x.ph||'escribí acá'}">`; }
+  else { ans=`<input data-q="${id}" value="${x.a||''}">`; }
+  const help=x.help?`<span class="help" data-help="${id}">?</span>`:'';
+  const hb=x.help?`<div class="qhelp" id="h-${id}">💡 ${x.help}</div>`:'';
+  return `<div class="q ${st}" data-st="${st}">
+    <div class="ico">${st==='link'?'✓':st==='prop'?'~':'◻'}</div>
+    <div class="qbody"><div class="qq">${x.q} ${help}<span class="stlbl ${st}">${stl}</span></div>
+      <div class="qsub">${x.sub}</div>${hb}<div class="ans">${ans}</div></div></div>`;
+}
+function secHTML(g){
+  const badge=g.tier==='auto'?'✓ del sitio':g.tier==='esencial'?'importante':'opcional';
+  return `<div class="sec ${g.tier} ${g.open?'open':''}">
+    <div class="sec-head" data-toggle><span class="chev">▸</span>
+      <div class="sec-ht"><div class="sec-h">${g.sec}</div><div class="sec-sub">${g.note}</div></div>
+      <span class="sec-badge ${g.tier}">${badge}</span></div>
+    <div class="sec-body">${g.qs.map(rowHTML).join('')}</div></div>`;
+}
+// ── leer el medio del link (?medio=tob|observador) ──
+const MED = {
+  tob:        {nombre:'TOB',           mono:'TOB', dom:'tob.lat',            url:'https://tob.lat',                 fresh:true},
+  observador: {nombre:'El Observador', mono:'EO',  dom:'elobservador.com.uy',url:'https://www.elobservador.com.uy', fresh:false}
+};
+const _mk = (new URLSearchParams(location.search).get('medio')||'observador').toLowerCase();
+const _m = MED[_mk] || MED.observador;
+document.getElementById('url').value = _m.url;
+// para un medio sin ficha cargada (ej. TOB), el alta arranca FRESCA: sin respuestas del link
+if(_m.fresh){
+  DATA.forEach(g=>(g.qs||[]).forEach(q=>{
+    if(q.st==='link'||q.st==='auto') q.st='pend';  // ya no viene del link → falta
+    if('a' in q) q.a='';            // sin respuesta todavía
+    if(q.sel) q.sel=[];             // sin selección
+    if(q.list) q.list=[];           // sin medios de comparación cargados
+  }));
+}
+
+function buildBody(){
+  const esen=DATA.filter(g=>g.tier==='esencial'), resto=DATA.filter(g=>g.tier!=='esencial');
+  body.innerHTML=`<div class="esencial-lbl">Lo importante — para elegir ahora</div>`+esen.map(secHTML).join('')
+    +`<div class="resto-lbl">Lo demás — plegado, abrí si hace falta</div>`+resto.map(secHTML).join('')
+    +`<div class="precond" id="precond"><span>👍</span> <b>Ya cargamos los medios para comparar</b> — el sistema puede empezar. <span style="color:var(--mut2)">(Sin varios medios, no se puede.)</span></div>`
+    +`<div class="alta" id="altarow"><button class="btn go">Dar de alta ${_m.nombre} →</button></div>`;
+  allRows=[...document.querySelectorAll('.q')];
+}
+const cG=document.getElementById('cG'),cA=document.getElementById('cA'),cP=document.getElementById('cP'),fg=document.getElementById('fg');
+function rowFilled(r){
+  const s=r.dataset.st;
+  if(s==='link')return true;
+  const p=r.querySelector('.pick'); if(p) return !!p.querySelector('.opt.sel');
+  if(s==='prop')return true;
+  const inp=r.querySelector('input[data-q]'); if(inp){const v=(inp.value||'').trim();return v&&v!=='—';}
+  return false;
+}
+function recount(){
+  let g=0,a=0,p=0;
+  allRows.forEach(r=>{ const filled=rowFilled(r); r.classList.toggle('done', filled && r.dataset.st!=='link');
+    if(r.dataset.st==='link'||filled)g++; else if(r.dataset.st==='prop')a++; else p++; });
+  cG.textContent=g;cA.textContent=a;cP.textContent=p;
+  const tot=allRows.length||1; const pct=Math.round(g/tot*100); fg.style.width=pct+'%'; document.getElementById('pct').textContent=pct+'%';
+}
+function analizar(){
+  buildBody();
+  document.getElementById('build').classList.add('on'); document.getElementById('prog').classList.add('on');
+  const set=(m,s)=>{document.getElementById('stMain').textContent=m; if(s)document.getElementById('stSub').textContent=s;};
+  document.getElementById('pvTag').textContent='leyendo '+_m.dom+'…';
+  set('Leyendo el sitio…','Nombre, temas, ciudad, colores.');
+  setTimeout(()=>{ document.getElementById('preview').classList.add('dressed');
+    document.getElementById('pvMono').textContent=_m.mono; document.getElementById('pvWord').textContent=_m.nombre;
+    document.getElementById('pvTag').textContent='se pinta con la cara del medio';
+    set('Poniéndole la cara del medio…','Toma sus colores y su letra.'); },650);
+  setTimeout(()=>{ set('Armando la ficha…','Arriba lo importante para elegir; el resto, plegado.');
+    document.getElementById('sp').style.display='none';
+    recount();
+    setTimeout(()=>{ document.getElementById('precond')?.classList.add('show'); document.getElementById('altarow')?.classList.add('show'); },200);
+  },1250);
+}
+document.getElementById('analizar').onclick=()=>{ document.getElementById('analizar').textContent='Leer de nuevo'; analizar(); };
+
+document.addEventListener('click',e=>{
+  const tog=e.target.closest('[data-toggle]'); if(tog){ tog.closest('.sec').classList.toggle('open'); return; }
+  const opt=e.target.closest('[data-opt]'); if(opt){ const grp=opt.closest('.pick'); const multi=grp.dataset.multi==='1';
+    if(multi) opt.classList.toggle('sel'); else { grp.querySelectorAll('.opt[data-opt]').forEach(o=>o.classList.remove('sel')); opt.classList.add('sel'); }
+    recount(); return; }
+  const wb=e.target.closest('[data-writebtn]'); if(wb){ const w=document.getElementById('w-'+wb.dataset.writebtn); w.classList.toggle('on'); w.querySelector('input')?.focus(); return; }
+  const h=e.target.closest('[data-help]'); if(h){ document.getElementById('h-'+h.dataset.help).classList.toggle('on'); return; }
+  const add=e.target.closest('[data-add]'); if(add){ const w=document.querySelector('[data-list="'+add.dataset.add+'"]'); const c=document.createElement('span'); c.className='chip'; c.innerHTML='nuevo medio <span class="x" data-x>×</span>'; w.insertBefore(c,add); return; }
+  const x=e.target.closest('[data-x]'); if(x){ x.closest('.chip').remove(); }
+});
+document.addEventListener('keydown',e=>{
+  const wi=e.target.closest('[data-writein]'); if(!wi||e.key!=='Enter')return;
+  const v=(wi.value||'').trim(); if(!v)return;
+  const grp=wi.closest('.qbody').querySelector('.pick');
+  const chip=document.createElement('span'); chip.className='opt sel'; chip.setAttribute('data-opt',''); chip.setAttribute('data-multi',grp.dataset.multi); chip.textContent=v;
+  grp.querySelector('.opt.add').before(chip); wi.value=''; wi.closest('.writein').classList.remove('on'); recount();
+});
+document.addEventListener('input',e=>{ if(e.target.closest('input[data-q]')) recount(); });
+</script>
+</body>
+</html>

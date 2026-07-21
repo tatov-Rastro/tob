@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TOB · Negocio del medio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0a0c;--panel:#141216;--panel2:#1b181d;--panel3:#211d24;--line:#2a262e;
+--ink:#f4f1ee;--mut:#9a9298;--mut2:#6f676d;--red:#F0402A;--green:#22D08A;--amber:#F0B429;--blue:#4CA5FF;
+--mono:'IBM Plex Mono',ui-monospace,monospace;--sans:'Archivo',system-ui,sans-serif;}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45}
+.mono{font-family:var(--mono)}
+a{color:inherit}
+.sess{display:flex;align-items:center;gap:14px;padding:12px 20px;border-bottom:1px solid var(--line);
+background:linear-gradient(180deg,#141216,#0f0d11)}
+.mark{font-weight:800;font-size:17px;letter-spacing:.5px}.mark b{color:var(--red)}
+.bc{color:var(--mut);font-size:12px}.bc a{text-decoration:none}.bc a:hover{color:var(--ink)}
+.who{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--mut);display:flex;align-items:center;gap:7px}
+.who .dot{width:8px;height:8px;border-radius:50%;background:var(--green)}
+.wrap{max-width:960px;margin:0 auto;padding:18px 20px 80px}
+.head{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+.logo{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;flex-shrink:0}
+.logo.tob{background:var(--red);color:#fff}.logo.obs{background:#0a2a43;color:#7db9e8;border:1px solid #14456b}
+h1{margin:0;font-size:22px;font-weight:800}
+.sub{color:var(--mut);font-size:12.5px;margin-top:2px}
+.badge{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:1px;border-radius:6px;padding:2px 8px;margin-left:8px}
+.badge.propio{color:var(--green);border:1px solid rgba(34,208,138,.4)}
+.badge.cliente{color:var(--blue);border:1px solid rgba(76,165,255,.4)}
+/* alerta headline */
+.alert{display:flex;align-items:center;gap:12px;margin:14px 0 6px;padding:12px 15px;border-radius:12px;border:1px solid var(--line);font-size:13px}
+.alert .ai{font-size:18px}
+.alert.ok{border-color:rgba(34,208,138,.4);background:rgba(34,208,138,.06)}
+.alert.amb{border-color:rgba(240,180,41,.4);background:rgba(240,180,41,.07)}
+.alert.red{border-color:rgba(240,64,42,.45);background:rgba(240,64,42,.07)}
+.alert b{color:var(--ink)}
+/* resumen */
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:10px 0 18px}
+.sc{background:var(--panel);padding:13px 15px}
+.sc .k{font-size:9.5px;text-transform:uppercase;letter-spacing:1.3px;color:var(--mut2);margin-bottom:5px}
+.sc .v{font-size:16px;font-weight:700}
+.sc .v.mono{font-family:var(--mono);font-size:14px}
+.sc .v.amber{color:var(--amber)}.sc .v.green{color:var(--green)}.sc .v.red{color:var(--red)}
+/* secciones */
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;margin:0 0 14px;overflow:hidden}
+.ch{display:flex;align-items:center;gap:9px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.ch h2{margin:0;font-size:14px;font-weight:700}
+.ch .st{width:8px;height:8px;border-radius:50%}
+.st.ok{background:var(--green)}.st.amb{background:var(--amber)}.st.no{background:var(--red)}
+.ch .tag{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+.cb{padding:6px 4px}
+.row{display:flex;gap:10px;padding:9px 14px;border-bottom:1px solid var(--panel3)}
+.row:last-child{border-bottom:0}
+.row .rk{color:var(--mut);min-width:150px;font-size:12.5px;flex-shrink:0}
+.row .rv{font-size:13px}
+.row .rv.mono{font-family:var(--mono);font-size:12px}
+.row .rv .pend{color:var(--amber)}.row .rv .none{color:var(--mut2)}
+/* pipeline estado */
+.pipe{display:flex;gap:6px;flex-wrap:wrap;padding:12px 14px}
+.step{font-family:var(--mono);font-size:11px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);color:var(--mut2)}
+.step.done{color:var(--green);border-color:rgba(34,208,138,.35)}
+.step.now{color:var(--ink);border-color:var(--amber);background:rgba(240,180,41,.1);font-weight:700}
+.step.warn{color:var(--red);border-color:rgba(240,64,42,.4)}
+/* barra recursos */
+.res{padding:12px 14px}
+.reslab{display:flex;justify-content:space-between;font-size:12px;color:var(--mut);margin-bottom:6px}
+.reslab b{color:var(--ink)}
+.bar{height:9px;background:var(--panel3);border-radius:6px;overflow:hidden}
+.bar i{display:block;height:100%}
+.bar i.ok{background:var(--green)}.bar i.amb{background:var(--amber)}.bar i.red{background:var(--red)}
+.bar.pend{background:repeating-linear-gradient(45deg,var(--panel3),var(--panel3) 6px,#26222a 6px,#26222a 12px)}
+.resnote{font-size:11.5px;color:var(--mut);margin-top:8px;line-height:1.5}
+.resnote b{color:var(--ink)}
+.sig{display:flex;gap:8px;flex-wrap:wrap;padding:10px 14px}
+.sig .s{font-family:var(--mono);font-size:11px;padding:4px 10px;border-radius:8px;border:1px solid var(--line);color:var(--mut)}
+.sig .s.warn{color:var(--amber);border-color:rgba(240,180,41,.4)}
+.sig .s.bad{color:var(--red);border-color:rgba(240,64,42,.4)}
+.instr{margin:6px 14px 12px;padding:9px 12px;border:1px dashed rgba(240,180,41,.4);background:rgba(240,180,41,.05);border-radius:9px;font-size:11.5px;color:var(--amber);line-height:1.5}
+.instr b{color:var(--ink)}
+.switch{display:flex;gap:8px;margin-left:auto}
+.switch a{font-family:var(--mono);font-size:11px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:3px 11px;text-decoration:none}
+.switch a.on{color:var(--ink);border-color:var(--mut);background:var(--panel2)}
+</style>
+</head>
+<body>
+<div class="sess">
+  <span class="mark">TO<b>B</b></span>
+  <span class="bc"><a href="index.html#medios" style="color:inherit;text-decoration:none">← Panel · <b>Medios</b></a> › Negocio del medio</span>
+  <span class="switch">
+    <a href="negocio.html?medio=tob" id="sw-tob">TOB</a>
+    <a href="negocio.html?medio=observador" id="sw-obs">El Observador</a>
+  </span>
+</div>
+
+<div class="wrap">
+  <div class="head">
+    <div class="logo" id="logo"></div>
+    <div>
+      <h1 id="mname"></h1>
+      <div class="sub" id="mdom"></div>
+    </div>
+  </div>
+
+  <div class="alert" id="alert"></div>
+  <div class="summary" id="summary"></div>
+
+  <!-- 1 · PLAN -->
+  <div class="card">
+    <div class="ch"><span class="st" id="st-plan"></span><h2>Plan / tier</h2><span class="tag">qué contrató</span></div>
+    <div class="cb" id="plan"></div>
+  </div>
+
+  <!-- 2 · ESTADO COMERCIAL -->
+  <div class="card">
+    <div class="ch"><span class="st" id="st-estado"></span><h2>Estado comercial</h2><span class="tag">dónde está en el ciclo</span></div>
+    <div class="pipe" id="pipe"></div>
+  </div>
+
+  <!-- 3 · COBRO -->
+  <div class="card">
+    <div class="ch"><span class="st" id="st-cobro"></span><h2>Cobro / facturación</h2><span class="tag">la plata</span></div>
+    <div class="cb" id="cobro"></div>
+  </div>
+
+  <!-- 4 · CONSUMO / MARGEN -->
+  <div class="card">
+    <div class="ch"><span class="st" id="st-margen"></span><h2>Consumo vs costo = margen</h2><span class="tag">el corazón</span></div>
+    <div class="cb" id="margen"></div>
+    <div class="instr">El consumo y el margen son <b>por medio</b>; hoy el motor mide su costo <b>global</b> (~US$5–15 por P2), no por cliente. Para encender esto en real hace falta <b>instrumentar el consumo por medio</b> — el mismo tipo de patch que la salud del feed, pero por inquilino.</div>
+  </div>
+
+  <!-- 5 · ALERTA CIERRE / AGOTAMIENTO -->
+  <div class="card">
+    <div class="ch"><span class="st" id="st-alerta"></span><h2>Alerta · cierre o agotamiento de recursos</h2><span class="tag">la señal de riesgo</span></div>
+    <div class="res">
+      <div class="reslab"><span>Agotamiento de recursos <span class="mono" id="res-plan"></span></span><span class="mono" id="res-pct"></span></div>
+      <div class="bar" id="res-bar"><i id="res-fill"></i></div>
+      <div class="resnote" id="res-note"></div>
+    </div>
+    <div class="reslab" style="padding:4px 14px 0;color:var(--mut2);font-size:10px;text-transform:uppercase;letter-spacing:1.3px">Riesgo de cierre (churn)</div>
+    <div class="sig" id="churn"></div>
+  </div>
+</div>
+
+<script>
+const MEDIOS = {
+  tob: {
+    nombre:'TOB', logo:'TOB', clase:'tob', dominio:'tob.lat · medio propio', tipo:'propio',
+    alert:{cls:'ok', ico:'●', txt:'<b>Sin riesgo.</b> Medio propio · sin morosidad · el tope es el presupuesto de tokens, no un plan pago.'},
+    plan:{st:'amb', nombre:'Calidad', incluye:'corridas ilimitadas · P2 a demanda · al aire full', precio:'interno (medio propio)',
+          nota:'“calidad” estaba como categoría de motor — su lugar natural es el plan.'},
+    estado:'activo',
+    cobro:{st:'amb', precio:'—', ciclo:'—', metodo:'—', proximo:'—', nota:'medio propio · sin cobro externo'},
+    margen:{st:'no', corridas:'por medir', p2:'por medir', aire:'por medir', costo:'por medir', cobrado:'—', margen:'por instrumentar'},
+    res:{st:'amb', plan:'plan Calidad · sin tope duro', pct:null, note:'Medio propio: el “agotamiento” es el <b>presupuesto de tokens del mes</b>, no un cupo de plan. Se enciende cuando instrumentemos el consumo por medio.'},
+    churn:[{t:'medio propio', cls:''},{t:'sin morosidad', cls:''},{t:'sin contrato que venza', cls:''}]
+  },
+  observador: {
+    nombre:'El Observador', logo:'EO', clase:'obs', dominio:'elobservador.com.uy · 🇺🇾 cliente', tipo:'cliente',
+    alert:{cls:'amb', ico:'▲', txt:'<b>Atención.</b> Credenciales por validar y contrato por firmar — el medio existe pero no factura ni publica en vivo todavía.'},
+    plan:{st:'no', nombre:'por definir', incluye:'a acordar en el alta', precio:'por definir',
+          nota:'se fija al cerrar el trato.'},
+    estado:'trial',
+    cobro:{st:'no', precio:'por definir', ciclo:'por definir', metodo:'por definir', proximo:'—', nota:'sin plan cerrado, no hay cobro configurado.'},
+    margen:{st:'no', corridas:'por medir', p2:'por medir', aire:'por medir', costo:'por medir', cobrado:'—', margen:'por instrumentar'},
+    res:{st:'no', plan:'según plan (por definir)', pct:null, note:'Sin plan definido no hay cupo contra el cual medir agotamiento. Primero se cierra el plan; después se mide.'},
+    churn:[{t:'credenciales por validar', cls:'warn'},{t:'contrato por firmar', cls:'warn'},{t:'sin actividad aún', cls:''}]
+  }
+};
+const ESTADOS = ['prospecto','trial','activo','pausado','moroso'];
+
+const params = new URLSearchParams(location.search);
+let key = (params.get('medio')||'tob').toLowerCase();
+if(!MEDIOS[key]) key='tob';
+const m = MEDIOS[key];
+const $ = id => document.getElementById(id);
+
+// switcher activo
+$('sw-'+(key==='observador'?'obs':'tob')).classList.add('on');
+
+// head
+$('logo').className='logo '+m.clase; $('logo').textContent=m.logo;
+$('mname').innerHTML = m.nombre + `<span class="badge ${m.tipo}">${m.tipo}</span>`;
+$('mdom').textContent = m.dominio;
+
+// alerta headline
+$('alert').className='alert '+m.alert.cls;
+$('alert').innerHTML = `<span class="ai">${m.alert.ico}</span><span>${m.alert.txt}</span>`;
+
+// resumen
+const margenTxt = m.margen.margen;
+$('summary').innerHTML =
+  `<div class="sc"><div class="k">Plan</div><div class="v ${m.plan.st==='no'?'red':'amber'}">${m.plan.nombre}</div></div>`+
+  `<div class="sc"><div class="k">Estado</div><div class="v ${m.estado==='activo'?'green':(m.estado==='moroso'?'red':'amber')}">${m.estado}</div></div>`+
+  `<div class="sc"><div class="k">Margen / mes</div><div class="v mono amber">${margenTxt}</div></div>`;
+
+// 1 plan
+$('st-plan').className='st '+m.plan.st;
+$('plan').innerHTML =
+  row('Plan', m.plan.nombre)+
+  row('Incluye', m.plan.incluye)+
+  row('Precio del plan', m.plan.precio)+
+  (m.plan.nota?rowNote(m.plan.nota):'');
+
+// 2 estado (pipeline)
+$('st-estado').className='st '+(m.estado==='activo'?'ok':(m.estado==='moroso'?'no':'amb'));
+const iNow = ESTADOS.indexOf(m.estado);
+$('pipe').innerHTML = ESTADOS.map((e,i)=>{
+  let c='step';
+  if(e===m.estado) c+= (e==='moroso'?' warn':' now');
+  else if(i<iNow && e!=='pausado' && e!=='moroso') c+=' done';
+  return `<span class="${c}">${e}</span>`;
+}).join('<span style="color:var(--mut2);align-self:center">→</span>');
+
+// 3 cobro
+$('st-cobro').className='st '+m.cobro.st;
+$('cobro').innerHTML =
+  row('Precio', m.cobro.precio)+
+  row('Ciclo', m.cobro.ciclo)+
+  row('Método', m.cobro.metodo)+
+  row('Próximo cobro', m.cobro.proximo)+
+  (m.cobro.nota?rowNote(m.cobro.nota):'');
+
+// 4 margen
+$('st-margen').className='st '+m.margen.st;
+$('margen').innerHTML =
+  row('Corridas de Rastro / mes', m.margen.corridas)+
+  row('P2 (buceos)', m.margen.p2)+
+  row('Al aire', m.margen.aire)+
+  row('Costo del motor (tokens)', m.margen.costo)+
+  row('Cobrado', m.margen.cobrado)+
+  row('<b>Margen</b>', '<b>'+m.margen.margen+'</b>');
+
+// 5 alerta recursos + churn
+$('st-alerta').className='st '+m.res.st;
+$('res-plan').textContent = '· '+m.res.plan;
+if(m.res.pct==null){
+  $('res-pct').textContent='por medir';
+  $('res-bar').className='bar pend';
+  $('res-fill').style.width='0';
+} else {
+  const p=m.res.pct; const cls=p>=90?'red':(p>=70?'amb':'ok');
+  $('res-pct').textContent=p+'%';
+  $('res-fill').className=cls; $('res-fill').style.width=p+'%';
+}
+$('res-note').innerHTML = m.res.note + ' <span style="color:var(--mut2)">Umbral de alerta: verde &lt;70% · ámbar 70–90% · rojo &gt;90% del cupo.</span>';
+$('churn').innerHTML = m.churn.map(s=>`<span class="s ${s.cls}">${s.t}</span>`).join('');
+
+function row(k,v){ return `<div class="row"><div class="rk">${k}</div><div class="rv mono">${paint(v)}</div></div>`; }
+function rowNote(t){ return `<div class="row"><div class="rk" style="color:var(--mut2)">nota</div><div class="rv" style="color:var(--mut);font-size:12px">${t}</div></div>`; }
+function paint(v){
+  if(/por definir|por medir|por instrumentar/i.test(v)) return `<span class="pend">${v}</span>`;
+  if(v==='—') return `<span class="none">—</span>`;
+  return v;
+}
+</script>
+</body>
+</html>

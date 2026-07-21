@@ -162,6 +162,71 @@
   .toolbar{display:flex;gap:6px;padding:8px 10px;border-bottom:1px solid var(--line);flex-wrap:wrap}
   .toolbar button{font-family:var(--mono);font-size:10.5px;color:var(--mut);background:transparent;border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer}
   .toolbar button.on{color:var(--ink);border-color:var(--mut)}
+  /* ── dos vistas: Ingesta / P1 ── */
+  .elem[data-view]{cursor:pointer}
+  .view{display:none;flex:1;min-height:0;flex-direction:column}
+  .view.on{display:flex}
+  .cols.single{grid-template-columns:1fr}
+  /* salud del feed / de la ingesta */
+  .health{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:9px 15px;border-bottom:1px solid var(--line);
+        font-family:var(--mono);font-size:11.5px;color:var(--mut);background:var(--panel2)}
+  .health .hlab{font-size:9px;text-transform:uppercase;letter-spacing:1.4px;color:var(--mut2)}
+  .health .hitem b{color:var(--ink);font-weight:600;font-size:13px}
+  .health .hitem.ok b{color:var(--green)}
+  .health .hitem.warn b{color:var(--amber)}
+  .health .hq{margin-left:auto;font-size:10px;color:var(--mut2);border:1px solid var(--line);border-radius:50%;
+        width:18px;height:18px;line-height:16px;text-align:center;cursor:pointer;flex-shrink:0}
+  .health .hq:hover{color:var(--ink);border-color:var(--mut)}
+  .hnote{display:none;padding:7px 15px;border-bottom:1px solid var(--line);background:var(--panel2);
+        font-size:11px;color:var(--mut);line-height:1.5}
+  .hnote.open{display:block}
+  .hnote b{color:var(--ink)}
+  .p1strip{background:rgba(240,64,42,.05);border-bottom:1px solid var(--line);color:var(--mut)}
+  .p1strip.alert{background:rgba(240,180,41,.07);color:var(--amber)}
+  .p1strip b{color:var(--ink)}
+  .p1strip.alert b{color:var(--amber)}
+  .p1strip a{color:var(--blue);border-bottom:1px dotted rgba(76,165,255,.4)}
+  /* ── Medios / Programas ── */
+  .board{flex:1;overflow-y:auto;padding:14px 18px 24px}
+  .board::-webkit-scrollbar{width:9px}.board::-webkit-scrollbar-thumb{background:#2a262e;border-radius:9px}
+  .estleg{display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-family:var(--mono);font-size:10.5px;color:var(--mut);margin-bottom:10px}
+  .estleg b{font-weight:700}
+  .estleg .d{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+  .d.ok{background:var(--green)}.d.amb{background:var(--amber)}.d.no{background:var(--red)}
+  .mcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;margin:0 0 13px;overflow:hidden}
+  .mtop{display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line)}
+  .mlogo{width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+        font-weight:800;font-size:15px;flex-shrink:0;letter-spacing:.5px}
+  .mlogo.tob{background:var(--red);color:#fff}
+  .mlogo.obs{background:#0a2a43;color:#7db9e8;border:1px solid #14456b}
+  .mname{font-size:16px;font-weight:700}
+  .mdom{font-family:var(--mono);font-size:11px;color:var(--mut);margin-top:1px}
+  .mbadge{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:1px;
+        border-radius:6px;padding:2px 8px;margin-left:6px}
+  .mbadge.propio{color:var(--green);border:1px solid rgba(34,208,138,.4)}
+  .mbadge.cliente{color:var(--blue);border:1px solid rgba(76,165,255,.4)}
+  .mbadge.calidad{color:var(--amber);border:1px solid rgba(240,180,41,.4)}
+  .mcred{margin-left:auto;font-family:var(--mono);font-size:10.5px;padding:4px 11px;border-radius:999px;
+        display:flex;align-items:center;gap:7px;flex-shrink:0}
+  .mcred.val{color:var(--amber);border:1px solid rgba(240,180,41,.4);background:rgba(240,180,41,.06)}
+  .mcred .dot{width:7px;height:7px;border-radius:50%;background:var(--amber);animation:pulse 2.2s infinite}
+  .mgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line)}
+  .mfield{background:var(--panel);padding:11px 14px}
+  .mfield .fk{font-size:9px;text-transform:uppercase;letter-spacing:1.3px;color:var(--mut2);margin-bottom:5px;display:flex;align-items:center;gap:6px}
+  .mfield .fv{font-size:13px;color:var(--ink);line-height:1.35}
+  .mfield .fv.mono{font-family:var(--mono);font-size:11.5px}
+  .st{display:inline-block;width:7px;height:7px;border-radius:50%;flex-shrink:0}
+  .st.ok{background:var(--green)}.st.amb{background:var(--amber)}.st.no{background:var(--red)}
+  .mfoot{padding:9px 14px;border-top:1px solid var(--line);font-family:var(--mono);font-size:10.5px;color:var(--mut2);
+        display:flex;gap:8px;align-items:center}
+  .mfoot .cta{color:var(--blue);cursor:pointer;border-bottom:1px dotted rgba(76,165,255,.4)}
+  .mfoot .sp{flex:1}
+  .mfoot .cta.vest{color:var(--amber);border-bottom-color:rgba(240,180,41,.5);font-weight:600}
+  .mfoot .cta.neg{color:var(--green);border-bottom-color:rgba(34,208,138,.5);font-weight:600}
+  .addm{border:1px dashed var(--line);border-radius:14px;padding:14px 16px;text-align:center;color:var(--mut);
+        font-size:12.5px;cursor:pointer;background:transparent}
+  .addm:hover{border-color:var(--mut);color:var(--ink)}
+  .addm b{color:var(--ink)}
   @media(max-width:860px){ .wrap{grid-template-columns:1fr} nav{flex-direction:row;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--line)}
         nav .lbl,nav .foot{display:none} .cols{grid-template-columns:1fr} .col{min-height:70vh} }
 </style>
@@ -178,9 +243,10 @@
 <div class="wrap">
   <nav>
     <div class="lbl">Elementos</div>
-    <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>Medios</div>
-    <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></span>Programas</div>
-    <div class="elem on"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3.5" y1="6" x2="3.5" y2="6"/><line x1="3.5" y1="12" x2="3.5" y2="12"/><line x1="3.5" y1="18" x2="3.5" y2="18"/></svg></span>Góndola</div>
+    <div class="elem" data-view="medios"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>Medios</div>
+    <div class="elem" data-view="programas"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></span>Programas</div>
+    <div class="elem" data-view="ingesta"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></span>Ingesta</div>
+    <div class="elem on" data-view="p1"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>P1 · el trabajo</div>
     <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>Motor</div>
     <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></span>Bandeja</div>
     <div class="elem soon"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span>Bitácora</div>
@@ -188,41 +254,150 @@
   </nav>
 
   <main>
-    <div class="viewhead">
-      <h1>Góndola</h1>
-      <p>Izquierda: el insumo real, ordenado por país y medio (sin scroll eterno). Derecha: P1 corriendo, las grietas por país. Cada una trae su costura visible y una redacción: un titular que todavía no arma el dato — solo orienta hacia dónde puede ir.</p>
-    </div>
     <div id="banner"></div>
-    <div class="cols">
-      <!-- COL 1 · GÓNDOLA -->
-      <section class="col">
-        <div class="colhead">
-          <h2>La góndola</h2>
-          <span class="run"><span class="dot live"></span>ingesta</span>
-        </div>
-        <div class="stats">
-          <div class="stat hero"><div class="n" id="s-notas">—</div><div class="k">notas / 72h</div></div>
-          <div class="stat"><div class="n" id="s-medios">—</div><div class="k">medios</div></div>
-          <div class="stat"><div class="n" id="s-paises">—</div><div class="k">países</div></div>
-        </div>
-        <div class="scroll" id="gondola"></div>
-      </section>
 
-      <!-- COL 2 · P1 -->
-      <section class="col">
-        <div class="colhead p1">
-          <h2>P1 · por país</h2>
-          <span class="run" id="p1run"><span class="dot"></span>P1</span>
+    <!-- ══ VISTA · INGESTA (B0) ══ -->
+    <section class="view" id="view-ingesta">
+      <div class="viewhead">
+        <h1>Ingesta · la góndola</h1>
+        <p>El insumo real entrando por feed, ordenado por país y medio. Corre <b>cada hora</b>, ventana 72&nbsp;h. No detecta nada — solo trae y ordena la materia. Su <b>salud</b> (¿respondieron los feeds?) es lo que hace creíble, o no, un cero de P1.</p>
+      </div>
+      <div class="cols single">
+        <section class="col">
+          <div class="colhead">
+            <h2>La góndola</h2>
+            <span class="run"><span class="dot live"></span>cada hora</span>
+          </div>
+          <div class="stats">
+            <div class="stat hero"><div class="n" id="s-notas">—</div><div class="k">notas / 72h</div></div>
+            <div class="stat"><div class="n" id="s-medios">—</div><div class="k">medios</div></div>
+            <div class="stat"><div class="n" id="s-paises">—</div><div class="k">países</div></div>
+          </div>
+          <div class="health" id="health-ingesta"></div>
+          <div class="hnote" id="hnote-ingesta"></div>
+          <div class="scroll" id="gondola"></div>
+        </section>
+      </div>
+    </section>
+
+    <!-- ══ VISTA · P1 · EL TRABAJO (B1–B6) ══ -->
+    <section class="view on" id="view-p1">
+      <div class="viewhead">
+        <h1>P1 · el trabajo</h1>
+        <p>La costura entre medios + los 6 detectores. Corre a las <b>08·13·18</b>. Entrega la grieta candidata con su costura visible y un titular que orienta — <b>no arma el dato</b>.</p>
+      </div>
+      <div class="cols single">
+        <section class="col">
+          <div class="colhead p1">
+            <h2>P1 · por país</h2>
+            <span class="run" id="p1run"><span class="dot"></span>P1</span>
+          </div>
+          <div class="health p1strip" id="health-p1"></div>
+          <div class="stats">
+            <div class="stat"><div class="n" id="s-grietas" style="color:var(--red)">—</div><div class="k">grietas</div></div>
+            <div class="stat"><div class="n" id="s-calco" style="color:var(--amber)">—</div><div class="k">calco</div></div>
+            <div class="stat"><div class="n" id="s-div" style="color:var(--red)">—</div><div class="k">divergencia</div></div>
+            <div class="stat"><div class="n" id="s-coro" style="color:var(--blue)">—</div><div class="k">coros</div></div>
+          </div>
+          <div class="scroll" id="p1"></div>
+        </section>
+      </div>
+    </section>
+
+    <!-- ══ VISTA · MEDIOS (los inquilinos del motor) ══ -->
+    <section class="view" id="view-medios">
+      <div class="viewhead">
+        <h1>Medios · los que usan Rastro</h1>
+        <p>Los medios que corren <b>Rastro</b> sobre el motor, cada uno con su propio vestido. Se dan de alta <b>una vez</b> (identidad · perfil de motor · vestido · programas). Las credenciales se validan aparte — hasta entonces, el medio existe pero no publica en vivo.</p>
+      </div>
+      <div class="board">
+        <div class="estleg">
+          <span><span class="d ok"></span> validado</span>
+          <span><span class="d amb"></span> por validar / confirmar</span>
+          <span><span class="d no"></span> falta</span>
         </div>
-        <div class="stats">
-          <div class="stat"><div class="n" id="s-grietas" style="color:var(--red)">—</div><div class="k">grietas</div></div>
-          <div class="stat"><div class="n" id="s-calco" style="color:var(--amber)">—</div><div class="k">calco</div></div>
-          <div class="stat"><div class="n" id="s-div" style="color:var(--red)">—</div><div class="k">divergencia</div></div>
-          <div class="stat"><div class="n" id="s-coro" style="color:var(--blue)">—</div><div class="k">coros</div></div>
+
+        <!-- TOB -->
+        <div class="mcard">
+          <div class="mtop">
+            <div class="mlogo tob">TOB</div>
+            <div>
+              <div class="mname">TOB <span class="mbadge propio">propio</span><span class="mbadge calidad">calidad</span></div>
+              <div class="mdom">tob.lat</div>
+            </div>
+            <div class="mcred val"><span class="dot"></span>credenciales por validar</div>
+          </div>
+          <div class="mgrid">
+            <div class="mfield"><div class="fk"><span class="st ok"></span>Identidad</div><div class="fv">TOB · medio propio</div></div>
+            <div class="mfield"><div class="fk"><span class="st ok"></span>Categoría</div><div class="fv">calidad</div></div>
+            <div class="mfield"><div class="fk"><span class="st amb"></span>Perfil de motor</div><div class="fv mono">GPS · feed — por confirmar</div></div>
+            <div class="mfield"><div class="fk"><span class="st ok"></span>Vestido</div><div class="fv">TOB (propio)</div></div>
+            <div class="mfield"><div class="fk"><span class="st amb"></span>Programas</div><div class="fv">1 · TOB</div></div>
+            <div class="mfield"><div class="fk"><span class="st amb"></span>Cuenta</div><div class="fv mono">tato@mediagarage.cl</div></div>
+          </div>
+          <div class="mfoot">alta iniciada · credenciales por validar<span class="sp"></span><span class="cta" onclick="switchView('programas')">programas →</span><span class="cta vest" onclick="location.href='vestir.html?medio=tob'">vestir el medio →</span><span class="cta neg" onclick="location.href='negocio.html?medio=tob'">negocio →</span></div>
         </div>
-        <div class="scroll" id="p1"></div>
-      </section>
-    </div>
+
+        <!-- EL OBSERVADOR -->
+        <div class="mcard">
+          <div class="mtop">
+            <div class="mlogo obs">EO</div>
+            <div>
+              <div class="mname">El Observador <span class="mbadge cliente">cliente</span></div>
+              <div class="mdom">elobservador.com.uy · 🇺🇾 Uruguay</div>
+            </div>
+            <div class="mcred val"><span class="dot"></span>credenciales por validar</div>
+          </div>
+          <div class="mgrid">
+            <div class="mfield"><div class="fk"><span class="st ok"></span>Identidad</div><div class="fv">El Observador · Uruguay</div></div>
+            <div class="mfield"><div class="fk"><span class="st amb"></span>Categoría</div><div class="fv">por confirmar</div></div>
+            <div class="mfield"><div class="fk"><span class="st amb"></span>Perfil de motor</div><div class="fv mono">GPS · feed — por confirmar</div></div>
+            <div class="mfield"><div class="fk"><span class="st amb"></span>Vestido</div><div class="fv">del alta (spike) — a confirmar</div></div>
+            <div class="mfield"><div class="fk"><span class="st amb"></span>Programas</div><div class="fv">por confirmar</div></div>
+            <div class="mfield"><div class="fk"><span class="st amb"></span>Cuenta</div><div class="fv mono">por confirmar</div></div>
+          </div>
+          <div class="mfoot">alta hecha en el spike · credenciales por validar<span class="sp"></span><span class="cta vest" onclick="location.href='vestir.html?medio=observador'">vestir el medio →</span><span class="cta neg" onclick="location.href='negocio.html?medio=observador'">negocio →</span></div>
+        </div>
+
+        <div class="addm" onclick="location.href='vestir.html'">+ dar de alta un medio <b>·</b> pegás el link y el motor saca casi todo (identidad · perfil · vestido)</div>
+      </div>
+    </section>
+
+    <!-- ══ VISTA · PROGRAMAS (los que corren sobre Rastro) ══ -->
+    <section class="view" id="view-programas">
+      <div class="viewhead">
+        <h1>Programas · los que corren sobre Rastro</h1>
+        <p>Un programa cruza <b>Rastro</b> (el producto que mueve este admin) con el <b>vestido</b> de su medio. Un medio puede tener varios. Acá viven, no la pantalla al aire.</p>
+      </div>
+      <div class="board">
+        <div class="estleg">
+          <span><span class="d ok"></span> validado</span>
+          <span><span class="d amb"></span> por validar / confirmar</span>
+          <span><span class="d no"></span> falta</span>
+        </div>
+
+        <!-- TOB (programa) -->
+        <div class="mcard">
+          <div class="mtop">
+            <div class="mlogo tob">TOB</div>
+            <div>
+              <div class="mname">TOB <span class="mbadge propio">programa</span></div>
+              <div class="mdom">medio: TOB · el fact-check en vivo (es T / es B)</div>
+            </div>
+            <div class="mcred val"><span class="dot"></span>por validar</div>
+          </div>
+          <div class="mgrid">
+            <div class="mfield"><div class="fk"><span class="st ok"></span>Medio</div><div class="fv">TOB</div></div>
+            <div class="mfield"><div class="fk"><span class="st ok"></span>Producto</div><div class="fv">Rastro</div></div>
+            <div class="mfield"><div class="fk"><span class="st ok"></span>Motor</div><div class="fv">P1 · góndola (activo)</div></div>
+            <div class="mfield"><div class="fk"><span class="st ok"></span>Vestido</div><div class="fv">hereda de TOB</div></div>
+          </div>
+          <div class="mfoot">un medio puede tener varios programas · este es el principal de TOB</div>
+        </div>
+
+        <div class="addm">+ agregar un programa <b>·</b> mismo motor, otro formato/vestido</div>
+      </div>
+    </section>
   </main>
 </div>
 
@@ -281,6 +456,33 @@ function pintar(d, live){
   document.getElementById('s-calco').textContent=tipos.filter(t=>t==='calco').length;
   document.getElementById('s-div').textContent=tipos.filter(t=>t==='divergencia').length;
   document.getElementById('s-coro').textContent=tipos.filter(t=>t==='coro').length;
+
+  // ── SALUD DEL FEED (ingesta) + tira de contexto en P1 ──
+  const T=d.totales||{};
+  const fu=T.fuentes, re=T.respondieron, ce=T.cero_honesto;
+  const hi=document.getElementById('health-ingesta');
+  const hn=document.getElementById('hnote-ingesta');
+  const hp=document.getElementById('health-p1');
+  if(fu==null){
+    if(hi) hi.innerHTML='<span class="hlab">salud del feed</span><span class="hitem">pendiente — el motor la escribe desde el próximo run</span>';
+    if(hp) hp.innerHTML='<span>salud de la ingesta: <b>pendiente</b> (desde el próximo run del motor)</span>';
+  } else {
+    const alto = ce > fu*0.4;
+    if(hi) hi.innerHTML='<span class="hlab">salud del feed</span>'+
+      `<span class="hitem"><b>${fu}</b> fuentes</span>`+
+      `<span class="hitem ok"><b>${re}</b> respondieron</span>`+
+      `<span class="hitem ${alto?'warn':''}"><b>${ce}</b> cero honesto</span>`+
+      `<span class="hq" onclick="document.getElementById('hnote-ingesta').classList.toggle('open')" title="¿qué es esto?">?</span>`;
+    if(hn) hn.innerHTML='<b>Salud del feed</b> = cuántas fuentes definidas respondieron y cuántas quedaron en cero. '+
+      'El <b>cero honesto</b> protege el silencio: si un cero es porque el feed no respondió (rotura) y no porque no había nada (calma), un “0 grietas” de P1 podría ser una caída disfrazada. '+
+      '<i>Nota: hoy el motor junta “feed caído” y “feed sin notas” en un solo número — separar rotura de calma es el próximo escalón del validador de falso cero.</i>';
+    if(hp){
+      hp.className='health p1strip'+(alto?' alert':'');
+      hp.innerHTML=`<span>Esta P1 corrió sobre <b>${T.notas??'—'}</b> notas · feeds <b>${re}/${fu}</b> respondieron · <b>${ce}</b> en cero`+
+        (alto?` — ⚠ con tantos feeds mudos, un 0 de grietas puede ser rotura, no calma. `:`. `)+
+        `<a href="#" onclick="switchView('ingesta');return false;">ver la ingesta →</a></span>`;
+    }
+  }
 
   // ── GÓNDOLA: árbol país → medio → notas ──
   const gx=document.getElementById('gondola');
@@ -421,6 +623,20 @@ function grietaCard(c, i){
     </div>
   </div>`;
 }
+
+// ── switch entre las vistas (Medios · Programas · Ingesta · P1) ──
+const VIEWS=['medios','programas','ingesta','p1'];
+function switchView(v){
+  if(!VIEWS.includes(v)) return;
+  document.querySelectorAll('.elem[data-view]').forEach(x=>x.classList.toggle('on', x.dataset.view===v));
+  document.querySelectorAll('.view').forEach(x=>x.classList.toggle('on', x.id==='view-'+v));
+  try{ history.replaceState(null,'','#'+v); }catch(e){}
+}
+document.querySelectorAll('.elem[data-view]').forEach(el=>{
+  el.addEventListener('click',()=>switchView(el.dataset.view));
+});
+// deep-link: abrir la vista del hash al cargar (ej. vestir.html → index.html#medios)
+(function(){ const h=(location.hash||'').replace('#',''); if(VIEWS.includes(h)) switchView(h); })();
 
 async function cargar(){
   try{
