@@ -1,11 +1,11 @@
 {
- "p1_generado": "2026-07-21T19:00:56.129115+00:00",
- "feed_generado": "2026-07-21T20:40:17.096791+00:00",
+ "p1_generado": "2026-07-21T20:49:37.654589+00:00",
+ "feed_generado": "2026-07-21T20:49:37.654589+00:00",
  "ventana_horas": 72,
  "totales": {
   "notas": 732,
   "medios": 19,
-  "clusters": 33,
+  "clusters": 40,
   "calco_descontado": 0,
   "primicias": 10,
   "oficiales": 0,
@@ -29,6 +29,126 @@
  },
  "notas": [
   {
+   "medio": "The Clinic",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "Descubren bacteria de rana que elimina el cáncer en ratones: el avance científico que asombra al mundo",
+   "url": "https://www.theclinic.cl/2026/07/21/descubren-bacteria-de-rana-que-elimina-el-cancer-en-ratones-el-avance-cientifico-que-asombra-al-mundo/",
+   "fecha": "2026-07-21T20:47:57+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El fuerte posteo de Lisandro Martínez tras la final: “La caída de los grandes es la felicidad de los mediocres”",
+   "url": "https://tn.com.ar/deportes/futbol/2026/07/21/el-fuerte-posteo-de-lisandro-martinez-tras-la-final-la-caida-de-los-grandes-es-la-felicidad-de-los-mediocres/",
+   "fecha": "2026-07-21T20:44:40+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Mercados: subieron las acciones argentinas, respaldadas por las alzas de Wall Street y el petróleo",
+   "url": "https://www.infobae.com/economia/2026/07/21/mercados-suben-las-acciones-argentinas-respaldadas-por-las-alzas-de-wall-street-y-el-petroleo/",
+   "fecha": "2026-07-21T20:42:58+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La Corte Suprema de EE. UU. revisa el caso de un piloto de 82 años al que le quitaron su avioneta por llevar seis cervezas",
+   "url": "https://www.infobae.com/estados-unidos/2026/07/21/la-corte-suprema-de-ee-uu-revisa-el-caso-de-un-piloto-de-82-anos-al-que-le-quitaron-su-avioneta-por-llevar-seis-cervezas/",
+   "fecha": "2026-07-21T20:41:57+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Receta de polenta con verduras y huevo, rápida y fácil",
+   "url": "https://www.infobae.com/tendencias/2026/07/21/receta-de-polenta-con-verduras-y-huevo-rapida-y-facil/",
+   "fecha": "2026-07-21T20:41:54+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Petro defendió su gestión y sus resultados económicos y lanzó sablazo al Gobierno entrante: “Mi regalo personal a Abelardo”",
+   "url": "https://www.infobae.com/colombia/2026/07/21/petro-defendio-su-gestion-y-sus-resultados-economicos-y-lanzo-sablazo-al-gobierno-entrante-mi-regalo-personal-a-abelardo/",
+   "fecha": "2026-07-21T20:40:59+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "EN VIVO - Mercado de fichajes en el fútbol colombiano: altas, bajas y rumores de los clubes de la Liga BetPlay de hoy, 21 de julio",
+   "url": "https://www.infobae.com/colombia/deportes/2026/07/21/en-vivo-mercado-de-fichajes-en-el-futbol-colombiano-altas-bajas-y-rumores-de-los-clubes-de-la-liga-betplay-de-hoy-21-de-julio/",
+   "fecha": "2026-07-21T20:40:53+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Honorio Henríquez ya habló con Abelardo de la Espriella tras su elección como presidente del Congreso: estos fueron los temas que abordaron",
+   "url": "https://www.infobae.com/colombia/2026/07/21/honorio-henriquez-ya-hablo-con-abelardo-de-la-espriella-tras-su-eleccion-como-presidente-del-congreso-estos-fueron-los-temas-que-abordaron/",
+   "fecha": "2026-07-21T20:40:38+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Los legisladores quieren prohibir las llamadas telefónicas durante los vuelos: ¿Deberían permitirse alguna vez?",
+   "url": "https://www.infobae.com/wapo/2026/07/21/los-legisladores-quieren-prohibir-las-llamadas-telefonicas-durante-los-vuelos-deberian-permitirse-alguna-vez/",
+   "fecha": "2026-07-21T20:40:15+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Tesoro se excedió en las compras al BCRA que se plantearon en el programa financiero 2026: la explicación de Economía",
+   "url": "https://www.infobae.com/economia/2026/07/21/el-tesoro-se-excedio-en-las-compras-al-banco-central-que-se-plantearon-en-el-programa-financiero-2026-la-explicacion-de-economia/",
+   "fecha": "2026-07-21T20:40:11+00:00"
+  },
+  {
+   "medio": "Ámbito",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Gobernadores del Norte Grande se reúnen en Posadas: foco en obras y recursos e inquietud por la economía",
+   "url": "https://www.ambito.com/ambito-nacional/gobernadores-del-norte-grande-se-reunen-posadas-foco-obras-y-recursos-e-inquietud-la-economia-n6302097",
+   "fecha": "2026-07-21T20:40:00+00:00"
+  },
+  {
+   "medio": "La Tercera",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "Se abren las inscripciones para la versión 2027 del Ironman 70.3 de Pucón",
+   "url": "https://www.latercera.com/el-deportivo/noticia/se-abren-las-inscripciones-para-la-version-2027-del-ironman-703-de-pucon/",
+   "fecha": "2026-07-21T20:39:55+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Demandas ponen bajo revisión diez actos administrativos del Gobierno Petro a 16 días del cierre del mandato: pensiones, fletes y exportaciones, los más afectados",
+   "url": "https://www.infobae.com/colombia/2026/07/21/demandas-ponen-bajo-revision-diez-actos-administrativos-del-gobierno-petro-a-16-dias-del-cierre-del-mandato-pensiones-fletes-y-exportaciones-los-mas-afectados/",
+   "fecha": "2026-07-21T20:39:37+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Temblor hoy 21 de julio en México: se registró un sismo de magnitud 4.2 en Chiapas",
+   "url": "https://www.infobae.com/mexico/2026/07/21/temblor-hoy-en-mexico-noticias-actividad-sismica-21-de-julio-de-2026/",
+   "fecha": "2026-07-21T20:39:02+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La policía india arrestó a Rahul Gandhi tras pedir la renuncia de Modi en las protestas del movimiento Cucaracha",
+   "url": "https://www.infobae.com/america/mundo/2026/07/21/la-policia-india-arresto-a-rahul-gandhi-tras-pedir-la-renuncia-de-modi-en-las-protestas-del-movimiento-cucaracha/",
+   "fecha": "2026-07-21T20:38:49+00:00"
+  },
+  {
    "medio": "TN",
    "pais": "AR",
    "tema": "general",
@@ -51,14 +171,6 @@
    "titulo": "Aixa Vigil, Ginna López, Mirian Patiño y todas las ausentes en la convocatoria de Perú para la Copa Sudamericana de Vóley 2026",
    "url": "https://www.infobae.com/peru/deportes/2026/07/21/aixa-vigil-mirian-patino-ginna-lopez-y-todas-las-ausentes-en-la-convocatoria-de-peru-para-la-copa-sudamericana-de-voley-2026/",
    "fecha": "2026-07-21T20:38:25+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Los legisladores quieren prohibir las llamadas telefónicas durante los vuelos: ¿Deberían permitirse alguna vez?",
-   "url": "https://www.infobae.com/wapo/2026/07/21/los-legisladores-quieren-prohibir-las-llamadas-telefonicas-durante-los-vuelos-deberian-permitirse-alguna-vez/",
-   "fecha": "2026-07-21T20:38:15+00:00"
   },
   {
    "medio": "Infobae",
@@ -93,6 +205,14 @@
    "fecha": "2026-07-21T20:37:36+00:00"
   },
   {
+   "medio": "La Tercera",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "Gremio de la agricultura reconoce alza en los precios de los alimentos por problemas en la distribución",
+   "url": "https://www.latercera.com/pulso/noticia/gremio-de-la-agricultura-reconoce-alza-en-los-precios-de-los-alimentos-por-problemas-en-la-distribucion/",
+   "fecha": "2026-07-21T20:37:32+00:00"
+  },
+  {
    "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
@@ -125,12 +245,28 @@
    "fecha": "2026-07-21T20:36:18+00:00"
   },
   {
+   "medio": "La Tercera",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "Paul McCartney (y Ringo) aparece de sorpresa ante un bus de turistas que hacía un tour de The Beatles",
+   "url": "https://www.latercera.com/culto/noticia/paul-mccartney-y-ringo-aparece-de-sorpresa-ante-un-bus-de-turistas-que-hacia-un-tour-de-the-beatles/",
+   "fecha": "2026-07-21T20:36:15+00:00"
+  },
+  {
    "medio": "Ámbito",
    "pais": "AR",
    "tema": "general",
    "titulo": "El dólar blue quedó a tiro de su récord histórico y la brecha con el oficial tocó un máximo de seis meses",
    "url": "https://www.ambito.com/finanzas/el-dolar-blue-quedo-tiro-su-record-historico-y-la-brecha-el-oficial-toco-un-maximo-seis-meses-n6302073",
    "fecha": "2026-07-21T20:36:00+00:00"
+  },
+  {
+   "medio": "elDiarioAR",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El frenazo del deshielo en el Ártico era un espejismo: este invierno se derritió como nunca desde que hay registros",
+   "url": "https://www.eldiarioar.com/sociedad/medio-ambiente/frenazo-deshielo-artico-espejismo-invierno-derritio-hay-registros_1_13397414.html",
+   "fecha": "2026-07-21T20:34:56+00:00"
   },
   {
    "medio": "Infobae",
@@ -296,14 +432,6 @@
    "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Honorio Henríquez ya habló con Abelardo de la Espriella tras su elección como presidente del Congreso: estos fueron los temas que abordaron",
-   "url": "https://www.infobae.com/colombia/2026/07/21/honorio-henriquez-ya-hablo-con-abelardo-de-la-espriella-tras-su-eleccion-como-presidente-del-congreso-estos-fueron-los-temas-que-abordaron/",
-   "fecha": "2026-07-21T20:31:04+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
    "titulo": "Resultados de Euromillones: ganadores y números premiados",
    "url": "https://www.infobae.com/espana/2026/07/21/resultados-de-euromillones-ganadores-y-numeros-premiados/",
    "fecha": "2026-07-21T20:30:56+00:00"
@@ -429,14 +557,6 @@
    "fecha": "2026-07-21T20:27:46+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El Tesoro se excedió en las compras al Banco Central que se plantearon en el programa financiero 2026: la explicación de Economía",
-   "url": "https://www.infobae.com/economia/2026/07/21/el-tesoro-se-excedio-en-las-compras-al-banco-central-que-se-plantearon-en-el-programa-financiero-2026-la-explicacion-de-economia/",
-   "fecha": "2026-07-21T20:27:38+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
@@ -507,6 +627,14 @@
    "titulo": "El director de la Dian se refirió a los impuestos que busca poner el Gobierno Petro a algunos carros, así como al vino y al whisky",
    "url": "https://www.infobae.com/colombia/2026/07/21/el-director-de-la-dian-se-refirio-a-los-impuestos-que-busca-poner-el-gobierno-petro-a-algunos-carros-asi-como-al-vino-y-al-whisky/",
    "fecha": "2026-07-21T20:23:59+00:00"
+  },
+  {
+   "medio": "Cooperativa",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "Científicos investigan por primera vez la contaminación lumínica en la Antártica",
+   "url": "https://www.cooperativa.cl/noticias/pais/region-de-magallanes/antartica/cientificos-investigan-por-primera-vez-la-contaminacion-luminica-en-la/2026-07-21/162332.html",
+   "fecha": "2026-07-21T20:23:32+00:00"
   },
   {
    "medio": "La Nación",
@@ -608,7 +736,7 @@
    "medio": "Ámbito",
    "pais": "AR",
    "tema": "general",
-   "titulo": "El enojo con Rosalía llegó a sus shows en Buenos Aires fanáticos venden sus entradas tras la polémica publicación contra Argentina",
+   "titulo": "El enojo con Rosalía llegó a sus shows en Buenos Aires: fanáticos venden sus entradas tras la polémica publicación contra Argentina",
    "url": "https://www.ambito.com/espectaculos/el-enojo-rosalia-llego-sus-shows-buenos-aires-fanaticos-venden-sus-entradas-la-polemica-publicacion-contra-argentina-n6302089",
    "fecha": "2026-07-21T20:19:00+00:00"
   },
@@ -1445,46 +1573,6 @@
    "fecha": "2026-07-21T20:01:57+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El español Cifuentes sustituye al inglés Phil Neville en el banquillo de Portland Timbers",
-   "url": "https://www.infobae.com/america/agencias/2026/07/21/el-espanol-cifuentes-sustituye-al-ingles-phil-neville-en-el-banquillo-de-portland-timbers/",
-   "fecha": "2026-07-21T20:01:57+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El Gobierno y UNICEF firman la creación de una oficina global en España para apoyar \"el mandato global\" de la agencia",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/21/el-gobierno-y-unicef-firman-la-creacion-de-una-oficina-global-en-espana-para-apoyar-el-mandato-global-de-la-agencia/",
-   "fecha": "2026-07-21T20:01:49+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El riesgo que corren las hijas de “El Mayo” Zambada tras su sentencia, según analista de la UNAM",
-   "url": "https://www.infobae.com/mexico/2026/07/21/el-riesgo-que-corren-las-hijas-de-el-mayo-zambada-tras-su-sentencia-segun-analista-de-la-unam/",
-   "fecha": "2026-07-21T20:01:45+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Zelenski cesa a Sirski como jefe del Ejército y lo reemplaza por el general Drapati",
-   "url": "https://www.infobae.com/america/agencias/2026/07/21/zelenski-cesa-a-sirski-como-jefe-del-ejercito-y-lo-reemplaza-por-el-general-drapati/",
-   "fecha": "2026-07-21T20:01:41+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Niebla, hielo y curvas sin visibilidad: así es Trollstigen, la carretera más peligrosa de Noruega",
-   "url": "https://www.infobae.com/america/mundo/2026/07/21/niebla-hielo-y-curvas-sin-visibilidad-asi-es-trollstigen-la-carretera-mas-peligrosa-de-noruega/",
-   "fecha": "2026-07-21T20:01:40+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
@@ -1493,28 +1581,12 @@
    "fecha": "2026-07-21T20:01:39+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El Gobierno autoriza la renovación de los medios técnicos de seguridad de las bases del Ejército de Tierra",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/21/el-gobierno-autoriza-la-renovacion-de-los-medios-tecnicos-de-seguridad-de-las-bases-del-ejercito-de-tierra/",
-   "fecha": "2026-07-21T20:01:32+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
    "titulo": "EE.UU. volvió a atacar a Irán por novena noche consecutiva y Teherán advirtió sobre “una guerra a gran escala”",
    "url": "https://www.lanacion.com.ar/el-mundo/eeuu-volvio-a-atacar-a-iran-por-novena-noche-consecutiva-y-teheran-advirtio-sobre-una-guerra-a-gran-nid21072026/",
    "fecha": "2026-07-21T20:01:25+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El español Martí Cifuentes, nuevo entrenador del Portland",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/21/el-espanol-marti-cifuentes-nuevo-entrenador-del-portland/",
-   "fecha": "2026-07-21T20:01:23+00:00"
   },
   {
    "medio": "La Nación",
@@ -1530,14 +1602,6 @@
    "tema": "general",
    "titulo": "El sentido posteo de Nicolás Otamendi tras perder el Mundial 2026",
    "url": "https://www.lanacion.com.ar/deportes/futbol/el-sentido-posteo-de-nicolas-otamendi-tras-perder-el-mundial-2026-nid21072026/",
-   "fecha": "2026-07-21T20:01:13+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El presidente de Líbano pide a Trump seguir apoyando al Ejército en el marco de las operaciones de despliegue",
-   "url": "https://www.infobae.com/america/agencias/2026/07/21/el-presidente-de-libano-pide-a-trump-seguir-apoyando-al-ejercito-en-el-marco-de-las-operaciones-de-despliegue/",
    "fecha": "2026-07-21T20:01:13+00:00"
   },
   {
@@ -2101,6 +2165,14 @@
    "fecha": "2026-07-21T19:20:56+00:00"
   },
   {
+   "medio": "Doble Amarilla",
+   "pais": "-",
+   "tema": "Deportes",
+   "titulo": "Lozano abandonó la práctica por molestias y es la gran duda en Boca para recibir a O'Higgins",
+   "url": "https://www.dobleamarilla.com.ar/liga-/lozano-abandono-la-practica-por-molestias-y-es-la-gran-duda-en-boca-para-recibir-a-o-higgins_a6a5fc1c09c14faaa984abee1",
+   "fecha": "2026-07-21T19:20:00+00:00"
+  },
+  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
@@ -2587,6 +2659,14 @@
    "titulo": "Messi en la Argentina: cómo es el auto que lo llevó a su casa en Rosario",
    "url": "https://www.lanacion.com.ar/autos/messi-en-la-argentina-como-es-el-auto-que-lo-llevo-a-su-casa-en-rosario-nid21072026/",
    "fecha": "2026-07-21T18:45:17+00:00"
+  },
+  {
+   "medio": "Doble Amarilla",
+   "pais": "-",
+   "tema": "Deportes",
+   "titulo": "Orlando Gill es pretendido desde Europa y desde su entorno lo acercan al Manchester United",
+   "url": "https://www.dobleamarilla.com.ar/liga-/orlando-gill-es-pretendido-desde-europa-y-desde-su-entorno-lo-acercan-al-manchester-united_a6a5fbb659c14faaa984a8375",
+   "fecha": "2026-07-21T18:45:00+00:00"
   },
   {
    "medio": "Perfil",
@@ -3131,14 +3211,6 @@
    "titulo": "El técnico de Inter Miami habló sobre las vacaciones de Messi e informó cuándo volverá a jugar: “Necesita descansar”",
    "url": "https://tn.com.ar/deportes/futbol/2026/07/21/el-tecnico-de-inter-miami-hablo-sobre-las-vacaciones-de-messi-e-informo-cuando-volvera-a-jugar-necesita-descansar/",
    "fecha": "2026-07-21T17:37:30+00:00"
-  },
-  {
-   "medio": "The Clinic",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "¿Libertarios pone la música? Las tres iniciativas del partido de Kaiser que han desordenado al oficialismo",
-   "url": "https://www.theclinic.cl/2026/07/21/libertarios-pone-la-musica-las-tres-iniciativas-del-partido-de-kaiser-que-han-desordenado-al-oficialismo/",
-   "fecha": "2026-07-21T17:36:44+00:00"
   },
   {
    "medio": "Montevideo Portal",
@@ -4133,14 +4205,6 @@
    "fecha": "2026-07-21T15:37:24+00:00"
   },
   {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "En medio de la polémica con Wanda Nara, la panelista Pochi habló sobre el problema de salud mental que atravesó su hija",
-   "url": "https://tn.com.ar/videos/show/television/2026/07/21/en-medio-de-la-polemica-con-wanda-nara-la-panelista-pochi-hablo-sobre-el-problema-de-salud-mental-que-atraveso-su-hija/",
-   "fecha": "2026-07-21T15:37:00+00:00"
-  },
-  {
    "medio": "El Economista",
    "pais": "-",
    "tema": "Economía",
@@ -4485,14 +4549,6 @@
    "fecha": "2026-07-21T14:04:22+00:00"
   },
   {
-   "medio": "La Tercera",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "Las claves para conducir con seguridad bajo lluvia y nieve",
-   "url": "https://www.latercera.com/tecnologia/noticia/claves-para-conducir-seguridad-lluvia-nieve/",
-   "fecha": "2026-07-21T14:04:20+00:00"
-  },
-  {
    "medio": "Ámbito",
    "pais": "AR",
    "tema": "general",
@@ -4507,14 +4563,6 @@
    "titulo": "Detective frustró robo a la salida de banco en San Miguel: Baleó a tres delincuentes",
    "url": "https://www.cooperativa.cl/noticias/pais/policial/robos/detective-frustro-robo-a-la-salida-de-banco-en-san-miguel-baleo-a-tres/2026-07-21/095752.html",
    "fecha": "2026-07-21T13:57:52+00:00"
-  },
-  {
-   "medio": "La Tercera",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "Alcalde de Coquimbo acusa al Gobierno de “una descoordinación muy grande” y “falta de liderazgo” en respuesta al sistema frontal",
-   "url": "https://www.latercera.com/nacional/noticia/alcalde-de-coquimbo-acusa-una-descoordinacion-muy-grande-y-falta-de-liderazgo-del-gobierno-ante-el-sistema-frontal/",
-   "fecha": "2026-07-21T13:56:51+00:00"
   },
   {
    "medio": "Doble Amarilla",
@@ -4571,14 +4619,6 @@
    "titulo": "Maravilla Martínez, lesionado: quién podría ser el 9 de Racing ante Gimnasia",
    "url": "https://www.dobleamarilla.com.ar/liga-/maravilla-martinez--lesionado--quien-podria-ser-el-9-de-racing-ante-gimnasia_a6a5f2e159c14faaa98442be7",
    "fecha": "2026-07-21T13:45:57+00:00"
-  },
-  {
-   "medio": "Cooperativa",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "Estación Central: Balacera en exterior de un edificio dejó un adolescente herido",
-   "url": "https://www.cooperativa.cl/noticias/pais/policial/estacion-central-balacera-en-exterior-de-un-edificio-dejo-un/2026-07-21/094505.html",
-   "fecha": "2026-07-21T13:45:05+00:00"
   },
   {
    "medio": "Montevideo Portal",
@@ -4667,14 +4707,6 @@
    "titulo": "La explosiva despedida de Jhohan Romaña de San Lorenzo: “Ojalá algún día pueda contarles cómo sucedieron realmente las cosas\"",
    "url": "https://www.dobleamarilla.com.ar/liga-/la-explosiva-despedida-de-jhohan-romana-de-san-lorenzo---ojala-algun-dia-pueda-contarles-como-sucedieron-realmente-las-cosas-_a6a5f60499c14faaa984656a2",
    "fecha": "2026-07-21T12:35:52+00:00"
-  },
-  {
-   "medio": "Ámbito",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Vista pidió sumar al RIGI un proyecto de u$s5.800 millones en Vaca Muerta",
-   "url": "https://www.ambito.com/energia/vista-pidio-sumar-al-rigi-un-proyecto-us5800-millones-vaca-muerta-n6301835",
-   "fecha": "2026-07-21T12:33:00+00:00"
   },
   {
    "medio": "elDiarioAR",
@@ -4813,14 +4845,6 @@
    "fecha": "2026-07-21T11:15:00+00:00"
   },
   {
-   "medio": "La Tercera",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "“Se terminó la mentira de Messi; llegó el tiempo de investigarlo”: medio argentino sorprende con artículo sobre la Pulga",
-   "url": "https://www.latercera.com/el-deportivo/noticia/se-termino-la-mentira-de-messi-llego-el-tiempo-de-investigarlo-medio-argentino-sorprende-con-articulo-sobre-la-pulga/",
-   "fecha": "2026-07-21T11:14:12+00:00"
-  },
-  {
    "medio": "El Economista",
    "pais": "-",
    "tema": "Economía",
@@ -4829,28 +4853,12 @@
    "fecha": "2026-07-21T11:14:00+00:00"
   },
   {
-   "medio": "Doble Amarilla",
-   "pais": "-",
-   "tema": "Deportes",
-   "titulo": "Messi, en su tierra: llegó a Argentina junto a su familia tras la derrota en la final del Mundial",
-   "url": "https://www.dobleamarilla.com.ar/selecciones/messi--en-su-tierra--llego-a-argentina-junto-a-su-familia-tras-la-derrota-en-la-final-del-mundial_a6a5f4e119c14faaa9845799f",
-   "fecha": "2026-07-21T11:12:24+00:00"
-  },
-  {
    "medio": "El Economista",
    "pais": "-",
    "tema": "Economía",
    "titulo": "Las tarifas se dispararon casi cuatro veces más que la inflación desde diciembre de 2023",
    "url": "https://eleconomista.com.ar/energia/las-tarifas-dispararon-casi-cuatro-veces-mas-inflacion-diciembre-2023-n96837",
    "fecha": "2026-07-21T11:07:00+00:00"
-  },
-  {
-   "medio": "Doble Amarilla",
-   "pais": "-",
-   "tema": "Deportes",
-   "titulo": "Tigre abre su serie en los playoffs de la Copa Sudamericana como visitante ante Nacional de Uruguay",
-   "url": "https://www.dobleamarilla.com.ar/por-el-mundo/tigre-abre-su-serie-en-los-playoffs-de-la-copa-sudamericana-como-visitante-ante-nacional-de-uruguay_a6a5eb3cd9c14faaa983fcb43",
-   "fecha": "2026-07-21T10:48:47+00:00"
   },
   {
    "medio": "El Observador",
@@ -5437,14 +5445,6 @@
    "fecha": "2026-07-20T17:08:55+00:00"
   },
   {
-   "medio": "elDiarioAR",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El legendario baterista estadounidense Lewis Nash llega a Buenos Aires",
-   "url": "https://www.eldiarioar.com/espectaculos/legendario-baterista-estadounidense-lewis-nash-llega-buenos-aires_1_13394333.html",
-   "fecha": "2026-07-20T16:20:20+00:00"
-  },
-  {
    "medio": "La Diaria",
    "pais": "UY",
    "tema": "general",
@@ -5887,13 +5887,51 @@
  ],
  "clusters": [
   {
-   "ckey": "mundial selección argentina scaloni españa",
+   "ckey": "martínez lisandro licha",
+   "n_medios": 3,
+   "n_duenos": 3,
+   "senal": "calco",
+   "duenos": [
+    "Grupo Clarín",
+    "La Nación",
+    "Olé"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 34,
+   "timing": true,
+   "versiones": [
+    {
+     "medio": "TN",
+     "titulo": "El fuerte posteo de Lisandro Martínez tras la final: “La caída de los grandes es la felicidad de los mediocres”",
+     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/el-fuerte-posteo-de-lisandro-martinez-tras-la-final-la-caida-de-los-grandes-es-la-felicidad-de-los-mediocres/"
+    },
+    {
+     "medio": "Olé",
+     "titulo": "El picante posteo de Licha Martínez: \"La caída de los grandes es la felicidad de los mediocres\"",
+     "url": "https://www.ole.com.ar/seleccion/licha-martinez-seleccion-argentina-posteo-mundial_0_QU7R0LdnCd.html"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Lisandro Martínez rompió el silencio tras su regreso al país: “La caída de los grandes es la felicidad de los mediocres”",
+     "url": "https://www.lanacion.com.ar/deportes/lisandro-martinez-rompio-el-silencio-tras-su-regreso-al-pais-la-caida-de-los-grandes-es-la-felicidad-nid21072026/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "mundial 2026 argentina selección scaloni",
    "n_medios": 11,
-   "n_duenos": 10,
+   "n_duenos": 11,
    "senal": "divergencia",
    "duenos": [
     "Doble Amarilla",
     "El Economista",
+    "El Observador",
     "Grupo Clarín",
     "Infobae",
     "La Diaria",
@@ -5910,38 +5948,23 @@
     "CL",
     "UY"
    ],
-   "ventana_min": 3066,
+   "ventana_min": 3168,
    "timing": false,
    "versiones": [
     {
-     "medio": "La Nación",
-     "titulo": "El “curioso” denominador común en las publicaciones de Leandro Paredes, Cuti Romero y Lautaro Martínez",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/el-curioso-denominador-comun-en-las-publicaciones-de-leandro-paredes-cuti-romero-y-lautaro-martinez-nid21072026/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Scaloni evitó definir su futuro en la selección: “Lo más importante es la conexión del equipo”",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/scaloni-evito-definir-su-futuro-en-la-seleccion-lo-mas-importante-es-la-conexion-del-equipo-nid21072026/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "Pese a provocar la pelea: la FIFA elimina la expulsión de Leandro Paredes de los registros de la final del Mundial",
-     "url": "https://www.latercera.com/el-deportivo/noticia/pese-a-provocar-la-pelea-la-fifa-elimina-la-expulsion-de-leandro-paredes-de-los-registros-de-la-final-del-mundial/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Alexis Mac Allister: “Gracias a quienes nos mandan mensajes alegrándose por nuestro dolor, nos ayudan a sentirnos más orgullosos”",
-     "url": "https://www.lanacion.com.ar/deportes/alexis-mac-allister-gracias-a-quienes-nos-mandan-mensajes-alegrandose-por-nuestro-dolor-nos-ayudan-a-nid21072026/"
+     "medio": "Infobae",
+     "titulo": "Aixa Vigil, Ginna López, Mirian Patiño y todas las ausentes en la convocatoria de Perú para la Copa Sudamericana de Vóley 2026",
+     "url": "https://www.infobae.com/peru/deportes/2026/07/21/aixa-vigil-mirian-patino-ginna-lopez-y-todas-las-ausentes-en-la-convocatoria-de-peru-para-la-copa-sudamericana-de-voley-2026/"
     },
     {
      "medio": "Infobae",
-     "titulo": "Lionel Scaloni volvió a la casa de sus padres en Pujato y fue recibido por una multitud: “Perdimos porque ellos fueron mejores”",
-     "url": "https://www.infobae.com/deportes/2026/07/21/lionel-scaloni-volvio-a-la-casa-de-sus-padres-en-pujato-y-fue-recibido-por-una-multitud-perdimos-porque-ellos-fueron-mejores/"
+     "titulo": "La respuesta del padre de Rodrigo De Paul a los que difunden teorías conspirativas por la caída de Argentina en la final del Mundial",
+     "url": "https://www.infobae.com/deportes/2026/07/21/la-respuesta-del-padre-de-rodrigo-de-paul-a-los-que-difunden-teorias-conspirativas-por-la-caida-de-argentina-en-la-final-del-mundial/"
     },
     {
      "medio": "TN",
-     "titulo": "Alejandro Garnacho está muy cerca de dejar el Chelsea para jugar con Dibu Martínez y Buendía en el Aston Villa",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/alejandro-garnacho-esta-muy-cerca-de-dejar-el-chelsea-para-jugar-con-dibu-martinez-y-buendia-en-el-aston-villa/"
+     "titulo": "La exprofesora de Julián Álvarez apoyó a la Selección argentina en la final del Mundial con la camiseta de otro futbolista",
+     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/la-exprofesora-de-julian-alvarez-apoyo-a-la-seleccion-argentina-en-la-final-del-mundial-con-la-camiseta-de-otro-futbolista/"
     },
     {
      "medio": "La Nación",
@@ -5955,18 +5978,13 @@
     },
     {
      "medio": "La Nación",
-     "titulo": "La foto de Leandro Paredes con sus medallas y un mensaje para sus compañeros de la Selección",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/la-foto-de-leandro-paredes-con-sus-medallas-y-un-mensaje-para-sus-companeros-de-la-seleccion-nid21072026/"
+     "titulo": "El posteo de Cuti Romero tras la final del Mundial 2026 y una promesa para lo que sigue",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/el-posteo-de-cuti-romero-tras-la-final-del-mundial-2026-y-una-promesa-para-lo-que-sigue-nid21072026/"
     },
     {
      "medio": "La Nación",
      "titulo": "Dibu Martínez pidió disculpas por el resultado de la final contra España y puso en duda su continuidad en la Selección",
      "url": "https://www.lanacion.com.ar/deportes/futbol/dibu-martinez-pidio-disculpas-por-el-resultado-de-la-final-contra-espana-y-puso-en-duda-su-nid21072026/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "El sentido posteo de Nicolás Otamendi tras perder el Mundial 2026",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/el-sentido-posteo-de-nicolas-otamendi-tras-perder-el-mundial-2026-nid21072026/"
     },
     {
      "medio": "La Nación",
@@ -5985,23 +6003,28 @@
     },
     {
      "medio": "La Nación",
-     "titulo": "Pau Cubarsí, jugador de España premiado en la final, sobre Messi: “Me da pena porque es mi ídolo y verlo perder no me gusta”",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/pau-cubarsi-jugador-de-espana-premiado-en-la-final-sobre-messi-me-da-pena-porque-es-mi-idolo-y-verlo-nid20072026/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Luis De la Fuente reveló qué le dijo al oído a Scaloni tras la final del Mundial",
-     "url": "https://www.lanacion.com.ar/deportes/el-sentido-mensaje-de-luis-de-la-fuente-dt-de-espana-a-scaloni-tras-la-derrota-de-argentina-tiene-nid20072026/"
-    },
-    {
-     "medio": "Ámbito",
-     "titulo": "\"¿Che que pasó en el vestuario?\": Carlos Mac Allister contó qué le dijo Alexis sobre la arenga de Messi y develó el misterio",
-     "url": "https://www.ambito.com/deportes/che-que-paso-el-vestuario-carlos-mac-allister-conto-que-le-dijo-alexis-la-arenga-messi-y-develo-el-misterio-n6302049"
-    },
-    {
-     "medio": "La Nación",
      "titulo": "Rodrigo De Paul, tras la final: “Me dolerá mucho tiempo pero hoy más que nunca estoy orgulloso de ser argentino”",
      "url": "https://www.lanacion.com.ar/deportes/futbol/rodrigo-de-paul-tras-la-final-me-dolera-mucho-tiempo-pero-hoy-mas-que-nunca-estoy-orgulloso-de-ser-nid20072026/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "La FIFA abrió la votación para elegir al mejor gol del Mundial 2026: los dos gritos argentinos que participan por el premio",
+     "url": "https://www.infobae.com/deportes/2026/07/21/la-fifa-abrio-la-votacion-para-elegir-al-mejor-gol-del-mundial-2026-los-dos-gritos-argentinos-que-participan-por-el-premio/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Juan Manuel Cuesta es baja en Sporting Cristal de cara al partido con Bragantino por ‘play-offs’ de la Copa Sudamericana 2026",
+     "url": "https://www.infobae.com/peru/deportes/2026/07/21/juan-manuel-cuesta-es-baja-en-sporting-cristal-de-cara-al-partido-con-bragantino-por-play-offs-de-la-copa-sudamericana-2026/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "El sentido posteo de Nicolás Otamendi tras perder el Mundial 2026",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/el-sentido-posteo-de-nicolas-otamendi-tras-perder-el-mundial-2026-nid21072026/"
+    },
+    {
+     "medio": "Perfil",
+     "titulo": "Rosario Central iniciará acciones legales por “agravio a la institución” tras el posteo viral de los jugadores de la Selección sin Messi",
+     "url": "https://www.perfil.com/noticias/deportes/rosario-central-iniciara-acciones-legales-por-agravio-a-la-institucion-tras-el-posteo-viral-a50-de-los-jugadores-de-la-seleccion-sin-messi.phtml"
     },
     {
      "medio": "La Nación",
@@ -6009,34 +6032,69 @@
      "url": "https://www.lanacion.com.ar/deportes/futbol/el-inquietante-posteo-de-dibu-martinez-tras-la-final-del-mundial-2026-nid21072026/"
     },
     {
+     "medio": "La Nación",
+     "titulo": "Tras burlarse de la soberanía argentina sobre las Islas Malvinas, el ex One Direction Niall Horan pidió disculpas",
+     "url": "https://www.lanacion.com.ar/espectaculos/tras-burlarse-de-la-soberania-argentina-sobre-las-islas-malvinas-el-ex-one-direction-niall-horan-nid21072026/"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Cuánto cuesta llenar el tanque de la Ford Territory en julio 2026",
+     "url": "https://tn.com.ar/autos/novedades/2026/07/21/cuanto-cuesta-llenar-el-tanque-de-la-ford-territory-en-julio-2026/"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Gianni Infantino felicitó a la Selección argentina tras el Mundial: “Un espíritu de lucha inspirador”",
+     "url": "https://tn.com.ar/deportes/mundial/2026/07/21/gianni-infantino-felicito-a-la-seleccion-argentina-tras-el-mundial-un-espiritu-de-lucha-inspirador/"
+    },
+    {
+     "medio": "El Economista",
+     "titulo": "El jugador que se retiró de la Selección Argentina tras el Mundial 2026",
+     "url": "https://eleconomista.com.ar/deportes/nicolas-otamendi-retiro-seleccion-argentina-mundial-2026-n96858"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Un futbolista titular de Boca tuvo un problema físico y podría perderse el partido contra O’Higgins por la Sudamericana",
+     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/un-futbolista-titular-de-boca-tuvo-un-problema-fisico-y-podria-perderse-el-partido-contra-ohiggins-por-la-sudamericana/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Scaloni evitó definir su futuro en la selección: “Lo más importante es la conexión del equipo”",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/scaloni-evito-definir-su-futuro-en-la-seleccion-lo-mas-importante-es-la-conexion-del-equipo-nid21072026/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Belgrano vs. Rosario Central, por el Torneo Clausura 2025: día, horario, TV y cómo ver online",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/belgrano-vs-rosario-central-por-el-torneo-clausura-2025-dia-horario-tv-y-como-ver-online-nid21072026/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Cuánto cobran de mínima los jubilados de la Anses en agosto 2026",
+     "url": "https://www.lanacion.com.ar/economia/cuanto-cobran-de-minima-los-jubilados-de-la-anses-en-agosto-2026-nid21072026/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Reforma Laboral: los ejes centrales de la ley sancionada en la Argentina en febrero 2026",
+     "url": "https://www.lanacion.com.ar/politica/reforma-laboral-los-ejes-centrales-de-la-ley-sancionada-en-la-argentina-en-febrero-2026-nid21072026/"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Alejandro Garnacho está muy cerca de dejar el Chelsea para jugar con Dibu Martínez y Buendía en el Aston Villa",
+     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/alejandro-garnacho-esta-muy-cerca-de-dejar-el-chelsea-para-jugar-con-dibu-martinez-y-buendia-en-el-aston-villa/"
+    },
+    {
      "medio": "TN",
      "titulo": "Tini Stoessel le dedicó un conmovedor posteo a Rodrigo De Paul luego de la derrota de la Selección frente a España",
      "url": "https://tn.com.ar/show/famosos/2026/07/21/tini-stoessel-le-dedico-un-conmovedor-posteo-a-rodrigo-de-paul-luego-de-la-derrota-de-la-seleccion-frente-a-espana/"
     },
     {
-     "medio": "La Nación",
-     "titulo": "Habló la hermana de Scaloni y el DT dejó una divertida frase sobre su llegada a Pujato: “Se me va a llenar el pueblo de gente”",
-     "url": "https://www.lanacion.com.ar/deportes/hablo-la-hermana-de-scaloni-y-el-dt-dejo-una-divertida-frase-sobre-su-llegada-a-pujato-se-me-va-a-nid21072026/"
-    },
-    {
-     "medio": "Clarín",
-     "titulo": "Tini Stoessel y su orgullo por Rodrigo de Paul pese a la derrota en la final del Mundial: \"Te amo y admiro para siempre\"",
-     "url": "https://www.clarin.com/fama/tini-stoessel-orgullo-rodrigo-paul-pese-derrota-final-mundial-amo-admiro-siempre_0_rqPDWCtMuu.html"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Carlos Mac Allister reveló qué charló con Alexis sobre la arenga de Messi en el vestuario antes de la final con España",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/carlos-mac-allister-revelo-que-charlo-con-alexis-sobre-la-arenga-de-messi-en-el-vestuario-antes-de-nid21072026/"
+     "medio": "TN",
+     "titulo": "Fixture completo del Torneo Clausura 2026: todos los partidos y horarios del fútbol argentino",
+     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/fixture-completo-del-torneo-clausura-2026-todos-los-partidos-y-horarios-del-futbol-argentino/"
     },
     {
      "medio": "TN",
      "titulo": "El papá del Dibu Martínez habló sobre el posible retiro de su hijo de la Selección argentina tras la final del Mundial",
      "url": "https://tn.com.ar/deportes/2026/07/21/el-papa-del-dibu-martinez-hablo-sobre-el-posible-retiro-de-su-hijo-de-la-seleccion-argentina-tras-la-final-del-mundial/"
-    },
-    {
-     "medio": "Clarín",
-     "titulo": "La intimidad del vestuario de la Selección Argentina en la final contra España: las dos arengas de Lionel Messi y el por qué del pedido de Dibu Martínez",
-     "url": "https://www.clarin.com/deportes/intimidad-vestuario-seleccion-argentina-final-espana-arengas-lionel-messi-pedido-dibu-martinez_0_J68pLLpFlr.html"
     },
     {
      "medio": "El Economista",
@@ -6045,13 +6103,23 @@
     },
     {
      "medio": "TN",
-     "titulo": "“Seguiremos dando batalla”: Scaloni lloró al llegar a su casa de Pujato mientras los vecinos gritaban “Leo no se va”",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/seguiremos-dando-batalla-scaloni-lloro-al-llegar-a-su-casa-de-pujato-mientras-los-vecinos-gritaban-leo-no-se-va/"
+     "titulo": "Cuándo juega Boca ante O’Higgins por los 16avos de la Copa Sudamericana: día, horario y dónde ver el partido",
+     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/cuando-juega-boca-ante-ohiggins-por-los-16avos-de-la-copa-sudamericana-dia-horario-y-donde-ver-el-partido/"
     },
     {
      "medio": "Doble Amarilla",
-     "titulo": "Alexis Mac Allister: “Estuvimos muy cerca, por eso duele tanto\"",
-     "url": "https://www.dobleamarilla.com.ar/selecciones/alexis-mac-allister---estuvimos-muy-cerca--por-eso-duele-tanto-_a6a5fa42d9c14faaa98497b81"
+     "titulo": "Contra quién debuta Talleres en el Torneo Clausura 2026: día y horario de la fecha 1",
+     "url": "https://www.dobleamarilla.com.ar/liga-/contra-quien-debuta-talleres-en-el-torneo-clausura-2026--dia-y-horario-de-la-fecha-1_a6a5e307ad36fca4629c7df3f"
+    },
+    {
+     "medio": "El Economista",
+     "titulo": "Los cinco argentinos nominados al mejor equipo del Mundial 2026",
+     "url": "https://eleconomista.com.ar/deportes/nominados-mejor-equipo-fifa-mundial-2026-n96856"
+    },
+    {
+     "medio": "Doble Amarilla",
+     "titulo": "Así está el mercado de pases de Vélez a pocos días de su debut en el Torneo Clausura 2026",
+     "url": "https://www.dobleamarilla.com.ar/liga-/asi-esta-el-mercado-de-pases-de-velez-a-pocos-dias-de-su-debut-en-el-torneo-clausura-2026_a6a5e80d69c14faaa983e1640"
     },
     {
      "medio": "El Economista",
@@ -6059,14 +6127,9 @@
      "url": "https://eleconomista.com.ar/deportes/cuando-juega-seleccion-argentina-agenda-amistosos-eliminatorias-n96855"
     },
     {
-     "medio": "La Nación",
-     "titulo": "¿Sigue en la selección argentina?: El comunicado completo del Dibu Martínez tras la derrota de la Argentina vs. España",
-     "url": "https://www.lanacion.com.ar/deportes/sigue-en-la-seleccion-argentina-el-comunicado-completo-del-dibu-martinez-tras-la-derrota-de-la-nid21072026/"
-    },
-    {
-     "medio": "Ámbito",
-     "titulo": "El emotivo mensaje de despedida de Nicolás Otamendi de la Selección argentina: \"Para toda la vida\"",
-     "url": "https://www.ambito.com/deportes/el-emotivo-mensaje-despedida-nicolas-otamendi-la-seleccion-argentina-para-toda-la-vida-n6301973"
+     "medio": "TN",
+     "titulo": "Cuándo juega River ante Barracas por el Torneo Clausura 2026: día, horario y en dónde se disputará el encuentro",
+     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/cuando-juega-river-ante-barracas-por-el-torneo-clausura-2026-dia-horario-y-en-donde-se-disputara-el-encuentro/"
     },
     {
      "medio": "Perfil",
@@ -6079,29 +6142,14 @@
      "url": "https://tn.com.ar/deportes/futbol/2026/07/21/cuando-vuelve-a-jugar-la-seleccion-argentina-tras-el-mundial-2026/"
     },
     {
-     "medio": "Perfil",
-     "titulo": "Zlatan Ibrahimovic, furioso contra Leandro Paredes: \"Si hubiera estado allí, le habría dado un cabezazo\"",
-     "url": "https://www.perfil.com/noticias/deportes/zlatanibrahimovic-furioso-contra-leandro-paredes-si-hubiera-estado-alli-le-habria-dado-un-cabezazo.phtml"
-    },
-    {
      "medio": "TN",
      "titulo": "La vidente del caso de Thiago Medina explicó por qué la Selección argentina no pudo ganar el Mundial 2026 y desató un escándalo",
      "url": "https://tn.com.ar/show/famosos/2026/07/21/la-vidente-del-caso-de-thiago-medina-explico-por-que-la-seleccion-argentina-no-pudo-ganar-el-mundial-2026-y-desato-un-escandalo/"
     },
     {
-     "medio": "TN",
-     "titulo": "El padre de Alexis Mac Allister reveló la charla que tuvo con su hijo tras la final del Mundial: “¿Qué pasó en el vestuario?",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/el-padre-de-alexis-mac-allister-revelo-que-le-pregunto-a-su-hijo-tras-la-final-del-mundial-que-paso-en-el-vestuario/"
-    },
-    {
      "medio": "Doble Amarilla",
      "titulo": "Mercado de pases intenso para varios jugadores de la Selección Argentina: quiénes pueden cambiar de club",
      "url": "https://www.dobleamarilla.com.ar/selecciones/mercado-de-pases-intenso-para-varios-jugadores-de-la-seleccion-argentina--quienes-pueden-cambiar-de-club_a6a5f85f59c14faaa9847f8a5"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Dos jugadores de la Selección de España se besaron durante los festejos en Madrid",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/dos-jugadores-de-la-seleccion-de-espana-se-besaron-durante-los-festejos-en-madrid/"
     },
     {
      "medio": "La Tercera",
@@ -6110,13 +6158,23 @@
     },
     {
      "medio": "La Tercera",
-     "titulo": "“Queda reflexionar si es momento de dar un paso al costado”: Dibu Martínez pone en duda su continuidad en Argentina",
-     "url": "https://www.latercera.com/el-deportivo/noticia/queda-reflexionar-si-es-momento-de-dar-un-paso-al-costado-dibu-martinez-pone-en-duda-su-continuidad-en-argentina/"
+     "titulo": "Presidente de la liga española le da con todo a Gianni Infantino: “La FIFA está destruyendo el fútbol; debe irse”",
+     "url": "https://www.latercera.com/el-deportivo/noticia/presidente-de-la-liga-espanola-le-da-con-todo-a-gianni-infantino-la-fifa-esta-destruyendo-el-futbol-debe-irse/"
     },
     {
-     "medio": "TN",
-     "titulo": "Yanina Latorre reveló por qué los jugadores de la Selección argentina “estuvieron fastidiosos” en la final del Mundial 2026",
-     "url": "https://tn.com.ar/show/famosos/2026/07/21/yanina-latorre-revelo-por-que-los-jugadores-de-la-seleccion-argentina-estuvieron-fastidiosos-en-la-final-del-mundial-2026/"
+     "medio": "El Economista",
+     "titulo": "La FIFA abrió una investigación contra Argentina tras el Mundial 2026: qué sanciones analiza aplicar",
+     "url": "https://eleconomista.com.ar/deportes/sanciones-fifa-seleccion-argentina-mundial-2026-n96853"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "Copa Sudamericana: vuelve la actividad con muchos uruguayos en cancha",
+     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/copa-sudamericana-vuelve-la-actividad-con-muchos-uruguayos-en-cancha/"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "“Queda reflexionar si es momento de dar un paso al costado”: Dibu Martínez pone en duda su continuidad en Argentina",
+     "url": "https://www.latercera.com/el-deportivo/noticia/queda-reflexionar-si-es-momento-de-dar-un-paso-al-costado-dibu-martinez-pone-en-duda-su-continuidad-en-argentina/"
     },
     {
      "medio": "Doble Amarilla",
@@ -6134,6 +6192,11 @@
      "url": "https://eleconomista.com.ar/deportes/mensajes-jugadores-seleccion-argentina-mundial-2026-n96851"
     },
     {
+     "medio": "Doble Amarilla",
+     "titulo": "\"Representación\": el mensaje especial de Gallardo a Scaloni tras el Mundial 2026",
+     "url": "https://www.dobleamarilla.com.ar/selecciones/-representacion---el-mensaje-especial-de-gallardo-a-scaloni-tras-el-mundial-2026_a6a5f29d39c14faaa9843feb8"
+    },
+    {
      "medio": "Ámbito",
      "titulo": "Lionel Scaloni se refirió a la extraña arenga y desmintió conflicto interno en el vestuario",
      "url": "https://www.ambito.com/deportes/lionel-scaloni-se-refirio-la-extrana-arenga-y-desmintio-conflicto-interno-el-vestuario-n6301891"
@@ -6149,29 +6212,9 @@
      "url": "https://eleconomista.com.ar/deportes/mundial-2030-partidos-argentina-n96848"
     },
     {
-     "medio": "La Tercera",
-     "titulo": "“Me hubiese gustado ayudar dentro de la cancha”: el dardo de Lautaro Martínez a Lionel Scaloni tras la final del Mundial",
-     "url": "https://www.latercera.com/el-deportivo/noticia/me-hubiese-gustado-ayudar-dentro-de-la-cancha-el-dardo-de-lautaro-martinez-a-lionel-scaloni-tras-la-final-del-mundial/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "“Recibió su merecido al fin”: en Inglaterra lapidan a Enzo Fernández tras la final del Mundial entre Argentina y España",
-     "url": "https://www.latercera.com/el-deportivo/noticia/recibio-su-merecido-al-fin-en-inglaterra-lapidan-a-enzo-fernandez-tras-la-final-del-mundial-entre-argentina-y-espana/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "Rachas que nadie rompe: las ‘maldiciones’ que marcaron el título de España y la derrota de Argentina en la Copa del Mundo",
-     "url": "https://www.latercera.com/el-deportivo/noticia/rachas-que-nadie-rompe-las-maldiciones-que-marcaron-el-titulo-de-espana-y-la-derrota-de-argentina-en-la-copa-del-mundo/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "“Olvidémonos de todo”: la llamativa arenga de Lionel Messi en Argentina antes de la final del Mundial ante España",
-     "url": "https://www.latercera.com/el-deportivo/noticia/olvidemonos-de-todo-la-llamativa-arenga-de-lionel-messi-en-argentina-antes-de-la-final-del-mundial-ante-espana/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "Desde el ‘manco’ Dibu Martínez a una imagen ‘patética’ de Argentina: en España festinan con la tragedia transandina",
-     "url": "https://www.latercera.com/el-deportivo/noticia/desde-el-manco-dibu-martinez-a-una-imagen-patetica-de-argentina-en-espana-festinan-con-la-tragedia-transandina/"
+     "medio": "El Observador",
+     "titulo": "Nacional vs Tigre: en un momento crítico, el tricolor vuelve al plano internacional por los playoffs de octavos de Copa Sudamericana, con el partido de ida en el Gran Parque Central",
+     "url": "https://www.elobservador.com.uy//futbol/nacional-vs-tigre-un-momento-critico-el-tricolor-vuelve-al-plano-internacional-los-playoffs-octavos-copa-sudamericana-el-partido-ida-el-gran-parque-central-n6051379"
     },
     {
      "medio": "Ámbito",
@@ -6200,8 +6243,33 @@
     },
     {
      "medio": "El Economista",
+     "titulo": "Cómo quedó el ranking FIFA después del Mundial 2026",
+     "url": "https://eleconomista.com.ar/deportes/ranking-fifa-selecciones-mejor-posicionadas-mundial-2026-n96826"
+    },
+    {
+     "medio": "El Economista",
      "titulo": "Las repercusiones en los medios del mundo tras la victoria de España ante Argentina en la final del Mundial 2026",
      "url": "https://eleconomista.com.ar/deportes/repercusiones-medios-mundo-argentina-espana-final-mundial-2026-n96825"
+    },
+    {
+     "medio": "El Economista",
+     "titulo": "¿Cuánto dinero se llevó Argentina por ser subcampeón del Mundial 2026?",
+     "url": "https://eleconomista.com.ar/deportes/premios-economicos-fifa-argentina-subcampeon-mundial-2026-n96823"
+    },
+    {
+     "medio": "El Economista",
+     "titulo": "El premio sin precedentes que recibió España por salir campeón del Mundial 2026",
+     "url": "https://eleconomista.com.ar/deportes/cuanto-dinero-se-llevo-espana-campeon-mundial-2026-n96821"
+    },
+    {
+     "medio": "El Economista",
+     "titulo": "El recorrido de España en el Mundial 2026",
+     "url": "https://eleconomista.com.ar/deportes/recorrido-espana-campeon-mundial-2026-n96819"
+    },
+    {
+     "medio": "El Economista",
+     "titulo": "Quién ganó la Bota de Oro en el Mundial 2026",
+     "url": "https://eleconomista.com.ar/deportes/goleadores-mundial-2026-n95674"
     },
     {
      "medio": "La Diaria",
@@ -6214,6 +6282,16 @@
      "url": "https://www.eldiarioar.com/deportes/scaloni-puso-duda-continuidad-frente-seleccion-siento-necesidad-pensar_1_13392273.html"
     },
     {
+     "medio": "La Diaria",
+     "titulo": "Uno por uno de España campeona del mundo",
+     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/uno-por-uno-de-espana-campeona-del-mundo/"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "Bota de Oro: Mbappé fue el goleador del Mundial",
+     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/bota-de-oro-mbappe-fue-el-goleador-del-mundial/"
+    },
+    {
      "medio": "El Economista",
      "titulo": "¿Cuántos años tendrá Messi en el Mundial 2030 y qué chances hay de que juegue?",
      "url": "https://eleconomista.com.ar/deportes/messi-mundial-2030-edad-chances-juegue-n96805"
@@ -6223,140 +6301,18 @@
    "fuente_poder": null
   },
   {
-   "ckey": "sudamericana copa 2026 torneo clausura",
-   "n_medios": 7,
-   "n_duenos": 7,
-   "senal": "divergencia",
-   "duenos": [
-    "Doble Amarilla",
-    "El Observador",
-    "Grupo Clarín",
-    "Infobae",
-    "La Diaria",
-    "La Nación",
-    "Olé"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR",
-    "UY"
-   ],
-   "ventana_min": 1184,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "La Nación",
-     "titulo": "Belgrano vs. Rosario Central, por el Torneo Clausura 2025: día, horario, TV y cómo ver online",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/belgrano-vs-rosario-central-por-el-torneo-clausura-2025-dia-horario-tv-y-como-ver-online-nid21072026/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Sporting Cristal vs RB Bragantino: día, hora y canal TV del ‘play-offs’ ida por la Copa Sudamericana 2026",
-     "url": "https://www.infobae.com/peru/deportes/2026/07/18/sporting-cristal-vs-rb-bragantino-dia-hora-y-canal-tv-del-play-offs-ida-por-la-copa-sudamericana-2026/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Próximo partido de River: cuándo juega por el Torneo Clausura 2026",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/proximo-partido-de-river-cuando-juega-por-el-torneo-clausura-2026-nid21072026/"
-    },
-    {
-     "medio": "Olé",
-     "titulo": "El refuerzo que sintió una molestia y quedó en duda para el debut de Boca en la Sudamericana",
-     "url": "https://www.ole.com.ar/boca-juniors/refuerzo-sintio-molestia-quedo-duda-debut-boca-sudamericana_0_tJuhLWxNh2.html"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Fixture completo del Torneo Clausura 2026: todos los partidos y horarios del fútbol argentino",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/fixture-completo-del-torneo-clausura-2026-todos-los-partidos-y-horarios-del-futbol-argentino/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Por dónde pasan Tigre vs. Nacional, por la Copa Sudamericana 2026",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/por-donde-pasan-tigre-vs-nacional-por-la-copa-sudamericana-2026-nid21072026/"
-    },
-    {
-     "medio": "Olé",
-     "titulo": "Gastón Ávila, antes del debut de Rosario Central: \"Sabemos que nos van a pegar de todos lados\"",
-     "url": "https://www.ole.com.ar/rosario-central/gaston-avila-rosario-central-autocritica-clausura-torneo-pegar-almiron_0_yFdgQafjtd.html"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Cuándo juega Boca ante O’Higgins por los 16avos de la Copa Sudamericana: día, horario y dónde ver el partido",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/cuando-juega-boca-ante-ohiggins-por-los-16avos-de-la-copa-sudamericana-dia-horario-y-donde-ver-el-partido/"
-    },
-    {
-     "medio": "Doble Amarilla",
-     "titulo": "Contra quién debuta Talleres en el Torneo Clausura 2026: día y horario de la fecha 1",
-     "url": "https://www.dobleamarilla.com.ar/liga-/contra-quien-debuta-talleres-en-el-torneo-clausura-2026--dia-y-horario-de-la-fecha-1_a6a5e307ad36fca4629c7df3f"
-    },
-    {
-     "medio": "Doble Amarilla",
-     "titulo": "Así está el mercado de pases de Vélez a pocos días de su debut en el Torneo Clausura 2026",
-     "url": "https://www.dobleamarilla.com.ar/liga-/asi-esta-el-mercado-de-pases-de-velez-a-pocos-dias-de-su-debut-en-el-torneo-clausura-2026_a6a5e80d69c14faaa983e1640"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Cuándo juega River ante Barracas por el Torneo Clausura 2026: día, horario y en dónde se disputará el encuentro",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/cuando-juega-river-ante-barracas-por-el-torneo-clausura-2026-dia-horario-y-en-donde-se-disputara-el-encuentro/"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Arruabarrena define si Paredes y Villa estarán en el debut de Boca por la Copa Sudamericana",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/arruabarrena-define-si-paredes-y-villa-estaran-en-el-debut-de-boca-por-la-copa-sudamericana/"
-    },
-    {
-     "medio": "TN",
-     "titulo": "UCV vs Santos en vivo por la llave 6 de la Copa Sudamericana: hora, dónde ver y formaciones",
-     "url": "https://tn.com.ar/deportes/futbol/2026/07/21/ucv-vs-santos-en-vivo-por-la-llave-6-de-la-copa-sudamericana-hora-donde-ver-y-formaciones/"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Copa Sudamericana: vuelve la actividad con muchos uruguayos en cancha",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/copa-sudamericana-vuelve-la-actividad-con-muchos-uruguayos-en-cancha/"
-    },
-    {
-     "medio": "Doble Amarilla",
-     "titulo": "Boca y River lo celebran: Paredes y Otamendi se pusieron a disposición de los DT para el inicio del segundo semestre",
-     "url": "https://www.dobleamarilla.com.ar/liga-/boca-y-river-lo-celebran--paredes-y-otamendi-se-pusieron-a-disposicion-de-los-dt-para-el-inicio-del-segundo-semestre_a6a5f6bba9c14faaa9846c81c"
-    },
-    {
-     "medio": "Doble Amarilla",
-     "titulo": "Tigre abre su serie en los playoffs de la Copa Sudamericana como visitante ante Nacional de Uruguay",
-     "url": "https://www.dobleamarilla.com.ar/por-el-mundo/tigre-abre-su-serie-en-los-playoffs-de-la-copa-sudamericana-como-visitante-ante-nacional-de-uruguay_a6a5eb3cd9c14faaa983fcb43"
-    },
-    {
-     "medio": "El Observador",
-     "titulo": "Nacional vs Tigre: en un momento crítico, el tricolor vuelve al plano internacional por los playoffs de octavos de Copa Sudamericana, con el partido de ida en el Gran Parque Central",
-     "url": "https://www.elobservador.com.uy//futbol/nacional-vs-tigre-un-momento-critico-el-tricolor-vuelve-al-plano-internacional-los-playoffs-octavos-copa-sudamericana-el-partido-ida-el-gran-parque-central-n6051379"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Volvió la Sudamericana: Nacional va por un impostergable buen resultado",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/volvio-la-sudamericana-nacional-va-por-un-impostergable-buen-resultado/"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Semifinales de ida de la Copa Nacional de Clubes: ventaja cerealera y agónico festejo carolino",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/semifinales-de-ida-de-la-copa-nacional-de-clubes-ventaja-cerealera-y-agonico-festejo-carolino/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "unidos estados irán nicaragua ortega",
+   "ckey": "unidos estados irán montevideo marco",
    "n_medios": 7,
    "n_duenos": 7,
    "senal": "divergencia",
    "duenos": [
     "CIPER",
+    "El Observador",
+    "Grupo Clarín",
     "Infobae",
     "La Diaria",
-    "La Nación",
     "La Tercera",
-    "Perfil",
-    "elDiarioAR"
+    "Perfil"
    ],
    "mismo_dueno": false,
    "calco_descontado": false,
@@ -6365,23 +6321,28 @@
     "CL",
     "UY"
    ],
-   "ventana_min": 946,
+   "ventana_min": 1046,
    "timing": false,
    "versiones": [
     {
-     "medio": "Infobae",
-     "titulo": "Así operaría el Plan Patriota 2.0: el acuerdo de cooperación militar que Estados Unidos firmaría con Colombia para enfrentar a las organizaciones terroristas",
-     "url": "https://www.infobae.com/colombia/2026/07/21/los-detalles-del-plan-patriota-20-el-acuerdo-de-cooperacion-militar-que-estados-unidos-anuncio-con-colombia-para-enfrentar-organizaciones-terroristas/"
+     "medio": "TN",
+     "titulo": "Estados Unidos prepara nuevos aranceles a las importaciones de unos 60 países",
+     "url": "https://tn.com.ar/internacional/2026/07/21/estados-unidos-prepara-nuevos-aranceles-a-las-importaciones-de-unos-60-paises/"
     },
     {
      "medio": "Infobae",
-     "titulo": "México y Estados Unidos arrancan tercera ronda de negociaciones del T-MEC",
-     "url": "https://www.infobae.com/mexico/2026/07/21/mexico-y-estados-unidos-arrancan-tercera-ronda-de-negociaciones-del-t-mec/"
+     "titulo": "La primera casa en Estados Unidos cuesta 34% más que antes de la pandemia y la edad del comprador inicial llegó a los 40 años",
+     "url": "https://www.infobae.com/estados-unidos/2026/07/21/la-primera-casa-en-estados-unidos-cuesta-34-mas-que-antes-de-la-pandemia-cuanto-hay-que-ganar-hoy-para-acceder-a-una-vivienda-inicial/"
     },
     {
-     "medio": "La Nación",
-     "titulo": "¿Puede el anuncio de Ortega volver a poner a Nicaragua en el radar de Estados Unidos?",
-     "url": "https://www.lanacion.com.ar/el-mundo/puede-el-anuncio-de-ortega-volver-a-poner-a-nicaragua-en-el-radar-de-estados-unidos-nid21072026/"
+     "medio": "El Observador",
+     "titulo": "Un centenar de políticos progresistas se reunirán en Montevideo para construir una \"agenda hemisférica\" contra Estados Unidos",
+     "url": "https://www.elobservador.com.uy//nacional/un-centenar-politicos-progresistas-se-reuniran-montevideo-construir-una-agenda-hemisferica-contra-estados-unidos-n6051537"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "Embajador uruguayo en Estados Unidos participó en la reunión de Marco Rubio contra “el resurgimiento del terrorismo político”",
+     "url": "https://ladiaria.com.uy/politica/articulo/2026/7/embajador-uruguayo-en-estados-unidos-participo-en-la-reunion-de-marco-rubio-contra-el-resurgimiento-del-terrorismo-politico/"
     },
     {
      "medio": "Perfil",
@@ -6394,19 +6355,9 @@
      "url": "https://www.latercera.com/mundo/noticia/estados-unidos-asegura-que-iran-esta-desesperado-por-negociar-y-avisa-de-que-si-ataca-ormuz-golpeara-10-veces-mas-fuerte/"
     },
     {
-     "medio": "elDiarioAR",
-     "titulo": "Ortega dice que Nicaragua no celebrará más elecciones y pone fin a la democracia",
-     "url": "https://www.eldiarioar.com/mundo/ortega-dice-nicaragua-no-celebrara-elecciones-pone-democracia_1_13397157.html"
-    },
-    {
      "medio": "CIPER",
      "titulo": "El tiempo de la coerción: Estados Unidos e Irán",
      "url": "https://www.ciperchile.cl/2026/07/21/el-tiempo-de-la-coercion-estados-unidos-e-iran/?utm_source=rss&utm_medium=rss&utm_campaign=el-tiempo-de-la-coercion-estados-unidos-e-iran"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "Guardia Revolucionaria de Irán reivindica un nuevo ataque contra instalaciones de Estados Unidos en Jordania",
-     "url": "https://www.latercera.com/mundo/noticia/guardia-revolucionaria-de-iran-reivindica-un-nuevo-ataque-contra-instalaciones-de-estados-unidos-en-jordania/"
     },
     {
      "medio": "La Diaria",
@@ -6418,74 +6369,15 @@
    "fuente_poder": null
   },
   {
-   "ckey": "espriella petro colombia gustavo abelardo",
-   "n_medios": 5,
-   "n_duenos": 5,
-   "senal": "divergencia",
-   "duenos": [
-    "El Ciudadano",
-    "Infobae",
-    "La Nación",
-    "La Tercera",
-    "elDiarioAR"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR",
-    "CL"
-   ],
-   "ventana_min": 384,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "Gustavo Petro arremetió contra expresidente del sindicato de la UNP Wilson Devia y lo acusó de bloquear la entidad: “Dirigente sindical de la extrema derecha”",
-     "url": "https://www.infobae.com/colombia/2026/07/21/gustavo-petro-senalo-al-expresidente-del-sindicato-de-la-unp-wilson-devia-por-bloqueo-de-la-entidad-y-lanzo-dura-acusacion/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Gustavo Petro reveló lo que hará los últimos 15 días antes de entregar la presidencia a Abelardo de la Espriella: “Sábados y domingos también”",
-     "url": "https://www.infobae.com/colombia/2026/07/21/gustavo-petro-revelo-lo-que-hara-los-ultimos-15-dias-antes-de-entregar-la-presidencia-a-abelardo-de-la-espriella-sabados-y-domingos-tambien/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Por qué el gobernador de Antioquia le propuso al presidente electo Abelardo de la Espriella adelantar el reloj por una hora en Colombia: “Aprovechemos la luz natural”",
-     "url": "https://www.infobae.com/colombia/2026/07/21/por-que-el-gobernador-de-antioquia-le-propuso-al-presidente-electo-abelardo-de-la-espriella-adelantar-el-reloj-por-una-hora-en-colombia-aprovechemos-la-luz-natural/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "El nuevo Congreso de Colombia da su primer golpe a De la Espriella y rechaza su candidato para dirigir el Senado",
-     "url": "https://www.lanacion.com.ar/el-mundo/el-nuevo-congreso-de-colombia-da-su-primer-golpe-a-de-la-espriella-y-rechaza-su-candidato-para-nid21072026/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "Revés para De la Espriella antes de asumir: eligen como presidente del Senado al candidato de Uribe tras recibir apoyo del partido de Petro",
-     "url": "https://www.latercera.com/mundo/noticia/reves-para-de-la-espriella-antes-de-asumir-eligen-como-presidente-del-senado-al-candidato-de-uribe-tras-recibir-apoyo-del-partido-de-petro/"
-    },
-    {
-     "medio": "El Ciudadano",
-     "titulo": "Petro Takes Legal Action Against De La Espriella’s Election: Seeks Nullification Due to Algorithmic Vote Manipulation",
-     "url": "https://www.elciudadano.com/en/petro-takes-legal-action-against-de-la-espriellas-election-seeks-nullification-due-to-algorithmic-vote-manipulation/07/21/"
-    },
-    {
-     "medio": "elDiarioAR",
-     "titulo": "El traspaso de poder, bajo tensión en Colombia tras el enfrentamiento del ultra De la Espriella con Petro por jurar el cargo en un cuartel",
-     "url": "https://www.eldiarioar.com/latinoamerica/traspaso-tension-colombia-enfrentamiento-ultra-espriella-petro-jurar-cargo-cuartel_129_13394724.html"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "nación lanari javier banco gobierno",
-   "n_medios": 5,
-   "n_duenos": 5,
+   "ckey": "banco gobierno javier lanari nación",
+   "n_medios": 6,
+   "n_duenos": 6,
    "senal": "divergencia",
    "duenos": [
     "El Economista",
     "Grupo Clarín",
     "La Nación",
+    "Perfil",
     "elDiarioAR",
     "Ámbito"
    ],
@@ -6494,18 +6386,53 @@
    "paises": [
     "AR"
    ],
-   "ventana_min": 406,
+   "ventana_min": 517,
    "timing": false,
    "versiones": [
+    {
+     "medio": "La Nación",
+     "titulo": "Tras la mesa política, el Gobierno confirmó que Milei presentará la reforma del BCRA: se haría por cadena nacional",
+     "url": "https://www.lanacion.com.ar/politica/tras-la-mesa-politica-el-gobierno-confirmo-que-milei-presentara-la-reforma-del-bcra-se-haria-por-nid21072026/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Javier Bardem expresó que hubo más aliento a España en la final por el respaldo de Milei a Israel: “Apoya a un criminal de guerra”",
+     "url": "https://www.lanacion.com.ar/politica/javier-bardem-expreso-que-hubo-mas-aliento-a-espana-en-la-final-por-el-respaldo-de-milei-a-israel-nid21072026/"
+    },
+    {
+     "medio": "Perfil",
+     "titulo": "El dólar blue cerró en alza este martes 21 de julio y el Banco Central volvió a comprar dólares",
+     "url": "https://www.perfil.com/noticias/canal-e/el-dolar-blue-cerro-en-alza-este-lunes-21-de-julio-y-el-banco-central-volvio-a-comprar-dolares.phtml"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Javier Lanari, el tercer “leal” que logró reubicarse en la administración libertaria y con sueldo duplicado",
+     "url": "https://www.lanacion.com.ar/politica/javier-lanari-el-tercer-leal-que-logro-reubicarse-en-la-administracion-libertaria-y-con-sueldo-nid21072026/"
+    },
+    {
+     "medio": "Ámbito",
+     "titulo": "El Gobierno analiza anunciar por cadena nacional la reforma del Banco Central",
+     "url": "https://www.ambito.com/politica/el-gobierno-analiza-anunciar-cadena-nacional-la-reforma-del-banco-central-n6302070"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Tras el Mundial, el Gobierno reunió a la mesa política y definió presentar la reforma del Banco Central la próxima semana",
+     "url": "https://tn.com.ar/politica/2026/07/21/tras-el-mundial-el-gobierno-reune-a-la-mesa-politica-para-definir-la-estrategia-legislativa/"
+    },
+    {
+     "medio": "Ámbito",
+     "titulo": "El Gobierno reunió a su mesa política con la mira puesta en el Congreso",
+     "url": "https://www.ambito.com/politica/el-gobierno-retoma-la-mesa-la-mira-puesta-el-congreso-n6301800"
+    },
+    {
+     "medio": "Perfil",
+     "titulo": "Tras el Mundial, el Gobierno reunió a la mesa política y definió la agenda legislativa para el segundo semestre",
+     "url": "https://www.perfil.com/noticias/politica/la-mesa-politica-se-reunio-en-la-casa-rosada-para-impulsar-la-agenda-parlamentaria.phtml"
+    },
     {
      "medio": "elDiarioAR",
      "titulo": "Javier Lanari fue designado Director del Banco de la Nación Argentina",
      "url": "https://www.eldiarioar.com/economia/javier-lanari-designado-director-banco-nacion-argentina_1_13397323.html"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "El Gobierno se refirió a la designación de Javier Lanari en el directorio del Banco Nación",
-     "url": "https://www.lanacion.com.ar/politica/el-gobierno-se-refirio-a-la-designacion-de-lanari-en-el-directorio-del-banco-nacion-nid21072026/"
     },
     {
      "medio": "TN",
@@ -6518,11 +6445,6 @@
      "url": "https://tn.com.ar/politica/2026/07/21/el-vocero-presidencial-defendio-la-designacion-del-periodista-javier-lanari-como-director-del-banco-nacion-no-veo-problema/"
     },
     {
-     "medio": "Ámbito",
-     "titulo": "El Gobierno insiste en que la inflación quebrará el umbral del 1% en agosto",
-     "url": "https://www.ambito.com/economia/el-gobierno-insiste-que-la-inflacion-quebrara-el-umbral-del-1-agosto-n6301933"
-    },
-    {
      "medio": "El Economista",
      "titulo": "Javier Lanari reaparece en el Gobierno: Milei lo nombró director del Banco Nación",
      "url": "https://eleconomista.com.ar/politica/javier-lanari-reaparece-gobierno-milei-lo-nombro-director-banco-nacion-n96841"
@@ -6532,38 +6454,119 @@
    "fuente_poder": null
   },
   {
-   "ckey": "dólar vivo",
+   "ckey": "ortega daniel nicaragua aquí nacional",
+   "n_medios": 5,
+   "n_duenos": 5,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "La Diaria",
+    "La Nación",
+    "La Tercera",
+    "elDiarioAR"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR",
+    "CL",
+    "UY"
+   ],
+   "ventana_min": 1283,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "Asamblea Nacional de Nicaragua iniciará reformas para cumplir el mandato de Daniel Ortega contra las elecciones",
+     "url": "https://www.infobae.com/nicaragua/2026/07/21/asamblea-nacional-de-nicaragua-iniciara-reformas-para-cumplir-el-mandato-de-daniel-ortega-contra-las-elecciones/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "El anuncio de Daniel Ortega de que suprimirá las elecciones en Nicaragua podría empujar a EE.UU. a adoptar un enfoque más agresivo sobre el régimen",
+     "url": "https://www.lanacion.com.ar/estados-unidos/el-anuncio-de-daniel-ortega-de-que-suprimira-las-elecciones-en-nicaragua-podria-empujar-a-eeuu-a-nid21072026/"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "“Aquí no volverá a haber elecciones”: Las presiones y desafíos que enfrenta Daniel Ortega tras su polémica decisión",
+     "url": "https://www.latercera.com/mundo/noticia/aqui-no-volvera-a-haber-elecciones-las-presiones-y-desafios-que-enfrenta-daniel-ortega-tras-su-polemica-decision/"
+    },
+    {
+     "medio": "elDiarioAR",
+     "titulo": "Ortega dice que Nicaragua no celebrará más elecciones y pone fin a la democracia",
+     "url": "https://www.eldiarioar.com/mundo/ortega-dice-nicaragua-no-celebrara-elecciones-pone-democracia_1_13397157.html"
+    },
+    {
+     "medio": "La Diaria",
+     "titulo": "“Aquí no volverá a haber elecciones”, dijo el copresidente nicaragüense Daniel Ortega",
+     "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/aqui-no-volvera-a-haber-elecciones-dijo-el-copresidente-nicaraguense-daniel-ortega/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "dólar precio euro panamá cuba",
    "n_medios": 4,
    "n_duenos": 4,
    "senal": "calco",
    "duenos": [
     "El Economista",
     "Grupo Clarín",
-    "La Nación",
-    "Ámbito"
+    "Infobae",
+    "La Nación"
    ],
    "mismo_dueno": false,
    "calco_descontado": false,
    "paises": [
     "AR"
    ],
-   "ventana_min": 420,
+   "ventana_min": 518,
    "timing": false,
    "versiones": [
-    {
-     "medio": "La Nación",
-     "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 21 de julio, minuto a minuto",
-     "url": "https://www.lanacion.com.ar/economia/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid21072026/"
-    },
     {
      "medio": "TN",
      "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este martes 21 de julio",
      "url": "https://tn.com.ar/economia/2026/07/21/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-21-de-julio/"
     },
     {
-     "medio": "Ámbito",
-     "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este martes 21 de julio",
-     "url": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-martes-21-julio-n6301782"
+     "medio": "Infobae",
+     "titulo": "Euro hoy en Panamá: cotización de cierre del 21 de julio",
+     "url": "https://www.infobae.com/noticias/2026/07/21/euro-hoy-en-panama-cotizacion-de-cierre-del-21-de-julio/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Euro hoy en Cuba: cotización de cierre del 21 de julio",
+     "url": "https://www.infobae.com/noticias/2026/07/21/euro-hoy-en-cuba-cotizacion-de-cierre-del-21-de-julio/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Precio del dólar hoy en Panamá: cotización de cierre del 21 de julio",
+     "url": "https://www.infobae.com/noticias/2026/07/21/precio-del-dolar-hoy-en-panama-cotizacion-de-cierre-del-21-de-julio/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Precio del dólar hoy en Cuba: cotización de cierre del 21 de julio",
+     "url": "https://www.infobae.com/noticias/2026/07/21/precio-del-dolar-hoy-en-cuba-cotizacion-de-cierre-del-21-de-julio/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Precio del euro hoy en Colombia: cotización de cierre del 21 de julio",
+     "url": "https://www.infobae.com/colombia/2026/07/21/precio-del-euro-hoy-en-colombia-cotizacion-de-cierre-del-21-de-julio/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Dólar hoy en Colombia: cotización de cierre del 21 de julio",
+     "url": "https://www.infobae.com/colombia/2026/07/21/dolar-hoy-en-colombia-cotizacion-de-cierre-del-21-de-julio/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 21 de julio, minuto a minuto",
+     "url": "https://www.lanacion.com.ar/economia/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid21072026/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Dólar hoy en vivo: a cuánto se operaron todas las cotizaciones minuto a minuto este martes 21 de julio",
+     "url": "https://www.infobae.com/economia/2026/07/21/dolar-hoy-en-vivo-a-cuanto-se-operan-todas-las-cotizaciones-minuto-a-minuto-este-martes-21-de-julio/"
     },
     {
      "medio": "El Economista",
@@ -6575,56 +6578,12 @@
    "fuente_poder": null
   },
   {
-   "ckey": "pérez reverte arturo mundial argentina",
+   "ckey": "francia europa",
    "n_medios": 4,
-   "n_duenos": 4,
-   "senal": "divergencia",
+   "n_duenos": 3,
+   "senal": "calco",
    "duenos": [
     "Grupo Clarín",
-    "Infobae",
-    "La Nación",
-    "Perfil"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 136,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "Arturo Pérez-Reverte opina sobre la actitud de Argentina en la final del Mundial: “No seamos injustos, no nos equivoquemos”",
-     "url": "https://www.infobae.com/espana/cultura/2026/07/21/arturo-perez-reverte-opina-sobre-la-actitud-de-argentina-en-la-final-del-mundial-no-seamos-injustos-no-nos-equivoquemos/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "El escritor español Pérez-Reverte se sumó a las críticas a la selección argentina: “Cierta detestable sociedad”",
-     "url": "https://www.lanacion.com.ar/cultura/el-esctitor-perez-reverte-se-sumo-a-las-criticas-a-la-seleccion-argentina-cierta-detestable-sociedad-nid21072026/"
-    },
-    {
-     "medio": "Perfil",
-     "titulo": "Arturo Pérez-Reverte contra la selección argentina: \"Zafio comportamiento, sucias maneras y mal perder\"",
-     "url": "https://www.perfil.com/noticias/nea/arturo-perez-reverte-contra-la-seleccion-argentina-zafio-comportamiento-sucias-maneras-y-mal-perder.phtml"
-    },
-    {
-     "medio": "TN",
-     "titulo": "El escritor español Arturo Pérez-Reverte se sumó a las críticas a la Selección: “Su mal perder no representa al pueblo argentino”",
-     "url": "https://tn.com.ar/cultura/2026/07/21/en-medio-de-la-ola-de-criticas-hacia-el-pais-arturo-perez-reverte-aseguro-que-la-seleccion-no-representa-al-pueblo-argentino/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "messi rosario argentina mundial",
-   "n_medios": 4,
-   "n_duenos": 4,
-   "senal": "divergencia",
-   "duenos": [
-    "Cenital",
-    "Doble Amarilla",
     "La Nación",
     "elDiarioAR"
    ],
@@ -6633,40 +6592,35 @@
    "paises": [
     "AR"
    ],
-   "ventana_min": 452,
+   "ventana_min": 81,
    "timing": false,
    "versiones": [
     {
      "medio": "La Nación",
-     "titulo": "Messi en la Argentina: cómo es el auto que lo llevó a su casa en Rosario",
-     "url": "https://www.lanacion.com.ar/autos/messi-en-la-argentina-como-es-el-auto-que-lo-llevo-a-su-casa-en-rosario-nid21072026/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Messi ya está en la Argentina: llegó a Rosario para pasar unos días con su familia",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/messi-ya-esta-en-la-argentina-llego-a-rosario-para-pasar-unos-dias-con-su-familia-nid21072026/"
+     "titulo": "“No hay otra manera”: Francia aprobó la prohibición de las redes sociales para menores de 15 y de los celulares en el aula",
+     "url": "https://www.lanacion.com.ar/sociedad/no-hay-otra-manera-francia-aprobo-la-prohibicion-de-las-redes-sociales-para-menores-de-15-y-de-los-nid21072026/"
     },
     {
      "medio": "elDiarioAR",
-     "titulo": "Messi llegó a Rosario para pasar unos días con su familia tras la final del Mundial",
-     "url": "https://www.eldiarioar.com/deportes/messi-llego-rosario-pasar-dias-familia-final-mundial_1_13396091.html"
+     "titulo": "Francia se convierte en el primer país de Europa en prohibir las redes sociales para menores de 15 años",
+     "url": "https://www.eldiarioar.com/mundo/francia-convierte-primer-pais-europa-prohibir-redes-sociales-menores-15-anos_1_13397401.html"
     },
     {
-     "medio": "Cenital",
-     "titulo": "Messi ya está en Rosario, los jugadores en el país",
-     "url": "https://cenital.com/messi-ya-esta-en-rosario-los-jugadores-en-el-pais/"
+     "medio": "TN",
+     "titulo": "Francia aprobó una ley que prohíbe el acceso a las redes sociales a los menores de 15 años",
+     "url": "https://tn.com.ar/internacional/2026/07/21/francia-aprobo-una-ley-que-prohibe-el-acceso-a-las-redes-sociales-a-los-menores-de-15-anos/"
     },
     {
-     "medio": "Doble Amarilla",
-     "titulo": "Messi, en su tierra: llegó a Argentina junto a su familia tras la derrota en la final del Mundial",
-     "url": "https://www.dobleamarilla.com.ar/selecciones/messi--en-su-tierra--llego-a-argentina-junto-a-su-familia-tras-la-derrota-en-la-final-del-mundial_a6a5f4e119c14faaa9845799f"
+     "medio": "Clarín",
+     "titulo": "Francia aprobó la prohibición del uso de redes sociales para menores de 15 años, una ley pionera en Europa",
+     "url": "https://www.clarin.com/mundo/francia-aprobo-prohibicion-uso-redes-sociales-menores-15-anos-ley-pionera-europa_0_oXNfXJwUNN.html"
     }
    ],
    "titular": null,
    "fuente_poder": null
   },
   {
-   "ckey": "muerta vaca rigi vista energía",
+   "ckey": "muerta vaca pampa energía rigi",
    "n_medios": 4,
    "n_duenos": 4,
    "senal": "divergencia",
@@ -6681,9 +6635,14 @@
    "paises": [
     "AR"
    ],
-   "ventana_min": 492,
+   "ventana_min": 611,
    "timing": false,
    "versiones": [
+    {
+     "medio": "La Nación",
+     "titulo": "La otra Vaca Muerta: invertirán US$1000 millones para poner bajo riego más de 50.000 hectáreas",
+     "url": "https://www.lanacion.com.ar/economia/campo/la-otra-vaca-muerta-neuquen-invertira-us1000-millones-en-un-impactante-proyecto-productivo-nid21072026/"
+    },
     {
      "medio": "Perfil",
      "titulo": "RIGI: Vista y Pampa Energía impulsan inversiones por más de US$10.000 millones en Vaca Muerta",
@@ -6695,19 +6654,9 @@
      "url": "https://www.perfil.com/noticias/canal-e/buenos-aires-volvio-a-ser-la-provincia-que-mas-exporto-pese-al-boom-de-vaca-muerta.phtml"
     },
     {
-     "medio": "La Nación",
-     "titulo": "La otra Vaca Muerta: invertirán US$1000 millones para poner bajo riego más de 50.000 hectáreas",
-     "url": "https://www.lanacion.com.ar/economia/campo/la-otra-vaca-muerta-neuquen-invertira-us1000-millones-en-un-impactante-proyecto-productivo-nid21072026/"
-    },
-    {
      "medio": "elDiarioAR",
      "titulo": "Nuevo proyecto RIGI aprobado: Pampa Energía invertirá US$4.500 millones en el proyecto Rincón de Aranda, en Vaca Muerta",
      "url": "https://www.eldiarioar.com/economia/nuevo-proyecto-rigi-aprobado-pampa-energia-invertira-us-4-500-millones-proyecto-rincon-aranda-vaca-muerta_1_13396601.html"
-    },
-    {
-     "medio": "Ámbito",
-     "titulo": "Vista pidió sumar al RIGI un proyecto de u$s5.800 millones en Vaca Muerta",
-     "url": "https://www.ambito.com/energia/vista-pidio-sumar-al-rigi-un-proyecto-us5800-millones-vaca-muerta-n6301835"
     },
     {
      "medio": "Ámbito",
@@ -6719,12 +6668,12 @@
    "fuente_poder": null
   },
   {
-   "ckey": "loma hermosa detuvieron policía federal",
+   "ckey": "wall street mercados argentina",
    "n_medios": 3,
    "n_duenos": 3,
    "senal": "divergencia",
    "duenos": [
-    "Grupo Clarín",
+    "Infobae",
     "La Nación",
     "Perfil"
    ],
@@ -6733,9 +6682,302 @@
    "paises": [
     "AR"
    ],
-   "ventana_min": 222,
+   "ventana_min": 192,
    "timing": false,
    "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "Mercados: subieron las acciones argentinas, respaldadas por las alzas de Wall Street y el petróleo",
+     "url": "https://www.infobae.com/economia/2026/07/21/mercados-suben-las-acciones-argentinas-respaldadas-por-las-alzas-de-wall-street-y-el-petroleo/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Las acciones de Wall Street repuntaron impulsadas por los semiconductores y los resultados corporativos",
+     "url": "https://www.infobae.com/estados-unidos/2026/07/21/las-acciones-de-wall-street-repuntaron-impulsadas-por-los-semiconductores-y-los-resultados-corporativos/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Wall Street cierra en verde, apoyado por las tecnológicas y pendiente de resultados",
+     "url": "https://www.infobae.com/america/agencias/2026/07/21/wall-street-cierra-en-verde-apoyado-por-las-tecnologicas-y-pendiente-de-resultados/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Las acciones argentinas suben hasta 5% en Wall Street y el riesgo país toca los 420 puntos",
+     "url": "https://www.lanacion.com.ar/economia/las-acciones-argentinas-suben-hasta-5-en-wall-street-nid21072026/"
+    },
+    {
+     "medio": "Perfil",
+     "titulo": "Mercados: por qué Argentina todavía no vuelve a emitir deuda en el exterior",
+     "url": "https://www.perfil.com/noticias/canal-e/panorama-bursatil-tenemos-un-mercado-local-en-lo-que-es-la-parte-de-la-renta-variable-con-casi-todo-el-merval-a-la-suba.phtml"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "lange santiago barcelona olímpico argentino",
+   "n_medios": 3,
+   "n_duenos": 3,
+   "senal": "divergencia",
+   "duenos": [
+    "Grupo Clarín",
+    "Infobae",
+    "Olé"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 184,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "Santiago Lange fue operado en Barcelona: el emotivo mensaje del Comité Olímpico Argentino",
+     "url": "https://www.infobae.com/deportes/2026/07/21/santiago-lange-fue-operado-en-barcelona-el-emotivo-mensaje-del-comite-olimpico-argentino/"
+    },
+    {
+     "medio": "Olé",
+     "titulo": "Preocupación por Santiago Lange: fue operado otra vez y recibió un emotivo respaldo del deporte argentino",
+     "url": "https://www.ole.com.ar/informacion-general/santiago-lange-operacion-barcelona-pulmon_0_SlWV8S9Wq4.html"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Santiago Lange se recupera tras una operación en un pulmón en Barcelona y recibió el apoyo del COA",
+     "url": "https://tn.com.ar/deportes/polideportivo/2026/07/21/santiago-lange-se-recupera-tras-una-operacion-en-un-pulmon-en-barcelona-y-recibio-el-apoyo-del-coa/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "paredes leandro galante camila romero",
+   "n_medios": 3,
+   "n_duenos": 3,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "La Nación",
+    "La Tercera"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR",
+    "CL"
+   ],
+   "ventana_min": 87,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "La sorpresa de Camila Galante y sus hijos para recibir a Leandro Paredes",
+     "url": "https://www.infobae.com/teleshow/2026/07/21/la-sorpresa-de-camila-galante-y-sus-hijos-para-recibir-a-leandro-paredes/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "El “curioso” denominador común en las publicaciones de Leandro Paredes, Cuti Romero y Lautaro Martínez",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/el-curioso-denominador-comun-en-las-publicaciones-de-leandro-paredes-cuti-romero-y-lautaro-martinez-nid21072026/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "La foto de Leandro Paredes con sus medallas y un mensaje para sus compañeros de la Selección",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/la-foto-de-leandro-paredes-con-sus-medallas-y-un-mensaje-para-sus-companeros-de-la-seleccion-nid21072026/"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "Pese a provocar la pelea: la FIFA elimina la expulsión de Leandro Paredes de los registros de la final del Mundial",
+     "url": "https://www.latercera.com/el-deportivo/noticia/pese-a-provocar-la-pelea-la-fifa-elimina-la-expulsion-de-leandro-paredes-de-los-registros-de-la-final-del-mundial/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "yamal lamine mundial messi nico",
+   "n_medios": 3,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Grupo Clarín",
+    "La Nación"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 1042,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "La Nación",
+     "titulo": "Lamine Yamal contó lo que habló con Messi tras la final del Mundial: “Sus palabras fueron casi tan grandes como la medalla de oro”",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/lamine-yamal-conto-lo-que-hablo-con-messi-tras-la-final-del-mundial-sus-palabras-fueron-casi-tan-nid21072026/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "La historia de migración de las familias de Lamine Yamal y Nico Williams, las dos joyas de España",
+     "url": "https://www.lanacion.com.ar/deportes/la-historia-de-migracion-de-las-familias-de-lamine-yamal-y-nico-williams-las-dos-joyas-de-espana-nid21072026/"
+    },
+    {
+     "medio": "Clarín",
+     "titulo": "Leticia Martín, psicóloga, sobre Lamine Yamal y Pau Cubarsí: \"Representan una generación de futbolistas que madura bajo una presión inédita\"",
+     "url": "https://www.clarin.com/internacional/leticia-martin-psicologa-lamine-yamal-pau-cubarsi-representan-generacion-futbolistas-madura-presion-inedita_0_TwWb4J7e15.html"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "El desaire de Lamine Yamal a la infanta Sofía en la recepción de la selección en la Zarzuela",
+     "url": "https://www.lanacion.com.ar/el-mundo/el-desaire-de-lamine-yamal-a-la-infanta-sofia-en-la-recepcion-de-la-seleccion-en-la-zarzuela-nid21072026/"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Lamine Yamal reveló las palabras de Messi tras la final del Mundial: “Fueron casi tan grandes como la medalla de oro”",
+     "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/20/lamine-yamal-conto-lo-que-hablo-con-messi-tras-la-final-del-mundial-sus-palabras-fueron-casi-tan-grandes-como-la-medalla-de-oro/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "rosario messi argentina mundial",
+   "n_medios": 3,
+   "n_duenos": 3,
+   "senal": "divergencia",
+   "duenos": [
+    "Cenital",
+    "La Nación",
+    "elDiarioAR"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 538,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "La Nación",
+     "titulo": "Messi ya está en la Argentina: llegó a Rosario para pasar unos días con su familia",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/messi-ya-esta-en-la-argentina-llego-a-rosario-para-pasar-unos-dias-con-su-familia-nid21072026/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Messi en la Argentina: cómo es el auto que lo llevó a su casa en Rosario",
+     "url": "https://www.lanacion.com.ar/autos/messi-en-la-argentina-como-es-el-auto-que-lo-llevo-a-su-casa-en-rosario-nid21072026/"
+    },
+    {
+     "medio": "elDiarioAR",
+     "titulo": "Messi llegó a Rosario para pasar unos días con su familia tras la final del Mundial",
+     "url": "https://www.eldiarioar.com/deportes/messi-llego-rosario-pasar-dias-familia-final-mundial_1_13396091.html"
+    },
+    {
+     "medio": "Cenital",
+     "titulo": "Messi ya está en Rosario, los jugadores en el país",
+     "url": "https://cenital.com/messi-ya-esta-en-rosario-los-jugadores-en-el-pais/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "hungría colapinto alpine franco paul",
+   "n_medios": 3,
+   "n_duenos": 3,
+   "senal": "divergencia",
+   "duenos": [
+    "Doble Amarilla",
+    "Grupo Clarín",
+    "Olé"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 244,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Olé",
+     "titulo": "Franco Colapinto no estará presente en la FP1 del GP de Hungría",
+     "url": "https://www.ole.com.ar/autos/franco-colapinto-fp1-practica-gp-hungria-paul-aron_0_ixsD62YpKv.html"
+    },
+    {
+     "medio": "Doble Amarilla",
+     "titulo": "Alpine confirmó un cambio para Hungría y Colapinto cederá su auto en la primera práctica",
+     "url": "https://www.dobleamarilla.com.ar/por-el-mundo/alpine-confirmo-un-cambio-para-hungria-y-colapinto-cedera-su-auto-en-la-primera-practica_a6a5f9b5a9c14faaa98491023"
+    },
+    {
+     "medio": "TN",
+     "titulo": "Por decisión de Alpine, Colapinto será reemplazado por Paul Aron en la primera práctica del GP de Hungría",
+     "url": "https://tn.com.ar/deportes/formula-1/2026/07/21/por-decision-del-alpine-colapinto-sera-reemplazado-por-paul-aron-en-la-primera-practica-del-gp-de-hungria/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "cámara mixta diputados comisión kast",
+   "n_medios": 3,
+   "n_duenos": 3,
+   "senal": "divergencia",
+   "duenos": [
+    "Cooperativa",
+    "La Tercera",
+    "The Clinic"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "CL"
+   ],
+   "ventana_min": 281,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "The Clinic",
+     "titulo": "Cámara de Diputados aprobó la totalidad de la megarreforma y sólo envió un artículo a Comisión Mixta",
+     "url": "https://www.theclinic.cl/2026/07/21/camara-de-diputados-aprobo-la-totalidad-de-la-megarreforma-y-solo-envio-un-articulo-a-comision-mixta/"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "Revisa lo que fue el minuto a minuto de la votación de la megarreforma de gobierno de Kast en la Cámara de Diputados",
+     "url": "https://www.latercera.com/politica/noticia/minuto-a-minuto-sigue-en-vivo-la-votacion-de-la-megarreforma-de-kast-en-la-camara-de-diputados/"
+    },
+    {
+     "medio": "Cooperativa",
+     "titulo": "PDG no garantiza votos para la megarreforma y defiende rechazo de artículos para ir a Comisión Mixta",
+     "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/pdg-no-garantiza-votos-para-la-megarreforma-y-defiende-rechazo-de/2026-07-21/104255.html"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "loma hermosa detuvieron",
+   "n_medios": 3,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Grupo Clarín",
+    "La Nación"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 187,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Clarín",
+     "titulo": "\"Ya es normal escuchar tiros\": miedo en el barrio del policía asesinado por motochorros en Loma Hermosa",
+     "url": "https://www.clarin.com/policiales/normal-escuchar-tiros-miedo-barrio-policia-asesinado-motochorros-loma-hermosa_0_I4yoACW7rr.html"
+    },
     {
      "medio": "La Nación",
      "titulo": "Loma Hermosa: dos menores motochorros asesinaron de un balazo en la cabeza a un policía para robarle la moto",
@@ -6755,98 +6997,151 @@
      "medio": "TN",
      "titulo": "Detuvieron a uno de los ladrones acusados de haber matado a un policía para robarle la moto en Loma Hermosa",
      "url": "https://tn.com.ar/policiales/2026/07/21/detuvieron-a-uno-de-los-ladrones-acusados-de-haber-matado-a-un-policia-para-robarle-la-moto-en-loma-hermosa/"
-    },
-    {
-     "medio": "Perfil",
-     "titulo": "Loma Hermosa: asesinaron a un cabo de la Policía Federal para robarle la moto y sospechan que los atacantes son menores",
-     "url": "https://www.perfil.com/noticias/policia/dos-motochorros-mataron-a-un-policia-federal-para-robarle-su-moto.phtml"
     }
    ],
    "titular": null,
    "fuente_poder": null
   },
   {
-   "ckey": "latina américa cero hambre república",
+   "ckey": "allister alexis gracias messi carlos",
    "n_medios": 3,
    "n_duenos": 3,
    "senal": "divergencia",
    "duenos": [
-    "Infobae",
-    "LARED21",
-    "Perfil"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR",
-    "UY"
-   ],
-   "ventana_min": 141,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "República Dominicana se convierte en el quinto país de América Latina en alcanzar la meta de Hambre Cero, según la FAO",
-     "url": "https://www.infobae.com/republica-dominicana/2026/07/21/republica-dominicana-se-convierte-en-el-quinto-pais-de-america-latina-en-alcanzar-la-meta-de-hambre-cero-segun-la-fao/"
-    },
-    {
-     "medio": "LARED21",
-     "titulo": "Estos son los países más y menos xenófobos de América Latina",
-     "url": "https://www.lr21.com.uy/comunidad/1496788-estos-son-los-paises-mas-y-menos-xonofobos-de-america-latina"
-    },
-    {
-     "medio": "Perfil",
-     "titulo": "Encuesta: Jorge Macri se ubicó quinto en el ranking de intendentes de América Latina",
-     "url": "https://www.perfil.com/noticias/politica/encuesta-jorge-macri-se-ubico-quinto-en-el-ranking-de-intendentes-de-america-latina.phtml"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "buenos aires chino barrio cómo",
-   "n_medios": 3,
-   "n_duenos": 3,
-   "senal": "divergencia",
-   "duenos": [
-    "Grupo Clarín",
-    "Perfil",
-    "elDiarioAR"
+    "Doble Amarilla",
+    "La Nación",
+    "Ámbito"
    ],
    "mismo_dueno": false,
    "calco_descontado": false,
    "paises": [
     "AR"
    ],
-   "ventana_min": 1449,
+   "ventana_min": 81,
    "timing": false,
    "versiones": [
     {
-     "medio": "Perfil",
-     "titulo": "Cómo el Barrio Chino se convirtió en uno de los polos gastronómicos más visitados de Buenos Aires",
-     "url": "https://www.perfil.com/noticias/sociedad/como-el-barrio-chino-se-convirtio-en-uno-de-los-polos-gastronomicos-mas-visitados-de-buenos-aires.phtml"
+     "medio": "La Nación",
+     "titulo": "Alexis Mac Allister: “Gracias a quienes nos mandan mensajes alegrándose por nuestro dolor, nos ayudan a sentirnos más orgullosos”",
+     "url": "https://www.lanacion.com.ar/deportes/alexis-mac-allister-gracias-a-quienes-nos-mandan-mensajes-alegrandose-por-nuestro-dolor-nos-ayudan-a-nid21072026/"
     },
     {
-     "medio": "Perfil",
-     "titulo": "El gobernador de Corrientes destrabó fondos en Buenos Aires para obras clave y avanza con los puentes internacionales",
-     "url": "https://www.perfil.com/noticias/nea/el-gobernador-de-corrientes-destrabo-fondos-en-buenos-aires-para-obras-clave-y-avanza-con-los-puentes-internacionales.phtml"
+     "medio": "Ámbito",
+     "titulo": "\"¿Che que pasó en el vestuario?\": Carlos Mac Allister contó qué le dijo Alexis sobre la arenga de Messi y develó el misterio",
+     "url": "https://www.ambito.com/deportes/che-que-paso-el-vestuario-carlos-mac-allister-conto-que-le-dijo-alexis-la-arenga-messi-y-develo-el-misterio-n6302049"
     },
     {
-     "medio": "TN",
-     "titulo": "Se viene la Cocktail Fest: siete bares, música electrónica y tragos inspirados en Buenos Aires",
-     "url": "https://tn.com.ar/cocina/gastronomia/2026/07/21/se-viene-la-cocktail-fest-siete-bares-musica-electronica-y-tragos-inspirados-en-buenos-aires/"
-    },
-    {
-     "medio": "elDiarioAR",
-     "titulo": "El legendario baterista estadounidense Lewis Nash llega a Buenos Aires",
-     "url": "https://www.eldiarioar.com/espectaculos/legendario-baterista-estadounidense-lewis-nash-llega-buenos-aires_1_13394333.html"
+     "medio": "Doble Amarilla",
+     "titulo": "Alexis Mac Allister: “Estuvimos muy cerca, por eso duele tanto\"",
+     "url": "https://www.dobleamarilla.com.ar/selecciones/alexis-mac-allister---estuvimos-muy-cerca--por-eso-duele-tanto-_a6a5fa42d9c14faaa98497b81"
     }
    ],
    "titular": null,
    "fuente_poder": null
   },
   {
-   "ckey": "lamine yamal mundial messi sofía",
+   "ckey": "corte suprema oxxo",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "La Tercera"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR",
+    "CL"
+   ],
+   "ventana_min": 397,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "La Corte Suprema de EE. UU. revisa el caso de un piloto de 82 años al que le quitaron su avioneta por llevar seis cervezas",
+     "url": "https://www.infobae.com/estados-unidos/2026/07/21/la-corte-suprema-de-ee-uu-revisa-el-caso-de-un-piloto-de-82-anos-al-que-le-quitaron-su-avioneta-por-llevar-seis-cervezas/"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "FNE pide a la Corte Suprema ratificar la multa de $2.400 millones contra Oxxo por entregar información falsa",
+     "url": "https://www.latercera.com/pulso/noticia/fne-pide-a-la-corte-suprema-ratificar-la-multa-de-2400-millones-contra-oxxo-por-entregar-informacion-falsa/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "temblor chile méxico chiapas rating",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "La Tercera"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR",
+    "CL"
+   ],
+   "ventana_min": 285,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "Temblor hoy 21 de julio en México: se registró un sismo de magnitud 4.2 en Chiapas",
+     "url": "https://www.infobae.com/mexico/2026/07/21/temblor-hoy-en-mexico-noticias-actividad-sismica-21-de-julio-de-2026/"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "Temblor hoy, martes 21 de julio en Chile: consulta epicentro y magnitud",
+     "url": "https://www.latercera.com/servicios/noticia/temblor-hoy-martes-21-de-julio-en-chile-consulta-epicentro-y-magnitud/"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "Rating del lunes 20 de julio en Chile: cómo le fue a CHV, Mega, Canal 13 y TVN",
+     "url": "https://www.latercera.com/servicios/noticia/rating-del-lunes-20-de-julio-en-chile-como-le-fue-a-chv-mega-canal-13-y-tvn/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "ejército zelensky drapati zelenski mijailo",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "La Tercera"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR",
+    "CL"
+   ],
+   "ventana_min": 0,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "La Tercera",
+     "titulo": "Zelensky destituye al jefe del Ejército tras las protestas y nombra a su sustituto",
+     "url": "https://www.latercera.com/mundo/noticia/zelensky-destituye-al-jefe-del-ejercito-tras-las-protestas-y-nombra-a-su-sustituto/"
+    },
+    {
+     "medio": "Infobae",
+     "titulo": "Zelenski cesa al jefe del Ejército y lo reemplaza por el general Mijailo Drapati",
+     "url": "https://www.infobae.com/america/agencias/2026/07/21/zelenski-cesa-al-jefe-del-ejercito-y-lo-reemplaza-por-el-general-mijailo-drapati/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "trump irán donald",
    "n_medios": 2,
    "n_duenos": 2,
    "senal": "divergencia",
@@ -6859,30 +7154,430 @@
    "paises": [
     "AR"
    ],
-   "ventana_min": 967,
+   "ventana_min": 173,
    "timing": false,
    "versiones": [
     {
      "medio": "La Nación",
-     "titulo": "El desaire de Lamine Yamal a la infanta Sofía en la recepción de la selección en la Zarzuela",
-     "url": "https://www.lanacion.com.ar/el-mundo/el-desaire-de-lamine-yamal-a-la-infanta-sofia-en-la-recepcion-de-la-seleccion-en-la-zarzuela-nid21072026/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Lamine Yamal contó lo que habló con Messi tras la final del Mundial: “Sus palabras fueron casi tan grandes como la medalla de oro”",
-     "url": "https://www.lanacion.com.ar/deportes/futbol/lamine-yamal-conto-lo-que-hablo-con-messi-tras-la-final-del-mundial-sus-palabras-fueron-casi-tan-nid21072026/"
+     "titulo": "Trump amenaza con nuevos ataques a Irán y descarta negociar en el corto plazo",
+     "url": "https://www.lanacion.com.ar/el-mundo/trump-amenaza-con-nuevos-ataques-a-iran-y-descarta-negociar-en-el-corto-plazo-nid21072026/"
     },
     {
      "medio": "TN",
-     "titulo": "Lamine Yamal reveló las palabras de Messi tras la final del Mundial: “Fueron casi tan grandes como la medalla de oro”",
-     "url": "https://tn.com.ar/deportes/mundial/2026/2026/07/20/lamine-yamal-conto-lo-que-hablo-con-messi-tras-la-final-del-mundial-sus-palabras-fueron-casi-tan-grandes-como-la-medalla-de-oro/"
+     "titulo": "Donald Trump amenazó con atacar un complejo nuclear subterráneo en Irán: “No hemos terminado en absoluto”",
+     "url": "https://tn.com.ar/internacional/2026/07/21/donald-trump-amenazo-con-atacar-un-complejo-nuclear-subterraneo-en-iran-no-hemos-terminado-en-absoluto/"
     }
    ],
    "titular": null,
    "fuente_poder": null
   },
   {
-   "ckey": "kast veloso quiroz manga consuelo",
+   "ckey": "gobierno",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "La Nación"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 100,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "El Gobierno trabaja en un nuevo paquete de leyes para desregular la economía y fomentar la competencia",
+     "url": "https://www.infobae.com/politica/2026/07/21/el-gobierno-trabaja-en-un-nuevo-paquete-de-leyes-para-desregular-la-economia-y-fomentar-la-competencia/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Más desregulación: el Gobierno prepara un nuevo paquete de reformas en áreas sensibles de la economía",
+     "url": "https://www.lanacion.com.ar/politica/mas-desregulacion-el-gobierno-prepara-un-nuevo-paquete-de-reformas-y-evalua-pedir-seis-meses-de-nid21072026/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "parlamento",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "calco",
+   "duenos": [
+    "Infobae",
+    "La Tercera"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR",
+    "CL"
+   ],
+   "ventana_min": 24,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "El Parlamento francés aprueba la prohibición del uso de redes sociales para menores de 15 años",
+     "url": "https://www.infobae.com/america/agencias/2026/07/21/el-parlamento-frances-aprueba-la-prohibicion-del-uso-de-redes-sociales-para-menores-de-15-anos/"
+    },
+    {
+     "medio": "La Tercera",
+     "titulo": "Parlamento francés aprueba una prohibición generalizada de las redes sociales para menores de 15 años",
+     "url": "https://www.latercera.com/mundo/noticia/parlamento-frances-aprueba-una-prohibicion-generalizada-de-las-redes-sociales-para-menores-de-15-anos/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "burruchaga román estoril wawrinka stan",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "La Nación",
+    "Olé"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 43,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "La Nación",
+     "titulo": "Román Burruchaga derrotó al legendario Stan Wawrinka en Estoril y avanzó a los octavos de final",
+     "url": "https://www.lanacion.com.ar/deportes/tenis/roman-burruchaga-derroto-al-legendario-stan-wawrinka-en-estoril-y-avanzo-a-los-octavos-de-final-nid21072026/"
+    },
+    {
+     "medio": "Olé",
+     "titulo": "Román Burruchaga ganó un partidazo contra un ex 3° del mundo en el ATP de Estoril",
+     "url": "https://www.ole.com.ar/tenis/roman-burruchaga-partidazo-stan-wawrinka-atp-estoril-kitzbuhel-resultados-argentinos_0_2qaSXbVCXb.html"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "buenos aires legisladores cómo barrio",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "Perfil"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 231,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "Legisladores libertarios presentaron un proyecto para arancelar salud y universidades a extranjeros en la provincia de Buenos Aires",
+     "url": "https://www.infobae.com/politica/2026/07/21/legisladores-libertarios-presentaron-un-proyecto-para-arancelar-salud-y-universidades-a-extranjeros-en-la-provincia-de-buenos-aires/"
+    },
+    {
+     "medio": "Perfil",
+     "titulo": "Cómo el Barrio Chino se convirtió en uno de los polos gastronómicos más visitados de Buenos Aires",
+     "url": "https://www.perfil.com/noticias/sociedad/como-el-barrio-chino-se-convirtio-en-uno-de-los-polos-gastronomicos-mas-visitados-de-buenos-aires.phtml"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "medio oriente vivo eeuu guerra",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "El Economista",
+    "Infobae"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 546,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "Guerra en Medio Oriente EN VIVO: EEUU desvió ocho buques desde el comienzo del bloqueo a Irán",
+     "url": "https://www.infobae.com/america/mundo/2026/07/21/guerra-en-medio-oriente-en-vivo/"
+    },
+    {
+     "medio": "El Economista",
+     "titulo": "La tensión en Medio Oriente vuelve a presionar el costo del gas para la industria argentina",
+     "url": "https://eleconomista.com.ar/energia/la-tension-medio-oriente-vuelve-presionar-costo-gas-industria-argentina-n96838"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "salta zonda",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "Perfil"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 89,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "Un hombre de 38 años murió intentando apagar un incendio en Salta",
+     "url": "https://www.infobae.com/sociedad/2026/07/21/un-hombre-de-38-anos-murio-intentando-apagar-un-incendio-en-salta/"
+    },
+    {
+     "medio": "Perfil",
+     "titulo": "El fuego y el Zonda arrasaron Salta: un hombre murió intentando apagar las llamas en la montaña",
+     "url": "https://www.perfil.com/noticias/sociedad/el-fuego-y-el-zonda-arrasaron-salta-un-hombre-murio-intentando-apagar-las-llamas-en-la-montana.phtml"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "kast gobierno adriasola junto duco",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "The Clinic",
+    "elDiarioAR"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR",
+    "CL"
+   ],
+   "ventana_min": 3916,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "The Clinic",
+     "titulo": "Junto a Wulf y Duco: el activo papel de Pía Adriasola en la primera emergencia climática del Gobierno de Kast",
+     "url": "https://www.theclinic.cl/2026/07/21/junto-a-wulf-y-duco-el-activo-papel-de-pia-adriasola-en-la-primera-emergencia-climatica-del-gobierno-de-kast/"
+    },
+    {
+     "medio": "elDiarioAR",
+     "titulo": "La ultraderecha de Kast activa la batalla del aborto en Chile mientras navega el desgaste creciente de su Gobierno",
+     "url": "https://www.eldiarioar.com/mundo/ultraderecha-kast-activa-batalla-aborto-chile-navega-desgaste-creciente-gobierno_1_13390922.html"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "jackson samuel magdalena candioti argentina",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Infobae",
+    "La Nación"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 71,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Infobae",
+     "titulo": "¿Los argentinos somos racistas? el análisis de la historiadora Magdalena Candioti tras los dichos de Samuel Jackson",
+     "url": "https://www.infobae.com/sociedad/2026/07/21/los-argentinos-somos-racistas-el-analisis-de-la-historiadora-magdalena-candioti-tras-los-dichos-de-samuel-jackson/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Samuel L. Jackson acusó a Argentina de ser “uno de los países más racistas del mundo”",
+     "url": "https://www.lanacion.com.ar/espectaculos/samuel-l-jackson-acuso-a-argentina-de-ser-uno-de-los-paises-mas-racistas-del-mundo-nid20072026/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "justicia argentina aerolíneas",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "calco",
+   "duenos": [
+    "Grupo Clarín",
+    "La Nación"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 22,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "La Nación",
+     "titulo": "La Justicia de EE.UU. rechazó un recurso de la Argentina en el caso Aerolíneas, por el cual el país debe pagar US$390 millones",
+     "url": "https://www.lanacion.com.ar/economia/la-corte-de-apelaciones-de-eeuu-fallo-contra-la-argentina-en-el-caso-aerolineas-y-el-pais-debera-nid21072026/"
+    },
+    {
+     "medio": "TN",
+     "titulo": "La Justicia de EE.UU. rechazó un recurso de la Argentina y le ordenó pagar US$391 millones por la expropiación de Aerolíneas",
+     "url": "https://tn.com.ar/economia/2026/07/21/la-justicia-de-eeuu-rechazo-un-recurso-de-la-argentina-y-le-ordeno-pagar-us390-millones-por-la-expropiacion-de-aerolineas/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "reverte pérez arturo zafio selección",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Grupo Clarín",
+    "Perfil"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 196,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Perfil",
+     "titulo": "Arturo Pérez-Reverte contra la selección argentina: \"Zafio comportamiento, sucias maneras y mal perder\"",
+     "url": "https://www.perfil.com/noticias/nea/arturo-perez-reverte-contra-la-seleccion-argentina-zafio-comportamiento-sucias-maneras-y-mal-perder.phtml"
+    },
+    {
+     "medio": "TN",
+     "titulo": "El escritor español Arturo Pérez-Reverte se sumó a las críticas a la Selección: “Su mal perder no representa al pueblo argentino”",
+     "url": "https://tn.com.ar/cultura/2026/07/21/en-medio-de-la-ola-de-criticas-hacia-el-pais-arturo-perez-reverte-aseguro-que-la-seleccion-no-representa-al-pueblo-argentino/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "conexión ganadera cura",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "El Observador",
+    "LARED21"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "UY"
+   ],
+   "ventana_min": 163,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "El Observador",
+     "titulo": "Cura colombiano pretendía cobrar créditos de Conexión Ganadera como damnificado pero fue rechazado y se determinó que debe US$ 132 mil",
+     "url": "https://www.elobservador.com.uy//nacional/cura-colombiano-pretendia-cobrar-creditos-conexion-ganadera-como-damnificado-pero-fue-rechazado-y-se-determino-que-debe-us-132-mil-n6051529"
+    },
+    {
+     "medio": "LARED21",
+     "titulo": "Conexión Ganadera operaba sin ganado registrado y califica de “ficción” la promesa de retornos",
+     "url": "https://www.lr21.com.uy/comunidad/1496784-conexion-ganadera-operaba-sin-ganado-registrado-y-califica-de-ficcion-la-promesa-de-retornos"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "encontraron misiones",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "calco",
+   "duenos": [
+    "Grupo Clarín",
+    "La Nación"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 47,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "TN",
+     "titulo": "Encontraron a una mujer asesinada y a su pareja ahorcada en Misiones: investigan un femicidio seguido de suicidio",
+     "url": "https://tn.com.ar/policiales/2026/07/21/encontraron-a-una-mujer-asesinada-y-a-su-pareja-ahorcada-en-misiones-investigan-un-femicidio-seguido-de-suicidio/"
+    },
+    {
+     "medio": "La Nación",
+     "titulo": "Encontraron muerta a una influencer brasileña y su pareja e investigan un doble crimen narco",
+     "url": "https://www.lanacion.com.ar/el-mundo/encontraron-muerta-a-una-influencer-brasilena-y-su-pareja-en-una-zona-rural-de-bahia-e-investigan-un-nid21072026/"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "justicia paramount bros warner milei",
+   "n_medios": 2,
+   "n_duenos": 2,
+   "senal": "divergencia",
+   "duenos": [
+    "Perfil",
+    "elDiarioAR"
+   ],
+   "mismo_dueno": false,
+   "calco_descontado": false,
+   "paises": [
+    "AR"
+   ],
+   "ventana_min": 123,
+   "timing": false,
+   "versiones": [
+    {
+     "medio": "Perfil",
+     "titulo": "Justicia de EE.UU. frena temporalmente la megafusión entre Paramount y Warner Bros.",
+     "url": "https://www.perfil.com/noticias/bloomberg/bc-justicia-de-eeuu-frena-temporalmente-la-megafusion-entre-paramount-y-warner-bros.phtml"
+    },
+    {
+     "medio": "elDiarioAR",
+     "titulo": "La Justicia suspendió el DNU de Milei que prohibía tratamientos de afirmación de género para menores",
+     "url": "https://www.eldiarioar.com/politica/justicia-suspendio-dnu-milei-prohibia-tratamientos-afirmacion-genero-menores_1_13397141.html"
+    }
+   ],
+   "titular": null,
+   "fuente_poder": null
+  },
+  {
+   "ckey": "veloso manga kast quiroz diputada",
    "n_medios": 2,
    "n_duenos": 2,
    "senal": "calco",
@@ -6913,172 +7608,7 @@
    "fuente_poder": null
   },
   {
-   "ckey": "hottle kaylee godzilla murió kong",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "divergencia",
-   "duenos": [
-    "Grupo Clarín",
-    "La Nación"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 164,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "TN",
-     "titulo": "La angustia de Millie Bobby Brown por la trágica muerte de Kaylee Hottle, la actriz de 18 años",
-     "url": "https://tn.com.ar/show/famosos/2026/07/21/la-angustia-de-millie-bobby-brown-por-la-tragica-muerte-de-kaylee-hottle-la-actriz-de-18-anos/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Murió Kaylee Hottle, actriz de Godzilla vs. Kong, a los 18 años",
-     "url": "https://www.lanacion.com.ar/espectaculos/murio-kaylee-hottle-actriz-de-godzilla-vs-kong-a-los-18-anos-nid21072026/"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Murió a los 18 años la actriz Kaylee Hottle, una de las estrellas de “Godzilla vs. Kong”",
-     "url": "https://tn.com.ar/show/hollywood/2026/07/21/murio-a-los-18-anos-la-actriz-kaylee-hottle-una-de-las-estrellas-de-godzilla-vs-kong/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "mundial 2030 conmebol domínguez",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "divergencia",
-   "duenos": [
-    "Doble Amarilla",
-    "Infobae"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 415,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "La CONMEBOL trabaja \"para que el Mundial 2030 se dispute con 64 selecciones\"",
-     "url": "https://www.infobae.com/america/agencias/2026/07/21/la-conmebol-trabaja-para-que-el-mundial-2030-se-dispute-con-64-selecciones/"
-    },
-    {
-     "medio": "Doble Amarilla",
-     "titulo": "Domínguez insiste en la idea de CONMEBOL para que el Mundial 2030 sea con 64 equipos: “El fútbol de selecciones crece cuando se abre al mundo”",
-     "url": "https://www.dobleamarilla.com.ar/rosca/dominguez-insiste-en-la-idea-de-conmebol-para-que-el-mundial-2030-sea-con-64-equipos---el-futbol-de-selecciones-crece-cuando-se-abre-al-mundo-_a6a5f57a19c14faaa9845f5ea"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "india inundaciones explosión himalaya",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "calco",
-   "duenos": [
-    "Grupo Clarín",
-    "Infobae"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 33,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "Las inundaciones en el norte de la India dejan al menos 10 muertos y más de 300.000 afectados",
-     "url": "https://www.infobae.com/america/agencias/2026/07/21/las-inundaciones-en-el-norte-de-la-india-dejan-al-menos-10-muertos-y-mas-de-300000-afectados/"
-    },
-    {
-     "medio": "Infobae",
-     "titulo": "Inundaciones en el norte de la India dejan al menos 10 muertos y más de 300.000 afectados",
-     "url": "https://www.infobae.com/america/agencias/2026/07/21/inundaciones-en-el-norte-de-la-india-dejan-al-menos-10-muertos-y-mas-de-300000-afectados/"
-    },
-    {
-     "medio": "Clarín",
-     "titulo": "Explosión de gas en túnel hidroeléctrico de India deja 12 muertos y 13 desaparecidos en el Himalaya",
-     "url": "https://www.clarin.com/internacional/explosion-gas-tunel-hidroelectrico-india-deja-12-muertos-13-desaparecidos-himalaya_0_NaSKoUczNp.html"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "obelisco selección incidentes",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "divergencia",
-   "duenos": [
-    "Infobae",
-    "Perfil"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 228,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "“¿Te gusta filmarnos cuando perdemos?“: fue al Obelisco a grabar los festejos por la Selección y sufrió una feroz golpiza",
-     "url": "https://www.infobae.com/sociedad/policiales/2026/07/21/te-gusta-filmarnos-cuando-perdemos-fue-al-obelisco-a-grabar-los-festejos-por-la-seleccion-argentina-y-sufrio-una-feroz-golpiza/"
-    },
-    {
-     "medio": "Perfil",
-     "titulo": "Incidentes en el Obelisco tras la derrota de la Selección: detenidos y heridos",
-     "url": "https://www.perfil.com/noticias/reperfilar/incidentes-en-el-obelisco-tras-la-derrota-de-la-seleccion-detenidos-y-heridos.phtml"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "congreso milei",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "calco",
-   "duenos": [
-    "Infobae",
-    "Perfil"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 34,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Infobae",
-     "titulo": "La mesa política se reunió para reordenar la actividad legislativa pese al parate invernal del Congreso",
-     "url": "https://www.infobae.com/politica/2026/07/21/la-mesa-politica-se-reune-para-reordenar-la-actividad-legislativa-pese-al-parate-invernal-del-congreso/"
-    },
-    {
-     "medio": "Perfil",
-     "titulo": "La mesa política de Milei retoma la actividad con tres proyectos clave para el Congreso",
-     "url": "https://www.perfil.com/noticias/canal-e/la-mesa-politica-de-milei-retoma-la-actividad-con-tres-proyectos-clave-para-el-congreso.phtml"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "casa rosada reforma",
+   "ckey": "rosada casa reforma",
    "n_medios": 2,
    "n_duenos": 2,
    "senal": "calco",
@@ -7109,230 +7639,39 @@
    "fuente_poder": null
   },
   {
-   "ckey": "eyed peas argentina black back",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "calco",
-   "duenos": [
-    "Grupo Clarín",
-    "La Nación"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 112,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "La Nación",
-     "titulo": "Black Eyed Peas vuelve a la Argentina: cuándo se ponen a la venta las entradas",
-     "url": "https://www.lanacion.com.ar/espectaculos/musica/vuelve-los-black-eyed-peas-a-la-argentina-cuando-se-ponen-a-la-venta-las-entradas-nid21072026/"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Back Eyed Peas vuelve a la Argentina: cuándo es el show y cómo comprar entradas",
-     "url": "https://tn.com.ar/musica/noticias/2026/07/21/back-eyed-peas-vuelve-a-la-argentina-cuando-es-el-show-y-como-comprar-entradas/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "gobierno congreso mundial",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "calco",
-   "duenos": [
-    "Grupo Clarín",
-    "Ámbito"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 12,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Ámbito",
-     "titulo": "El Gobierno reunió a su mesa política con la mira puesta en el Congreso",
-     "url": "https://www.ambito.com/politica/el-gobierno-retoma-la-mesa-la-mira-puesta-el-congreso-n6301800"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Tras el Mundial, el Gobierno reunió a la mesa política para definir la estrategia legislativa",
-     "url": "https://tn.com.ar/politica/2026/07/21/tras-el-mundial-el-gobierno-reune-a-la-mesa-politica-para-definir-la-estrategia-legislativa/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "javier milei presidente paso frente",
+   "ckey": "américa latina estos encuesta macri",
    "n_medios": 2,
    "n_duenos": 2,
    "senal": "divergencia",
    "duenos": [
-    "La Nación",
+    "LARED21",
     "Perfil"
    ],
    "mismo_dueno": false,
    "calco_descontado": false,
    "paises": [
-    "AR"
-   ],
-   "ventana_min": 158,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "La Nación",
-     "titulo": "Javier Milei y sus medidas, en vivo: el mensaje del Presidente a la selección y el proyecto para suspender las PASO",
-     "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mensaje-del-presidente-a-la-seleccion-y-el-proyecto-para-nid21072026/"
-    },
-    {
-     "medio": "La Nación",
-     "titulo": "Javier Milei, sobre los jugadores: “Frente a la tristeza de no haber ganado, decidieron no hacer festejos”",
-     "url": "https://www.lanacion.com.ar/lnmas/javier-milei-sobre-los-jugadores-frente-a-la-tristeza-de-no-haber-ganado-decidieron-no-hacer-nid20072026/"
-    },
-    {
-     "medio": "Perfil",
-     "titulo": "Adrián Ravier defendió el plan económico de Javier Milei: destacó la inflación de junio y rechazó una devaluación",
-     "url": "https://www.perfil.com/noticias/canal-e/adrian-ravier-defendio-el-plan-economico-de-javier-milei-destaco-la-inflacion-de-junio-y-rechazo-una-devaluacion.phtml"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "mara sedini moneda",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "divergencia",
-   "duenos": [
-    "La Tercera",
-    "The Clinic"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "CL"
-   ],
-   "ventana_min": 5,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "The Clinic",
-     "titulo": "El regreso de Mara Sedini: las razones detrás de su reaparición a dos meses de dejar La Moneda",
-     "url": "https://www.theclinic.cl/2026/07/21/el-regreso-de-mara-sedini-las-razones-detras-de-su-reaparicion-a-dos-meses-de-dejar-la-moneda/"
-    },
-    {
-     "medio": "La Tercera",
-     "titulo": "La sorpresiva reaparición de Mara Sedini que mantiene en alerta al oficialismo",
-     "url": "https://www.latercera.com/politica/noticia/las-razones-de-mara-sedini-para-su-reaparicion-y-la-tensa-espera-en-el-oficialismo/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "ortega aquí daniel",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "calco",
-   "duenos": [
-    "La Diaria",
-    "La Tercera"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "CL",
+    "AR",
     "UY"
    ],
-   "ventana_min": 1095,
+   "ventana_min": 54,
    "timing": false,
    "versiones": [
     {
-     "medio": "La Tercera",
-     "titulo": "“Aquí no volverá a haber elecciones”: Las presiones y desafíos que enfrenta Daniel Ortega tras su polémica decisión",
-     "url": "https://www.latercera.com/mundo/noticia/aqui-no-volvera-a-haber-elecciones-las-presiones-y-desafios-que-enfrenta-daniel-ortega-tras-su-polemica-decision/"
+     "medio": "LARED21",
+     "titulo": "Estos son los países más y menos xenófobos de América Latina",
+     "url": "https://www.lr21.com.uy/comunidad/1496788-estos-son-los-paises-mas-y-menos-xonofobos-de-america-latina"
     },
-    {
-     "medio": "La Diaria",
-     "titulo": "“Aquí no volverá a haber elecciones”, dijo el copresidente nicaragüense Daniel Ortega",
-     "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/aqui-no-volvera-a-haber-elecciones-dijo-el-copresidente-nicaraguense-daniel-ortega/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "hungría alpine colapinto paul aron",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "divergencia",
-   "duenos": [
-    "Doble Amarilla",
-    "Grupo Clarín"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 41,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "Doble Amarilla",
-     "titulo": "Alpine confirmó un cambio para Hungría y Colapinto cederá su auto en la primera práctica",
-     "url": "https://www.dobleamarilla.com.ar/por-el-mundo/alpine-confirmo-un-cambio-para-hungria-y-colapinto-cedera-su-auto-en-la-primera-practica_a6a5f9b5a9c14faaa98491023"
-    },
-    {
-     "medio": "TN",
-     "titulo": "Por decisión de Alpine, Colapinto será reemplazado por Paul Aron en la primera práctica del GP de Hungría",
-     "url": "https://tn.com.ar/deportes/formula-1/2026/07/21/por-decision-del-alpine-colapinto-sera-reemplazado-por-paul-aron-en-la-primera-practica-del-gp-de-hungria/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "insaurralde",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "calco",
-   "duenos": [
-    "Grupo Clarín",
-    "Perfil"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "AR"
-   ],
-   "ventana_min": 59,
-   "timing": false,
-   "versiones": [
     {
      "medio": "Perfil",
-     "titulo": "La fiscalía evalúa elevar un nuevo pedido de indagatoria a Insaurralde por inconsistencias en su patrimonio",
-     "url": "https://www.perfil.com/noticias/politica/fiscalia-evalua-elevar-nuevo-pedido-indagatoria-insaurralde-inconsistencias-patrimonio.phtml"
-    },
-    {
-     "medio": "TN",
-     "titulo": "La fiscalía analiza presentar un nuevo pedido de indagatoria a Insaurralde tras detectar inconsistencias en su informe patrimonial",
-     "url": "https://tn.com.ar/politica/2026/07/21/la-fiscalia-analiza-presentar-un-nuevo-pedido-de-indagatoria-a-insaurralde-tras-detectar-inconsistencias-en-su-informe-patrimonial/"
+     "titulo": "Encuesta: Jorge Macri se ubicó quinto en el ranking de intendentes de América Latina",
+     "url": "https://www.perfil.com/noticias/politica/encuesta-jorge-macri-se-ubico-quinto-en-el-ranking-de-intendentes-de-america-latina.phtml"
     }
    ],
    "titular": null,
    "fuente_poder": null
   },
   {
-   "ckey": "nacional partido negro carlos interior",
+   "ckey": "nacional partido negro interior ministerio",
    "n_medios": 2,
    "n_duenos": 2,
    "senal": "divergencia",
@@ -7363,7 +7702,7 @@
    "fuente_poder": null
   },
   {
-   "ckey": "orsi salto",
+   "ckey": "salto orsi",
    "n_medios": 2,
    "n_duenos": 2,
    "senal": "calco",
@@ -7394,7 +7733,7 @@
    "fuente_poder": null
   },
   {
-   "ckey": "andy burnham unido reino",
+   "ckey": "andy burnham reino unido",
    "n_medios": 2,
    "n_duenos": 2,
    "senal": "calco",
@@ -7424,186 +7763,88 @@
    ],
    "titular": null,
    "fuente_poder": null
-  },
-  {
-   "ckey": "fifa uruguay ranking",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "divergencia",
-   "duenos": [
-    "LARED21",
-    "La Diaria"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "UY"
-   ],
-   "ventana_min": 90,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "LARED21",
-     "titulo": "Ranking de la FIFA post-mundial: ¿En qué posición quedó Uruguay?",
-     "url": "https://www.lr21.com.uy/deportes/1496757-ranking-de-la-fifa-post-mundial-en-que-posicion-quedo-uruguay"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Se actualizó el ranking FIFA: Uruguay bajó cuatro lugares",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/se-actualizo-el-ranking-fifa-uruguay-bajo-cuatro-lugares/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "españa mundial 2026",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "calco",
-   "duenos": [
-    "El Economista",
-    "La Diaria"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "UY"
-   ],
-   "ventana_min": 985,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "El Economista",
-     "titulo": "El premio sin precedentes que recibió España por salir campeón del Mundial 2026",
-     "url": "https://eleconomista.com.ar/deportes/cuanto-dinero-se-llevo-espana-campeon-mundial-2026-n96821"
-    },
-    {
-     "medio": "El Economista",
-     "titulo": "El recorrido de España en el Mundial 2026",
-     "url": "https://eleconomista.com.ar/deportes/recorrido-espana-campeon-mundial-2026-n96819"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Uno por uno de España campeona del mundo",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/uno-por-uno-de-espana-campeona-del-mundo/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
-  },
-  {
-   "ckey": "mundial bota quién 2026 mbappé",
-   "n_medios": 2,
-   "n_duenos": 2,
-   "senal": "divergencia",
-   "duenos": [
-    "El Economista",
-    "La Diaria"
-   ],
-   "mismo_dueno": false,
-   "calco_descontado": false,
-   "paises": [
-    "UY"
-   ],
-   "ventana_min": 776,
-   "timing": false,
-   "versiones": [
-    {
-     "medio": "El Economista",
-     "titulo": "Quién ganó la Bota de Oro en el Mundial 2026",
-     "url": "https://eleconomista.com.ar/deportes/goleadores-mundial-2026-n95674"
-    },
-    {
-     "medio": "La Diaria",
-     "titulo": "Bota de Oro: Mbappé fue el goleador del Mundial",
-     "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/bota-de-oro-mbappe-fue-el-goleador-del-mundial/"
-    }
-   ],
-   "titular": null,
-   "fuente_poder": null
   }
  ],
  "primicias": [
   {
-   "medio": "The Clinic",
+   "medio": "Infobae",
+   "pais": "AR",
+   "titulo": "Honorio Henríquez ya habló con Abelardo de la Espriella tras su elección como presidente del Congreso: estos fueron los temas que abordaron",
+   "url": "https://www.infobae.com/colombia/2026/07/21/honorio-henriquez-ya-hablo-con-abelardo-de-la-espriella-tras-su-eleccion-como-presidente-del-congreso-estos-fueron-los-temas-que-abordaron/",
+   "fecha": "2026-07-21T20:40:38+00:00",
+   "unicos": 2
+  },
+  {
+   "medio": "Ámbito",
+   "pais": "AR",
+   "titulo": "Gobernadores del Norte Grande se reúnen en Posadas: foco en obras y recursos e inquietud por la economía",
+   "url": "https://www.ambito.com/ambito-nacional/gobernadores-del-norte-grande-se-reunen-posadas-foco-obras-y-recursos-e-inquietud-la-economia-n6302097",
+   "fecha": "2026-07-21T20:40:00+00:00",
+   "unicos": 2
+  },
+  {
+   "medio": "La Tercera",
    "pais": "CL",
-   "titulo": "Nueve por Martínez, siete por Yeomans y tres indecisos: así se distribuyen los respaldos del FA para su elección interna en el Congreso",
-   "url": "https://www.theclinic.cl/2026/07/21/nueve-por-martinez-siete-por-yeomans-y-tres-indecisos-asi-se-distribuyen-los-respaldos-del-fa-para-su-eleccion-interna-en-el-congreso/",
-   "fecha": "2026-07-21T19:00:00+00:00",
+   "titulo": "Se abren las inscripciones para la versión 2027 del Ironman 70.3 de Pucón",
+   "url": "https://www.latercera.com/el-deportivo/noticia/se-abren-las-inscripciones-para-la-version-2027-del-ironman-703-de-pucon/",
+   "fecha": "2026-07-21T20:39:55+00:00",
    "unicos": 2
   },
   {
    "medio": "Infobae",
    "pais": "AR",
-   "titulo": "Alerta en Nueva York: ya son cuatro los muertos por brote de legionella en el Upper East Side y hay 76 afectados",
-   "url": "https://www.infobae.com/estados-unidos/2026/07/21/alerta-en-nueva-york-ya-son-cuatro-los-muertos-por-brote-de-legionella-en-el-upper-east-side-y-hay-76-afectados/",
-   "fecha": "2026-07-21T18:54:48+00:00",
-   "unicos": 2
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "titulo": "Dispositivos que convierten un televisor sin internet en Smart TV: Google Chromecast, Amazon Fire TV y más",
-   "url": "https://www.infobae.com/tecno/2026/07/21/dispositivos-que-convierten-un-televisor-sin-internet-en-smart-tv-google-chromecast-amazon-fire-tv-y-mas/",
-   "fecha": "2026-07-21T18:53:14+00:00",
-   "unicos": 4
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "titulo": "¿No cotizas en el Infonavit? El programa que te permite tener casa propia con la Vivienda para el Bienestar",
-   "url": "https://www.infobae.com/mexico/2026/07/21/no-cotizas-en-el-infonavit-el-programa-que-te-permite-tener-casa-propia-con-la-vivienda-para-el-bienestar/",
-   "fecha": "2026-07-21T18:52:13+00:00",
-   "unicos": 2
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "titulo": "Oriana Sabatini abrió el álbum íntimo de su boda con Paulo Dybala en su segundo aniversario",
-   "url": "https://www.infobae.com/teleshow/2026/07/21/oriana-sabatini-abrio-el-album-intimo-de-su-boda-con-paulo-dybala-en-su-segundo-aniversario/",
-   "fecha": "2026-07-21T18:52:08+00:00",
+   "titulo": "La policía india arrestó a Rahul Gandhi tras pedir la renuncia de Modi en las protestas del movimiento Cucaracha",
+   "url": "https://www.infobae.com/america/mundo/2026/07/21/la-policia-india-arresto-a-rahul-gandhi-tras-pedir-la-renuncia-de-modi-en-las-protestas-del-movimiento-cucaracha/",
+   "fecha": "2026-07-21T20:38:49+00:00",
    "unicos": 3
   },
   {
    "medio": "Infobae",
    "pais": "AR",
-   "titulo": "Casación anuló la falta de mérito de un acusado por el plan para rescatar en helicóptero al narco Esteban Alvarado",
-   "url": "https://www.infobae.com/judiciales/2026/07/21/casacion-anulo-la-falta-de-merito-de-un-acusado-por-el-plan-para-rescatar-en-helicoptero-al-narco-esteban-alvarado/",
-   "fecha": "2026-07-21T18:51:52+00:00",
-   "unicos": 2
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "titulo": "¿Falso o real? Cómo identificar el nuevo fraude del CAPTCHA y qué hacer si caes en la trampa",
-   "url": "https://www.infobae.com/tecno/2026/07/21/falso-o-real-como-identificar-el-nuevo-fraude-del-captcha-y-que-hacer-si-caes-en-la-trampa/",
-   "fecha": "2026-07-21T18:50:48+00:00",
-   "unicos": 2
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "titulo": "Estudiantes en Santander no podrán presentar el examen del Icfes porque su colegio no pagó la prueba: padres aseguran que pagaron la inscripción",
-   "url": "https://www.infobae.com/colombia/2026/07/21/estudiantes-en-santander-no-podran-presentar-el-examen-del-icfes-porque-su-colegio-no-pago-la-prueba-padres-aseguran-que-pagaron-la-inscripcion/",
-   "fecha": "2026-07-21T18:50:10+00:00",
+   "titulo": "Los juegos más esperados de 2026 #24: Final Fantasy Resonance",
+   "url": "https://www.infobae.com/malditos-nerds/2026/07/21/los-juegos-mas-esperados-de-2026-24-final-fantasy-resonance/",
+   "fecha": "2026-07-21T20:37:56+00:00",
    "unicos": 3
   },
   {
    "medio": "Infobae",
    "pais": "AR",
-   "titulo": "Lena Headey recuerda la furia de los fans por la escena de desnudo en ‘Game of Thrones’: “Me sorprendió esa idea de que había engañado a la audiencia”",
-   "url": "https://www.infobae.com/entretenimiento/2026/07/21/lena-headey-recuerda-la-furia-de-los-fans-por-la-escena-de-desnudo-en-game-of-thrones-me-sorprendio-esa-idea-de-que-habia-enganado-a-la-audiencia/",
-   "fecha": "2026-07-21T18:50:08+00:00",
+   "titulo": "Fiscalía de Tamaulipas desacredita necropsia de Dafne Zapata realizada por su madre e ignora otras denuncias de tortura",
+   "url": "https://www.infobae.com/mexico/2026/07/21/fiscalia-de-tamaulipas-desacredita-necropsia-de-dafne-zapata-realizada-por-su-madre-e-ignora-otras-denuncias-de-tortura/",
+   "fecha": "2026-07-21T20:37:51+00:00",
+   "unicos": 3
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "titulo": "“Es uno de los entierros más antiguos de El Salvador”: recuperan restos humanos de 850 a. C. en Antiguo Cuscatlán",
+   "url": "https://www.infobae.com/el-salvador/2026/07/21/es-uno-de-los-entierros-mas-antiguos-de-el-salvador-recuperan-restos-humanos-de-850-a-c-en-antiguo-cuscatlan/",
+   "fecha": "2026-07-21T20:37:36+00:00",
+   "unicos": 3
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "titulo": "Puigdemont denuncia a España ante la Comisión Europea por no aplicar la amnistía",
+   "url": "https://www.infobae.com/espana/2026/07/21/puigdemont-denuncia-a-espana-ante-la-comision-europea-por-no-aplicar-la-amnistia/",
+   "fecha": "2026-07-21T20:36:55+00:00",
    "unicos": 2
   },
   {
    "medio": "Infobae",
    "pais": "AR",
-   "titulo": "Presuntos sicarios de Los Mayos amenazan al gobernador de Zacatecas de más violencia “si no cumple los acuerdos”",
-   "url": "https://www.infobae.com/mexico/2026/07/21/presuntos-sicarios-de-los-mayos-amenazan-al-gobernador-de-zacatecas-de-mas-violencia-si-no-cumple-los-acuerdos/",
-   "fecha": "2026-07-21T18:50:06+00:00",
+   "titulo": "La próxima actualización de Manor Lords agrega oficios artesanales y gestión invernal del ganado",
+   "url": "https://www.infobae.com/malditos-nerds/2026/07/21/la-proxima-actualizacion-de-manor-lords-agrega-oficios-artesanales-y-gestion-invernal-del-ganado/",
+   "fecha": "2026-07-21T20:36:20+00:00",
    "unicos": 2
+  },
+  {
+   "medio": "La Tercera",
+   "pais": "CL",
+   "titulo": "Paul McCartney (y Ringo) aparece de sorpresa ante un bus de turistas que hacía un tour de The Beatles",
+   "url": "https://www.latercera.com/culto/noticia/paul-mccartney-y-ringo-aparece-de-sorpresa-ante-un-bus-de-turistas-que-hacia-un-tour-de-the-beatles/",
+   "fecha": "2026-07-21T20:36:15+00:00",
+   "unicos": 3
   }
  ],
  "silencios": []
