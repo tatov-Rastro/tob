@@ -1,9 +1,9 @@
 {
  "p1_generado": "2026-07-23T07:44:06.971086+00:00",
- "feed_generado": "2026-07-23T07:44:06.971086+00:00",
+ "feed_generado": "2026-07-23T10:05:22.149864+00:00",
  "ventana_horas": 72,
  "totales": {
-  "notas": 792,
+  "notas": 752,
   "medios": 20,
   "clusters": 38,
   "calco_descontado": 1,
@@ -11,8 +11,8 @@
   "oficiales": 0,
   "fuente_poder": 0,
   "silencios": 0,
-  "vistas": 792,
-  "nuevas": 792
+  "vistas": 752,
+  "nuevas": 752
  },
  "detectores": {
   "activos": [
@@ -29,20 +29,1100 @@
  },
  "notas": [
   {
-   "medio": "TN",
+   "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
-   "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este jueves 23 de julio",
-   "url": "https://tn.com.ar/economia/2026/07/23/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-23-de-julio/",
-   "fecha": "2026-07-23T07:36:34+00:00"
+   "titulo": "Bioconstrucción, la técnica con la que el hijo de Julián Weich armó su casa sustentable en Córdoba",
+   "url": "https://www.lanacion.com.ar/espectaculos/bioconstruccion-la-tecnica-con-la-que-el-hijo-de-julian-weich-armo-su-casa-sustentable-en-cordoba-nid23072026/",
+   "fecha": "2026-07-23T10:02:34+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Estos son los requisitos para viajar al exterior con menores de edad desde la Argentina",
+   "url": "https://www.lanacion.com.ar/sociedad/requisitos-para-viajar-al-exterior-con-menores-de-edad-nid22072026/",
+   "fecha": "2026-07-23T10:02:33+00:00"
   },
   {
    "medio": "Infobae",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Partidos de hoy, miércoles 22 de julio de 2026: programación, canales TV y resultados en vivo",
-   "url": "https://www.infobae.com/peru/deportes/2026/07/22/partidos-de-hoy-miercoles-22-de-julio-de-2026-programacion-canales-tv-y-resultados-en-vivo/",
-   "fecha": "2026-07-23T07:34:53+00:00"
+   "titulo": "La reciente ola de calor en Francia, de 16 días, se convierte en la tercera más larga",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/la-reciente-ola-de-calor-en-francia-de-16-dias-se-convierte-en-la-tercera-mas-larga/",
+   "fecha": "2026-07-23T10:02:18+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Congreso aprueba en comisión la ley para nacionalizar saharauis, con la abstención de PP y Junts y el no de Vox",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-congreso-aprueba-en-comision-la-ley-para-nacionalizar-saharauis-con-la-abstencion-de-pp-y-junts-y-el-no-de-vox/",
+   "fecha": "2026-07-23T10:02:06+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Abás ve como una \"escalada peligrosa\" la entrada de miles de colonos en mezquita Al Aqsa",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/abas-ve-como-una-escalada-peligrosa-la-entrada-de-miles-de-colonos-en-mezquita-al-aqsa/",
+   "fecha": "2026-07-23T10:02:02+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Patxi López, sobre la comparación de Feijóo con Hitler de Morant: No me gusta cuando se lleva la política a los extremos",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/patxi-lopez-sobre-la-comparacion-de-feijoo-con-hitler-de-morant-no-me-gusta-cuando-se-lleva-la-politica-a-los-extremos/",
+   "fecha": "2026-07-23T10:01:49+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La Bienal reivindica su libertad ante el recorte de fondos europeos por la presencia rusa",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/la-bienal-reivindica-su-libertad-ante-el-recorte-de-fondos-europeos-por-la-presencia-rusa/",
+   "fecha": "2026-07-23T10:01:46+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Neumólogos advierten de que el calor intenso agrava el asma y la EPOC y puede empeorar las bronquiectasias",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/neumologos-advierten-de-que-el-calor-intenso-agrava-el-asma-y-la-epoc-y-puede-empeorar-las-bronquiectasias/",
+   "fecha": "2026-07-23T10:01:31+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El laborismo pierde en Escocia a su líder, que se incorpora al gobierno central en Londres",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-laborismo-pierde-en-escocia-a-su-lider-que-se-incorpora-al-gobierno-central-en-londres/",
+   "fecha": "2026-07-23T10:01:29+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Congreso de EEUU aprueba un presupuesto militar récord de 1,15 billones en una ajustada votación",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-congreso-de-eeuu-aprueba-un-presupuesto-militar-record-de-115-billones-en-una-ajustada-votacion/",
+   "fecha": "2026-07-23T10:01:14+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "China denuncia bulos sobre desastres naturales en plena temporada de lluvias",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/china-denuncia-bulos-sobre-desastres-naturales-en-plena-temporada-de-lluvias/",
+   "fecha": "2026-07-23T10:01:13+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Con Paredes como titular, Boca debuta en la Copa Sudamericana ante O´Higgins",
+   "url": "https://tn.com.ar/deportes/futbol/2026/07/23/con-paredes-como-titular-boca-debuta-en-la-copa-sudamericana-ante-ohiggins/",
+   "fecha": "2026-07-23T10:01:05+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Cómo la congelación de células reproductivas busca preservar la diversidad genética de los koalas",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/07/23/como-la-congelacion-de-celulas-reproductivas-busca-preservar-la-diversidad-genetica-de-los-koalas/",
+   "fecha": "2026-07-23T10:01:02+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Trump elogia a Nigeria por combatir el terrorismo y la violencia contra cristianos",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/trump-elogia-a-nigeria-por-combatir-el-terrorismo-y-la-violencia-contra-cristianos/",
+   "fecha": "2026-07-23T10:00:57+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Xbox recupera videojuegos clásicos para jugar en ordenador y consolas portátiles como ROG XBOX Ally",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/xbox-recupera-videojuegos-clasicos-para-jugar-en-ordenador-y-consolas-portatiles-como-rog-xbox-ally/",
+   "fecha": "2026-07-23T10:00:56+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Irán avisa a militares de EEUU de que cometerán crímenes de guerra si atacan puentes y centrales eléctricas",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/iran-avisa-a-militares-de-eeuu-de-que-cometeran-crimenes-de-guerra-si-atacan-puentes-y-centrales-electricas/",
+   "fecha": "2026-07-23T10:00:38+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Nacional repartirá en Málaga títulos y billetes europeos para Birmingham",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-nacional-repartira-en-malaga-titulos-y-billetes-europeos-para-birmingham/",
+   "fecha": "2026-07-23T10:00:37+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Bolívar vs Grêmio en vivo por la llave 2 de la Copa Sudamericana: hora, dónde ver y formaciones",
+   "url": "https://tn.com.ar/deportes/futbol/2026/07/23/bolivar-vs-gremio-en-vivo-por-la-llave-2-de-la-copa-sudamericana-hora-donde-ver-y-formaciones/",
+   "fecha": "2026-07-23T10:00:26+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El delantero grancanario Jefté Betancor regresa a la UD Las Palmas y firma hasta 2029",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-delantero-grancanario-jefte-betancor-regresa-a-la-ud-las-palmas-y-firma-hasta-2029/",
+   "fecha": "2026-07-23T10:00:19+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Lola García, muy preocupada, visita a Kiko Rivera en el hospital tras revelar que ha sufrido un ictus",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/lola-garcia-muy-preocupada-visita-a-kiko-rivera-en-el-hospital-tras-revelar-que-ha-sufrido-un-ictus/",
+   "fecha": "2026-07-23T10:00:19+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Ethel Pozo entiende elogios de Rebeca Escribens a Janet Barboza: “Esa era yo antes”",
+   "url": "https://www.infobae.com/peru/2026/07/23/ethel-pozo-entiende-elogios-de-rebeca-escribens-a-janet-barboza-esa-era-yo-antes/",
+   "fecha": "2026-07-23T10:00:17+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Daniel Briceño radica proyecto de ley para eliminar la Veeduría Distrital de Bogotá: estas son las razones",
+   "url": "https://www.infobae.com/colombia/2026/07/23/daniel-briceno-radica-proyecto-de-ley-para-eliminar-la-veeduria-distrital-de-bogota-estas-son-las-razones/",
+   "fecha": "2026-07-23T10:00:03+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Partidos de hoy jueves 23 de julio: horario y por dónde ver en vivo online",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-jueves-23-de-julio-horario-y-por-donde-ver-en-vivo-online-nid23072026/",
+   "fecha": "2026-07-23T10:00:00+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Juez frena inspección de la Supersalud a la FLA y ordena rectificar señalamientos",
+   "url": "https://www.infobae.com/colombia/2026/07/23/juez-frena-inspeccion-de-la-supersalud-a-la-fla-y-ordena-rectificar-senalamientos/",
+   "fecha": "2026-07-23T10:00:00+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Tenga en cuenta: Así se regirá el Pico y placa en Medellín hoy 23 de julio de 2026",
+   "url": "https://www.infobae.com/colombia/2026/07/23/tenga-en-cuenta-este-es-el-pico-y-placa-en-medellin-para-hoy-23-de-julio-de-2026/",
+   "fecha": "2026-07-23T10:00:00+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Clima en Cartagena para hoy 23 de julio: Adiós a la incertidumbre así estará el clima en la arenosa",
+   "url": "https://www.infobae.com/colombia/2026/07/23/clima-hoy-en-colombia-temperaturas-para-cartagena-de-indias-este-23-de-julio/",
+   "fecha": "2026-07-23T10:00:00+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "“Eso sí es hacer pagar el déficit fiscal a los más pobres”: Petro a De la Espriella por nueva reforma tributaria",
+   "url": "https://www.infobae.com/colombia/2026/07/23/eso-si-es-hacer-pagar-el-deficit-fiscal-a-los-mas-pobres-petro-a-de-la-espriella-por-nueva-reforma-tributaria/",
+   "fecha": "2026-07-23T10:00:00+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "“No es una adhesión política”: Tatiana Gaona aclara respaldo a Abelardo de la Espriella",
+   "url": "https://www.infobae.com/colombia/2026/07/23/no-es-una-adhesion-politica-tatiana-gaona-aclara-respaldo-a-abelardo-de-la-espriella/",
+   "fecha": "2026-07-23T10:00:00+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Inflación y salarios: una entidad del campo analizó la pérdida del poder adquisitivo",
+   "url": "https://tn.com.ar/campo/2026/07/23/inflacion-y-salarios-una-entidad-del-campo-analizo-la-perdida-del-poder-adquisitivo/",
+   "fecha": "2026-07-23T10:00:00+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La CAF aprobó una garantía por US$250 millones y completa el esquema de avales para afrontar pagos de deuda",
+   "url": "https://tn.com.ar/economia/2026/07/22/el-gobierno-espera-el-apoyo-de-la-caf-por-us250-millones-para-completar-las-garantias-y-afrontar-los-pagos-de-deuda/",
+   "fecha": "2026-07-23T09:59:14+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Proverbio chino: “El mejor momento para plantar un árbol fue hace 20 años; el segundo mejor momento es ahora”",
+   "url": "https://www.lanacion.com.ar/lifestyle/proverbio-chino-el-mejor-momento-para-plantar-un-arbol-fue-hace-20-anos-el-segundo-mejor-momento-es-nid18072026/",
+   "fecha": "2026-07-23T09:59:12+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Tras burlarse de la soberanía argentina sobre las Islas Malvinas, el ex One Direction Niall Horan pidió disculpas",
+   "url": "https://www.lanacion.com.ar/espectaculos/tras-burlarse-de-la-soberania-argentina-sobre-las-islas-malvinas-el-ex-one-direction-niall-horan-nid21072026/",
+   "fecha": "2026-07-23T09:58:54+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "De cuánto será la PUAM de ANSES en agosto 2026",
+   "url": "https://www.infobae.com/economia/2026/07/23/de-cuanto-sera-la-puam-de-anses-en-agosto-2026/",
+   "fecha": "2026-07-23T09:57:46+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "EN VIVO | Clima en CDMX y resto de México hoy 23 de julio: tormenta tropical Bertha dejará lluvias en 3 estados",
+   "url": "https://www.infobae.com/mexico/2026/07/23/en-vivo-clima-en-cdmx-y-resto-de-mexico-hoy-23-de-julio/",
+   "fecha": "2026-07-23T09:57:07+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Receta de pollo en salsa strogonoff, una forma muy sencilla de solucionar una comida cualquier día de la semana",
+   "url": "https://www.infobae.com/espana/2026/07/23/receta-de-pollo-en-salsa-strogonoff-una-forma-muy-sencilla-de-solucionar-una-comida-cualquier-dia-de-la-semana/",
+   "fecha": "2026-07-23T09:56:55+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "ANSES: quiénes cobran hoy, jueves 23 de julio de 2026",
+   "url": "https://www.infobae.com/economia/2026/07/23/anses-quienes-cobran-hoy-jueves-23-de-julio-de-2026/",
+   "fecha": "2026-07-23T09:56:02+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "En medio de la campaña anti Argentina, María Becerra ondeó la bandera celeste y blanca en pleno show en España",
+   "url": "https://www.lanacion.com.ar/espectaculos/en-medio-de-la-campana-anti-argentina-maria-becerra-ondeo-la-bandera-celeste-y-blanca-en-pleno-show-nid22072026/",
+   "fecha": "2026-07-23T09:54:51+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Guerra en Medio Oriente EN VIVO | El régimen de Irán lanzó ataques contra bases militares de Estados Unidos",
+   "url": "https://www.infobae.com/america/mundo/2026/07/23/guerra-en-medio-oriente-en-vivo/",
+   "fecha": "2026-07-23T09:54:50+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Empresario pyme a Daza: \"No hay brotes verdes, no hay plata en la calle y la actividad está completamente parada\"",
+   "url": "https://www.perfil.com/noticias/nea/empresario-pyme-a-daza-no-hay-brotes-verdes-no-hay-plata-en-la-calle-y-la-actividad-esta-completamente-parada.phtml",
+   "fecha": "2026-07-23T09:52:00+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Encuesta 2027: el peronismo supera por un punto a La Libertad Avanza y crecen los indecisos",
+   "url": "https://www.perfil.com/noticias/nea/encuesta-2027-el-peronismo-supera-por-un-punto-a-la-libertad-avanza-y-crecen-los-indecisos.phtml",
+   "fecha": "2026-07-23T09:51:00+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El ultimátum ecologista a los cuatro empresarios que gestionan un campo de golf en la urbanización más elitista de Madrid: o dejan de regar con pozos ilegales o irán a los tribunales",
+   "url": "https://www.infobae.com/espana/2026/06/18/el-ultimatum-ecologista-a-los-cuatro-importantes-empresarios-que-gestionan-el-campo-de-golf-mas-elitista-de-madrid-o-dejan-de-regar-con-pozos-ilegales-o-iran-a-los-tribunales/",
+   "fecha": "2026-07-23T09:50:25+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Impacto en las provincias: Passalacqua dispuso la reducción y fusión de ministerios en Misiones",
+   "url": "https://www.perfil.com/noticias/nea/impacto-en-las-provincias-passalacqua-dispuso-la-reduccion-y-fusion-de-ministerios-en-misiones.phtml",
+   "fecha": "2026-07-23T09:50:00+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El incendio de Almorox (Toledo) evoluciona favorablemente, pero aún no se da por estabilizado: los vecinos de El Encinar del Alberche siguen desalojados",
+   "url": "https://www.infobae.com/espana/2026/07/23/el-incendio-de-almorox-toledo-evoluciona-favorablemente-pero-aun-no-se-da-por-estabilizado-los-vecinos-de-el-encinar-del-alberche-siguen-desalojados/",
+   "fecha": "2026-07-23T09:49:53+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Cuatro detenidos en Melilla, tres en prisión, por tráfico de drogas y ataque a la Policía",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/cuatro-detenidos-en-melilla-tres-en-prision-por-trafico-de-drogas-y-ataque-a-la-policia/",
+   "fecha": "2026-07-23T09:49:39+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El fuego de Castropodame (León) sigue activo y se teme que avance hacia Torre del Bierzo",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-fuego-de-castropodame-leon-sigue-activo-y-se-teme-que-avance-hacia-torre-del-bierzo/",
+   "fecha": "2026-07-23T09:49:23+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Ortega Smith teme que el grupo mixto le impida intervenir al estar controlado por Podemos",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/ortega-smith-teme-que-el-grupo-mixto-le-impida-intervenir-al-estar-controlado-por-podemos/",
+   "fecha": "2026-07-23T09:49:06+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Una experta en marca personal sobre el príncipe George: “No debería ser presentado como el responsable de salvar la monarquía”",
+   "url": "https://www.infobae.com/espana/2026/07/23/una-experta-en-marca-personal-sobre-el-principe-george-no-deberia-ser-presentado-como-el-responsable-de-salvar-la-monarquia/",
+   "fecha": "2026-07-23T09:49:00+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Ford y Geely crean una empresa conjunta para fabricar 5 modelos en Almussafes (Valencia)",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/ford-y-geely-crean-una-empresa-conjunta-para-fabricar-5-modelos-en-almussafes-valencia/",
+   "fecha": "2026-07-23T09:48:50+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El incendio en Almorox (Toledo) baja a nivel 1 tras quedar perimetrado: el fuego ha quemado 1.000 hectáreas",
+   "url": "https://www.infobae.com/espana/2026/07/23/el-incendio-en-almorox-toledo-baja-a-nivel-1-tras-quedar-perimetrado-el-fuego-ha-quemado-1000-hectareas/",
+   "fecha": "2026-07-23T09:48:48+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Los posos de café pueden convertirse en materia prima para producir biocombustibles",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/los-posos-de-cafe-pueden-convertirse-en-materia-prima-para-producir-biocombustibles/",
+   "fecha": "2026-07-23T09:48:33+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "'Superestrella' de Aitana entra en el 'Top 50' global de Spotify a raíz del Mundial",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/superestrella-de-aitana-entra-en-el-top-50-global-de-spotify-a-raiz-del-mundial/",
+   "fecha": "2026-07-23T09:48:17+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "PP denuncia que monitores de unas colonias de Álava impidieron pintar banderas de España",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/pp-denuncia-que-monitores-de-unas-colonias-de-alava-impidieron-pintar-banderas-de-espana/",
+   "fecha": "2026-07-23T09:48:01+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "14 películas en dos décadas: cuál es el orden ideal para ver todas las “X-Men”",
+   "url": "https://www.infobae.com/entretenimiento/2026/07/22/14-peliculas-en-mas-de-20-anos-cual-es-el-orden-ideal-para-ver-todas-las-x-men/",
+   "fecha": "2026-07-23T09:47:54+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Xenofobia y repatriaciones en Sudáfrica: ¿un golpe para la economía del país?",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/xenofobia-y-repatriaciones-en-sudafrica-un-golpe-para-la-economia-del-pais/",
+   "fecha": "2026-07-23T09:47:44+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Omán dice estar trabajando para reactivar la paz en Yemen tras ataque hutí a barco saudí",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/oman-dice-estar-trabajando-para-reactivar-la-paz-en-yemen-tras-ataque-huti-a-barco-saudi/",
+   "fecha": "2026-07-23T09:47:27+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Muere un marinero filipino tras ataque con drones el martes contra buque en el Mar Negro",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/muere-un-marinero-filipino-tras-ataque-con-drones-el-martes-contra-buque-en-el-mar-negro/",
+   "fecha": "2026-07-23T09:46:48+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Francia avisa que agresión a dos diplomáticos en Irán no quedará impune y evalúa sanciones",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/francia-avisa-que-agresion-a-dos-diplomaticos-en-iran-no-quedara-impune-y-evalua-sanciones/",
+   "fecha": "2026-07-23T09:46:32+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Fuga de talento en el fútbol femenino español: adiós Liga F, hola WSL",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/fuga-de-talento-en-el-futbol-femenino-espanol-adios-liga-f-hola-wsl/",
+   "fecha": "2026-07-23T09:46:14+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "DAZN emitirá la Liga de Naciones y los partidos de clasificación para la Eurocopa de 2028",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/dazn-emitira-la-liga-de-naciones-y-los-partidos-de-clasificacion-para-la-eurocopa-de-2028/",
+   "fecha": "2026-07-23T09:45:57+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El PSOE espera que Zapatero despeje \"dudas\" y dice que el Gobierno no se \"quema\" defendiendo su presunción de inocencia",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-psoe-espera-que-zapatero-despeje-dudas-y-dice-que-el-gobierno-no-se-quema-defendiendo-su-presuncion-de-inocencia/",
+   "fecha": "2026-07-23T09:45:56+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Orio y Arraun Lagunak, a dar un paso más hacia el título en La Concha y Getxo",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/orio-y-arraun-lagunak-a-dar-un-paso-mas-hacia-el-titulo-en-la-concha-y-getxo/",
+   "fecha": "2026-07-23T09:45:41+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Europa extiende la advertencia sobre volar a algunas zonas de Oriente hasta finales de agosto por la escalada",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/europa-extiende-la-advertencia-sobre-volar-a-algunas-zonas-de-oriente-hasta-finales-de-agosto-por-la-escalada/",
+   "fecha": "2026-07-23T09:45:37+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Gael García Bernál estrenará en Venecia su nueva película, 'Hombre al agua'",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/gael-garcia-bernal-estrenara-en-venecia-su-nueva-pelicula-hombre-al-agua/",
+   "fecha": "2026-07-23T09:45:23+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Kiko Rivera emite un comunicado urgente sobre su estado de salud: \"He vuelto a sufrir un ictus\"",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/kiko-rivera-emite-un-comunicado-urgente-sobre-su-estado-de-salud-he-vuelto-a-sufrir-un-ictus/",
+   "fecha": "2026-07-23T09:45:19+00:00"
+  },
+  {
+   "medio": "La Tercera",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "La Guardia Revolucionaria de Irán anuncia la destrucción de “equipo militar” de Estados Unidos en un ataque en Jordania",
+   "url": "https://www.latercera.com/mundo/noticia/la-guardia-revolucionaria-de-iran-anuncia-la-destruccion-de-equipo-militar-de-estados-unidos-en-un-ataque-en-jordania/",
+   "fecha": "2026-07-23T09:45:12+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este jueves 23 de julio",
+   "url": "https://tn.com.ar/economia/2026/07/23/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-23-de-julio/",
+   "fecha": "2026-07-23T09:42:33+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Javier Milei y sus medidas, en vivo: movimientos sindicales y repercusiones del Mundial",
+   "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-movimientos-sindicales-y-repercusiones-del-mundial-nid23072026/",
+   "fecha": "2026-07-23T09:38:50+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Vinculan a proceso a Liliana “N” por caso del perrito Rocky en Saltillo",
+   "url": "https://www.infobae.com/mexico/2026/07/23/vinculan-a-proceso-a-liliana-n-por-caso-del-perrito-rocky-en-saltillo/",
+   "fecha": "2026-07-23T09:38:37+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Salario Mínimo cayó más del 40% y cubre apenas la mitad de la canasta de indigencia",
+   "url": "https://www.perfil.com/noticias/cordoba/el-salario-minimo-cayo-mas-del-40-y-cubre-apenas-la-mitad-de-la-canasta-de-indigencia.phtml",
+   "fecha": "2026-07-23T09:38:29+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "María Pía Copello responde a quienes la tildan de ‘lavandera’ y advierte que ya inició acciones legales por las difamaciones: “Me dan de alma”",
+   "url": "https://www.infobae.com/peru/2026/07/23/maria-pia-copello-responde-a-quienes-la-tildan-de-lavandera-y-advierte-que-ya-inicio-acciones-legales-por-las-difamaciones-me-dan-de-alma/",
+   "fecha": "2026-07-23T09:37:53+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Aseguran que Franco Colapinto y Maia Reficco estarían separados",
+   "url": "https://www.lanacion.com.ar/espectaculos/aseguran-que-franco-colapinto-y-maia-reficco-estarian-en-crisis-una-incognita-nid22072026/",
+   "fecha": "2026-07-23T09:34:49+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Gran Hermano: quiénes son los ocho exparticipantes que volvieron a la casa",
+   "url": "https://www.lanacion.com.ar/espectaculos/gran-hermano-quienes-son-los-ocho-exjugadores-que-volvieron-a-la-casa-nid22072026/",
+   "fecha": "2026-07-23T09:34:16+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La increíble historia de la doble de Matt Damon en La Odisea: de las rutinas extremas a grabar con Christopher Nolan",
+   "url": "https://www.lanacion.com.ar/espectaculos/quien-es-devyn-dalton-la-actriz-que-hizo-de-doble-de-matt-damon-en-las-escenas-mas-impactantes-de-la-nid22072026/",
+   "fecha": "2026-07-23T09:33:54+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Gastón Edul, en La Velada del Año 2026: cuándo pelea el periodista argentino contra Edu Aguirre",
+   "url": "https://www.lanacion.com.ar/espectaculos/gaston-edul-en-la-velada-del-ano-2026-cuando-pelea-el-periodista-argentino-contra-edu-aguirre-nid22072026/",
+   "fecha": "2026-07-23T09:33:33+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Orden de peleas de La Velada el Año 6: una por una, así es la programación del evento de Ibai",
+   "url": "https://www.lanacion.com.ar/espectaculos/orden-de-peleas-de-la-velada-el-ano-6-una-por-una-asi-es-la-programacion-del-evento-de-ibai-nid22072026/",
+   "fecha": "2026-07-23T09:33:30+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Cuándo es La Velada del Año: día, horario y cómo ver online",
+   "url": "https://www.lanacion.com.ar/espectaculos/cuando-es-la-velada-del-ano-dia-horario-y-como-ver-online-nid22072026/",
+   "fecha": "2026-07-23T09:33:27+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La sorprendente historia de Christopher Knight, el hombre que desapareció de la sociedad y vivió 27 años en un bosque",
+   "url": "https://www.lanacion.com.ar/lifestyle/la-sorprendente-historia-de-christopher-knight-el-hombre-que-desaparecio-de-la-sociedad-y-vivio-27-nid22072026/",
+   "fecha": "2026-07-23T09:32:52+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La compañía NUSSLI construye las gradas, zonas de 'hospitality' y los 13 puentes peatonales de Madring",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/la-compania-nussli-construye-las-gradas-zonas-de-hospitality-y-los-13-puentes-peatonales-de-madring/",
+   "fecha": "2026-07-23T09:32:38+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Barcelona pide responsabilidades a otras administraciones por los accidentes por obras",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/barcelona-pide-responsabilidades-a-otras-administraciones-por-los-accidentes-por-obras/",
+   "fecha": "2026-07-23T09:32:35+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "DAZN emitirá la Liga de Naciones y la fase de clasificación para la Eurocopa 2028",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/dazn-emitira-la-liga-de-naciones-y-la-fase-de-clasificacion-para-la-eurocopa-2028/",
+   "fecha": "2026-07-23T09:32:21+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El inocente comentario de la hija de Pampita tras la final del Mundial que hizo reír a todos: “No me acuerdo”",
+   "url": "https://www.lanacion.com.ar/espectaculos/el-inocente-comentario-de-la-hija-de-pampita-tras-la-final-del-mundial-que-hizo-reir-a-todos-no-me-nid22072026/",
+   "fecha": "2026-07-23T09:32:19+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Estabilizado el incendio de Ejulve (Teruel) y el de Plan (Huesca) sigue activo sin avance",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/estabilizado-el-incendio-de-ejulve-teruel-y-el-de-plan-huesca-sigue-activo-sin-avance/",
+   "fecha": "2026-07-23T09:32:18+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "¿Cómo estará el clima en Cuzco?",
+   "url": "https://www.infobae.com/peru/2026/07/23/como-estara-el-clima-en-cuzco/",
+   "fecha": "2026-07-23T09:32:11+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Kun Agüero: “¿Qué hizo Messi para que lo odien tanto?”",
+   "url": "https://www.lanacion.com.ar/deportes/kun-aguero-que-hizo-messi-para-que-lo-odien-tanto-nid22072026/",
+   "fecha": "2026-07-23T09:32:05+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Ejército de EEUU completa su duodécima noche seguida de ataques contra Irán",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-ejercito-de-eeuu-completa-su-duodecima-noche-seguida-de-ataques-contra-iran/",
+   "fecha": "2026-07-23T09:32:03+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Ana Mestre (PP), elegida presidenta del Parlamento andaluz en sustitución de Jesús Aguirre",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/ana-mestre-pp-elegida-presidenta-del-parlamento-andaluz-en-sustitucion-de-jesus-aguirre/",
+   "fecha": "2026-07-23T09:32:02+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Clima en Iquitos: el pronóstico para este 23 de julio",
+   "url": "https://www.infobae.com/peru/2026/07/23/clima-en-iquitos-el-pronostico-para-este-23-de-julio/",
+   "fecha": "2026-07-23T09:31:48+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "PageMind cierra una ronda de 1,2 millones liderada por 4Founders Capital para expandirse a Estados Unidos",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/pagemind-cierra-una-ronda-de-12-millones-liderada-por-4founders-capital-para-expandirse-a-estados-unidos/",
+   "fecha": "2026-07-23T09:31:46+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La avioneta que se estrelló en Palencia en 2024 realizó \"maniobras arriesgadas\"",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/la-avioneta-que-se-estrello-en-palencia-en-2024-realizo-maniobras-arriesgadas/",
+   "fecha": "2026-07-23T09:31:46+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Humor a la española: los videos virales que muestran a Messi y a la selección como trabajadores de obra",
+   "url": "https://www.lanacion.com.ar/lifestyle/humor-a-la-espanola-los-videos-virales-que-muestran-a-messi-y-a-la-seleccion-como-trabajadores-de-nid22072026/",
+   "fecha": "2026-07-23T09:31:41+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Encontraron su propia foto familiar en un Airbnb que alquilaron y al conocer el insólito motivo no lo podían creer",
+   "url": "https://www.lanacion.com.ar/lifestyle/encontraron-su-propia-foto-familiar-en-un-airbnb-que-alquilaron-y-al-conocer-el-insolito-motivo-no-nid22072026/",
+   "fecha": "2026-07-23T09:31:32+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Detenido en Madrid un fugitivo buscado en Colombia por un homicidio entre bandas",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/detenido-en-madrid-un-fugitivo-buscado-en-colombia-por-un-homicidio-entre-bandas/",
+   "fecha": "2026-07-23T09:31:29+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Clima en Piura: cuál será la temperatura máxima y mínima este 23 de julio",
+   "url": "https://www.infobae.com/peru/2026/07/23/clima-en-piura-cual-sera-la-temperatura-maxima-y-minima-este-23-de-julio/",
+   "fecha": "2026-07-23T09:31:29+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "REE ve necesario acelerar la habilitación de renovables para el control de tensión conforme al P.O. 7.4.",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/ree-ve-necesario-acelerar-la-habilitacion-de-renovables-para-el-control-de-tension-conforme-al-po-74/",
+   "fecha": "2026-07-23T09:31:28+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El ministro de Defensa japonés pide tratar \"sin tabús\" el asunto de las armas nucleares",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-ministro-de-defensa-japones-pide-tratar-sin-tabus-el-asunto-de-las-armas-nucleares/",
+   "fecha": "2026-07-23T09:31:12+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Infoca estabiliza un incendio forestal originado de madrugada en Alosno",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-infoca-estabiliza-un-incendio-forestal-originado-de-madrugada-en-alosno/",
+   "fecha": "2026-07-23T09:31:11+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Pronóstico del clima en Arequipa este jueves: temperatura, lluvias y viento",
+   "url": "https://www.infobae.com/peru/2026/07/23/pronostico-del-clima-en-arequipa-este-jueves-temperatura-lluvias-y-viento/",
+   "fecha": "2026-07-23T09:31:10+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Desastre en Venezuela está lejos de acabar un mes después de terremotos, según Cruz Roja",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/desastre-en-venezuela-esta-lejos-de-acabar-un-mes-despues-de-terremotos-segun-cruz-roja/",
+   "fecha": "2026-07-23T09:30:55+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La AEEH recuerda que toda persona con hepatitis B debería ser estudiada para descartar la coinfección por hepatitis D",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/la-aeeh-recuerda-que-toda-persona-con-hepatitis-b-deberia-ser-estudiada-para-descartar-la-coinfeccion-por-hepatitis-d/",
+   "fecha": "2026-07-23T09:30:53+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Temperaturas en Lima: prepárate antes de salir de casa",
+   "url": "https://www.infobae.com/peru/2026/07/23/temperaturas-en-lima-preparate-antes-de-salir-de-casa/",
+   "fecha": "2026-07-23T09:30:52+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Dan Buettner, experto en longevidad: “Las personas que más viven no hacen ejercicio, se mueven de forma natural”",
+   "url": "https://www.lanacion.com.ar/lifestyle/dan-buettner-experto-en-longevidad-las-personas-que-mas-viven-no-hacen-ejercicio-se-mueven-de-forma-nid22072026/",
+   "fecha": "2026-07-23T09:30:43+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El jefe de derechos humanos de la ONU visitará Líbano en medio de escalada de hostilidades",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-jefe-de-derechos-humanos-de-la-onu-visitara-libano-en-medio-de-escalada-de-hostilidades/",
+   "fecha": "2026-07-23T09:30:39+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Arquitectos iberoamericanos debaten sobre los retos del sector en una jornada en UIC Barcelona",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/arquitectos-iberoamericanos-debaten-sobre-los-retos-del-sector-en-una-jornada-en-uic-barcelona/",
+   "fecha": "2026-07-23T09:30:36+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Prepárase antes de salir: Este es el pronóstico del clima en Huancayo este jueves 23 de julio",
+   "url": "https://www.infobae.com/peru/2026/07/23/preparase-antes-de-salir-este-es-el-pronostico-del-clima-en-huancayo-este-jueves-23-de-julio/",
+   "fecha": "2026-07-23T09:30:33+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Lionel Messi romperá el silencio en breve, según anticipó Diego Latorre",
+   "url": "https://www.lanacion.com.ar/deportes/lionel-messi-rompera-el-silencio-en-breve-segun-anticipo-diego-latorre-nid22072026/",
+   "fecha": "2026-07-23T09:30:23+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Barça ultima con el City el pase de la internacional brasileña Kerolin Nicoli",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-barca-ultima-con-el-city-el-pase-de-la-internacional-brasilena-kerolin-nicoli/",
+   "fecha": "2026-07-23T09:30:21+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "\"Las reglas del juego han cambiado\": HuggingFace avisa a la industria tras el hackeo realizado por agentes de OpenAI",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/las-reglas-del-juego-han-cambiado-huggingface-avisa-a-la-industria-tras-el-hackeo-realizado-por-agentes-de-openai/",
+   "fecha": "2026-07-23T09:30:20+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La llamativa hipótesis de Mauro Icardi tras el robo a Wanda Nara en Milán",
+   "url": "https://www.lanacion.com.ar/espectaculos/la-llamativa-hipotesis-de-mauro-icardi-tras-el-robo-a-wanda-nara-en-milan-nid22072026/",
+   "fecha": "2026-07-23T09:30:02+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Mundial de la FIFA terminó con una nueva fórmula: más espectáculo, más pausas y un negocio cada vez más grande",
+   "url": "https://www.infobae.com/estados-unidos/2026/07/22/asi-fue-el-mundial-2026-en-estados-unidos-entretiempo-con-shows-precios-ineditos-y-una-experiencia-diferente-para-los-fanaticos/",
+   "fecha": "2026-07-23T09:29:05+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Keyne no es el único hermano de Lamine Yamal: así es la historia de la pequeña por la que el futbolista quiere viajar a Marruecos",
+   "url": "https://www.infobae.com/espana/2026/07/22/keyne-no-es-el-unico-hermano-de-lamine-yamal-la-pequena-por-la-que-el-futbolista-quiere-viajar-a-marruecos/",
+   "fecha": "2026-07-23T09:29:01+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "TEPJF confirma que el partido PAZ ofreció despensas a cambio de asistir a asambleas: mantiene multas del INE",
+   "url": "https://www.infobae.com/mexico/2026/07/23/tepjf-confirma-que-el-partido-paz-ofrecio-despensas-a-cambio-de-asistir-a-asambleas-mantiene-multas-del-ine/",
+   "fecha": "2026-07-23T09:24:42+00:00"
+  },
+  {
+   "medio": "La Tercera",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "Hombre muere tras ser baleado en las inmediaciones de una multicancha en Quilicura",
+   "url": "https://www.latercera.com/nacional/noticia/hombre-muere-tras-ser-baleado-en-las-inmediaciones-de-una-multicancha-en-quilicura/",
+   "fecha": "2026-07-23T09:22:29+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Resultados La Tinka del miércoles 22 de julio: conoce los números ganadores del sorteo de hoy",
+   "url": "https://www.infobae.com/peru/2026/07/23/resultados-de-la-tinka-numeros-ganadores-del-miercoles-22-de-julio-de-2026/",
+   "fecha": "2026-07-23T09:22:21+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Quién fue Karl Dönitz, el almirante nazi y sucesor de Hitler cuyo nombre lleva la Academia Militarizada donde murió Dafne Zapata",
+   "url": "https://www.infobae.com/mexico/2026/07/23/quien-fue-karl-donitz-el-almirante-nazi-y-sucesor-de-hitler-cuyo-nombre-lleva-la-academia-militarizada-donde-murio-dafne-zapata/",
+   "fecha": "2026-07-23T09:22:21+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Detectaron una nueva 'exoluna' que desafía las etiquetas cósmicas hasta ahora conocidas",
+   "url": "https://www.perfil.com/noticias/sociedad/detectaron-una-nueva-exoluna-que-desafia-las-etiquetas-cosmicas-hasta-ahora-conocidas.phtml",
+   "fecha": "2026-07-23T09:20:00+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La principal denunciante contra Claudio Morgado cuestionó la nueva pericia psiquiátrica a su pareja: \"Es innecesaria\"",
+   "url": "https://www.perfil.com/noticias/policia/caso-claudio-morgado-la-principal-denunciante-cuestiono-la-nueva-pericia-a-la-esposa-del-conductor-a41.phtml",
+   "fecha": "2026-07-23T09:20:00+00:00"
+  },
+  {
+   "medio": "Clarín",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Los tractores y las sembradoras también son protagonistas en Palermo",
+   "url": "https://www.clarin.com/rural/tractores-sembradoras-protagonistas-palermo_0_JuP7P4Rni3.html",
+   "fecha": "2026-07-23T09:18:38+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El PP acusa a Sánchez de sacar \"el comodín\" del pacto climático al no haber hecho \"los deberes\" con los incendios",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-pp-acusa-a-sanchez-de-sacar-el-comodin-del-pacto-climatico-al-no-haber-hecho-los-deberes-con-los-incendios/",
+   "fecha": "2026-07-23T09:18:15+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El PP exige la dimisión de Morant por comparar un gobierno de Feijóo con Hitler: \"Está en una situación desesperada\"",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-pp-exige-la-dimision-de-morant-por-comparar-un-gobierno-de-feijoo-con-hitler-esta-en-una-situacion-desesperada/",
+   "fecha": "2026-07-23T09:17:57+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La madre del bebé maltratado de Barcelona declarará por segunda vez este jueves ante el juez",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/la-madre-del-bebe-maltratado-de-barcelona-declarara-por-segunda-vez-este-jueves-ante-el-juez/",
+   "fecha": "2026-07-23T09:17:40+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La Embajada de EEUU en España amplia y adelanta las citas para visados de estudiantes",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/la-embajada-de-eeuu-en-espana-amplia-y-adelanta-las-citas-para-visados-de-estudiantes/",
+   "fecha": "2026-07-23T09:17:26+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Nogueras insiste: que Pedro Sánchez se aparte y se \"ponga a alguien\" que cumpla los compromisos con Junts para Cataluña",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/nogueras-insiste-que-pedro-sanchez-se-aparte-y-se-ponga-a-alguien-que-cumpla-los-compromisos-con-junts-para-cataluna/",
+   "fecha": "2026-07-23T09:17:23+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Perimetrado el incendio iniciado en Almorox (Toledo) tras quemar unas 1.000 hectáreas",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/perimetrado-el-incendio-iniciado-en-almorox-toledo-tras-quemar-unas-1000-hectareas/",
+   "fecha": "2026-07-23T09:17:10+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Julio Gómez, presidente de la Casa de Cantabria en México, será el pregonero del Día de Cantabria en Cabezón",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/julio-gomez-presidente-de-la-casa-de-cantabria-en-mexico-sera-el-pregonero-del-dia-de-cantabria-en-cabezon/",
+   "fecha": "2026-07-23T09:17:04+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Los divorcios caen un 2,7 % en 2025 tras el repunte del año anterior",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/los-divorcios-caen-un-27-en-2025-tras-el-repunte-del-ano-anterior/",
+   "fecha": "2026-07-23T09:16:54+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Real Madrid recupera el verde oscuro para su nueva segunda equipación",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-real-madrid-recupera-el-verde-oscuro-para-su-nueva-segunda-equipacion/",
+   "fecha": "2026-07-23T09:16:47+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Sánchez llega a la planta de Ford de Almussafes para el anuncio de un importante acuerdo",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/sanchez-llega-a-la-planta-de-ford-de-almussafes-para-el-anuncio-de-un-importante-acuerdo/",
+   "fecha": "2026-07-23T09:16:37+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Athletic Club presenta la tercera equipación con el azul como protagonista",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-athletic-club-presenta-la-tercera-equipacion-con-el-azul-como-protagonista/",
+   "fecha": "2026-07-23T09:16:30+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "FundéuRAE: Juegos Centroamericanos y del Caribe, claves de redacción",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/fundeurae-juegos-centroamericanos-y-del-caribe-claves-de-redaccion/",
+   "fecha": "2026-07-23T09:16:21+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Clima en Panamá: cuál será la temperatura máxima y mínima este 23 de julio",
+   "url": "https://www.infobae.com/noticias/2026/07/23/clima-en-panama-cual-sera-la-temperatura-maxima-y-minima-este-23-de-julio/",
+   "fecha": "2026-07-23T09:16:15+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Los hombres ocupan dos de cada tres puestos en los consejos editoriales de las revistas científicas, según un estudio",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/los-hombres-ocupan-dos-de-cada-tres-puestos-en-los-consejos-editoriales-de-las-revistas-cientificas-segun-un-estudio/",
+   "fecha": "2026-07-23T09:16:12+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La ley de nacionalidad saharaui irá al pleno del Congreso tras aprobarse el dictamen",
+   "url": "https://www.infobae.com/espana/agencias/2026/07/23/la-ley-de-nacionalidad-saharaui-ira-al-pleno-del-congreso-tras-aprobarse-el-dictamen/",
+   "fecha": "2026-07-23T09:16:04+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Riyadh Air firma un memorando con Air Europa para reforzar su conectividad con España y Latinoamérica",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/riyadh-air-firma-un-memorando-con-air-europa-para-reforzar-su-conectividad-con-espana-y-latinoamerica/",
+   "fecha": "2026-07-23T09:15:55+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Predicción del tiempo en Dallas para este 23 de julio",
+   "url": "https://www.infobae.com/noticias/2026/07/23/prediccion-del-tiempo-en-dallas-para-este-23-de-julio/",
+   "fecha": "2026-07-23T09:15:55+00:00"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Mediterráneo llevará una posición única a la COP31, afirma director adjunto de la UpM",
+   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-mediterraneo-llevara-una-posicion-unica-a-la-cop31-afirma-director-adjunto-de-la-upm/",
+   "fecha": "2026-07-23T09:15:47+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Oficial en Florida: la CBP confirmó nuevos eventos de inscripción al programa de viaje Global Entry",
+   "url": "https://www.lanacion.com.ar/estados-unidos/florida/oficial-en-florida-la-cbp-confirmo-nuevos-eventos-de-inscripcion-al-programa-de-viaje-global-entry-nid23072026/",
+   "fecha": "2026-07-23T09:11:00+00:00"
+  },
+  {
+   "medio": "Clarín",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Otro en mi lugar",
+   "url": "https://www.clarin.com/opinion/lugar_0_5Ppo554jmJ.html",
+   "fecha": "2026-07-23T09:06:38+00:00"
   },
   {
    "medio": "TN",
@@ -50,119 +1130,375 @@
    "tema": "general",
    "titulo": "Argentino (R) vs Pto. Nuevo en vivo por la fecha 21 de la Primera C: hora, dónde ver y formaciones",
    "url": "https://tn.com.ar/deportes/futbol/2026/07/23/argentino-r-vs-pto-nuevo-en-vivo-por-la-fecha-21-de-la-primera-c-hora-donde-ver-y-formaciones/",
-   "fecha": "2026-07-23T07:33:26+00:00"
+   "fecha": "2026-07-23T09:05:26+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
-   "titulo": "A sus 94 y 73 años, Curra y Benito ya son oficialmente madre e hijo",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/a-sus-94-y-73-anos-curra-y-benito-ya-son-oficialmente-madre-e-hijo/",
-   "fecha": "2026-07-23T07:32:24+00:00"
+   "titulo": "No todos son locales vacíos en Palermo: abre Miniso, llega H&M y promete nuevos centros comerciales",
+   "url": "https://www.lanacion.com.ar/propiedades/inmuebles-comerciales/no-todos-son-locales-vacios-en-palermo-abre-miniso-llega-hm-y-promete-nuevos-centros-comerciales-nid23072026/",
+   "fecha": "2026-07-23T09:05:00+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Perfil",
    "pais": "AR",
    "tema": "general",
-   "titulo": "La UME se incorpora al incendio de Castropodame (León), que obligó a evacuar dos pueblos",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/la-ume-se-incorpora-al-incendio-de-castropodame-leon-que-obligo-a-evacuar-dos-pueblos/",
-   "fecha": "2026-07-23T07:32:07+00:00"
+   "titulo": "Violencia, alcohol y una fuga: el perfil del polaco imputado por el femicidio en Nueva Córdoba",
+   "url": "https://www.perfil.com/noticias/cordoba/violencia-alcohol-y-una-fuga-el-perfil-del-polaco-imputado-por-el-femicidio-en-nueva-cordoba.phtml",
+   "fecha": "2026-07-23T09:03:04+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Clarín",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Una gran llamarada continúa quemando desde anoche tras la deflagración de gas en Barcelona",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/una-gran-llamarada-continua-quemando-desde-anoche-tras-la-deflagracion-de-gas-en-barcelona/",
-   "fecha": "2026-07-23T07:31:51+00:00"
+   "titulo": "El amor que permanece es el oasis para adultos en las vacaciones de invierno",
+   "url": "https://www.clarin.com/espectaculos/amor-permanece-oasis-adultos-vacaciones-invierno_0_sl36b3bLLf.html",
+   "fecha": "2026-07-23T09:02:38+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Clarín",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Yolanda Díaz, candidata de España para dirigir la Organización Internacional del Trabajo",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/yolanda-diaz-candidata-de-espana-para-dirigir-la-organizacion-internacional-del-trabajo/",
-   "fecha": "2026-07-23T07:31:34+00:00"
+   "titulo": "El gran viaje, el filme animado sin diálogos ni humanos que es una opción para ver en vacaciones",
+   "url": "https://www.clarin.com/espectaculos/gran-viaje-filme-animado-dialogos-humanos-opcion-ver-vacaciones_0_Fcgh3jwVoj.html",
+   "fecha": "2026-07-23T09:02:38+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Clarín",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Piden 36 años de prisión para una banda de cuatro ladrones detenida en Alicante por robar en una viviendas de Mallorca",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/piden-36-anos-de-prision-para-una-banda-de-cuatro-ladrones-detenida-en-alicante-por-robar-en-una-viviendas-de-mallorca/",
-   "fecha": "2026-07-23T07:31:32+00:00"
+   "titulo": "Estafa por US$ 10 millones a Camioneros: Moyano llamó a asamblea extraordinaria para remover a un dirigente",
+   "url": "https://www.clarin.com/politica/estafa-us-10-millones-camioneros-moyano-llamo-asamblea-extraordinaria-remover-dirigente_0_NOx51UImsU.html",
+   "fecha": "2026-07-23T09:00:40+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Clarín",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Cae una red que blanqueaba dinero del narcotráfico a través de locales de ocio",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/cae-una-red-que-blanqueaba-dinero-del-narcotrafico-a-traves-de-locales-de-ocio/",
-   "fecha": "2026-07-23T07:31:18+00:00"
+   "titulo": "Vuelve el fútbol en Europa: cuándo empiezan las cinco grandes ligas y las copas internacionales tras el Mundial 2026",
+   "url": "https://www.clarin.com/deportes/vuelve-futbol-europa-empiezan-grandes-ligas-copas-internacionales-mundial-2026_0_k34SPP8VEU.html",
+   "fecha": "2026-07-23T09:00:39+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Clarín",
    "pais": "AR",
    "tema": "general",
-   "titulo": "El Gobierno propone a Yolanda Díaz para optar a la dirección de la Organización Internacional del Trabajo",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-gobierno-propone-a-yolanda-diaz-para-optar-a-la-direccion-de-la-organizacion-internacional-del-trabajo/",
-   "fecha": "2026-07-23T07:31:14+00:00"
+   "titulo": "Crearon una solución simple para una de las cirugías del ojo más riesgosas y ganaron su séptimo \"Óscar de la retina\"",
+   "url": "https://www.clarin.com/sociedad/crearon-solucion-simple-cirugias-ojo-riesgosas-ganaron-septimo-oscar-retina_0_VM7QqRcVfO.html",
+   "fecha": "2026-07-23T09:00:39+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Clarín",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Desalojan 100 personas en Burgohondo (Ávila) por incendio al que se ha incorporado la UME",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/desalojan-100-personas-en-burgohondo-avila-por-incendio-al-que-se-ha-incorporado-la-ume/",
-   "fecha": "2026-07-23T07:31:01+00:00"
+   "titulo": "Mayoría de edad digital: la nueva ley de Francia reaviva el debate por cuándo darles acceso a las redes a los chicos",
+   "url": "https://www.clarin.com/sociedad/mayoria-edad-digital-nueva-ley-francia-reaviva-debate-darles-acceso-redes-chicos_0_gD7JjsUDTj.html",
+   "fecha": "2026-07-23T09:00:39+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Clarín",
    "pais": "AR",
    "tema": "general",
-   "titulo": "La Guardia Revolucionaria de Irán anuncia la destrucción de \"equipo militar\" de EEUU en un ataque en Jordania",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/la-guardia-revolucionaria-de-iran-anuncia-la-destruccion-de-equipo-militar-de-eeuu-en-un-ataque-en-jordania/",
-   "fecha": "2026-07-23T07:30:57+00:00"
+   "titulo": "\"Nos destruyeron\": tres años y medio de prisión por matar a golpes a un hombre que salió en defensa de su hija",
+   "url": "https://www.clarin.com/policiales/destruyeron-anos-medio-prision-matar-golpes-hombre-salio-defensa-hija_0_9dbJdC94JP.html",
+   "fecha": "2026-07-23T09:00:39+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Clarín",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Mueren cuatro soldados del Gobierno yemení en combates con los hutíes en el suroeste",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/mueren-cuatro-soldados-del-gobierno-yemeni-en-combates-con-los-huties-en-el-suroeste/",
-   "fecha": "2026-07-23T07:30:42+00:00"
+   "titulo": "Horacio Rodríguez Larreta le cierra la puerta al PRO y sondea un acuerdo con el peronismo no K para 2027",
+   "url": "https://www.clarin.com/politica/horacio-rodriguez-larreta-cierra-puerta-pro-sondea-acuerdo-peronismo-k-2027_0_olzAud222V.html",
+   "fecha": "2026-07-23T09:00:39+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Chenoa, salpicada por una desagradable polémica: una mujer denuncia que tiene a su perra desaparecida",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/chenoa-salpicada-por-una-desagradable-polemica-una-mujer-denuncia-que-tiene-a-su-perra-desaparecida/",
-   "fecha": "2026-07-23T07:30:38+00:00"
+   "medio": "Olé",
+   "pais": "-",
+   "tema": "Deportes",
+   "titulo": "Partidos de HOY, jueves 23 de julio: agenda, horario y por dónde ver fútbol EN VIVO",
+   "url": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-jueves-23-julio-horario-ver-futbol-vivo-tv-online-formaciones_0_NVYfK4vgYU.html",
+   "fecha": "2026-07-23T09:00:38+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Desplazados mientras Israel expande su zona de control en Gaza: \"Estamos acorralados\"",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/desplazados-mientras-israel-expande-su-zona-de-control-en-gaza-estamos-acorralados/",
-   "fecha": "2026-07-23T07:30:26+00:00"
+   "titulo": "7 recomendados de arte y cultura para esta semana",
+   "url": "https://www.lanacion.com.ar/cultura/7-recomendados-de-arte-y-cultura-para-esta-semana-nid23072026/",
+   "fecha": "2026-07-23T09:00:01+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
-   "titulo": "El Gobierno propone a Yolanda Díaz para la dirección de la Organización Internacional del Trabajo",
-   "url": "https://www.infobae.com/espana/2026/07/23/el-gobierno-propone-a-yolanda-diaz-para-la-direccion-de-la-organizacion-internacional-del-trabajo/",
-   "fecha": "2026-07-23T07:25:47+00:00"
+   "titulo": "Exercise snacks: los beneficios de subir escaleras durante tres minutos al día",
+   "url": "https://www.lanacion.com.ar/salud/exercise-snacks-los-beneficios-de-subir-escaleras-durante-tres-minutos-al-dia-nid20072026/",
+   "fecha": "2026-07-23T09:00:01+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Buscan a una mujer de 45 años que desapareció hace más de cinco días en Tucumán",
-   "url": "https://www.infobae.com/sociedad/policiales/2026/07/23/buscan-a-una-mujer-de-45-anos-que-desaparecio-hace-mas-de-cinco-dias-en-tucuman/",
-   "fecha": "2026-07-23T07:20:22+00:00"
+   "titulo": "Stuart no logra salvar el universo, la serie que trae de regreso a The Big Bang Theory mezclando comedia y ciencia ficción",
+   "url": "https://www.lanacion.com.ar/espectaculos/series-de-tv/stuart-no-logra-salvar-el-universo-la-serie-que-trae-de-regreso-a-the-big-bang-theory-mezclando-nid23072026/",
+   "fecha": "2026-07-23T09:00:01+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "El Gobierno evalúa los pasos legales para frenar la ejecución del fallo de la Justicia de EE.UU. por la expropiación de Aerolíneas",
+   "url": "https://tn.com.ar/politica/2026/07/23/el-gobierno-evalua-los-pasos-legales-para-frenar-la-ejecucion-del-fallo-de-la-justicia-de-eeuu-por-la-expropiacion-de-aerolineas/",
+   "fecha": "2026-07-23T09:00:01+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "De lujo inalcanzable a destino de moda: por qué Japón conquista cada vez a más argentinos",
+   "url": "https://tn.com.ar/sociedad/2026/07/23/de-lujo-inalcanzable-a-destino-de-moda-por-que-japon-conquista-cada-vez-a-mas-argentinos/",
+   "fecha": "2026-07-23T09:00:01+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Cuántos años va a tener cada jugador de la selección argentina en el próximo Mundial 2030",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/cuantos-anos-va-a-tener-cada-jugador-de-la-seleccion-argentina-en-el-proximo-mundial-2030-nid23072026/",
+   "fecha": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La pieza del auto que casi nadie conoce, pero arreglarla cuesta más que el motor",
+   "url": "https://www.lanacion.com.ar/autos/la-pieza-del-auto-que-casi-nadie-conoce-pero-arreglarla-cuesta-mas-que-el-motor-nid23072026/",
+   "fecha": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "“Más que en la Antártida”: alerta por frío extremo en la Patagonia, en una de las semanas más gélidas del invierno",
+   "url": "https://www.lanacion.com.ar/sociedad/mas-que-en-la-antartida-alerta-por-frio-extremo-en-la-patagonia-en-una-de-las-semanas-mas-gelidas-nid23072026/",
+   "fecha": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Amy Winehouse: una carrera corta pero influyente, una muerte temprana y el dolor que continúa 15 años después",
+   "url": "https://www.lanacion.com.ar/espectaculos/musica/amy-winehouse-una-carrera-corta-pero-influyente-una-muerte-temprana-y-el-dolor-que-continua-15-anos-nid23072026/",
+   "fecha": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Cuánto cuesta cargar un auto eléctrico en comparación con llenar el tanque de nafta",
+   "url": "https://www.lanacion.com.ar/autos/cuanto-cuesta-cargar-un-auto-electrico-en-comparacion-con-llenar-el-tanque-de-nafta-nid23072026/",
+   "fecha": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Después de 56 años, un colegio inclusivo de Vicente López anunció que cerrará sus puertas",
+   "url": "https://www.lanacion.com.ar/sociedad/despues-de-56-anos-un-colegio-inclusivo-de-vicente-lopez-anuncio-que-cerrara-sus-puertas-nid23072026/",
+   "fecha": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Tensión en San Pedro: la Sociedad Rural acusa al municipio de dar “datos falsos” sobre la recaudación de la tasa vial",
+   "url": "https://tn.com.ar/campo/2026/07/23/tension-en-san-pedro-la-sociedad-rural-acusa-al-municipio-de-dar-datos-falsos-sobre-la-recaudacion-de-la-tasa-vial/",
+   "fecha": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Una mujer murió tras caer presuntamente sobre una copa de vino rota en La Rioja: las contradicciones que dejaron dos detenidos",
+   "url": "https://tn.com.ar/policiales/2026/07/23/una-mujer-murio-tras-caer-presuntamente-sobre-una-copa-de-vino-rota-en-la-rioja-las-contradicciones-que-dejaron-dos-detenidos/",
+   "fecha": "2026-07-23T08:50:37+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Un albañil fue acusado de haber matado a puñaladas a su compañero de trabajo por una deuda de $500 y ahora irá a juicio",
+   "url": "https://tn.com.ar/policiales/2026/07/23/un-albanil-fue-acusado-de-haber-matado-a-punaladas-a-su-companero-de-trabajo-por-una-deuda-de-500-y-ahora-ira-a-juicio/",
+   "fecha": "2026-07-23T08:50:00+00:00"
+  },
+  {
+   "medio": "El Ciudadano",
+   "pais": "CL",
+   "tema": "general",
+   "titulo": "(VIDEO) Por qué Yiwu ha liderado la venta de productos del #mundial . Aquí te lo contamos #AmazingChina #noticias",
+   "url": "https://www.elciudadano.com/reels/video-por-que-yiwu-ha-liderado-la-venta-de-productos-del-mundial-aqui-te-lo-contamos-amazingchina-noticias/07/23/",
+   "fecha": "2026-07-23T08:45:11+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "De indumentaria a bijouterie: dos marcas internacionales abrirán sus primeros locales en la Argentina en agosto",
+   "url": "https://tn.com.ar/economia/2026/07/23/de-indumentaria-a-bijouterie-dos-marcas-internacionales-abriran-sus-primeros-locales-en-la-argentina-en-agosto/",
+   "fecha": "2026-07-23T08:43:00+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Proverbio chino del día: “No coloques la sopa en el fuego si el ciervo aún corre en el bosque”",
+   "url": "https://tn.com.ar/sociedad/2026/07/23/proverbio-chino-del-dia-no-coloques-la-sopa-en-el-fuego-si-el-ciervo-aun-corre-en-el-bosque/",
+   "fecha": "2026-07-23T08:42:48+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Gordon Ramsay, cocinero con estrellas Michelin: “El truco para un guiso sabroso no es el caldo, son estas 7 especias”",
+   "url": "https://tn.com.ar/cocina/tendencias/2026/07/23/gordon-ramsay-cocinero-con-estrellas-michelin-el-truco-para-un-guiso-sabroso-no-es-el-caldo-son-estas-7-especias/",
+   "fecha": "2026-07-23T08:31:16+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Santa Brígida de Suecia: la mística del norte que desafió a reyes y papas con la fuerza de la cruz",
+   "url": "https://www.perfil.com/noticias/cultura/santa-brigida-de-suecia-la-mistica-del-norte-que-desafio-a-reyes-y-papas-con-la-fuerza-de-la-cruz.phtml",
+   "fecha": "2026-07-23T08:30:00+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Terminado el Mundial, el Gobierno activó el plan reelección de Milei: claves y desafíos",
+   "url": "https://www.perfil.com/noticias/politica/el-oficialismo-activo-el-plan-reeleccion-de-milei-principales-claves-y-desafios.phtml",
+   "fecha": "2026-07-23T08:30:00+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "La inauguración oficial de La Rural viene marcada por 2 cambios inesperados y los posibles anuncios que haría Milei en su discurso",
+   "url": "https://www.perfil.com/noticias/politica/la-inauguracion-oficial-de-la-rural-viene-marcada-por-2-cambios-inesperados-y-los-posibles-anuncios-que-haria-milei-en-su-discurso.phtml",
+   "fecha": "2026-07-23T08:30:00+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Clima en Ciudad de Buenos Aires: heladas matinales, sol en paulatino retiro y ambiente invernal",
+   "url": "https://www.perfil.com/noticias/clima/clima-en-ciudad-de-buenos-aires-heladas-matinales-sol-en-paulatino-retiro-y-ambiente-invernal-a35.phtml",
+   "fecha": "2026-07-23T08:30:00+00:00"
+  },
+  {
+   "medio": "Perfil",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Uno de padres de la Convertibilidad tildó de “timorata” la reforma del BCRA y dijo que el RIGI crea un nuevo sistema de casta",
+   "url": "https://www.perfil.com/noticias/economia/uno-de-padres-de-la-convertibilidad-tildo-de-timorata-la-reforma-del-bcra-y-dijo-que-el-rigi-crea-un-nuevo-sistema-de-casta-a40.phtml",
+   "fecha": "2026-07-23T08:30:00+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Una lapicera, 90 segundos de combustible y un plan extremo: los secretos jamás contados de la misión que llevó al hombre a la Luna",
+   "url": "https://tn.com.ar/sociedad/2026/07/23/una-lapicera-90-segundos-de-combustible-y-un-plan-extremo-los-secretos-jamas-contados-de-la-mision-que-llevo-al-hombre-a-la-luna/",
+   "fecha": "2026-07-23T08:27:00+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Últimas encuestas en California: Becerra avanza y crece la brecha con Hilton para suceder a Newsom",
+   "url": "https://www.lanacion.com.ar/estados-unidos/california/ultimas-encuestas-en-california-becerra-avanza-y-crece-la-brecha-con-hilton-para-suceder-a-newsom-nid23072026/",
+   "fecha": "2026-07-23T08:24:00+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Los labios resecos en invierno tienen solución: la mascarilla casera con pocos ingredientes que ayuda a nutrirlos en pocos minutos",
+   "url": "https://tn.com.ar/estilo/tendencias/2026/07/23/los-labios-resecos-en-invierno-tienen-solucion-la-mascarilla-casera-con-pocos-ingredientes-que-ayuda-a-nutrirlos-en-pocos-minutos/",
+   "fecha": "2026-07-23T08:20:39+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Adiós a la parrilla de ladrillo: el nuevo modelo que se convierte en tendencia en 2026, según los arquitectos",
+   "url": "https://tn.com.ar/sociedad/2026/07/23/adios-a-la-parrilla-de-ladrillo-el-nuevo-modelo-que-se-convierte-en-tendencia-en-2026-segun-los-arquitectos/",
+   "fecha": "2026-07-23T08:02:36+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Una experta en finanzas personales avisa sobre los gastos hormiga: “Un café o una barrita son $5000 por día, pero a fin de año puede constarte 1,5 millones de pesos”",
+   "url": "https://www.lanacion.com.ar/economia/una-experta-en-finanzas-personales-avisa-sobre-los-gastos-hormiga-un-cafe-o-una-barrita-son-5000-por-nid23072026/",
+   "fecha": "2026-07-23T08:00:00+00:00"
+  },
+  {
+   "medio": "El Observador",
+   "pais": "UY",
+   "tema": "general",
+   "titulo": "Oddone sobre las transferencias sociales: \"Todo el mundo puede hacer lo que quiere y no hay que condicionarlo en nada; salvo el pobre\"",
+   "url": "https://www.elobservador.com.uy//economia-y-empresas/oddone-los-cambios-las-afap-el-dialogo-social-es-un-insumo-pero-las-decisiones-las-toma-el-gobierno-n6051711",
+   "fecha": "2026-07-23T08:00:00+00:00"
+  },
+  {
+   "medio": "El Observador",
+   "pais": "UY",
+   "tema": "general",
+   "titulo": "Tras intervención de Orsi, gobierno prepara propuesta para destrabar conflicto en la construcción",
+   "url": "https://www.elobservador.com.uy//nacional/falta-avances-la-negociacion-la-construccion-lleva-al-gobierno-intervenir-destrabar-el-nuevo-convenio-salarial-n6051689",
+   "fecha": "2026-07-23T08:00:00+00:00"
+  },
+  {
+   "medio": "El Observador",
+   "pais": "UY",
+   "tema": "general",
+   "titulo": "Caso Charles Carrera: tensa audiencia entre reproches por \"extorsión\", \"ridiculizaciones\" y \"asimetrías\" entre defensa y fiscalía",
+   "url": "https://www.elobservador.com.uy//nacional/caso-charles-carrera-tensa-audiencia-reproches-extorsion-ridiculizaciones-y-asimetrias-defensa-y-fiscalia-n6051696",
+   "fecha": "2026-07-23T08:00:00+00:00"
+  },
+  {
+   "medio": "El Observador",
+   "pais": "UY",
+   "tema": "general",
+   "titulo": "Vertiente Artiguista advirtió al FA de Montevideo sobre el \"hostigamiento\" al que escalan las \"diferencias\" internas en debate sobre Bañados de Carrasco",
+   "url": "https://www.elobservador.com.uy//nacional/en-una-nota-interna-la-vertiente-alerto-al-fa-montevideo-el-hostigamiento-al-que-escalan-las-diferencias-internas-debate-banados-carrasco-n6051695",
+   "fecha": "2026-07-23T08:00:00+00:00"
+  },
+  {
+   "medio": "El Observador",
+   "pais": "UY",
+   "tema": "general",
+   "titulo": "Marco Rubio dijo la verdad sobre los tupamaros",
+   "url": "https://www.elobservador.com.uy//opinion/marco-rubio-dijo-la-verdad-los-tupamaros-n6051694",
+   "fecha": "2026-07-23T08:00:00+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Matt Damon, 55 años: “La mejor manera de mantenerse en forma es fijar una fecha límite, saber que hay un objetivo final te obliga”",
+   "url": "https://tn.com.ar/sociedad/2026/07/23/matt-damon-55-anos-la-mejor-manera-de-mantenerse-en-forma-es-fijar-una-fecha-limite-saber-que-hay-un-objetivo-final-te-obliga/",
+   "fecha": "2026-07-23T07:59:20+00:00"
+  },
+  {
+   "medio": "TN",
+   "pais": "AR",
+   "tema": "general",
+   "titulo": "Brasil: una mujer con cáncer murió tras ser sometida por error a una cirugía destinada a otro paciente",
+   "url": "https://tn.com.ar/internacional/2026/07/23/brasil-una-mujer-con-cancer-murio-tras-ser-sometida-por-error-a-una-cirugia-destinada-a-otro-paciente/",
+   "fecha": "2026-07-23T07:54:26+00:00"
   },
   {
    "medio": "TN",
@@ -173,182 +1509,6 @@
    "fecha": "2026-07-23T07:18:03+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Sánchez anuncia la candidatura de Yolanda Díaz para dirigir la OIT",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/sanchez-anuncia-la-candidatura-de-yolanda-diaz-para-dirigir-la-oit/",
-   "fecha": "2026-07-23T07:17:43+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Los cancilleres de Japón y China hablan por primera vez desde disputa sobre Taiwán",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/los-cancilleres-de-japon-y-china-hablan-por-primera-vez-desde-disputa-sobre-taiwan/",
-   "fecha": "2026-07-23T07:17:25+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Tres muertos y al menos ocho heridos en Rusia tras ataques nocturnos de drones ucranianos",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/tres-muertos-y-al-menos-ocho-heridos-en-rusia-tras-ataques-nocturnos-de-drones-ucranianos/",
-   "fecha": "2026-07-23T07:17:08+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Singapur y Chile reafirman sus relaciones bilaterales durante visita del canciller chileno",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/singapur-y-chile-reafirman-sus-relaciones-bilaterales-durante-visita-del-canciller-chileno/",
-   "fecha": "2026-07-23T07:16:52+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Energética española Repsol ganó un 265 % más hasta junio por revalorización de existencias",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/energetica-espanola-repsol-gano-un-265-mas-hasta-junio-por-revalorizacion-de-existencias/",
-   "fecha": "2026-07-23T07:16:35+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Jueves, 23 de julio de 2026 (07.00 GMT)",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/jueves-23-de-julio-de-2026-0700-gmt/",
-   "fecha": "2026-07-23T07:16:18+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El delantero nigeriano Akor Adams llega al Venecia, traspasado por el Sevilla",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/el-delantero-nigeriano-akor-adams-llega-al-venecia-traspasado-por-el-sevilla/",
-   "fecha": "2026-07-23T07:16:00+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Rusia reafirma su apoyo a las propuestas de EEUU sobre Ucrania formuladas durante la cumbre de Alaska",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/rusia-reafirma-su-apoyo-a-las-propuestas-de-eeuu-sobre-ucrania-formuladas-durante-la-cumbre-de-alaska/",
-   "fecha": "2026-07-23T07:15:55+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Lotería Nacional: resultados de los sorteos Chispazo de este 22 de julio",
-   "url": "https://www.infobae.com/mexico/2026/07/23/loteria-nacional-resultados-de-los-sorteos-chispazo-de-este-22-de-julio/",
-   "fecha": "2026-07-23T07:15:46+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "65 años de la fundación del Frente Sandinista",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/65-anos-de-la-fundacion-del-frente-sandinista/",
-   "fecha": "2026-07-23T07:15:41+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Fuego de La Mierla, en fase de estabilización, el de Almorox lo estará en horas y el de Selas está perimetrad",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/fuego-de-la-mierla-en-fase-de-estabilizacion-el-de-almorox-lo-estara-en-horas-y-el-de-selas-esta-perimetrad/",
-   "fecha": "2026-07-23T07:15:38+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Irán reitera que sus ataques en Oriente Medio son una respuesta a la ofensiva de EE.UU.",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/iran-reitera-que-sus-ataques-en-oriente-medio-son-una-respuesta-a-la-ofensiva-de-eeuu/",
-   "fecha": "2026-07-23T07:15:22+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El incendio forestal de Jujuy fue contenido y se conoció cómo habrían comenzado las llamas",
-   "url": "https://www.infobae.com/sociedad/2026/07/23/el-incendio-forestal-de-jujuy-fue-contenido-y-se-conocio-como-habrian-comenzado-las-llamas/",
-   "fecha": "2026-07-23T07:15:16+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Cuáles fueron los países que más dinero movieron en transferencias durante Mundial 2026",
-   "url": "https://www.infobae.com/tecno/2026/07/23/cuales-fueron-los-paises-que-mas-dinero-movieron-en-transferencias-durante-mundial-2026/",
-   "fecha": "2026-07-23T07:14:29+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Magaly Medina expone los mensajes que recibe Jefferson Farfán y lo critica por bloquear sus comentarios: “No es capaz de afrontarlos”",
-   "url": "https://www.infobae.com/peru/2026/07/23/magaly-medina-expone-los-mensajes-que-recibe-jefferson-farfan-y-lo-critica-por-bloquear-sus-comentarios-no-es-capaz-de-afrontarlos/",
-   "fecha": "2026-07-23T07:11:53+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La secuela de ‘Días de trueno’ marcha con paso firme: este es el director para la nueva aventura de Tom Cruise",
-   "url": "https://www.infobae.com/espana/cultura/2026/07/23/la-secuela-de-dias-de-trueno-marcha-con-paso-firme-este-es-el-director-para-la-nueva-aventura-de-tom-cruise/",
-   "fecha": "2026-07-23T07:08:08+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "“Llevo 308 días sin consumir”: el intendente de Saavedra relevó su lucha contra las adicciones",
-   "url": "https://www.infobae.com/politica/2026/07/23/llevo-308-dias-sin-consumir-el-intendente-de-saavedra-relevo-su-lucha-contra-las-adicciones/",
-   "fecha": "2026-07-23T07:02:14+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Japón retoma intercambios de estudiantes con Rusia tras suspensión de siete años",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/japon-retoma-intercambios-de-estudiantes-con-rusia-tras-suspension-de-siete-anos/",
-   "fecha": "2026-07-23T07:00:56+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La \"nueva normalidad\" de China en torno a Taiwán: menos aviones y más coerción marítima",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/la-nueva-normalidad-de-china-en-torno-a-taiwan-menos-aviones-y-mas-coercion-maritima/",
-   "fecha": "2026-07-23T07:00:39+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Marcelo Ebrard recibe a Jamieson Greer para la tercera ronda de revisión del T-MEC: hoy se reúne con Sheinbaum",
-   "url": "https://www.infobae.com/mexico/2026/07/23/marcelo-ebrard-recibe-a-jamieson-greer-para-la-tercera-ronda-de-revision-del-t-mec-hoy-se-reune-con-sheinbaum/",
-   "fecha": "2026-07-23T07:00:34+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Suben a 22 los muertos por la explosión en un túnel hidroeléctrico en India",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/suben-a-22-los-muertos-por-la-explosion-en-un-tunel-hidroelectrico-en-india/",
-   "fecha": "2026-07-23T07:00:22+00:00"
-  },
-  {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Dólar blue hoy: a cuánto cotiza este jueves 23 de julio",
-   "url": "https://www.clarin.com/economia/dolar-blue-hoy-cotiza-jueves-23-julio_0_ijOFM2pF7m.html",
-   "fecha": "2026-07-23T07:00:02+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
@@ -357,212 +1517,12 @@
    "fecha": "2026-07-23T07:00:00+00:00"
   },
   {
-   "medio": "Infobae",
+   "medio": "Perfil",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Argentina, objetivo woke",
-   "url": "https://www.infobae.com/america/opinion/2026/07/23/argentina-objetivo-woke/",
-   "fecha": "2026-07-23T07:00:00+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La ONU reúne a sus seis candidatos a secretario general en un debate previo a la elección",
-   "url": "https://www.infobae.com/america/mundo/2026/07/23/la-onu-reune-a-sus-seis-candidatos-a-secretario-general-en-un-debate-previo-a-la-eleccion/",
-   "fecha": "2026-07-23T06:56:48+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Narendra Modi prometió “castigos severos” tras la filtración de exámenes que desató las protestas del movimiento Cucaracha en India",
-   "url": "https://www.infobae.com/america/mundo/2026/07/23/narendra-modi-prometio-castigos-severos-tras-la-filtracion-de-examenes-que-desato-las-protestas-del-movimiento-cucaracha-en-india/",
-   "fecha": "2026-07-23T06:54:10+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Cámara de Representantes reprograma sesión plenaria para la elección del Contralor General 2026-2030: cronograma y horarios oficiales",
-   "url": "https://www.infobae.com/colombia/2026/07/23/camara-de-representantes-reprograma-sesion-plenaria-para-la-eleccion-del-contralor-general-2026-2030-nuevo-cronograma-y-horarios-oficiales/",
-   "fecha": "2026-07-23T06:52:51+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Guerra en Medio Oriente EN VIVO: El régimen de Irán lanzó ataques contra bases militares de Estados Unidos en Medio Oriente",
-   "url": "https://www.infobae.com/america/mundo/2026/07/23/guerra-en-medio-oriente-en-vivo/",
-   "fecha": "2026-07-23T06:52:30+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Qué se sabe de la montaña Pickaxe, el enclave donde Trump asegura que Irán oculta un complejo nuclear subterráneo",
-   "url": "https://www.infobae.com/america/mundo/2026/07/23/que-se-sabe-de-la-montana-pickaxe-el-enclave-donde-trump-asegura-que-iran-oculta-un-complejo-nuclear-subterraneo/",
-   "fecha": "2026-07-23T06:52:27+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El nuevo rol del consumidor de energía eléctrica en un contexto de transición energética",
-   "url": "https://www.infobae.com/opinion/2026/07/23/el-nuevo-rol-del-consumidor-de-energia-electrica-en-un-contexto-de-transicion-energetica/",
-   "fecha": "2026-07-23T06:51:21+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Save the Children alertó sobre los peligros que existen para las embarazadas venezolanas a un mes del terremoto",
-   "url": "https://www.infobae.com/venezuela/2026/07/23/save-the-children-alerto-sobre-los-peligros-que-existen-para-las-embarazadas-venezolanas-a-un-mes-del-terremoto/",
-   "fecha": "2026-07-23T06:51:08+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La primera parada de un viaje es el celular",
-   "url": "https://www.infobae.com/opinion/2026/07/23/la-primera-parada-de-un-viaje-es-el-celular/",
-   "fecha": "2026-07-23T06:50:58+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Cientos de animales buscan un hogar tras los terremotos que devastaron Venezuela: “Los reencuentros son muy emotivos”",
-   "url": "https://www.infobae.com/venezuela/2026/07/23/cientos-de-animales-buscan-un-hogar-tras-los-terremotos-que-devastaron-venezuela-los-reencuentros-son-muy-emotivos/",
-   "fecha": "2026-07-23T06:49:59+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La Guardia Revolucionaria iraní negó el paso a tres petroleros por el estrecho de Ormuz",
-   "url": "https://www.infobae.com/america/mundo/2026/07/23/la-guardia-revolucionaria-irani-nego-el-paso-a-tres-petroleros-por-el-estrecho-de-ormuz/",
-   "fecha": "2026-07-23T06:48:48+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Tras la entrada en vigor de los aranceles de EEUU, Brasil lanzó una línea de crédito de USD 3.650 millones",
-   "url": "https://www.infobae.com/america/america-latina/2026/07/23/tras-la-entrada-en-vigor-de-los-aranceles-de-eeuu-brasil-lanzo-una-linea-de-credito-de-usd-3650-millones/",
-   "fecha": "2026-07-23T06:46:56+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La comedia 'Tres de más', 'El anfitrión' de Dafoe y el terror de 'Insaciable', en cines",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/la-comedia-tres-de-mas-el-anfitrion-de-dafoe-y-el-terror-de-insaciable-en-cines/",
-   "fecha": "2026-07-23T06:46:46+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El Comando Central de EEUU apoyó el paso de más de 900 buques comerciales por el estrecho de Ormuz desde mayo",
-   "url": "https://www.infobae.com/america/mundo/2026/07/23/el-comando-central-de-eeuu-apoyo-el-paso-de-mas-de-900-buques-comerciales-por-el-estrecho-de-ormuz-desde-mayo/",
-   "fecha": "2026-07-23T06:46:35+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Repsol gana 2.201 millones hasta junio, un 265 % más, por la revalorización de existencias",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/repsol-gana-2201-millones-hasta-junio-un-265-mas-por-la-revalorizacion-de-existencias/",
-   "fecha": "2026-07-23T06:46:30+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Prorrogado hasta marzo de 2027 el convenio entre el Banco de España y el CEMFI",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/prorrogado-hasta-marzo-de-2027-el-convenio-entre-el-banco-de-espana-y-el-cemfi/",
-   "fecha": "2026-07-23T06:46:13+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Repsol dispara sus ganancias a 2.201 millones a junio y acelera la retribución a los accionistas",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/repsol-dispara-sus-ganancias-a-2201-millones-a-junio-y-acelera-la-retribucion-a-los-accionistas/",
-   "fecha": "2026-07-23T06:46:02+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "India anuncia tribunales especiales ante la protesta juvenil por filtraciones de exámenes",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/india-anuncia-tribunales-especiales-ante-la-protesta-juvenil-por-filtraciones-de-examenes/",
-   "fecha": "2026-07-23T06:45:55+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Incendio con afección en Villa del Prado evoluciona favorablemente aunque condiciones meteorológicas no son favorables",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/incendio-con-afeccion-en-villa-del-prado-evoluciona-favorablemente-aunque-condiciones-meteorologicas-no-son-favorables/",
-   "fecha": "2026-07-23T06:45:45+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El brent sube 2 % y supera los 96 dólares con el conflicto entre EE.UU. e Irán enquistado",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-brent-sube-2-y-supera-los-96-dolares-con-el-conflicto-entre-eeuu-e-iran-enquistado/",
-   "fecha": "2026-07-23T06:45:39+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Lucía Pombo y Álvaro López-Huerta, padres de su primera hija, Lola Belén",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/lucia-pombo-y-alvaro-lopez-huerta-padres-de-su-primera-hija-lola-belen/",
-   "fecha": "2026-07-23T06:45:26+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Arabia Saudí confirma ataque a un petrolero en mar Rojo tras la reivindicación de hutíes",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/arabia-saudi-confirma-ataque-a-un-petrolero-en-mar-rojo-tras-la-reivindicacion-de-huties/",
-   "fecha": "2026-07-23T06:45:22+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Más de diez ONG denunciaron que los presos políticos padecen una “doble tragedia” tras los terremotos en Venezuela",
-   "url": "https://www.infobae.com/venezuela/2026/07/23/mas-de-diez-ong-denunciaron-que-los-presos-politicos-padecen-doble-tragedia-tras-los-terremotos-en-venezuela/",
-   "fecha": "2026-07-23T06:45:02+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Rubio se reunió con el canciller de Rusia en Manila para abordar la guerra en Ucrania y evaluar una eventual reactivación del diálogo",
-   "url": "https://www.infobae.com/america/mundo/2026/07/23/rubio-se-reunio-con-el-canciller-de-rusia-en-manila-para-abordar-la-guerra-en-ucrania-y-evaluar-una-eventual-reactivacion-del-dialogo/",
-   "fecha": "2026-07-23T06:44:10+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Javier Milei y sus medidas, en vivo: movimientos sindicales y repercusiones del Mundial",
-   "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-movimientos-sindicales-y-repercusiones-del-mundial-nid23072026/",
-   "fecha": "2026-07-23T06:43:43+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La subida del precio del petróleo dispara el beneficio de Repsol: gana 2.201 millones en el primer semestre, un 265% más",
-   "url": "https://www.infobae.com/espana/2026/07/23/la-subida-del-precio-del-petroleo-dispara-el-beneficio-de-repsol-hasta-triplicarse-gana-2201-millones-en-el-primer-semestre-un-265-mas/",
-   "fecha": "2026-07-23T06:42:41+00:00"
+   "titulo": "\"Victoria para Estados Unidos frente a Rusia y China\": polémica por el nuevo pacto que firmó el gobierno de Trump",
+   "url": "https://www.perfil.com/noticias/internacional/victoria-para-estados-unidos-frente-a-rusia-y-china-polemica-por-el-nuevo-pacto-que-firmo-el-gobierno-de-trump.phtml",
+   "fecha": "2026-07-23T06:58:48+00:00"
   },
   {
    "medio": "La Nación",
@@ -581,36 +1541,12 @@
    "fecha": "2026-07-23T06:39:01+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Bogotá alista alivio tributario para deudores: descuentos llegarían hasta el 50 %",
-   "url": "https://www.infobae.com/colombia/2026/07/23/bogota-alista-alivio-tributario-para-deudores-descuentos-llegarian-hasta-el-50/",
-   "fecha": "2026-07-23T06:38:00+00:00"
-  },
-  {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "A pesar de que pidió disculpas, cancelaron un homenaje a Rosalía que le iban a realizar en Córdoba por temor a recibir ataques",
-   "url": "https://www.clarin.com/fama/pesar-pidio-disculpas-cancelaron-homenaje-rosalia-iban-realizar-cordoba-temor-recibir-ataques_0_q7VDN0V9dy.html",
-   "fecha": "2026-07-23T06:37:38+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
    "titulo": "Catamarca: cuatro mineros fueron rescatados luego de estar atrapados bajo la nieve durante tres días y a -27°C",
    "url": "https://www.lanacion.com.ar/sociedad/catamarca-cuatro-mineros-fueron-rescatados-luego-de-estar-atrapados-bajo-la-nieve-durante-tres-dias-nid23072026/",
    "fecha": "2026-07-23T06:34:12+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El incendio de Almorox (Toledo) evoluciona favorablemente, pero aún no se da por estabilizado: los vecinos de El Encinar del Alberche siguen desalojados",
-   "url": "https://www.infobae.com/espana/2026/07/23/el-incendio-de-almorox-toledo-evoluciona-favorablemente-pero-aun-no-se-da-por-estabilizado-los-vecinos-de-el-encinar-del-alberche-siguen-desalojados/",
-   "fecha": "2026-07-23T06:32:58+00:00"
   },
   {
    "medio": "La Nación",
@@ -621,76 +1557,12 @@
    "fecha": "2026-07-23T06:31:00+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Melate, Revancha y Revanchita resultados del sorteo de hoy miércoles 22 de julio",
-   "url": "https://www.infobae.com/mexico/2026/07/23/melate-revancha-y-revanchita-resultados-del-sorteo-de-hoy-miercoles-22-de-julio/",
-   "fecha": "2026-07-23T06:30:48+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Precio de la gasolina en España 2026: las tarifas más altas y más bajas 23 de julio",
-   "url": "https://www.infobae.com/espana/2026/07/23/precio-de-la-gasolina-en-espana-2026-las-tarifas-mas-altas-y-mas-bajas-23-de-julio/",
-   "fecha": "2026-07-23T06:30:44+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Extinguido el incendio de Almonaster que obligó a desalojar a más de 300 vecinos",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/extinguido-el-incendio-de-almonaster-que-obligo-a-desalojar-a-mas-de-300-vecinos/",
-   "fecha": "2026-07-23T06:30:38+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El calor extremo pone en alerta a Japón con al menos 14 muertos y récord de insolaciones",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/el-calor-extremo-pone-en-alerta-a-japon-con-al-menos-14-muertos-y-record-de-insolaciones/",
-   "fecha": "2026-07-23T06:30:35+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Una nena de 11 años sufrió una intoxicación alcohólica: investigan a una mujer que la habría amenazado para que consuma",
-   "url": "https://www.infobae.com/sociedad/policiales/2026/07/23/una-nena-de-11-anos-sufrio-una-intoxicacion-alcoholica-investigan-a-una-mujer-que-la-habria-amenazado-para-que-consuma/",
-   "fecha": "2026-07-23T06:28:55+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El nuevo dron marítimo alemán lanzado desde tubos para torpedos que ya funciona en el océano",
-   "url": "https://www.infobae.com/espana/2026/07/23/el-nuevo-dron-maritimo-aleman-lanzado-desde-tubos-para-torpedos-que-ya-funciona-en-el-oceano/",
-   "fecha": "2026-07-23T06:28:18+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
    "titulo": "Los pilotos de un vuelo de British Airways sufrieron una intoxicación alimentaria durante un viaje de más de 10 horas",
    "url": "https://www.lanacion.com.ar/el-mundo/los-pilotos-de-un-vuelo-de-british-airways-sufrieron-una-intoxicacion-en-mitad-de-un-viaje-de-mas-de-nid23072026/",
    "fecha": "2026-07-23T06:27:51+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La familia de la mujer que murió en un presunto accidente con una copa de vino pidió ser querellante en la causa",
-   "url": "https://www.infobae.com/sociedad/policiales/2026/07/23/la-familia-de-la-mujer-que-murio-en-un-presunto-accidente-con-una-copa-de-vino-pidio-ser-querellante-en-la-causa/",
-   "fecha": "2026-07-23T06:27:29+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Todo lo que se sabe sobre el ingreso hospitalario de Kiko Rivera por un problema “grave”: “Sus amigos están muy preocupados por él”",
-   "url": "https://www.infobae.com/espana/2026/07/23/todo-lo-que-se-sabe-sobre-el-ingreso-hospitalario-de-kiko-rivera-por-un-problema-grave-sus-amigos-estan-muy-preocupados-por-el/",
-   "fecha": "2026-07-23T06:25:18+00:00"
   },
   {
    "medio": "La Tercera",
@@ -701,148 +1573,12 @@
    "fecha": "2026-07-23T06:25:18+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "EN VIVO | Clima en CDMX y resto de México hoy 23 de julio: monzón provocará lluvias y vientos fuertes",
-   "url": "https://www.infobae.com/mexico/2026/07/23/en-vivo-clima-en-cdmx-y-resto-de-mexico-hoy-23-de-julio/",
-   "fecha": "2026-07-23T06:23:06+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
    "titulo": "Revés judicial para Cher: deberá pagar un millón de dólares en su disputa con la viuda de Sonny Bono",
    "url": "https://www.lanacion.com.ar/espectaculos/personajes/reves-judicial-para-cher-debera-pagar-un-millon-de-dolares-en-su-disputa-con-la-viuda-de-sonny-bono-nid23072026/",
    "fecha": "2026-07-23T06:17:51+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Bankinter gana hasta junio 605 millones, un 11,7 % más, gracias al dinamismo comercial",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/bankinter-gana-hasta-junio-605-millones-un-117-mas-gracias-al-dinamismo-comercial/",
-   "fecha": "2026-07-23T06:16:35+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Resultado Chontico noche, último sorteo de hoy 22 de julio de 2026",
-   "url": "https://www.infobae.com/colombia/2026/07/23/resultado-chontico-noche-numeros-ganadores-del-ultimo-sorteo-hoy-miercoles-22-de-julio-de-2026/",
-   "fecha": "2026-07-23T06:16:29+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Aviso rojo por calor en Murcia y C.Valenciana y otras 10 comunidades en naranja y amarillo",
-   "url": "https://www.infobae.com/espana/agencias/2026/07/23/aviso-rojo-por-calor-en-murcia-y-cvalenciana-y-otras-10-comunidades-en-naranja-y-amarillo/",
-   "fecha": "2026-07-23T06:16:19+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Los trabajos para la extinción del incendio de Almorox son \"positivos\" y esperan estabilizarlo en unas horas",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/los-trabajos-para-la-extincion-del-incendio-de-almorox-son-positivos-y-esperan-estabilizarlo-en-unas-horas/",
-   "fecha": "2026-07-23T06:16:05+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "China vuelve a conceder permisos para 'robotaxis' tras incidente en Wuhan, según Bloomberg",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/china-vuelve-a-conceder-permisos-para-robotaxis-tras-incidente-en-wuhan-segun-bloomberg/",
-   "fecha": "2026-07-23T06:16:00+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Pico y Placa en Bogotá: qué vehículos no circulan este 23 de julio",
-   "url": "https://www.infobae.com/colombia/2026/07/23/pico-y-placa-en-bogota-que-vehiculos-no-circulan-este-23-de-julio/",
-   "fecha": "2026-07-23T06:15:50+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Asesinado a tiros un periodista en Oaxaca, México: es el sexto caso de 2026",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/asesinado-a-tiros-un-periodista-en-oaxaca-mexico-es-el-sexto-caso-de-2026/",
-   "fecha": "2026-07-23T06:15:47+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Venus Medtech anuncia que ha finalizado el reclutamiento de pacientes en un ensayo clínico decisivo realizado en China para Venus-PowerX, el primer sistema TAVR del mundo con válvula seca autoexpandible y totalmente recuperable",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/venus-medtech-anuncia-que-ha-finalizado-el-reclutamiento-de-pacientes-en-un-ensayo-clinico-decisivo-realizado-en-china-para-venus-powerx-el-primer-sistema-tavr-del-mundo-con-valvula-seca-autoexpandible-y-totalmente-recuperable/",
-   "fecha": "2026-07-23T06:15:43+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Preocupación máxima por Kiko Rivera: \"Está ingresado, es grave\". Sus últimas imágenes, reveladoras sobre su estado",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/preocupacion-maxima-por-kiko-rivera-esta-ingresado-es-grave-sus-ultimas-imagenes-reveladoras-sobre-su-estado/",
-   "fecha": "2026-07-23T06:15:29+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Antonelli, a asestarle otro golpe psicológico al Mundial antes de las vacaciones",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/antonelli-a-asestarle-otro-golpe-psicologico-al-mundial-antes-de-las-vacaciones/",
-   "fecha": "2026-07-23T06:15:23+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La SIP condena asesinato del periodista Alejandro Leyva Aguilar en México y urge medidas contra la violencia e impunidad",
-   "url": "https://www.infobae.com/mexico/2026/07/23/la-sip-condena-asesinato-del-periodista-alejandro-leyva-aguilar-en-mexico-y-urge-medidas-contra-la-violencia-e-impunidad/",
-   "fecha": "2026-07-23T06:14:34+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Robaron e incendieron un salón de fiestas en Entre Ríos que quedó completamente destruido: hay un menor detenido",
-   "url": "https://www.infobae.com/sociedad/policiales/2026/07/23/robaron-e-incendieron-un-salon-de-fiestas-en-entre-rios-que-quedo-completamente-destruido-hay-un-menor-detenido/",
-   "fecha": "2026-07-23T06:13:41+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Del queso manchego a las avellanas: los 5 alimentos más ricos en calcio para cuidar los huesos",
-   "url": "https://www.infobae.com/espana/2026/07/23/del-queso-manchego-a-las-avellanas-los-5-alimentos-mas-ricos-en-calcio-para-cuidar-los-huesos/",
-   "fecha": "2026-07-23T06:13:08+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Petro responde a De la Espriella por críticas al traslado de $4 billones a la Ungrd: “Va a dejar morir a los colombianos”",
-   "url": "https://www.infobae.com/colombia/2026/07/23/petro-responde-a-de-la-espriella-por-criticas-al-traslado-de-4-billones-a-la-ungrd-va-a-dejar-morir-a-los-colombianos/",
-   "fecha": "2026-07-23T06:12:39+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Caos vial por inundaciones en Indios Verdes: lluvias colapsan Insurgentes Norte y dejan varados a cientos de usuarios",
-   "url": "https://www.infobae.com/mexico/2026/07/23/caos-vial-por-inundaciones-en-indios-verdes-lluvias-colapsan-insurgentes-norte-y-dejan-varados-a-cientos-de-usuarios/",
-   "fecha": "2026-07-23T06:11:25+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La protesta social volvió a las calles, con cortes y piquetes: cómo continúan los reclamos contra el Gobierno",
-   "url": "https://www.infobae.com/politica/2026/07/23/la-protesta-social-volvio-a-las-calles-con-cortes-y-piquetes-como-continuan-los-reclamos-contra-el-gobierno/",
-   "fecha": "2026-07-23T06:08:19+00:00"
   },
   {
    "medio": "La Tercera",
@@ -859,38 +1595,6 @@
    "titulo": "River cerró la llegada de Ángel Correa: cuánto pagará y cuándo se sumará al plantel",
    "url": "https://tn.com.ar/deportes/futbol/2026/07/23/river-cerro-la-llegada-de-angel-correa-cuanto-pagara-y-cuando-se-sumara-al-plantel/",
    "fecha": "2026-07-23T06:05:52+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Temblor hoy en México: noticias actividad sísmica 23 de julio de 2026",
-   "url": "https://www.infobae.com/mexico/2026/07/23/temblor-hoy-en-mexico-noticias-actividad-sismica-23-de-julio-de-2026/",
-   "fecha": "2026-07-23T06:04:23+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Resultados ganadores del Gana Diario de este miércoles 22 de julio",
-   "url": "https://www.infobae.com/peru/2026/07/23/resultados-ganadores-del-gana-diario-de-este-miercoles-22-de-julio/",
-   "fecha": "2026-07-23T06:01:03+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Bankinter gana 605 millones de euros en el primer semestre del año, un 11,7% más",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/bankinter-gana-605-millones-de-euros-en-el-primer-semestre-del-ano-un-117-mas/",
-   "fecha": "2026-07-23T06:00:58+00:00"
-  },
-  {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Meidroth y Benintendi conectan 2 sencillos impulsores cada uno y Medias Blancas vencen 4-2 a Rangers",
-   "url": "https://www.clarin.com/estados-unidos/meidroth-y-benintendi-conectan-2-sencillos-impulsores-cada-uno-y-medias-blancas-vencen-4-2-a-rangers_0_Vg7ErtwQRI.html",
-   "fecha": "2026-07-23T06:00:04+00:00"
   },
   {
    "medio": "La Nación",
@@ -912,16 +1616,16 @@
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
-   "titulo": "La salida de Julieta Prandi con “otro Ortega”, el viaje de Martitegui con sus hijos y el romántico mensaje de Redrado",
-   "url": "https://www.lanacion.com.ar/revista-hola/la-salida-de-julieta-prandi-con-otro-ortega-el-viaje-de-martitegui-con-sus-hijos-y-el-romantico-nid23072026/",
+   "titulo": "Acechado por un grupo de caranchos, lo rescataron con pocos días de vida: “Parecía un perro más de la casa”",
+   "url": "https://www.lanacion.com.ar/lifestyle/acechado-por-un-grupo-de-caranchos-lo-rescataron-con-pocos-dias-de-vida-pero-tuvieron-que-dejarlo-ir-nid23072026/",
    "fecha": "2026-07-23T06:00:00+00:00"
   },
   {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Acechado por un grupo de caranchos, lo rescataron con pocos días de vida: “Parecía un perro más de la casa”",
-   "url": "https://www.lanacion.com.ar/lifestyle/acechado-por-un-grupo-de-caranchos-lo-rescataron-con-pocos-dias-de-vida-pero-tuvieron-que-dejarlo-ir-nid23072026/",
+   "titulo": "La salida de Julieta Prandi con “otro Ortega”, el viaje de Martitegui con sus hijos y el romántico mensaje de Redrado",
+   "url": "https://www.lanacion.com.ar/revista-hola/la-salida-de-julieta-prandi-con-otro-ortega-el-viaje-de-martitegui-con-sus-hijos-y-el-romantico-nid23072026/",
    "fecha": "2026-07-23T06:00:00+00:00"
   },
   {
@@ -933,14 +1637,6 @@
    "fecha": "2026-07-23T06:00:00+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Ridley Scott dirigirá ‘La isla del tesoro’, una nueva versión del clásico de aventuras con Hugh Jackman como el icónico pirata Long John Silver",
-   "url": "https://www.infobae.com/espana/cultura/2026/07/23/ridley-scott-dirigira-la-isla-del-tesoro-una-nueva-version-del-clasico-de-aventuras-con-hugh-jackman-como-el-iconico-pirata-long-john-silver/",
-   "fecha": "2026-07-23T05:56:03+00:00"
-  },
-  {
    "medio": "La Tercera",
    "pais": "CL",
    "tema": "general",
@@ -949,84 +1645,12 @@
    "fecha": "2026-07-23T05:47:57+00:00"
   },
   {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Efemérides del 24 de julio",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/efemerides-del-24-de-julio/",
-   "fecha": "2026-07-23T05:45:59+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Baloto y Revancha: números ganadores del miércoles 22 de julio",
-   "url": "https://www.infobae.com/colombia/2026/07/23/baloto-y-revancha-numeros-ganadores-del-miercoles-22-de-julio/",
-   "fecha": "2026-07-23T05:45:51+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Pekín dice que expulsó a dos buques filipinos cerca de un atolón disputado con Manila",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/pekin-dice-que-expulso-a-dos-buques-filipinos-cerca-de-un-atolon-disputado-con-manila/",
-   "fecha": "2026-07-23T05:45:42+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La Guardia Revolucionaria iraní anuncia ataques contra EEUU en dos bases militares de Kuwait",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/la-guardia-revolucionaria-irani-anuncia-ataques-contra-eeuu-en-dos-bases-militares-de-kuwait/",
-   "fecha": "2026-07-23T05:45:34+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La RD del Congo supera la barrera de los 1.000 muertos confirmados por el brote de ébola",
-   "url": "https://www.infobae.com/america/agencias/2026/07/23/la-rd-del-congo-supera-la-barrera-de-los-1000-muertos-confirmados-por-el-brote-de-ebola/",
-   "fecha": "2026-07-23T05:45:26+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Si viajas a Milán, este es el restaurante que no te puedes perder: elegido como mejor pizzería de Italia en 2026 y con opciones desde 15 euros",
-   "url": "https://www.infobae.com/espana/2026/07/23/si-viajas-a-milan-este-es-el-restaurante-que-no-te-puedes-perder-elegido-como-mejor-pizzeria-de-italia-en-2026-y-con-opciones-desde-15-euros/",
-   "fecha": "2026-07-23T05:45:16+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Las playas y piscinas que ya aplican la ley antitabaco: multas de hasta 1.800 euros por fumar y tirar colillas",
-   "url": "https://www.infobae.com/espana/2026/07/23/las-playas-y-piscinas-que-ya-aplican-la-ley-antitabaco-multas-de-hasta-1800-euros-por-fumar-y-tirar-colillas/",
-   "fecha": "2026-07-23T05:45:13+00:00"
-  },
-  {
-   "medio": "Infobae",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "De dirigir una orquesta en la Ucrania invadida a escribir una novela sobre la trata de personas: “El arte debe servir para algo más que para el reconocimiento”",
-   "url": "https://www.infobae.com/espana/cultura/2026/07/23/de-dirigir-una-orquesta-en-la-ucrania-invadida-a-escribir-una-novela-sobre-la-trata-de-personas-el-arte-debe-servir-para-algo-mas-que-para-el-reconocimiento/",
-   "fecha": "2026-07-23T05:45:09+00:00"
-  },
-  {
    "medio": "La Tercera",
    "pais": "CL",
    "tema": "general",
    "titulo": "“No se puede amarrar a futuras legislaturas”: Domingo Lovera detalla argumentos del requerimiento de la oposición ante el TC por megarreforma",
    "url": "https://www.latercera.com/nacional/noticia/no-se-puede-amarrar-a-futuras-legislaturas-domingo-lovera-detalla-argumentos-del-requerimiento-de-la-oposicion-ante-el-tc-por-megarreforma/",
    "fecha": "2026-07-23T05:31:15+00:00"
-  },
-  {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Investigan el fallecimiento de una nena de 2 años cuya madre ya había quedado bajo la lupa por la muerte de otras dos hijas",
-   "url": "https://www.clarin.com/policiales/investigan-fallecimiento-nena-2-anos-cuya-madre-quedado-lupa-muerte-hijas_0_h6IQkg3O2C.html",
-   "fecha": "2026-07-23T05:28:00+00:00"
   },
   {
    "medio": "La Tercera",
@@ -1053,14 +1677,6 @@
    "fecha": "2026-07-23T05:12:30+00:00"
   },
   {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Álvarez y Paredes conectan jonrones seguidos en triunfo de Astros, 5-2 sobre Marlins",
-   "url": "https://www.clarin.com/estados-unidos/alvarez-y-paredes-conectan-jonrones-seguidos-en-triunfo-de-astros-5-2-sobre-marlins_0_camv2nTYAT.html",
-   "fecha": "2026-07-23T05:00:06+00:00"
-  },
-  {
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
@@ -1083,14 +1699,6 @@
    "titulo": "Andrés “Chapu” Nocioni: “Ahora tengo que escuchar que la Argentina es racista... dejen de hablar barbaridades”",
    "url": "https://www.lanacion.com.ar/deportes/andres-chapu-nocioni-ahora-tengo-que-escuchar-que-la-argentina-es-racista-dejen-de-hablar-nid22072026/",
    "fecha": "2026-07-23T04:34:34+00:00"
-  },
-  {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Sin Messi ni De Paul, Inter Miami ganó pese a un blooper de su arquero argentino y amargó el debut de Lewandowski en Chicago Fire",
-   "url": "https://www.clarin.com/deportes/messi-paul-inter-miami-gano-pese-blooper-arquero-argentino-amargo-debut-lewandowski-chicago-fire_0_xQLyqNNkZj.html",
-   "fecha": "2026-07-23T04:33:58+00:00"
   },
   {
    "medio": "TN",
@@ -1133,28 +1741,12 @@
    "fecha": "2026-07-23T04:06:56+00:00"
   },
   {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Jessica Morgan dirigirá la Tate: la curadora que pasó por Buenos Aires asumirá el museo de arte más influyente del Reino Unido",
-   "url": "https://www.clarin.com/cultura/jessica-morgan-dirigira-tate-curadora-paso-buenos-aires-asumira-museo-arte-influyente-reino-unido_0_zzlVK2kim0.html",
-   "fecha": "2026-07-23T04:06:40+00:00"
-  },
-  {
    "medio": "Cooperativa",
    "pais": "CL",
    "tema": "general",
    "titulo": "Pornovenganza: Corte ordenó a sujeto eliminar imágenes íntimas de su expareja publicadas en redes",
    "url": "https://www.cooperativa.cl/noticias/pais/judicial/pornovenganza-corte-ordeno-a-sujeto-eliminar-imagenes-intimas-de-su/2026-07-23/000417.html",
    "fecha": "2026-07-23T04:04:17+00:00"
-  },
-  {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Max Muncy conecta jonrón de la ventaja y Dodgers vencen a Filis por 9-5",
-   "url": "https://www.clarin.com/estados-unidos/max-muncy-conecta-jonron-de-la-ventaja-y-dodgers-vencen-a-filis-por-9-5_0_ztyZeDVsFV.html",
-   "fecha": "2026-07-23T04:00:06+00:00"
   },
   {
    "medio": "La Nación",
@@ -1189,28 +1781,12 @@
    "fecha": "2026-07-23T03:52:01+00:00"
   },
   {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este jueves 23 julio de 2026",
-   "url": "https://www.clarin.com/informacion-general/clima-hoy-punta-lara-buenos-aires-pronostico-tiempo-jueves-23-julio-2026_0_COVqQ6F63u.html",
-   "fecha": "2026-07-23T03:50:47+00:00"
-  },
-  {
    "medio": "TN",
    "pais": "AR",
    "tema": "general",
    "titulo": "Sin Messi ni De Paul, pero con un doblete de Luis Suárez: Inter Miami venció a Chicago Fire en el debut de Lewandowski en la MLS",
    "url": "https://tn.com.ar/deportes/futbol-internacional/2026/07/23/sin-messi-ni-de-paul-pero-con-un-doblete-de-luis-suarez-inter-miami-vencio-a-chicago-fire-en-el-debut-de-lewandowski-en-la-mls/",
    "fecha": "2026-07-23T03:50:39+00:00"
-  },
-  {
-   "medio": "Clarín",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Clima hoy en Maracaibo, Venezuela: el pronóstico del tiempo para este jueves 23 julio de 2026",
-   "url": "https://www.clarin.com/informacion-general/clima-hoy-maracaibo-venezuela-pronostico-tiempo-jueves-23-julio-2026_0_hyIYJTqQ3f.html",
-   "fecha": "2026-07-23T03:50:23+00:00"
   },
   {
    "medio": "TN",
@@ -1536,6 +2112,14 @@
    "medio": "La Nación",
    "pais": "AR",
    "tema": "general",
+   "titulo": "Al final, nos importó más que nunca",
+   "url": "https://www.lanacion.com.ar/cultura/al-final-nos-importo-mas-que-nunca-nid23072026/",
+   "fecha": "2026-07-23T03:01:00+00:00"
+  },
+  {
+   "medio": "La Nación",
+   "pais": "AR",
+   "tema": "general",
    "titulo": "Se venden cada vez menos autos en la Argentina, pero la industria prevé un mejor segundo semestre",
    "url": "https://www.lanacion.com.ar/autos/se-venden-cada-vez-menos-autos-en-la-argentina-pero-la-industria-preve-un-mejor-segundo-semestre-nid23072026/",
    "fecha": "2026-07-23T03:01:00+00:00"
@@ -1546,14 +2130,6 @@
    "tema": "general",
    "titulo": "El amor que permanece: singular retrato de una familia fracturada, realizado con soltura e imaginación",
    "url": "https://www.lanacion.com.ar/espectaculos/cine/el-amor-que-permanece-singular-retrato-de-una-familia-fracturada-realizado-con-soltura-e-imaginacion-nid23072026/",
-   "fecha": "2026-07-23T03:01:00+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Al final, nos importó más que nunca",
-   "url": "https://www.lanacion.com.ar/cultura/al-final-nos-importo-mas-que-nunca-nid23072026/",
    "fecha": "2026-07-23T03:01:00+00:00"
   },
   {
@@ -1701,14 +2277,6 @@
    "fecha": "2026-07-23T02:50:01+00:00"
   },
   {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "En medio de la campaña anti Argentina, María Becerra ondeó la bandera celeste y blanca en pleno show en España",
-   "url": "https://www.lanacion.com.ar/espectaculos/en-medio-de-la-campana-anti-argentina-maria-becerra-ondeo-la-bandera-celeste-y-blanca-en-pleno-show-nid22072026/",
-   "fecha": "2026-07-23T02:47:32+00:00"
-  },
-  {
    "medio": "TN",
    "pais": "AR",
    "tema": "general",
@@ -1819,14 +2387,6 @@
    "titulo": "“Algo pasó”: la teoría de un exfutbolista argentino sobre la final del Mundial que perdió la Selección contra España",
    "url": "https://tn.com.ar/deportes/seleccion-argentina/2026/07/22/algo-paso-la-teoria-de-un-exfutbolista-argentino-sobre-la-final-del-mundial-que-perdio-la-seleccion-contra-espana/",
    "fecha": "2026-07-23T02:14:36+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La inauguración oficial de La Rural viene marcada por 2 cambios inesperados y los posibles anuncios que haría Milei en su discurso",
-   "url": "https://www.perfil.com/noticias/politica/la-inauguracion-oficial-de-la-rural-viene-marcada-por-2-cambios-inesperados-y-los-posibles-anuncios-que-haria-milei-en-su-discurso.phtml",
-   "fecha": "2026-07-23T02:12:25+00:00"
   },
   {
    "medio": "La Diaria",
@@ -2037,14 +2597,6 @@
    "fecha": "2026-07-23T01:46:21+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "La Junta Departamental declaró de interés departamental la vigésima edición de la premiación Amanda Rorra en Salto",
-   "url": "https://ladiaria.com.uy/salto/articulo/2026/7/la-junta-departamental-declaro-de-interes-departamental-la-vigesima-edicion-de-la-premiacion-amanda-rorra-en-salto/",
-   "fecha": "2026-07-23T01:42:26+00:00"
-  },
-  {
    "medio": "TN",
    "pais": "AR",
    "tema": "general",
@@ -2107,14 +2659,6 @@
    "titulo": "Javier Macaya: “Hay un Presidente que ha logrado articular desde Demócratas hasta el Partido Nacional Libertario votando a favor proyectos relevantes”",
    "url": "https://www.latercera.com/politica/noticia/javier-macaya-hay-un-presidente-que-ha-logrado-articular-desde-democratas-hasta-el-partido-nacional-libertario-votando-a-favor-proyectos-relevantes/",
    "fecha": "2026-07-23T01:30:00+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Empresa chilena invertirá seis millones de dólares en una planta de compostaje industrial en Quebracho",
-   "url": "https://ladiaria.com.uy/paysandu/articulo/2026/7/empresa-chilena-invertira-seis-millones-de-dolares-en-una-planta-de-compostaje-industrial-en-quebracho/",
-   "fecha": "2026-07-23T01:24:37+00:00"
   },
   {
    "medio": "Cooperativa",
@@ -2195,14 +2739,6 @@
    "titulo": "Comisión de Seguridad de la Cámara aprueba en general el proyecto que extiende la legítima defensa para funcionarios policiales de franco",
    "url": "https://www.latercera.com/nacional/noticia/comision-de-seguridad-de-la-camara-aprueba-en-general-el-proyecto-que-extiende-la-legitima-defensa-para-funcionarios-policiales-de-franco/",
    "fecha": "2026-07-23T01:16:54+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Adeoms cuestiona decisión de mantener la recolección en plena tormenta que provocó accidente laboral y pedirá remoción de jerarca",
-   "url": "https://ladiaria.com.uy/salto/articulo/2026/7/adeoms-cuestiona-decision-de-mantener-la-recoleccion-en-plena-tormenta-que-provoco-accidente-laboral-y-pedira-remocion-de-jerarca/",
-   "fecha": "2026-07-23T01:16:46+00:00"
   },
   {
    "medio": "TN",
@@ -2291,14 +2827,6 @@
    "titulo": "Cámara aprueba último punto pendiente de megarreforma a la espera de vetos y proceso ante el TC",
    "url": "https://www.latercera.com/politica/noticia/camara-aprueba-ultimo-punto-pendiente-de-megarreforma-a-la-espera-de-vetos-y-proceso-ante-el-tc/",
    "fecha": "2026-07-23T01:06:34+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "América Latina todavía no desarrolló las capacidades necesarias para usar IA de forma “segura y sostenible”, advierte empresa",
-   "url": "https://ladiaria.com.uy/futuro/articulo/2026/7/america-latina-todavia-no-desarrollo-las-capacidades-necesarias-para-usar-ia-de-forma-segura-y-sostenible-advierte-empresa/",
-   "fecha": "2026-07-23T01:03:51+00:00"
   },
   {
    "medio": "Perfil",
@@ -2442,14 +2970,6 @@
    "tema": "general",
    "titulo": "Sergio Ramos recreó una icónica foto de Lionel Messi con el trofeo del Mundial y enfureció a los hinchas argentinos",
    "url": "https://tn.com.ar/deportes/futbol/2026/07/22/sergio-ramos-recreo-una-iconica-foto-de-lionel-messi-con-el-trofeo-del-mundial-y-enfurecio-a-los-fanaticos/",
-   "fecha": "2026-07-23T00:51:00+00:00"
-  },
-  {
-   "medio": "El Observador",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "El mapa de Peñarol a cuatro meses para las elecciones y los posibles candidatos que se preparan para la contienda política",
-   "url": "https://www.elobservador.com.uy//futbol/el-mapa-penarol-cuatro-meses-las-elecciones-y-los-posibles-candidatos-que-se-preparan-la-contienda-politica-n6051692",
    "fecha": "2026-07-23T00:51:00+00:00"
   },
   {
@@ -2709,14 +3229,6 @@
    "fecha": "2026-07-23T00:15:35+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "CAF aprobó el financiamiento para las obras en Aguas Corrientes que sustituyen el proyecto Neptuno",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/caf-aprobo-el-financiamiento-para-las-obras-en-aguas-corrientes-que-sustituyen-el-proyecto-neptuno/",
-   "fecha": "2026-07-23T00:12:34+00:00"
-  },
-  {
    "medio": "Olé",
    "pais": "-",
    "tema": "Deportes",
@@ -2840,14 +3352,6 @@
    "medio": "Perfil",
    "pais": "AR",
    "tema": "general",
-   "titulo": "Empresario pyme a Daza: \"No hay brotes verdes, no hay plata en la calle y la actividad está completamente parada\"",
-   "url": "https://www.perfil.com/noticias/nea/empresario-pyme-a-daza-no-hay-brotes-verdes-no-hay-plata-en-la-calle-y-la-actividad-esta-completamente-parada.phtml",
-   "fecha": "2026-07-22T23:58:00+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
    "titulo": "Estados Unidos ya gastó US$37.500 millones en la guerra con Irán y el Pentágono pidió más fondos",
    "url": "https://www.perfil.com/noticias/internacional/estados-unidos-ya-gasto-us37500-millones-en-la-guerra-con-iran-y-el-pentagono-pidio-mas-fondos.phtml",
    "fecha": "2026-07-22T23:58:00+00:00"
@@ -2861,14 +3365,6 @@
    "fecha": "2026-07-22T23:57:18+00:00"
   },
   {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Gabriel Rolón, psicólogo: “La felicidad es eximia: tiene mucho de nosotros y mucho que no es de nosotros”",
-   "url": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-la-felicidad-es-eximia-tiene-mucho-de-nosotros-y-mucho-que-no-es-de-nosotros-nid22072026/",
-   "fecha": "2026-07-22T23:57:00+00:00"
-  },
-  {
    "medio": "Montevideo Portal",
    "pais": "UY",
    "tema": "general",
@@ -2877,44 +3373,12 @@
    "fecha": "2026-07-22T23:57:00+00:00"
   },
   {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Los hutíes reivindicaron un ataque contra dos buques de Arabia Saudita y crece la tensión en Medio Oriente",
-   "url": "https://www.lanacion.com.ar/el-mundo/los-huties-reivindicaron-un-ataque-contra-dos-buques-de-arabia-saudita-y-crece-la-tension-en-medio-nid22072026/",
-   "fecha": "2026-07-22T23:56:02+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Un adolescente murió apuñalado en una pelea entre dos familias en un pueblo de 100 habitantes",
-   "url": "https://www.lanacion.com.ar/seguridad/un-adolescente-murio-apunalado-en-una-pelea-entre-dos-familias-en-un-pueblo-de-100-habitantes-nid22072026/",
-   "fecha": "2026-07-22T23:55:32+00:00"
-  },
-  {
-   "medio": "Olé",
-   "pais": "-",
-   "tema": "Deportes",
-   "titulo": "Los dos ex Boca que debutaron en Independiente Medellín por Copa Sudamericana",
-   "url": "https://www.ole.com.ar/futbol-internacional/sudamericana/copa-sudamericana-independiente-medellin-dim-vasco-da-gama-agustin-martegani-amaranto-perea-internacional_0_CrAHnLzaMt.html",
-   "fecha": "2026-07-22T23:55:05+00:00"
-  },
-  {
    "medio": "Perfil",
    "pais": "AR",
    "tema": "general",
    "titulo": "Ante el Mundial, el Gobierno busca cobrar la salud y la universidad pública a extranjeros sin residencia permanente",
    "url": "https://www.perfil.com/noticias/politica/ante-el-mundial-el-gobierno-busca-cobrar-la-salud-y-la-universidad-publica-a-extranjeros-sin-residencia-permanente.phtml",
    "fecha": "2026-07-22T23:55:00+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Temblores en la omertá judicial y futbolística",
-   "url": "https://www.lanacion.com.ar/politica/temblores-en-la-omerta-judicial-y-futbolistica-nid22072026/",
-   "fecha": "2026-07-22T23:54:10+00:00"
   },
   {
    "medio": "TN",
@@ -2931,14 +3395,6 @@
    "titulo": "Consejero regional va preso, acusado de violar a mujer en una fiesta de Halloween",
    "url": "https://www.cooperativa.cl/noticias/pais/policial/delitos-sexuales/consejero-regional-va-preso-acusado-de-violar-a-mujer-en-una-fiesta-de/2026-07-22/195305.html",
    "fecha": "2026-07-22T23:53:05+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La reacción de Rodrigo de Paul por las críticas a la Selección tras la final: “Conspiraciones infundadas”",
-   "url": "https://www.lanacion.com.ar/deportes/futbol/la-reaccion-de-rodrigo-de-paul-por-las-criticas-a-la-seleccion-tras-la-final-conspiraciones-nid22072026/",
-   "fecha": "2026-07-22T23:53:00+00:00"
   },
   {
    "medio": "Perfil",
@@ -3005,180 +3461,12 @@
    "fecha": "2026-07-22T23:48:13+00:00"
   },
   {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La increíble historia de la doble de Matt Damon en La Odisea: de las rutinas extremas a grabar con Christopher Nolan",
-   "url": "https://www.lanacion.com.ar/espectaculos/quien-es-devyn-dalton-la-actriz-que-hizo-de-doble-de-matt-damon-en-las-escenas-mas-impactantes-de-la-nid22072026/",
-   "fecha": "2026-07-22T23:46:54+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Dan Buettner, experto en longevidad: “Las personas que más viven no hacen ejercicio, se mueven de forma natural”",
-   "url": "https://www.lanacion.com.ar/lifestyle/dan-buettner-experto-en-longevidad-las-personas-que-mas-viven-no-hacen-ejercicio-se-mueven-de-forma-nid22072026/",
-   "fecha": "2026-07-22T23:46:48+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Carlos Gutiérrez, veterinario, sobre el aire acondicionado y los gatos: “También pueden resfriarse”",
-   "url": "https://www.lanacion.com.ar/lifestyle/mascotas/carlos-gutierrez-veterinario-sobre-el-aire-acondicionado-y-los-gatos-tambien-pueden-resfriarse-nid21072026/",
-   "fecha": "2026-07-22T23:46:45+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Polémica por el documental sobre Natacha Jaitt: los detalles del proyecto y la interna familiar",
-   "url": "https://www.lanacion.com.ar/espectaculos/polemica-por-el-documental-sobre-natacha-jaitt-los-detalles-del-proyecto-y-la-interna-familiar-nid22072026/",
-   "fecha": "2026-07-22T23:46:41+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Qué dice la letra de “La Perla” de Rosalía y a quién se la dedicó",
-   "url": "https://www.lanacion.com.ar/espectaculos/que-dice-la-letra-de-la-perla-de-rosalia-y-a-quien-se-la-dedico-nid22072026/",
-   "fecha": "2026-07-22T23:46:38+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Cuando una diva se enamoró de un arquero: el romance de Graciela Borges y Marcos “Anguila” Gutiérrez",
-   "url": "https://www.lanacion.com.ar/espectaculos/cuando-una-diva-se-enamoro-de-un-arquero-el-romance-de-graciela-borges-y-marcos-anguila-gutierrez-nid19072026/",
-   "fecha": "2026-07-22T23:46:26+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Bárbara Lombardo cruzó a Samuel L. Jackson por decir que la Argentina es “uno de los países más racistas del mundo”",
-   "url": "https://www.lanacion.com.ar/espectaculos/la-tajante-respuesta-de-barbara-lombardo-a-samuel-l-jackson-por-decir-que-la-argentina-es-uno-de-los-nid21072026/",
-   "fecha": "2026-07-22T23:46:23+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Alexis Mac Allister: “Gracias a quienes nos mandan mensajes alegrándose por nuestro dolor, nos ayudan a sentirnos más orgullosos”",
-   "url": "https://www.lanacion.com.ar/deportes/alexis-mac-allister-gracias-a-quienes-nos-mandan-mensajes-alegrandose-por-nuestro-dolor-nos-ayudan-a-nid21072026/",
-   "fecha": "2026-07-22T23:46:11+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Gabriel Rolón, psicólogo: “Hay un plus afectivo en el pueblo argentino que enamora a todos”",
-   "url": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-hay-un-plus-afectivo-en-el-pueblo-argentino-que-enamora-a-todos-nid21072026/",
-   "fecha": "2026-07-22T23:46:07+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Es hija de una estrella de Hollywood, asegura que su padre no le pasa un centavo y revela de qué vive",
-   "url": "https://www.lanacion.com.ar/espectaculos/es-hija-de-una-estrella-de-hollywood-asegura-que-su-padre-no-le-pasa-un-centavo-y-revela-de-que-vive-nid21072026/",
-   "fecha": "2026-07-22T23:46:03+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Tras burlarse de la soberanía argentina sobre las Islas Malvinas, el ex One Direction Niall Horan pidió disculpas",
-   "url": "https://www.lanacion.com.ar/espectaculos/tras-burlarse-de-la-soberania-argentina-sobre-las-islas-malvinas-el-ex-one-direction-niall-horan-nid21072026/",
-   "fecha": "2026-07-22T23:45:59+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Comenzó la construcción de la megamuralla submarina para crear el puerto automatizado más grande del mundo",
-   "url": "https://www.lanacion.com.ar/el-mundo/comenzo-la-construccion-de-la-megamuralla-submarina-para-crear-el-puerto-automatizado-mas-grande-del-nid21072026/",
-   "fecha": "2026-07-22T23:45:56+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Qué dice la psicología de las personas que no quieren salir en fotos grupales",
-   "url": "https://www.lanacion.com.ar/lifestyle/que-dice-la-psicologia-de-las-personas-que-no-quieren-salir-en-fotos-grupales-nid21072026/",
-   "fecha": "2026-07-22T23:45:49+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "¿Cuánto es 999 + 999 + 999 + 3? El cálculo matemático que el 99% falla al resolverlo con la calculadora",
-   "url": "https://www.lanacion.com.ar/juegos/retos-visuales/cuanto-es-999-999-999-3-el-calculo-matematico-que-el-99-falla-al-resolverlo-con-la-calculadora-nid21072026/",
-   "fecha": "2026-07-22T23:45:45+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La historia de migración de las familias de Lamine Yamal y Nico Williams, las dos joyas de España",
-   "url": "https://www.lanacion.com.ar/deportes/la-historia-de-migracion-de-las-familias-de-lamine-yamal-y-nico-williams-las-dos-joyas-de-espana-nid21072026/",
-   "fecha": "2026-07-22T23:45:42+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Qué es el “Sleep divorce” y por qué cada vez más famosos se unen a esta tendencia",
-   "url": "https://www.lanacion.com.ar/lifestyle/que-es-el-sleep-divorce-y-por-que-cada-vez-mas-famosos-se-unen-a-esta-tendencia-nid21072026/",
-   "fecha": "2026-07-22T23:45:39+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El misterio de la letra “H+” en tu pantalla: qué es y para qué sirve",
-   "url": "https://www.lanacion.com.ar/tecnologia/el-misterio-de-la-letra-h-en-tu-pantalla-que-es-y-para-que-sirve-nid21072026/",
-   "fecha": "2026-07-22T23:45:36+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Qué significa el refrán “El ojo del amo engorda al ganado”",
-   "url": "https://www.lanacion.com.ar/lifestyle/que-significa-el-refran-el-ojo-del-amo-engorda-al-ganado-nid21072026/",
-   "fecha": "2026-07-22T23:45:31+00:00"
-  },
-  {
-   "medio": "El Ciudadano",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "(VIDEO) Mara Sedini rompe el silencio tras salida del Gobierno: denuncia presiones internas y falta de coordinación",
-   "url": "https://www.elciudadano.com/reels/video-mara-sedini-rompe-el-silencio-tras-salida-del-gobierno-denuncia-presiones-internas-y-falta-de-coordinacion/07/22/",
-   "fecha": "2026-07-22T23:45:10+00:00"
-  },
-  {
    "medio": "Perfil",
    "pais": "AR",
    "tema": "general",
    "titulo": "La ONU cuestiona a Perú por la privación de libertad del Presidente Pedro Castillo",
    "url": "https://www.perfil.com/noticias/opinion/la-onu-cuestiona-a-peru-por-la-privacion-de-libertad-del-presidente-pedro-castillo.phtml",
    "fecha": "2026-07-22T23:43:33+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Aseguran que Franco Colapinto y Maia Reficco estarían separados",
-   "url": "https://www.lanacion.com.ar/espectaculos/aseguran-que-franco-colapinto-y-maia-reficco-estarian-en-crisis-una-incognita-nid22072026/",
-   "fecha": "2026-07-22T23:43:28+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "En Galería Larreta: una subasta de arte, fotografía y diseño con compromiso social para sectores vulnerables",
-   "url": "https://www.lanacion.com.ar/cultura/en-galeria-larreta-una-subasta-de-arte-fotografia-y-diseno-con-compromiso-social-para-sectores-nid22072026/",
-   "fecha": "2026-07-22T23:42:05+00:00"
   },
   {
    "medio": "La Diaria",
@@ -3197,44 +3485,12 @@
    "fecha": "2026-07-22T23:40:00+00:00"
   },
   {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "H&M: se conoció cuándo abrirá las puertas de su primera tienda en la Argentina",
-   "url": "https://www.lanacion.com.ar/economia/negocios/hm-se-conocio-cuando-abrira-las-puertas-de-su-primera-tienda-en-la-argentina-nid22072026/",
-   "fecha": "2026-07-22T23:39:35+00:00"
-  },
-  {
    "medio": "TN",
    "pais": "AR",
    "tema": "general",
    "titulo": "La moda de pegarle a la Argentina: qué hay detrás de la teoría que denuncia una operación para desprestigiar al país",
    "url": "https://tn.com.ar/opinion/2026/07/22/la-moda-de-pegarle-a-la-argentina-que-hay-detras-de-la-teoria-que-denuncia-una-operacion-para-desprestigiar-al-pais/",
    "fecha": "2026-07-22T23:39:15+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El enojo de Lautaro Martínez tras la derrota contra España en el Mundial: “Me hubiese gustado intentar ayudar adentro de la cancha, pero bueno…”",
-   "url": "https://www.lanacion.com.ar/deportes/futbol/el-enojo-de-lautaro-martinez-tras-la-derrota-contra-espana-en-el-mundial-me-hubiese-gustado-intentar-nid20072026/",
-   "fecha": "2026-07-22T23:39:00+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Es falso que Uruguay haya entrado en recesión: qué muestran los datos oficiales y las proyecciones económicas",
-   "url": "https://ladiaria.com.uy/verifica/articulo/2026/7/es-falso-que-uruguay-haya-entrado-en-recesion-que-muestran-los-datos-oficiales-y-las-proyecciones-economicas/",
-   "fecha": "2026-07-22T23:37:38+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Después de la trifulca contra Inglaterra, Tomás Albornoz enfrenta la posibilidad de una sanción",
-   "url": "https://www.lanacion.com.ar/deportes/rugby/despues-de-la-trifulca-contra-inglaterra-tomas-albornoz-enfrenta-la-posibilidad-de-una-sancion-nid22072026/",
-   "fecha": "2026-07-22T23:36:06+00:00"
   },
   {
    "medio": "Ámbito",
@@ -3251,22 +3507,6 @@
    "titulo": "“Por daños en la cancha”: ANFP reprograma duelo entre La Calera vs. Everton y desata la molestia de los viñamarinos",
    "url": "https://www.latercera.com/el-deportivo/noticia/por-danos-en-la-cancha-anfp-reprograma-duelo-entre-la-calera-vs-everton-y-desata-la-molestia-de-los-vinamarinos/",
    "fecha": "2026-07-22T23:34:57+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La Rural tendrá una inauguración oficial con un llamativo cambio y crece la expectativa por el discurso de Milei",
-   "url": "https://www.lanacion.com.ar/economia/campo/la-rural-tendra-una-inauguracion-oficial-con-un-llamativo-cambio-y-crece-la-expectativa-por-el-nid22072026/",
-   "fecha": "2026-07-22T23:34:43+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El escándalo de prostitución y drogas que involucró a Slavko Vincic, el árbitro de la final entre Argentina y España",
-   "url": "https://www.lanacion.com.ar/deportes/futbol/el-escandalo-de-prostitucion-y-drogas-que-involucro-a-slavko-vincic-el-arbitro-de-la-final-entre-nid20072026/",
-   "fecha": "2026-07-22T23:34:00+00:00"
   },
   {
    "medio": "TN",
@@ -3291,14 +3531,6 @@
    "titulo": "Qué dijo Jonás Gutiérrez sobre los rumores de romance con Priscila Crivocapich",
    "url": "https://tn.com.ar/show/famosos/2026/07/22/que-dijo-jonas-gutierrez-sobre-los-rumores-de-romance-con-priscila-crivocapich/",
    "fecha": "2026-07-22T23:31:02+00:00"
-  },
-  {
-   "medio": "La Nación",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "¿Comienza la construcción del megaestadio de los Bears? El proyecto de US$5000 millones que Illinois se quiere quedar",
-   "url": "https://www.lanacion.com.ar/estados-unidos/illinois/comienza-la-construccion-del-megaestadio-de-los-bears-el-proyecto-de-us5000-millones-que-illinois-se-nid22072026/",
-   "fecha": "2026-07-22T23:31:00+00:00"
   },
   {
    "medio": "La Tercera",
@@ -3517,14 +3749,6 @@
    "fecha": "2026-07-22T23:00:00+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "El placer del cuarto piso",
-   "url": "https://ladiaria.com.uy/cotidiana/articulo/2026/7/el-placer-del-cuarto-piso/",
-   "fecha": "2026-07-22T22:59:34+00:00"
-  },
-  {
    "medio": "Perfil",
    "pais": "AR",
    "tema": "general",
@@ -3563,22 +3787,6 @@
    "titulo": "Juanfer Quintero disparó contra Coudet: “No hablo desde que me fui, no soy prioridad\"",
    "url": "https://www.dobleamarilla.com.ar/liga-/juanfer-quintero-disparo-contra-coudet---no-hablo-desde-que-me-fui--no-soy-prioridad-_a6a61459293437b8b05e216fb",
    "fecha": "2026-07-22T22:53:56+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Encuesta 2027: el peronismo supera por un punto a La Libertad Avanza y crecen los indecisos",
-   "url": "https://www.perfil.com/noticias/nea/encuesta-2027-el-peronismo-supera-por-un-punto-a-la-libertad-avanza-y-crecen-los-indecisos.phtml",
-   "fecha": "2026-07-22T22:53:00+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Impacto en las provincias: Passalacqua dispuso la reducción y fusión de ministerios en Misiones",
-   "url": "https://www.perfil.com/noticias/nea/impacto-en-las-provincias-passalacqua-dispuso-la-reduccion-y-fusion-de-ministerios-en-misiones.phtml",
-   "fecha": "2026-07-22T22:52:00+00:00"
   },
   {
    "medio": "TN",
@@ -3755,14 +3963,6 @@
    "titulo": "Autodenominarse “fomes” y desconocer las declaraciones: el control de daños de La Moneda tras la embestida de Mara Sedini",
    "url": "https://www.theclinic.cl/2026/07/22/autodenominarse-fomes-y-desconocer-las-declaraciones-el-control-de-danos-de-la-moneda-tras-la-embestida-de-mara-sedini/",
    "fecha": "2026-07-22T22:31:40+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Centro Paulina Luisi: a más de un año de su apertura, buscan ampliar el acceso a la atención psicológica de trabajadoras sexuales",
-   "url": "https://ladiaria.com.uy/salto/articulo/2026/7/centro-paulina-luisi-a-mas-de-un-ano-de-su-apertura-buscan-ampliar-el-acceso-a-la-atencion-psicologica-de-trabajadoras-sexuales/",
-   "fecha": "2026-07-22T22:30:11+00:00"
   },
   {
    "medio": "La Tercera",
@@ -4013,14 +4213,6 @@
    "fecha": "2026-07-22T21:54:03+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Muestra de la pinacoteca Olmedo-Mautone en el Museo Mazzoni: arte y lazos culturales que marcaron la historia de Maldonado",
-   "url": "https://ladiaria.com.uy/maldonado/articulo/2026/7/muestra-de-la-pinacoteca-olmedo-mautone-en-el-museo-mazzoni-arte-y-lazos-culturales-que-marcaron-la-historia-de-maldonado/",
-   "fecha": "2026-07-22T21:53:25+00:00"
-  },
-  {
    "medio": "Cooperativa",
    "pais": "CL",
    "tema": "general",
@@ -4085,76 +4277,12 @@
    "fecha": "2026-07-22T21:43:30+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "El gobierno impulsará una ley para extender el seguro de desempleo de los trabajadores de Fricasa",
-   "url": "https://ladiaria.com.uy/paysandu/articulo/2026/7/el-gobierno-impulsara-una-ley-para-extender-el-seguro-de-desempleo-de-los-trabajadores-de-fricasa/",
-   "fecha": "2026-07-22T21:42:14+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Confirmaron que un joven rosarino desaparecido hace seis meses fue asesinado: detuvieron a dos expolicías",
-   "url": "https://tn.com.ar/policiales/2026/07/22/confirmaron-que-un-joven-rosarino-desaparecido-hace-seis-meses-fue-asesinado-detuvieron-a-dos-expolicias/",
-   "fecha": "2026-07-22T21:40:06+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Henrik Rehbinder: \"En Argentina no hay una sensibilidad de racismo que hay en el resto del mundo\"",
-   "url": "https://www.perfil.com/noticias/canal-e/henrik-rehbinder-en-argentina-no-hay-una-sensibilidad-de-racismo-que-hay-en-el-resto-del-mundo-especialmente-en-estados-unidos.phtml",
-   "fecha": "2026-07-22T21:37:18+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La furia de Oscar Ruggeri por las teorías conspirativas sobre la final que perdió la Selección: “Subestiman a los jugadores”",
-   "url": "https://tn.com.ar/deportes/futbol/2026/07/22/la-furia-de-oscar-ruggeri-por-las-teorias-conspirativas-sobre-la-final-que-perdio-la-seleccion-subestiman-a-los-jugadores/",
-   "fecha": "2026-07-22T21:36:29+00:00"
-  },
-  {
    "medio": "The Clinic",
    "pais": "CL",
    "tema": "general",
    "titulo": "Hacienda amplía los comités consultivos para Presupuesto 2027 y elimina la paridad de género:  recluta a 15 hombres y ninguna mujer",
    "url": "https://www.theclinic.cl/2026/07/22/hacienda-amplia-los-comites-consultivos-para-presupuesto-2027-y-elimina-la-paridad-de-genero-recluta-a-15-hombres-y-ninguna-mujer/",
    "fecha": "2026-07-22T21:35:43+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Rechazaron el pedido de juicio político contra la vicegobernadora de Mendoza por sus dichos contra Francia durante el Mundial",
-   "url": "https://tn.com.ar/politica/2026/07/22/rechazaron-el-pedido-de-juicio-politico-contra-la-vicegobernadora-de-mendoza-por-sus-dichos-contra-francia-durante-el-mundial/",
-   "fecha": "2026-07-22T21:35:34+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Dólar: a cuánto cotizaron el oficial y las otras opciones cambiarias este miércoles 22 de julio",
-   "url": "https://tn.com.ar/economia/2026/07/22/dolar-a-cuanto-cotizan-el-oficial-y-las-otras-opciones-cambiarias-este-miercoles-22-de-julio/",
-   "fecha": "2026-07-22T21:35:13+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Dólar oficial y dólar tarjeta: banco por banco, a cuánto cotizaron este miércoles 22 de julio",
-   "url": "https://tn.com.ar/economia/2026/07/22/dolar-oficial-y-dolar-tarjeta-banco-por-banco-a-cuanto-cotizan-este-miercoles-22-de-julio/",
-   "fecha": "2026-07-22T21:35:10+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Buscan en Córdoba a un hombre de nacionalidad polaca por el femicidio de una mujer de 36 años",
-   "url": "https://tn.com.ar/policiales/2026/07/22/buscan-en-cordoba-a-un-hombre-de-nacionalidad-polaca-por-el-femicidio-de-una-mujer-de-36-anos/",
-   "fecha": "2026-07-22T21:34:24+00:00"
   },
   {
    "medio": "La Tercera",
@@ -4171,22 +4299,6 @@
    "titulo": "Trump abrió la billetera: busca startups para fabricar las armas del futuro y \"bajar el costo de la muerte\"",
    "url": "https://eleconomista.com.ar/internacional/trump-abrio-billetera-busca-startups-fabricar-armas-futuro-bajar-costo-muerte-n96894",
    "fecha": "2026-07-22T21:33:00+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Congreso: qué proyectos de Milei tienen chances de ser aprobados y cuáles enfrentan más trabas",
-   "url": "https://www.perfil.com/noticias/canal-e/federico-gonzalez-el-gobierno-domina-el-congreso-en-temas-que-no-son-estrictamente-controversiales.phtml",
-   "fecha": "2026-07-22T21:31:52+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Real Madrid busca ceder a Franco Mastantuono: aseguran que River está en la lista de interesados en el delantero",
-   "url": "https://tn.com.ar/deportes/futbol-internacional/2026/07/22/real-madrid-busca-ceder-a-franco-mastantuono-aseguran-que-river-esta-en-la-lista-de-interesados-en-el-delantero/",
-   "fecha": "2026-07-22T21:31:13+00:00"
   },
   {
    "medio": "Cenital",
@@ -4213,44 +4325,12 @@
    "fecha": "2026-07-22T21:30:00+00:00"
   },
   {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Horacio Fazio advirtió que la baja de la inflación podría profundizar la desocupación",
-   "url": "https://www.perfil.com/noticias/canal-e/horacio-fazio-es-un-tema-delicado-y-el-gobierno-deberia-apreciarlo-tal-como-es.phtml",
-   "fecha": "2026-07-22T21:27:45+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El riesgo país bajó hasta 410 puntos tras la mejora de la calificación de deuda: qué pasó con las acciones y el dólar",
-   "url": "https://tn.com.ar/economia/2026/07/22/el-riesgo-pais-baja-tras-la-mejora-de-la-calificacion-de-deuda-que-pasa-con-las-acciones-y-el-dolar/",
-   "fecha": "2026-07-22T21:25:17+00:00"
-  },
-  {
    "medio": "La Tercera",
    "pais": "CL",
    "tema": "general",
    "titulo": "Sistema frontal en Chile, EN VIVO: monitorea las lluvias, alertas y la emergencia en el país",
    "url": "https://www.latercera.com/nacional/noticia/sistema-frontal-en-chile-en-vivo-monitorea-las-lluvias-alertas-y-la-emergencia-en-el-pais-2/",
    "fecha": "2026-07-22T21:24:21+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "José Castillo sobre las exportaciones récord: \"No están generando crecimiento de inversiones\"",
-   "url": "https://www.perfil.com/noticias/canal-e/jose-castillo-vamos-a-tener-record-tanto-en-exportaciones-como-en-saldo-de-la-balanza-comercial.phtml",
-   "fecha": "2026-07-22T21:23:34+00:00"
-  },
-  {
-   "medio": "El Observador",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Giro en el caso Leandro Paredes: la decisión que tomó la FIFA luego de la final del Mundial 2026",
-   "url": "https://www.elobservador.com.uy//mundial-2026/giro-el-caso-leandro-paredes-la-decision-que-tomo-la-fifa-luego-la-final-del-mundial-2026-n6051677",
-   "fecha": "2026-07-22T21:22:00+00:00"
   },
   {
    "medio": "TN",
@@ -4261,76 +4341,12 @@
    "fecha": "2026-07-22T21:21:43+00:00"
   },
   {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Alerta roja por frío extremo en el sur del país: las heladas y las marejadas azotan a la Patagonia",
-   "url": "https://www.perfil.com/noticias/clima/alerta-roja-por-frio-extremo-en-el-sur-del-pais-las-heladas-y-las-marejadas-azotan-a-la-patagonia-a35.phtml",
-   "fecha": "2026-07-22T21:21:36+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Tras la polémica por el Mundial, libertarios impulsan el cobro a extranjeros en salud y educación pública",
-   "url": "https://www.perfil.com/noticias/politica/tras-la-polemica-por-el-mundial-libertarios-impulsan-el-cobro-a-extranjeros-en-salud-y-educacion-publica.phtml",
-   "fecha": "2026-07-22T21:19:32+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "El Riesgo País cayó a 410 puntos tras una mejora crediticia y el repunte de los bonos soberanos",
-   "url": "https://www.perfil.com/noticias/economia/el-riesgo-pais-cayo-a-410-puntos-tras-una-mejora-crediticia-y-el-repunte-de-los-bonos-soberanos-a35.phtml",
-   "fecha": "2026-07-22T21:19:22+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Murió Plas Johnson a los 94 años, el legendario saxofonista detrás del icónico tema de “La Pantera Rosa”",
-   "url": "https://www.perfil.com/noticias/protagonistas/murio-plas-johnson-a-los-94-anos-el-legendario-saxofonista-detras-del-iconico-tema-de-la-pantera-rosa-a50.phtml",
-   "fecha": "2026-07-22T21:18:00+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Científicos están cerca de identificar al meteorito que extinguió a los dinosaurios",
-   "url": "https://tn.com.ar/tecno/novedades/2026/07/22/cientificos-estan-cerca-de-identificar-al-meteorito-que-extinguio-a-los-dinosaurios/",
-   "fecha": "2026-07-22T21:17:27+00:00"
-  },
-  {
-   "medio": "Perfil",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La recuperación económica no llega al empleo: la advertencia de un informe de la UBA",
-   "url": "https://www.perfil.com/noticias/canal-e/joaquin-waldman-el-crecimiento-esta-muy-mal-repartido-entre-distintos-rubros-de-actividad.phtml",
-   "fecha": "2026-07-22T21:17:20+00:00"
-  },
-  {
    "medio": "La Diaria",
    "pais": "UY",
    "tema": "general",
    "titulo": "MSP ampliará la cobertura de vacunación contra el meningococo entre los 9 y 15 años en las próximas semanas",
    "url": "https://ladiaria.com.uy/salud/articulo/2026/7/msp-ampliara-la-cobertura-de-vacunacion-contra-el-meningococo-entre-los-9-y-15-anos-en-las-proximas-semanas/",
    "fecha": "2026-07-22T21:17:03+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Parece de ciencia ficción: crearon un robot de 300 gramos que puede volar, bucear y volver a despegar - Video 1",
-   "url": "https://tn.com.ar/videos/sociedad/ciencia/2026/07/22/parece-de-ciencia-ficcion-crearon-un-robot-de-300-gramos-que-puede-volar-bucear-y-volver-a-despegar-video-1/",
-   "fecha": "2026-07-22T21:16:37+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Parece de ciencia ficción: crearon un robot de 300 gramos que puede volar, bucear y volver a despegar",
-   "url": "https://tn.com.ar/sociedad/ciencia/2026/07/22/parece-de-ciencia-ficcion-crearon-un-robot-de-300-gramos-que-puede-volar-bucear-y-volver-a-despegar/",
-   "fecha": "2026-07-22T21:16:34+00:00"
   },
   {
    "medio": "TN",
@@ -4349,14 +4365,6 @@
    "fecha": "2026-07-22T21:16:00+00:00"
   },
   {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Sylvester Stallone: “El miedo es como el fuego, si aprendés a controlarlo te hará más fuerte; pero si él te controla, te quemará”",
-   "url": "https://tn.com.ar/sociedad/2026/07/22/sylvester-stallone-el-miedo-es-como-el-fuego-si-aprendes-a-controlarlo-te-hara-mas-fuerte-pero-si-el-te-controla-te-quemara/",
-   "fecha": "2026-07-22T21:13:05+00:00"
-  },
-  {
    "medio": "El Observador",
    "pais": "UY",
    "tema": "general",
@@ -4371,22 +4379,6 @@
    "titulo": "Sturzenegger acelera el mercado cripto: fondos podrán invertir y se habilita la tokenización de activos",
    "url": "https://eleconomista.com.ar/economia/sturzenegger-acelera-mercado-cripto-fondos-podran-invertir-habilita-tokenizacion-activos-n96892",
    "fecha": "2026-07-22T21:06:00+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "Jabón de cúrcuma con sólo 5 ingredientes: cómo se hace - Video 1",
-   "url": "https://tn.com.ar/videos/sociedad/2026/07/22/jabon-de-curcuma-con-solo-5-ingredientes-como-se-hace-video-1/",
-   "fecha": "2026-07-22T21:05:32+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "“No fuimos escuchados”, advierten vecinos del barrio Hipódromo sobre mesa interinstitucional abierta con el Mides",
-   "url": "https://ladiaria.com.uy/maldonado/articulo/2026/7/no-fuimos-escuchados-advierten-vecinos-del-barrio-hipodromo-sobre-mesa-interinstitucional-abierta-con-el-mides/",
-   "fecha": "2026-07-22T21:02:48+00:00"
   },
   {
    "medio": "Montevideo Portal",
@@ -4437,14 +4429,6 @@
    "fecha": "2026-07-22T20:51:50+00:00"
   },
   {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "ANDIS: por la feria judicial, postergaron el peritaje de los audios atribuidos a Spagnuolo",
-   "url": "https://tn.com.ar/politica/2026/07/22/andis-por-la-feria-judicial-postergaron-el-peritaje-de-los-audios-atribuidos-a-spagnuolo/",
-   "fecha": "2026-07-22T20:48:12+00:00"
-  },
-  {
    "medio": "Ámbito",
    "pais": "AR",
    "tema": "general",
@@ -4467,14 +4451,6 @@
    "titulo": "¿Por qué dormir bien es nuestra mejor defensa contra el Alzheimer y el deterioro cognitivo?",
    "url": "https://www.latercera.com/lt-board/noticia/por-que-dormir-bien-es-nuestra-mejor-defensa-contra-el-alzheimer-y-el-deterioro-cognitivo/",
    "fecha": "2026-07-22T20:45:33+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La CGT y organizaciones sociales se manifestaron frente al Congreso en apoyo a los jubilados: hubo incidentes en Avellaneda",
-   "url": "https://tn.com.ar/politica/2026/07/22/la-cgt-la-cta-y-movimientos-sociales-marchan-este-miercoles-al-congreso-junto-a-los-jubilados/",
-   "fecha": "2026-07-22T20:44:46+00:00"
   },
   {
    "medio": "La Tercera",
@@ -4565,28 +4541,12 @@
    "fecha": "2026-07-22T20:30:00+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Cenur Litoral Norte ofrecerá curso sobre Comunicación No Violenta aplicada a la intervención social",
-   "url": "https://ladiaria.com.uy/salto/articulo/2026/7/cenur-litoral-norte-ofrecera-curso-sobre-comunicacion-no-violenta-aplicada-a-la-intervencion-social/",
-   "fecha": "2026-07-22T20:24:14+00:00"
-  },
-  {
    "medio": "La Tercera",
    "pais": "CL",
    "tema": "general",
    "titulo": "El Ozempic ya no está solo: el mercado de fármacos que está transformando la forma de bajar de peso en Chile",
    "url": "https://www.latercera.com/lt-board/noticia/el-ozempic-ya-no-esta-solo-el-mercado-de-farmacos-que-esta-transformando-la-forma-de-bajar-de-peso-en-chile/",
    "fecha": "2026-07-22T20:23:28+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Partido Colorado solicitó al gobierno que denuncie ante la OEA la situación que atraviesa Nicaragua",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/partido-colorado-solicito-al-gobierno-que-denuncie-ante-la-oea-la-situacion-que-atraviesa-nicaragua/",
-   "fecha": "2026-07-22T20:22:37+00:00"
   },
   {
    "medio": "LARED21",
@@ -4725,14 +4685,6 @@
    "fecha": "2026-07-22T19:54:15+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Intendencia de Colonia “está completamente saneada” y el déficit es “un tema numérico”, según Guillermo Rodríguez",
-   "url": "https://ladiaria.com.uy/colonia/articulo/2026/7/intendencia-de-colonia-esta-completamente-saneada-y-el-deficit-es-un-tema-numerico-segun-guillermo-rodriguez/",
-   "fecha": "2026-07-22T19:50:38+00:00"
-  },
-  {
    "medio": "Doble Amarilla",
    "pais": "-",
    "tema": "Deportes",
@@ -4747,14 +4699,6 @@
    "titulo": "“El tema está cerrado”: Lubetkin aseguró que la invitación a la reunión encabezada por Marco Rubio se hizo de “forma muy confusa”",
    "url": "https://ladiaria.com.uy/politica/articulo/2026/7/el-tema-esta-cerrado-lubetkin-aseguro-que-la-invitacion-a-la-reunion-encabezada-por-marco-rubio-se-hizo-de-forma-muy-confusa/",
    "fecha": "2026-07-22T19:40:34+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "De la calle al museo, etnografía de un proceso de legitimación artística",
-   "url": "https://ladiaria.com.uy/opinion/articulo/2026/7/de-la-calle-al-museo-etnografia-de-un-proceso-de-legitimacion-artistica/",
-   "fecha": "2026-07-22T19:38:58+00:00"
   },
   {
    "medio": "La Tercera",
@@ -4811,30 +4755,6 @@
    "titulo": "El planteo del gobierno para las AFAP “va en la dirección de empezar a centralizar el sistema”, aseguró diputado del FA",
    "url": "https://ladiaria.com.uy/politica/articulo/2026/7/el-planteo-del-gobierno-para-las-afap-va-en-la-direccion-de-empezar-a-centralizar-el-sistema-aseguro-diputado-del-fa/",
    "fecha": "2026-07-22T19:15:04+00:00"
-  },
-  {
-   "medio": "La Tercera",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "¿Qué tan cerca estamos de la reanudación de las relaciones bilaterales entre Chile y Bolivia?",
-   "url": "https://www.latercera.com/lt-board/noticia/que-tan-cerca-estamos-de-la-reanudacion-de-las-relaciones-bilaterales-entre-chile-y-bolivia/",
-   "fecha": "2026-07-22T19:10:13+00:00"
-  },
-  {
-   "medio": "La Tercera",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "“Le incautó el celular a Chiqui Tapia”: prensa argentina revela ofensiva del FBI y la AFA reacciona con dureza",
-   "url": "https://www.latercera.com/el-deportivo/noticia/le-incauto-el-celular-a-chiqui-tapia-prensa-argentina-revela-ofensiva-del-fbi-y-la-afa-reacciona-con-dureza/",
-   "fecha": "2026-07-22T19:03:52+00:00"
-  },
-  {
-   "medio": "El Observador",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "El accidente de avión en Puerto Rico que cambió para siempre la seguridad aérea en el mundo (y por qué los restos solo fueron encontrados ahora)",
-   "url": "https://www.elobservador.com.uy//bbc-news-mundo/el-accidente-avion-puerto-rico-que-cambio-siempre-la-seguridad-aerea-el-mundo-y-que-los-restos-solo-fueron-encontrados-ahora-n6051667",
-   "fecha": "2026-07-22T18:51:00+00:00"
   },
   {
    "medio": "El Observador",
@@ -4917,14 +4837,6 @@
    "fecha": "2026-07-22T18:21:10+00:00"
   },
   {
-   "medio": "El Observador",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Videos de un nuevo ataque de perros: \"Dejaron un tendal blanco de ovejas panza para arriba, algo espantoso\"",
-   "url": "https://www.elobservador.com.uy//agro/videos-un-nuevo-ataque-perros-dejaron-un-tendal-blanco-ovejas-panza-arriba-algo-espantoso-n6051652",
-   "fecha": "2026-07-22T18:19:00+00:00"
-  },
-  {
    "medio": "La Tercera",
    "pais": "CL",
    "tema": "general",
@@ -4947,14 +4859,6 @@
    "titulo": "Intergremial Marítima se movilizó en defensa del trabajo y los derechos de los marinos nacionales",
    "url": "https://ladiaria.com.uy/trabajo/articulo/2026/7/intergremial-maritima-se-movilizo-en-defensa-del-trabajo-y-los-derechos-de-los-marinos-nacionales/",
    "fecha": "2026-07-22T17:56:04+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "En Colonia se redujeron un 57% las muertes por siniestros de tránsito en el primer semestre de 2026",
-   "url": "https://ladiaria.com.uy/colonia/articulo/2026/7/en-colonia-se-redujeron-un-57-las-muertes-por-siniestros-de-transito-en-el-primer-semestre-de-2026/",
-   "fecha": "2026-07-22T17:54:07+00:00"
   },
   {
    "medio": "elDiarioAR",
@@ -5035,14 +4939,6 @@
    "titulo": "El alcalde de Nueva York dijo que Benjamin Netanyahu es “el arquitecto de un genocidio horrorífico contra el pueblo palestino”",
    "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/el-alcalde-de-nueva-york-dijo-que-benjamin-netanyahu-es-el-arquitecto-de-un-genocidio-horrorifico-contra-el-pueblo-palestino/",
    "fecha": "2026-07-22T17:11:51+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Ediles blancos cursaron nota a la ANEP por desborde de fosa séptica en la escuela 61 de Pan de Azúcar",
-   "url": "https://ladiaria.com.uy/maldonado/articulo/2026/7/ediles-blancos-cursaron-nota-a-la-anep-por-desborde-de-fosa-septica-en-la-escuela-61-de-pan-de-azucar/",
-   "fecha": "2026-07-22T17:09:21+00:00"
   },
   {
    "medio": "elDiarioAR",
@@ -5157,22 +5053,6 @@
    "fecha": "2026-07-22T15:51:25+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Saldain sobre las definiciones del gobierno tras el Diálogo Social: se “avanza en un sentido que es muy razonable” en las AFAP",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/saldain-sobre-las-definiciones-del-gobierno-tras-el-dialogo-social-se-avanza-en-un-sentido-que-es-muy-razonable-en-las-afap/",
-   "fecha": "2026-07-22T15:48:36+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Siniestros en Paysandú: comparando primer semestre 2025 con el 2026 la cantidad de fallecidos no varió",
-   "url": "https://ladiaria.com.uy/paysandu/articulo/2026/7/siniestros-en-paysandu-comparando-primer-semestre-2025-con-el-2026-la-cantidad-de-fallecidos-no-vario/",
-   "fecha": "2026-07-22T15:45:58+00:00"
-  },
-  {
    "medio": "La Tercera",
    "pais": "CL",
    "tema": "general",
@@ -5245,14 +5125,6 @@
    "fecha": "2026-07-22T14:45:00+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Nathalie Barbé, de ATSS: tras las medidas anunciadas por el MEF, “queda casi pendiente de un hilo” la relación con el Ejecutivo",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/nathalie-barbe-de-atss-tras-las-medidas-anunciadas-por-el-mef-queda-casi-pendiente-de-un-hilo-la-relacion-con-el-ejecutivo/",
-   "fecha": "2026-07-22T14:20:52+00:00"
-  },
-  {
    "medio": "LARED21",
    "pais": "UY",
    "tema": "general",
@@ -5307,14 +5179,6 @@
    "titulo": "Canelones entregó una parte del Parque Roosevelt para instalar un campo de golf",
    "url": "https://www.lr21.com.uy/ecologia/1496822-canelones-entrego-parque-roosevelt-campo-golf",
    "fecha": "2026-07-22T12:38:17+00:00"
-  },
-  {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La CAF aprobó una garantía por US$250 millones y completa el esquema de avales para afrontar pagos de deuda",
-   "url": "https://tn.com.ar/economia/2026/07/22/el-gobierno-espera-el-apoyo-de-la-caf-por-us250-millones-para-completar-las-garantias-y-afrontar-los-pagos-de-deuda/",
-   "fecha": "2026-07-22T12:30:05+00:00"
   },
   {
    "medio": "Cenital",
@@ -5464,14 +5328,6 @@
    "medio": "El Observador",
    "pais": "UY",
    "tema": "general",
-   "titulo": "Malvinas, la fuerza de una causa justa",
-   "url": "https://www.elobservador.com.uy//opinion/malvinas-la-fuerza-una-causa-justa-n6051576",
-   "fecha": "2026-07-22T08:00:00+00:00"
-  },
-  {
-   "medio": "El Observador",
-   "pais": "UY",
-   "tema": "general",
    "titulo": "\"Perdí 20 años de abrazos\": la historia del uruguayo que sobrevivió a las cárceles de máxima seguridad de EEUU y se prepara para salir en libertad",
    "url": "https://www.elobservador.com.uy//nacional/perdi-20-anos-abrazos-la-historia-del-uruguayo-que-sobrevivio-las-carceles-maxima-seguridad-eeuu-y-se-prepara-salir-libertad-n6051485",
    "fecha": "2026-07-22T08:00:00+00:00"
@@ -5501,14 +5357,6 @@
    "fecha": "2026-07-22T03:41:00+00:00"
   },
   {
-   "medio": "TN",
-   "pais": "AR",
-   "tema": "general",
-   "titulo": "La supuesta “campaña anti-Argentina” alimenta nuestra paranoia nacionalista",
-   "url": "https://tn.com.ar/opinion/2026/07/22/la-supuesta-campana-anti-argentina-alimenta-nuestra-paranoia-nacionalista/",
-   "fecha": "2026-07-22T03:23:00+00:00"
-  },
-  {
    "medio": "La Diaria",
    "pais": "UY",
    "tema": "general",
@@ -5520,97 +5368,9 @@
    "medio": "La Diaria",
    "pais": "UY",
    "tema": "general",
-   "titulo": "Nuevo gobierno en Gran Bretaña: no hay período de gracia para Andy Burnham",
-   "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/nuevo-gobierno-en-gran-bretana-no-hay-periodo-de-gracia-para-andy-burnham/",
-   "fecha": "2026-07-22T03:12:22+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Otro capítulo: serie gastronómica Chef's Table se convierte en un festival de alto nivel",
-   "url": "https://ladiaria.com.uy/cotidiana/articulo/2026/7/otro-capitulo-serie-gastronomica-chefs-table-se-convierte-en-un-festival-de-alto-nivel/",
-   "fecha": "2026-07-22T03:12:22+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "“Simplificación administrativa”: el nuevo nombre del desmantelamiento sindical en América Latina",
-   "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/simplificacion-administrativa-el-nuevo-nombre-del-desmantelamiento-sindical-en-america-latina/",
-   "fecha": "2026-07-22T03:12:22+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "El túnel del tiempo",
-   "url": "https://ladiaria.com.uy/articulo/2026/7/el-tunel-del-tiempo/",
-   "fecha": "2026-07-22T03:12:21+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Javier Milei afirma que fue presionado para arruinar la economía argentina",
-   "url": "https://ladiaria.com.uy/humor/articulo/2026/7/javier-milei-afirma-que-fue-presionado-para-arruinar-la-economia-argentina/",
-   "fecha": "2026-07-22T03:12:21+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Canales de televisión establecerán una franja horaria específica para insultar a las mujeres",
-   "url": "https://ladiaria.com.uy/humor/articulo/2026/7/canales-de-television-estableceran-una-franja-horaria-especifica-para-insultar-a-las-mujeres/",
-   "fecha": "2026-07-22T03:12:21+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "AFAP consideran que el gobierno se pasó de la raya con su última cámara oculta",
-   "url": "https://ladiaria.com.uy/humor/articulo/2026/7/afap-consideran-que-el-gobierno-se-paso-de-la-raya-con-su-ultima-camara-oculta/",
-   "fecha": "2026-07-22T03:12:21+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Acuerdos y desacuerdos",
-   "url": "https://ladiaria.com.uy/articulo/2026/7/acuerdos-y-desacuerdos/",
-   "fecha": "2026-07-22T03:12:20+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
    "titulo": "Transferencias a la infancia: los mitos y lo que dicen los datos",
    "url": "https://ladiaria.com.uy/opinion/articulo/2026/7/transferencias-a-la-infancia-los-mitos-y-lo-que-dicen-los-datos/",
    "fecha": "2026-07-22T03:07:55+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "La arquitectura cotidiana de la violencia",
-   "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/la-arquitectura-cotidiana-de-la-violencia/",
-   "fecha": "2026-07-22T03:07:54+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Gobierno nacional e intendencias impulsan una red de datos geoespaciales para planificar políticas públicas",
-   "url": "https://ladiaria.com.uy/futuro/articulo/2026/7/gobierno-nacional-e-intendencias-impulsan-una-red-de-datos-geoespaciales-para-planificar-politicas-publicas/",
-   "fecha": "2026-07-22T01:22:22+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Estados Unidos sigue atacando Irán, mientras Trump amenazó con bombardear instalaciones nucleares “muy pronto”",
-   "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/estados-unidos-sigue-atacando-iran-mientras-trump-amenazo-con-bombardear-instalaciones-nucleares-muy-pronto/",
-   "fecha": "2026-07-22T01:19:39+00:00"
   },
   {
    "medio": "La Tercera",
@@ -5653,14 +5413,6 @@
    "fecha": "2026-07-22T00:32:52+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "“Los acuerdos están para cumplirse”: el PIT-CNT señala que el gobierno desestimó recomendación del Diálogo Social sobre las AFAP",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/los-acuerdos-estan-para-cumplirse-el-pit-cnt-senala-que-el-gobierno-desestimo-recomendacion-del-dialogo-social-sobre-las-afap/",
-   "fecha": "2026-07-22T00:17:14+00:00"
-  },
-  {
    "medio": "CIPER",
    "pais": "CL",
    "tema": "general",
@@ -5696,33 +5448,9 @@
    "medio": "La Diaria",
    "pais": "UY",
    "tema": "general",
-   "titulo": "La Fiscalía chilena cerró por falta de pruebas la investigación por la que renunció Giorgio Jackson durante el gobierno de Boric",
-   "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/la-fiscalia-chilena-cerro-por-falta-de-pruebas-la-investigacion-por-la-que-renuncio-giorgio-jackson-durante-el-gobierno-de-boric/",
-   "fecha": "2026-07-21T23:33:22+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "La administración Trump pidió inmunidad para Delcy Rodríguez en una demanda presentada por tres ciudadanos estadounidenses",
-   "url": "https://ladiaria.com.uy/mundo/articulo/2026/7/la-administracion-trump-pidio-inmunidad-para-delcy-rodriguez-en-una-demanda-presentada-por-tres-ciudadanos-estadounidenses/",
-   "fecha": "2026-07-21T23:20:49+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
    "titulo": "La destrucción parcial de la planta de La Invencible por el temporal dejó a 25 trabajadoras sin actividad",
    "url": "https://ladiaria.com.uy/salto/articulo/2026/7/la-destruccion-parcial-de-la-planta-de-la-invencible-por-el-temporal-dejo-a-25-trabajadoras-sin-actividad/",
    "fecha": "2026-07-21T23:07:31+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "“Fui la única fiscal que luchó para que estuvieran los allanamientos nocturnos”, afirmó Mónica Ferrero en el Parlamento",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/fui-la-unica-fiscal-que-lucho-para-que-estuvieran-los-allanamientos-nocturnos-afirmo-monica-ferrero-en-el-parlamento/",
-   "fecha": "2026-07-21T23:04:10+00:00"
   },
   {
    "medio": "El Economista",
@@ -5739,14 +5467,6 @@
    "titulo": "Conexión Ganadera: el pasivo alcanza los 387 millones de dólares",
    "url": "https://ladiaria.com.uy/justicia/articulo/2026/7/conexion-ganadera-el-pasivo-alcanza-los-387-millones-de-dolares/",
    "fecha": "2026-07-21T22:47:44+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Cardona dijo que HIF Global “va a tomar la decisión final de inversión el año que viene”",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/cardona-dijo-que-hif-global-va-a-tomar-la-decision-final-de-inversion-el-ano-que-viene/",
-   "fecha": "2026-07-21T22:38:50+00:00"
   },
   {
    "medio": "CIPER",
@@ -5771,14 +5491,6 @@
    "titulo": "Jonathan Rodríguez y Thiago Espinosa refuerzan a Peñarol",
    "url": "https://ladiaria.com.uy/deporte/articulo/2026/7/jonathan-rodriguez-y-thiago-espinosa-refuerzan-a-penarol/",
    "fecha": "2026-07-21T22:17:07+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "El MGAP declaró la emergencia granjera tras el temporal y destinará fondos para asistir a productores afectados",
-   "url": "https://ladiaria.com.uy/salto/articulo/2026/7/el-mgap-declaro-la-emergencia-granjera-tras-el-temporal-y-destinara-fondos-para-asistir-a-productores-afectados/",
-   "fecha": "2026-07-21T22:13:32+00:00"
   },
   {
    "medio": "elDiarioAR",
@@ -5861,14 +5573,6 @@
    "fecha": "2026-07-21T20:25:43+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "“Pruebas no tengo, pero tengo la convicción”: García afirma que intereses “poderosísimos” operaron contra la compra a Cardama",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/pruebas-no-tengo-pero-tengo-la-conviccion-garcia-afirma-que-intereses-poderosisimos-operaron-contra-la-compra-a-cardama/",
-   "fecha": "2026-07-21T20:19:40+00:00"
-  },
-  {
    "medio": "elDiarioAR",
    "pais": "AR",
    "tema": "general",
@@ -5877,28 +5581,12 @@
    "fecha": "2026-07-21T20:09:16+00:00"
   },
   {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Hallan un aljibe de la segunda mitad del siglo XIX durante obras de restauración de una vivienda en Colonia del Sacramento",
-   "url": "https://ladiaria.com.uy/colonia/articulo/2026/7/hallan-un-aljibe-de-la-segunda-mitad-del-siglo-xix-durante-obras-de-restauracion-de-una-vivienda-en-colonia-del-sacramento/",
-   "fecha": "2026-07-21T19:28:44+00:00"
-  },
-  {
    "medio": "El Economista",
    "pais": "-",
    "tema": "Economía",
    "titulo": "El jugador que se retiró de la Selección Argentina tras el Mundial 2026",
    "url": "https://eleconomista.com.ar/deportes/nicolas-otamendi-retiro-seleccion-argentina-mundial-2026-n96858",
    "fecha": "2026-07-21T19:19:00+00:00"
-  },
-  {
-   "medio": "La Diaria",
-   "pais": "UY",
-   "tema": "general",
-   "titulo": "Embajador uruguayo en Estados Unidos participó en la reunión contra “el resurgimiento del terrorismo político”",
-   "url": "https://ladiaria.com.uy/politica/articulo/2026/7/embajador-uruguayo-en-estados-unidos-participo-en-la-reunion-contra-el-resurgimiento-del-terrorismo-politico/",
-   "fecha": "2026-07-21T19:11:37+00:00"
   },
   {
    "medio": "La Diaria",
@@ -6355,14 +6043,6 @@
    "titulo": "Trump quería su foto con España en la final del Mundial... y se llevó un abucheo",
    "url": "https://www.eldiarioar.com/mundo/trump-queria-foto-espana-final-mundial-llevo-abucheo_1_13393941.html",
    "fecha": "2026-07-20T14:13:20+00:00"
-  },
-  {
-   "medio": "CIPER",
-   "pais": "CL",
-   "tema": "general",
-   "titulo": "El camino a la reunificación: la (otra) historia de los vuelos chárter desde Haití",
-   "url": "https://www.ciperchile.cl/2026/07/20/el-camino-a-la-reunificacion-la-otra-historia-de-los-vuelos-charter-desde-haiti/?utm_source=rss&utm_medium=rss&utm_campaign=el-camino-a-la-reunificacion-la-otra-historia-de-los-vuelos-charter-desde-haiti",
-   "fecha": "2026-07-20T08:00:44+00:00"
   }
  ],
  "clusters": [
